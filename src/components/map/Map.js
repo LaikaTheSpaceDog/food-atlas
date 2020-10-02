@@ -1,8 +1,8 @@
 import React from 'react';
-import world from "../../styles/assets/svg/world.svg"
+import { ReactComponent as World } from "../../styles/assets/svg/world.svg"
 
 const Map = () => (
-  <img src={ world } alt="A map of the world" />
+    <World />
 );
 
 export default Map;
