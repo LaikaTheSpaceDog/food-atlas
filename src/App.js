@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import Map from "./components/map/Map";
 
 const App = () => (
-  <h1>Food Atlas</h1>
+  <Map />
 );
 
 export default App;
