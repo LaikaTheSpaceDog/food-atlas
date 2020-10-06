@@ -1,9 +1,9 @@
 import React from 'react';
-import Map from "./components/map/Map";
+import Home from './components/Home/Home';
 import "./styles/css/styles.min.css";
 
 const App = () => (
-  <Map />
+  <Home />
 );
 
 export default App;

@@ -1,4 +1,20 @@
+.worldMap {
+    fill: $green;
+    margin: 0 auto;
+    display: block;
+}
+
 .worldMap path:hover{
     cursor: pointer;
-    fill: green;
+    stroke: $orange;
+    stroke-width: 2px;
+}
+
+.svgContainer {
+    display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
 }

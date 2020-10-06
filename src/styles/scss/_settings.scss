@@ -1,10 +1,11 @@
-body {
-    width: 100vw;
-    max-width: 100%;
-}
-
 $orange: #E94F37;
 $green: #44BBA4;
 $blue: #3F88C5;
 $grey: #393E41;
 $cream: #F6F7EB;
+
+body {
+    max-width: 100%;
+    background-color: $cream;
+    margin: 2rem 5rem;
+}

@@ -13,7 +13,20 @@
 $fontStackOverpass: "Overpass", Arial, sans-serif;
 
 .heading {
-    font-size: 5rem;
+    font-size: 6rem;
+    font-family: $fontStackOverpass;
+    color: $grey;
+    text-align: center;
+}
+
+.subHeading {
+    font-size: 3rem;
+    font-family: $fontStackOverpass;
+    color: $grey;
+}
+
+.text {
+    font-size: 2rem;
     font-family: $fontStackOverpass;
     color: $grey;
 }
