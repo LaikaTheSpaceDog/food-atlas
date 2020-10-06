@@ -53,3 +53,18 @@ body {
 .worldMap path:hover {
   cursor: pointer;
   fill: green; }
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../assets/fonts/overpass/Overpass-Regular.ttf") format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OverpassBold";
+  src: url("../assets/fonts/overpass/Overpass-Bold.ttf") format("truetype");
+  font-weight: bold; }
+
+.heading {
+  font-size: 5rem;
+  font-family: "Overpass", Arial, sans-serif;
+  color: #393E41; }

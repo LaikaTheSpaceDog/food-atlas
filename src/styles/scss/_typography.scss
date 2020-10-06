@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "Overpass";
+    src: url("../assets/fonts/overpass/Overpass-Regular.ttf")format("truetype");
+    font-weight: normal
+}
+
+@font-face{
+    font-family: "OverpassBold";
+    src: url("../assets/fonts/overpass/Overpass-Bold.ttf")format("truetype");
+    font-weight: bold
+}
+
+$fontStackOverpass: "Overpass", Arial, sans-serif;
+
+.heading {
+    font-size: 5rem;
+    font-family: $fontStackOverpass;
+    color: $grey;
+}
