@@ -46,6 +46,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  font-family: "Open Sans", Arial, sans-serif; }
+
 body {
   max-width: 100%;
   max-height: 100vw;
@@ -78,18 +81,13 @@ svg {
   overflow: hidden; }
 
 @font-face {
-  font-family: "Overpass";
-  src: url("../assets/fonts/overpass/Overpass-Regular.ttf") format("truetype");
+  font-family: "Sniglet";
+  src: url("../assets/fonts/sniglet/Sniglet Regular.otf") format("opentype"), url("../assets/fonts/sniglet/Sniglet Regular.ttf") format("truetype");
   font-weight: normal; }
 
 @font-face {
-  font-family: "OverpassBold";
-  src: url("../assets/fonts/overpass/Overpass-Bold.ttf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: "Sniglet";
-  src: url("../assets/fonts/sniglet/Sniglet Regular.otf") format("opentype"), url("../assets/fonts/sniglet/Sniglet Regular.ttf") format("truetype");
+  font-family: "Open Sans";
+  src: url("../assets/fonts/openSans/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal; }
 
 .heading {
@@ -105,7 +103,7 @@ svg {
 
 .text {
   font-size: 2rem;
-  font-family: "Overpass", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #393E41; }
 
 .tooltip {

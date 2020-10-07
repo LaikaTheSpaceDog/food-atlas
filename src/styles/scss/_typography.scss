@@ -1,23 +1,17 @@
 @font-face{
-    font-family: "Overpass";
-    src: url("../assets/fonts/overpass/Overpass-Regular.ttf")format("truetype");
-    font-weight: normal
-}
-
-@font-face{
-    font-family: "OverpassBold";
-    src: url("../assets/fonts/overpass/Overpass-Bold.ttf")format("truetype");
-    font-weight: bold
-}
-
-@font-face{
     font-family: "Sniglet";
     src: url("../assets/fonts/sniglet/Sniglet\ Regular.otf")format("opentype"),
     url("../assets/fonts/sniglet/Sniglet\ Regular.ttf")format("truetype");
     font-weight: normal;
 }
 
-$fontStackOverpass: "Overpass", Arial, sans-serif;
+@font-face{
+    font-family: "Open Sans";
+    src: url("../assets/fonts/openSans/OpenSans-Regular.ttf")format("truetype");
+    font-weight: normal;
+}
+
+$fontStackOpen: "Open Sans", Arial, sans-serif;
 $fontStackSniglet: "Sniglet", Arial, sans-serif;
 
 .heading {
@@ -35,6 +29,6 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
 
 .text {
     font-size: 2rem;
-    font-family: $fontStackOverpass;
+    font-family: $fontStackOpen;
     color: $grey;
 }
