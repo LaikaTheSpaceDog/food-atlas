@@ -51,6 +51,10 @@ body {
   background-color: #F6F7EB;
   margin: 2rem 5rem; }
 
+svg {
+  display: inline-block;
+  vertical-align: middle; }
+
 .worldMap {
   fill: #44BBA4;
   margin: 0 auto;
