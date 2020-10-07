@@ -48,12 +48,16 @@ table {
 
 body {
   max-width: 100%;
+  max-height: 100vw;
   background-color: #F6F7EB;
-  margin: 2rem 5rem; }
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem; }
 
 svg {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-height: 85vh; }
 
 .worldMap {
   fill: #44BBA4;
@@ -103,3 +107,6 @@ svg {
   font-size: 2rem;
   font-family: "Overpass", Arial, sans-serif;
   color: #393E41; }
+
+.tooltip {
+  background-color: yellow; }

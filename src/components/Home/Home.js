@@ -1,13 +1,16 @@
-import React from 'react';
-import World from '../Map/Map';
+import React, { useState } from 'react';
+import Map from '../Map/Map';
+import ReactTooltip from "react-tooltip";
 
-const Home = () => (
-    <>
-        <h1 className="heading">Food Atlas</h1>
-        <div class="svgContainer">
-            <World />
-        </div>
-    </>
-);
+const Home = () => {
+    const [content, setContent] = useState("");
+    return (
+        <>
+            <h1 className="heading">Food Atlas</h1>
+            <Map setTooltipContent={ setContent } />
+            <ReactTooltip>{content}</ReactTooltip>
+        </>
+    );
+}
 
 export default Home;

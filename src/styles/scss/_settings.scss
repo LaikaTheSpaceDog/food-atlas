@@ -6,11 +6,15 @@ $cream: #F6F7EB;
 
 body {
     max-width: 100%;
+    max-height: 100vw;
     background-color: $cream;
-    margin: 2rem 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
 }
 
 svg {
     display: inline-block;
     vertical-align: middle;
+    max-height: 85vh;
   }
