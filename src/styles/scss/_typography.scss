@@ -10,18 +10,26 @@
     font-weight: bold
 }
 
+@font-face{
+    font-family: "Sniglet";
+    src: url("../assets/fonts/sniglet/Sniglet\ Regular.otf")format("opentype"),
+    url("../assets/fonts/sniglet/Sniglet\ Regular.ttf")format("truetype");
+    font-weight: normal;
+}
+
 $fontStackOverpass: "Overpass", Arial, sans-serif;
+$fontStackSniglet: "Sniglet", Arial, sans-serif;
 
 .heading {
     font-size: 6rem;
-    font-family: $fontStackOverpass;
+    font-family: $fontStackSniglet;
     color: $grey;
     text-align: center;
 }
 
 .subHeading {
     font-size: 3rem;
-    font-family: $fontStackOverpass;
+    font-family: $fontStackSniglet;
     color: $grey;
 }
 

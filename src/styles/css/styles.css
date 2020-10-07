@@ -79,15 +79,20 @@ body {
   src: url("../assets/fonts/overpass/Overpass-Bold.ttf") format("truetype");
   font-weight: bold; }
 
+@font-face {
+  font-family: "Sniglet";
+  src: url("../assets/fonts/sniglet/Sniglet Regular.otf") format("opentype"), url("../assets/fonts/sniglet/Sniglet Regular.ttf") format("truetype");
+  font-weight: normal; }
+
 .heading {
   font-size: 6rem;
-  font-family: "Overpass", Arial, sans-serif;
+  font-family: "Sniglet", Arial, sans-serif;
   color: #393E41;
   text-align: center; }
 
 .subHeading {
   font-size: 3rem;
-  font-family: "Overpass", Arial, sans-serif;
+  font-family: "Sniglet", Arial, sans-serif;
   color: #393E41; }
 
 .text {
