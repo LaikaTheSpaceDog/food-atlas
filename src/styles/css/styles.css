@@ -110,3 +110,6 @@ svg {
 
 .tooltip {
   background-color: yellow; }
+
+.button {
+  width: 5rem; }
