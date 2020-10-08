@@ -35,7 +35,8 @@ const Map = ({ setTooltipContent }) => (
                                         pressed: {
                                             outline: 'none'
                                         }
-                                    }} 
+                                    }}
+                                    name={ geo.properties.name } 
                                 />
                             </Link>
                         )
