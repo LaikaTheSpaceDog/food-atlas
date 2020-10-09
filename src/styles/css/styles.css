@@ -64,7 +64,8 @@ svg {
 
 .container {
   border: 5px solid #E94F37;
-  border-radius: 8%; }
+  border-radius: 8%;
+  background-color: #3F88C5; }
 
 @font-face {
   font-family: "Sniglet";

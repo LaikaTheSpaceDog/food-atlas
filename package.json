@@ -13,6 +13,7 @@
     "react-scripts": "3.4.3",
     "react-simple-maps": "^2.1.2",
     "react-tooltip": "^4.2.10",
+    "react-transition-group": "^4.4.1",
     "redux": "^4.0.5",
     "redux-localstorage": "^0.4.1"
   },
