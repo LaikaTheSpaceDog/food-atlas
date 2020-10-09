@@ -15,7 +15,7 @@ const App = ({ country }) => (
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/:country" render={ ({ match }) => (
+      <Route path={ `/:${ country }` } render={ () => (
         <Country country={ country } />
       )} />
       <FourOhFour />
