@@ -9,17 +9,21 @@ class Map extends Component {
         super(props);
 
         this.state = {
-            selected: "",
+            country: "",
         }
 
-        // this.handleClick = this.handleClick.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    // handleClick(name){
-    //     this.setState({
-    //         selected: name
-    //     })
-    // }
+    handleEnter(name){
+        this.setState({
+            country: name
+        })
+    }
+    
+    handleClick(){
+        this.props.handleClick({...this.state});
+    }
     
     render(){ 
     
@@ -37,6 +41,7 @@ class Map extends Component {
                                             onMouseEnter={() => {
                                                 const { NAME } = geo.properties;
                                                 this.props.setTooltipContent(`${NAME}`);
+                                                this.handleEnter(NAME);
                                             }}
                                             onMouseLeave={() => {
                                                 this.props.setTooltipContent("");
@@ -56,7 +61,7 @@ class Map extends Component {
                                                     outline: 'none'
                                                 }
                                             }}
-                                            // onClick={() => {const { NAME } = geo.properties; this.handleClick(NAME) }} 
+                                            onClick={() => {const { NAME } = geo.properties; this.handleClick(NAME) }} 
                                         />
                                     </Link>
                                 )
