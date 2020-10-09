@@ -62,23 +62,9 @@ svg {
   vertical-align: middle;
   max-height: 85vh; }
 
-.worldMap {
-  fill: #44BBA4;
-  margin: 0 auto;
-  display: block; }
-
-.worldMap path:hover {
-  cursor: pointer;
-  stroke: #E94F37;
-  stroke-width: 2px; }
-
-.svgContainer {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  vertical-align: middle;
-  overflow: hidden; }
+.container {
+  border: 5px solid #E94F37;
+  border-radius: 8%; }
 
 @font-face {
   font-family: "Sniglet";
@@ -121,7 +107,7 @@ svg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30vw;
+  width: 25vw;
   object-fit: cover;
   border-radius: 8%;
   overflow: visible; }

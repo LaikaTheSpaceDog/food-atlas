@@ -34,7 +34,7 @@ class Map extends Component {
     render(){ 
     
         return(
-            <div>
+            <div className="container">
                 <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }}>
                     <ZoomableGroup>
                         <Geographies geography={geoUrl}>

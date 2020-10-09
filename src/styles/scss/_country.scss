@@ -1,0 +1,8 @@
+.country {
+    width: 0%;
+    transition: width 2s;
+
+    :hover{
+        width: 100%;
+    }
+}
