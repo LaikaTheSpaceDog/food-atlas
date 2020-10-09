@@ -2,7 +2,8 @@ const initial = {
     id: 0,
     country: "",
     dish: "",
-    description: ""
+    description: "",
+    photo: ""
 }
 
 export default initial;

@@ -1,11 +1,12 @@
 import initial from '../data/initial';
 
-const click = (state, { country }) => ({
+const click = (state, { country, dish, description, photo }) => ({
     ...state,
     id: 0,
     country: country,
-    dish: "",
-    description: ""
+    dish: dish,
+    description: description,
+    photo: photo
 });
 
 const reset = () => ({

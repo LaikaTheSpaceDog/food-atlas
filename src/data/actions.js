@@ -1,7 +1,10 @@
-export const click = ({ country }) => {
+export const click = ({ country, dish, description, photo }) => {
     return {
         type: "CLICK",
-        country: country
+        country: country,
+        dish: dish,
+        description: description,
+        photo: photo
     };
 };
 

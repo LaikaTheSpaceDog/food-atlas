@@ -113,3 +113,10 @@ svg {
 
 .button {
   width: 5rem; }
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+  padding-bottom: 2rem; }

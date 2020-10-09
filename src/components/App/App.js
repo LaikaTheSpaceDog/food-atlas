@@ -9,14 +9,14 @@ import {
   Switch,
 } from"react-router-dom";
 
-const App = ({ country }) => (
+const App = ({ country, dish, description, photo }) => (
   <Router>
     <Switch>
       <Route exact path="/">
         <Home />
       </Route>
       <Route path={ `/:${ country }` } render={ () => (
-        <Country country={ country } />
+        <Country country={ country } dish={ dish } description={ description } photo={ photo } />
       )} />
       <FourOhFour />
     </Switch>

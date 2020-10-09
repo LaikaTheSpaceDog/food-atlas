@@ -5,7 +5,8 @@ const mapStateToProps = state => {
     return {
         country: state.country,
         dish: state.dish,
-        description: state.description
+        description: state.description,
+        photo: state.photo
     };
 };
 

@@ -10,14 +10,20 @@ class Map extends Component {
 
         this.state = {
             country: "",
+            dish: "",
+            description: "",
+            photo: ""
         }
 
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleEnter(name){
+    handleEnter(country, dish, description, photo){
         this.setState({
-            country: name
+            country: country,
+            dish: dish,
+            description: description,
+            photo: photo
         })
     }
     
@@ -39,9 +45,9 @@ class Map extends Component {
                                             key={geo.rsmKey} 
                                             geography={geo}
                                             onMouseEnter={() => {
-                                                const { NAME } = geo.properties;
+                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
                                                 this.props.setTooltipContent(`${NAME}`);
-                                                this.handleEnter(NAME);
+                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
                                             }}
                                             onMouseLeave={() => {
                                                 this.props.setTooltipContent("");
@@ -61,7 +67,7 @@ class Map extends Component {
                                                     outline: 'none'
                                                 }
                                             }}
-                                            onClick={() => {const { NAME } = geo.properties; this.handleClick(NAME) }} 
+                                            onClick={ this.handleClick } 
                                         />
                                     </Link>
                                 )
