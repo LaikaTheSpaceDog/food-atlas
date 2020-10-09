@@ -10,7 +10,7 @@ const Country = ({ country, dish, description, photo, handleClick }) => {
             <h1 className="heading">{ country }</h1>
             <h2 className="subHeading">{ dish }</h2>
             <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
-            <p className="text">{ description }</p>
+            <p className="text description">{ description }</p>
         </>
     );
 }
