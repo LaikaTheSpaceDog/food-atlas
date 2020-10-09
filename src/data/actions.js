@@ -4,3 +4,9 @@ export const click = ({ country }) => {
         country: country
     };
 };
+
+export const back = () => {
+    return {
+        type: "BACK"
+    };
+};

@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../Home/Home';
-import Country from '../Country/Country';
+import Country from '../Country/';
 import FourOhFour from '../FourOhFour';
 import "../../styles/css/styles.min.css";
 import { 
