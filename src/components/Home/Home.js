@@ -6,7 +6,6 @@ const Home = () => {
     const [content, setContent] = useState("");
     return (
         <>
-            <h1 className="heading">Food Atlas</h1>
             <Map setTooltipContent={ setContent } />
             <ReactTooltip>{content}</ReactTooltip>
         </>

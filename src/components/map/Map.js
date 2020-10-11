@@ -1,7 +1,6 @@
 import React, { memo, Component } from 'react';
 import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simple-maps";
 import geoUrl from "../../data/topo.json";
-// import { Link } from"react-router-dom";
 import Country from '../Country/'
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -18,7 +17,7 @@ class Map extends Component {
             selected: false
         }
 
-        // this.handleClick = this.handleClick.bind(this);
+        this.handleBack = this.handleBack.bind(this);
     }
 
     handleEnter(country, dish, description, photo){
@@ -29,10 +28,16 @@ class Map extends Component {
             photo: photo
         })
     }
-    
-    // handleClick(){
-    //     this.props.handleClick({...this.state});
-    // }
+
+    handleBack(){
+        this.setState({
+            country: "",
+            dish: "",
+            description: "",
+            photo: "",
+            selected: false
+        })
+    }
     
     render(){ 
     
@@ -41,13 +46,14 @@ class Map extends Component {
         return(
             <>
                 { !this.state.selected ?
-                    <div className="container">
-                        <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }}>
-                            <ZoomableGroup>
-                                <Geographies geography={geoUrl}>
-                                    {({ geographies }) =>
-                                        geographies.map(geo =>
-                                            // <Link to={ `/${geo.properties.NAME}` }> 
+                    <>
+                        <h1 className="heading">Food Atlas</h1>
+                        <div className="container">
+                            <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }}>
+                                <ZoomableGroup>
+                                    <Geographies geography={geoUrl}>
+                                        {({ geographies }) =>
+                                            geographies.map(geo =>
                                                 <Geography 
                                                     key={geo.rsmKey} 
                                                     geography={geo}
@@ -75,22 +81,21 @@ class Map extends Component {
                                                         }
                                                     }}
                                                     onClick={() => { 
-                                                        // this.handleClick
                                                         this.setState({
                                                             selected: true
                                                         });
                                                         this.props.setTooltipContent("");
                                                     }} 
                                                 />
-                                            // </Link>
-                                        )
-                                    }
-                                </Geographies>
-                            </ZoomableGroup>
-                        </ComposableMap>
-                    </div>
+                                            )
+                                        }
+                                    </Geographies>
+                                </ZoomableGroup>
+                            </ComposableMap>
+                        </div>
+                    </>
                 : 
-                <Country country={ country } dish={ dish } description={ description } photo={ photo } /> }
+                <Country country={ country } dish={ dish } description={ description } photo={ photo } handleBack={ this.handleBack } /> }
             </>
         );
     }
