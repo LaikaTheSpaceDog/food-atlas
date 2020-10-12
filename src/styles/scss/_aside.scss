@@ -2,10 +2,24 @@
     display: none;
     width: 25vw;
     align-self: flex-start;
+    position: absolute;
+    height: 50vh;
+    background-color: $cream;
+    top: 25%;
+    border: 5px solid $orange;
+    border-radius: 8%;
+    padding: 1rem;
 }
 
 .list {
     display: none;
     width: 25vw;
     align-self: flex-end;
+    height: 50vh;
+    position: absolute;
+    background-color: $cream;
+    top: 25%;
+    border: 5px solid $orange;
+    border-radius: 8%;
+    padding: 1rem;
 }

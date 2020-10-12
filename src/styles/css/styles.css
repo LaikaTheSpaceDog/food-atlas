@@ -77,7 +77,8 @@ svg {
 .map {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 @font-face {
   font-family: "Sniglet";
@@ -107,6 +108,12 @@ svg {
   font-family: "Open Sans", Arial, sans-serif;
   color: #393E41; }
 
+.asideText {
+  font-size: 1.25rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #393E41;
+  padding-bottom: 1rem; }
+
 .description {
   padding-top: 2rem; }
 
@@ -115,6 +122,10 @@ svg {
 
 .button {
   width: 3rem; }
+
+.headButton {
+  border: none;
+  background-color: #F6F7EB; }
 
 .photo {
   display: block;
@@ -149,12 +160,26 @@ svg {
 .about {
   display: none;
   width: 25vw;
-  align-self: flex-start; }
+  align-self: flex-start;
+  position: absolute;
+  height: 50vh;
+  background-color: #F6F7EB;
+  top: 25%;
+  border: 5px solid #E94F37;
+  border-radius: 8%;
+  padding: 1rem; }
 
 .list {
   display: none;
   width: 25vw;
-  align-self: flex-end; }
+  align-self: flex-end;
+  height: 50vh;
+  position: absolute;
+  background-color: #F6F7EB;
+  top: 25%;
+  border: 5px solid #E94F37;
+  border-radius: 8%;
+  padding: 1rem; }
 
 .header {
   display: flex;

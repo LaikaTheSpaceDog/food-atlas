@@ -35,6 +35,13 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     color: $grey;
 }
 
+.asideText {
+    font-size: 1.25rem;
+    font-family: $fontStackOpen;
+    color: $grey;
+    padding-bottom: 1rem;
+}
+
 .description {
     padding-top: 2rem;
 }
