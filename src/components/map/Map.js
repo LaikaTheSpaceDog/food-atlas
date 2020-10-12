@@ -47,7 +47,7 @@ class Map extends Component {
             <SwitchTransition>
                 <CSSTransition
                     classNames="transition"
-                    transitionAppearTimeout={1000}
+                    transitionAppearTimeout={50000}
                     key={ selected }
                     in={ selected }
                     unmountOnExit
@@ -55,52 +55,69 @@ class Map extends Component {
                 >         
                     { !selected ?
                         <> 
-                            <h1 className="heading">Food Atlas</h1>
-                            <div className="container">
-                                <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }}>
-                                    <ZoomableGroup>
-                                        <Geographies geography={geoUrl}>
-                                            {({ geographies }) =>
-                                                geographies.map(geo =>
-                                                    <Geography 
-                                                        key={geo.rsmKey} 
-                                                        geography={geo}
-                                                        onMouseEnter={() => {
-                                                            const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
-                                                            this.props.setTooltipContent(`${NAME}`);
-                                                            this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
-                                                        }}
-                                                        onMouseLeave={() => {
-                                                            this.props.setTooltipContent("");
-                                                        }}
-                                                        fill="#44BBA4"
-                                                        stroke="#E94F37"
-                                                        strokeWidth="0.5"
-                                                        style={{
-                                                            default: {
-                                                                outline: 'none'
-                                                            },
-                                                            hover: {
-                                                                fill: "#E94F37",
-                                                                outline: 'none'
-                                                            },
-                                                            pressed: {
-                                                                outline: 'none'
-                                                            }
-                                                        }}
-                                                        onClick={() => { 
-                                                            this.setState({
-                                                                selected: true
-                                                            });
-                                                            this.props.setTooltipContent("");
-                                                        }} 
-                                                    />
-                                                )
-                                            }
-                                        </Geographies>
-                                    </ZoomableGroup>
-                                </ComposableMap>
-                            </div>
+                            <section className="map">
+                                <header className="header">
+                                    <h2 className="subHeading">About</h2>
+                                    <h1 className="heading">Food Atlas</h1>
+                                    <h2 className="subHeading">List</h2>
+                                </header>
+                                <div className="container">
+                                    <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }} >
+                                        <ZoomableGroup>
+                                            <Geographies geography={geoUrl}>
+                                                {({ geographies }) =>
+                                                    geographies.map(geo =>
+                                                        <Geography 
+                                                            key={geo.rsmKey} 
+                                                            geography={geo}
+                                                            onMouseEnter={() => {
+                                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
+                                                                this.props.setTooltipContent(`${NAME}`);
+                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
+                                                            }}
+                                                            onMouseLeave={() => {
+                                                                this.props.setTooltipContent("");
+                                                            }}
+                                                            fill="#44BBA4"
+                                                            stroke="#E94F37"
+                                                            strokeWidth="0.5"
+                                                            style={{
+                                                                default: {
+                                                                    outline: 'none'
+                                                                },
+                                                                hover: {
+                                                                    fill: "#E94F37",
+                                                                    outline: 'none'
+                                                                },
+                                                                pressed: {
+                                                                    outline: 'none'
+                                                                }
+                                                            }}
+                                                            onClick={() => { 
+                                                                this.setState({
+                                                                    selected: true
+                                                                });
+                                                                this.props.setTooltipContent("");
+                                                            }} 
+                                                        />
+                                                    )
+                                                }
+                                            </Geographies>
+                                        </ZoomableGroup>
+                                    </ComposableMap>
+                                </div>
+                                <aside className="about">
+                                    <h2 className="subHeading">About</h2>
+                                    <p className="text">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                    <p className="text">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
+                                </aside>
+                                <aside className="list">
+                                    <h2 className="subHeading">Countries</h2>
+                                    <ul>
+
+                                    </ul>
+                                </aside>
+                            </section>
                         </>
                     :
                         <Country country={ country } dish={ dish } description={ description } photo={ photo } handleBack={ this.handleBack } />

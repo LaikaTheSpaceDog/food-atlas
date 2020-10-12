@@ -64,8 +64,20 @@ svg {
 
 .container {
   border: 5px solid #E94F37;
-  border-radius: 8%;
-  background-color: #3F88C5; }
+  border-radius: 10%;
+  background-color: #3F88C5;
+  max-height: 75vh;
+  width: 80vw;
+  max-width: 80vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 @font-face {
   font-family: "Sniglet";
@@ -127,16 +139,25 @@ svg {
   opacity: 1;
   transition: opacity .5s ease-in; }
 
-.transition-leave {
-  opacity: 0; }
-
-.transition-leave.transition-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in; }
-
 .transition-exit {
   opacity: 0; }
 
 .transition-exit.transition-exit-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in; }
+
+.about {
+  display: none;
+  width: 25vw;
+  align-self: flex-start; }
+
+.list {
+  display: none;
+  width: 25vw;
+  align-self: flex-end; }
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end; }
