@@ -101,7 +101,8 @@ svg {
   font-family: "Sniglet", Arial, sans-serif;
   color: #393E41;
   text-align: center;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  text-decoration: none; }
 
 .text {
   font-size: 2rem;
@@ -125,7 +126,16 @@ svg {
 
 .headButton {
   border: none;
-  background-color: #F6F7EB; }
+  background-color: #F6F7EB;
+  cursor: pointer; }
+
+.close {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #393E41; }
+
+.close:hover {
+  color: #E94F37; }
 
 .photo {
   display: block;
@@ -157,29 +167,35 @@ svg {
   opacity: 0.01;
   transition: opacity 300ms ease-in; }
 
-.about {
+.about, .list {
   display: none;
   width: 25vw;
-  align-self: flex-start;
+  align-self: center;
   position: absolute;
   height: 50vh;
   background-color: #F6F7EB;
   top: 25%;
   border: 5px solid #E94F37;
   border-radius: 8%;
-  padding: 1rem; }
+  padding: 1rem;
+  transition: all 5s ease-in-out; }
 
-.list {
-  display: none;
-  width: 25vw;
-  align-self: flex-end;
-  height: 50vh;
-  position: absolute;
-  background-color: #F6F7EB;
-  top: 25%;
-  border: 5px solid #E94F37;
-  border-radius: 8%;
-  padding: 1rem; }
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column; }
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1; }
 
 .header {
   display: flex;

@@ -75,9 +75,9 @@ class Map extends Component {
                         <> 
                             <section className="map">
                                 <header className="header">
-                                    <button className="headButton" onClick={ this.handleAbout }><h2 className="subHeading">About</h2></button>
+                                    <button className="headButton" onClick={ this.handleAbout }><a className="subHeading" href="#about">About</a></button>
                                     <h1 className="heading">Food Atlas</h1>
-                                    <button className="headButton" onClick={ this.handleList }><h2 className="subHeading">List</h2></button>
+                                    <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
                                 </header>
                                 <div className="container">
                                     <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }} >
@@ -124,15 +124,21 @@ class Map extends Component {
                                         </ZoomableGroup>
                                     </ComposableMap>
                                 </div>
-                                <aside className="about" style={{ display: about ? "block" : "none" }}>
-                                    <p className="asideText">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                    <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
-                                </aside>
-                                <aside className="list" style={{ display: list ? "block" : "none" }}>
-                                    <ul>
+                                <div className="overlay" id="about">
+                                    <aside className="about" style={{ display: about ? "block" : "none" }}>
+                                        <a class="close" href="#" onClick={ this.handleAbout }>&times;</a>
+                                        <p className="asideText">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                        <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
+                                    </aside>
+                                </div>
+                                <div className="overlay" id="list">
+                                    <aside className="list" style={{ display: list ? "block" : "none" }}>
+                                        <a class="close" href="#" onClick={ this.handleList }>&times;</a>
+                                        <ul>
 
-                                    </ul>
-                                </aside>
+                                        </ul>
+                                    </aside>
+                                </div>
                             </section>
                         </>
                     :

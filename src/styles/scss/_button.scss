@@ -5,4 +5,14 @@
 .headButton {
     border: none;
     background-color: $cream;
+    cursor: pointer;
+}
+
+.close {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: $grey;
+}
+.close:hover{
+    color: $orange;
 }
