@@ -34,13 +34,15 @@ class Map extends Component {
     }
 
     handleBack(){
-        this.setState({
-            country: "",
-            dish: "",
-            description: "",
-            photo: "",
-            selected: false
-        })
+        setTimeout(() => {
+            this.setState({
+                country: "",
+                dish: "",
+                description: "",
+                photo: "",
+                selected: false
+            })
+        }, 1000);
     }
 
     handleAbout(){

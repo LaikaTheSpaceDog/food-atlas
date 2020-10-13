@@ -175,8 +175,7 @@ svg {
   top: 25%;
   border: 5px solid #E94F37;
   border-radius: 8%;
-  padding: 1rem;
-  transition: all 5s ease-in-out; }
+  padding: 1rem; }
 
 .overlay {
   position: fixed;
@@ -185,9 +184,12 @@ svg {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -208,7 +210,8 @@ svg {
   align-self: center;
   width: 80vw;
   border-radius: 5%;
-  border: 5px solid #E94F37; }
+  border: 5px solid #E94F37;
+  transition: all 5s ease-in-out; }
   .country .countryHeader {
     display: flex;
     justify-content: center;

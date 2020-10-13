@@ -5,6 +5,8 @@
     width: 80vw;
     border-radius: 5%;
     border: 5px solid $orange;
+    transition: all 5s ease-in-out;
+
 
     .countryHeader {
         display: flex;
