@@ -116,7 +116,7 @@ svg {
   padding-bottom: 1rem; }
 
 .description {
-  padding-top: 2rem; }
+  width: 50%; }
 
 .tooltip {
   background-color: yellow; }
@@ -139,8 +139,6 @@ svg {
 
 .photo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 25vw;
   object-fit: cover;
   border-radius: 8%;
@@ -191,7 +189,8 @@ svg {
   visibility: hidden;
   opacity: 0;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
 
 .overlay:target {
   visibility: visible;
@@ -202,3 +201,23 @@ svg {
   width: 100%;
   justify-content: space-around;
   align-items: flex-end; }
+
+.country {
+  background-color: #F6F7EB;
+  padding: 2rem;
+  align-self: center;
+  width: 80vw;
+  border-radius: 5%;
+  border: 5px solid #E94F37; }
+  .country .countryHeader {
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    .country .countryHeader .button {
+      position: absolute;
+      top: 0;
+      left: 0; }
+  .country .countryBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }

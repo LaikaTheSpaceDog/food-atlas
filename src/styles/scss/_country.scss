@@ -1,8 +1,26 @@
 .country {
-    width: 0%;
-    transition: width 2s;
+    background-color: $cream;
+    padding: 2rem;
+    align-self: center;
+    width: 80vw;
+    border-radius: 5%;
+    border: 5px solid $orange;
 
-    :hover{
-        width: 100%;
+    .countryHeader {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .button {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    
+    .countryBody {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }

@@ -1,17 +1,22 @@
 import React from 'react';
-import{ Link } from"react-router-dom";
 import back from "../../styles/assets/svg/angle-circle-left.svg";
 
 const Country = ({ country, dish, description, photo, handleBack }) => {
 
     return (
-        <section>
-            <Link to="/" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></Link>
-            <h1 className="heading">{ country }</h1>
-            <h2 className="subHeading">{ dish }</h2>
-            <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
-            <p className="text description">{ description }</p>
-        </section>
+        <article className="country">
+            <header className="countryHeader">
+                <a href="#" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></a>
+                <div className="countryTitles">
+                    <h1 className="heading">{ country }</h1>
+                    <h2 className="subHeading">{ dish }</h2>
+                </div>
+            </header>
+            <section className="countryBody">
+                <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
+                <p className="text description">{ description }</p>
+            </section>
+        </article>
     );
 }
 

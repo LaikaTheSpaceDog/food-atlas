@@ -71,20 +71,20 @@ class Map extends Component {
                     unmountOnExit
                     appear
                 >         
-                    { !selected ?
-                        <> 
-                            <section className="map">
-                                <header className="header">
-                                    <button className="headButton" onClick={ this.handleAbout }><a className="subHeading" href="#about">About</a></button>
-                                    <h1 className="heading">Food Atlas</h1>
-                                    <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
-                                </header>
-                                <div className="container">
-                                    <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }} >
-                                        <ZoomableGroup>
-                                            <Geographies geography={geoUrl}>
-                                                {({ geographies }) =>
-                                                    geographies.map(geo =>
+                    <> 
+                        <section className="map">
+                            <header className="header">
+                                <button className="headButton" onClick={ this.handleAbout }><a className="subHeading" href="#about">About</a></button>
+                                <h1 className="heading">Food Atlas</h1>
+                                <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
+                            </header>
+                            <div className="container">
+                                <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }} >
+                                    <ZoomableGroup>
+                                        <Geographies geography={geoUrl}>
+                                            {({ geographies }) =>
+                                                geographies.map(geo =>
+                                                    <a href="#country">
                                                         <Geography 
                                                             key={geo.rsmKey} 
                                                             geography={geo}
@@ -111,39 +111,34 @@ class Map extends Component {
                                                                     outline: 'none'
                                                                 }
                                                             }}
-                                                            onClick={() => { 
-                                                                this.setState({
-                                                                    selected: true
-                                                                });
-                                                                this.props.setTooltipContent("");
-                                                            }} 
                                                         />
-                                                    )
-                                                }
-                                            </Geographies>
-                                        </ZoomableGroup>
-                                    </ComposableMap>
-                                </div>
-                                <div className="overlay" id="about">
-                                    <aside className="about" style={{ display: about ? "block" : "none" }}>
-                                        <a class="close" href="#" onClick={ this.handleAbout }>&times;</a>
-                                        <p className="asideText">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                        <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
-                                    </aside>
-                                </div>
-                                <div className="overlay" id="list">
-                                    <aside className="list" style={{ display: list ? "block" : "none" }}>
-                                        <a class="close" href="#" onClick={ this.handleList }>&times;</a>
-                                        <ul>
+                                                    </a>
+                                                )
+                                            }
+                                        </Geographies>
+                                    </ZoomableGroup>
+                                </ComposableMap>
+                            </div>
+                            <div className="overlay" id="about">
+                                <aside className="about" style={{ display: about ? "block" : "none" }}>
+                                    <a class="close" href="#" onClick={ this.handleAbout }>&times;</a>
+                                    <p className="asideText">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                    <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
+                                </aside>
+                            </div>
+                            <div className="overlay" id="list">
+                                <aside className="list" style={{ display: list ? "block" : "none" }}>
+                                    <a class="close" href="#" onClick={ this.handleList }>&times;</a>
+                                    <ul>
 
-                                        </ul>
-                                    </aside>
-                                </div>
-                            </section>
-                        </>
-                    :
-                        <Country country={ country } dish={ dish } description={ description } photo={ photo } handleBack={ this.handleBack } />
-                    }
+                                    </ul>
+                                </aside>
+                            </div>
+                            <div className="overlay" id="country">
+                                <Country country={ country } dish={ dish } description={ description } photo={ photo } handleBack={ this.handleBack } />
+                            </div>
+                        </section>
+                    </>
                 </CSSTransition>
             </SwitchTransition>
         );
