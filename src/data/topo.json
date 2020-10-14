@@ -169555,7 +169555,8 @@
                         "ISO_A3": "ABW",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -169587,7 +169588,9 @@
                         "SUBREGION": "Southern Asia",
                         "DISH": "Kabuli Palaw",
                         "DESCRIPTION": "Kabuli palaw or Qabuli pulao is a variety of pilaf made in Afghanistan, Khyber Pakhtunkhwa and parts of Central Asian countries. It consists of steamed rice mixed with raisins, carrots, and beef or lamb.",
-                        "PHOTO": "https://i2.wp.com/cooktogether.com/pinpics/uploads/2015/07/IMG_5995-2.jpg?fit=3264%2C2448&ssl=1"
+                        "PHOTO": "https://i2.wp.com/cooktogether.com/pinpics/uploads/2015/07/IMG_5995-2.jpg?fit=3264%2C2448&ssl=1",
+                        "RECIPE": "https://www.gourmettraveller.com.au/recipes/chefs-recipes/kabuli-palaw-8270",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169623,7 +169626,12 @@
                         "ISO_A3": "AGO",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Muamba de Galinha",
+                        "DESCRIPTION": "Muamba de galinha (or chicken moamba) is chicken with palm paste, okra, garlic and palm oil hash or red palm oil sauce, often served with rice and funge.",
+                        "PHOTO": "https://www.conexaolusofona.org/wp-content/uploads/2019/02/moamba-de-galinha.jpg",
+                        "RECIPE": "https://www.africanbites.com/muamba-chickenmuamba-de-galinha/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169647,7 +169655,8 @@
                         "ISO_A3": "AIA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -169675,7 +169684,12 @@
                         "ISO_A3": "ALB",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Tavë kosi",
+                        "DESCRIPTION": "Tavë kosi is a dish of lamb and rice baked with yogurt, eggs and a roux.",
+                        "PHOTO": "https://flavorverse.com/wp-content/uploads/2018/08/Tave-Kosi-Albania-National-Food.jpg",
+                        "RECIPE": "https://www.bbc.co.uk/food/recipes/albanian_baked_lamb_with_92485",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169699,7 +169713,8 @@
                         "ISO_A3": "ALA",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -169724,7 +169739,12 @@
                         "ISO_A3": "AND",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Escudella de Pagés",
+                        "DESCRIPTION": "Escudella de pagés is a thick soup that consists of white beans, ham bone, veal or beed marrow bone, chicken, pork sausage, cured ham cabbage, potatoes, rice and pasta.",
+                        "PHOTO": "https://3.bp.blogspot.com/-7U6UfQeURN4/VB712zkGZpI/AAAAAAADLAs/UqEP7dsIQ4k/s1600/IMG_5648.JPG",
+                        "RECIPE": "https://recipeland.com/recipe/v/escudella-de-pages-country-stew-42390",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169764,7 +169784,12 @@
                         "ISO_A3": "ARE",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Harees",
+                        "DESCRIPTION": "Harees is a kind of seasoned porridge made of mear and mixed with meat (often lamb or chicken).",
+                        "PHOTO": "https://en.wikipedia.org/wiki/Harees#/media/File:Al_fanar_harees_(7797136886).jpg",
+                        "RECIPE": "https://www.bbcgoodfoodme.com/recipes/20320-harees-meat-porridge/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169811,7 +169836,12 @@
                         "ISO_A3": "ARG",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Empanadas",
+                        "DESCRIPTION": "Empanadas are small savoury pastries that can either be baked or fried and typically contain a mixture of beef and vegetables.",
+                        "PHOTO": "https://therecipecritic.com/wp-content/uploads/2020/04/easy-empanada.jpg",
+                        "RECIPE": "https://www.bonappetit.com/recipe/argentinian-beef-empanadas",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169839,7 +169869,12 @@
                         "ISO_A3": "ARM",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Dolma",
+                        "DESCRIPTION": "Dolma refers to a family of stuffed vegetable dishes. They are often wrapped in grape or cabbage leaves with a meat-and-rice filling.",
+                        "PHOTO": "https://iarmenia.org/wp-content/uploads/2017/07/Armenian-Cabbage-Dolma.jpg",
+                        "RECIPE": "https://i.ytimg.com/vi/kOgjqAaLbVQ/maxresdefault.jpg",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -169863,7 +169898,8 @@
                         "ISO_A3": "ASM",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -170349,7 +170385,13 @@
                         "ISO_A3": "ATA",
                         "CONTINENT": "Antarctica",
                         "REGION_UN": "Antarctica",
-                        "SUBREGION": "Antarctica"
+                        "SUBREGION": "Antarctica",
+                        "DISH": "Ice",
+                        "DESCRIPTION": "There's not much else...",
+                        "PHOTO": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F6d5cb004-9ce0-11e9-8dd0-924c0ba9bcc8.jpg?crop=2949%2C1659%2C0%2C154&resize=1180",
+                        "RECIPE": "https://www.food.com/recipe/ice-cubes-420398",
+                        "COUNTRY": true
+
                     }
                 },
                 {
@@ -170373,7 +170415,8 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Australia and New Zealand"
+                        "SUBREGION": "Australia and New Zealand",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -170409,7 +170452,8 @@
                         "ISO_A3": "ATF",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Seven seas (open ocean)",
-                        "SUBREGION": "Seven seas (open ocean)"
+                        "SUBREGION": "Seven seas (open ocean)",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -170440,7 +170484,12 @@
                         "ISO_A3": "ATG",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Fungee and Pepperpot",
+                        "DESCRIPTION": "Fungee and Pepperpot is a hearty one-pot meaty stew served with a side of cornmeal with okra.",
+                        "PHOTO": "https://i.pinimg.com/736x/6c/3c/93/6c3c93fdd679b9ab8b5c32193eb5dc66--food-challenge-the-shot.jpg",
+                        "RECIPE": "https://www.food.com/recipe/fungie-and-pepperpot-415686",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170621,7 +170670,12 @@
                         "ISO_A3": "AUS",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Australia and New Zealand"
+                        "SUBREGION": "Australia and New Zealand",
+                        "DISH": "Meat Pie",
+                        "DESCRIPTION": "Australian meat pies are traditionally hand-sized with a filling of minced meat, gravy and onions.",
+                        "PHOTO": "https://img.taste.com.au/MtE3MQVO/w720-h480-cfill-q80/taste/2016/11/aussie-meat-pies-16289-1.jpeg",
+                        "RECIPE": "https://www.bestrecipes.com.au/recipes/aussie-meat-pie-recipe-2/34l4qr5q",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170653,7 +170707,12 @@
                         "ISO_A3": "AUT",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Wiener Schnitzel",
+                        "DESCRIPTION": "Wiener schnitzel is a very thin cutlet of meat (typically veal) that has been breaded and fried.",
+                        "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1200px-Wiener-Schnitzel02.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/wiener-schnitzel-recipe-1447089",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170690,7 +170749,12 @@
                         "ISO_A3": "AZE",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Yarpaq Dolmasi",
+                        "DESCRIPTION": "Yarpaq dolmasi are a kind of dolma (stuffed vine leaves) with meat, rice, salt, pepper and herbs.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishrestaurants/d873397006c94dccb504f232ce709f4a.jpg?mw=1300",
+                        "RECIPE": "https://azcookbook.com/2017/09/15/stuffed-grape-leaves/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170716,7 +170780,12 @@
                         "ISO_A3": "BDI",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Ibiharage",
+                        "DESCRIPTION": "A simple stew of red beans with onion and chilli.",
+                        "PHOTO": "https://img.sndimg.com/food/image/upload/w_560,h_315,c_thumb,fl_progressive,q_80/v1/img/recipes/48/44/18/picnJscZm.jpg",
+                        "RECIPE": "https://www.food.com/recipe/ibiharage-burundi-484418",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170745,7 +170814,12 @@
                         "ISO_A3": "BEL",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Moules-Frites",
+                        "DESCRIPTION": "Moules-frites is a dish of mussels served with potato chips (fries)",
+                        "PHOTO": "https://static.750g.com/images/640-420/203a157ca1eec1f5271705aa553435f4/adobestock-184713102.jpeg",
+                        "RECIPE": "https://www.bbcgoodfood.com/recipes/moules-frites",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170773,7 +170847,12 @@
                         "ISO_A3": "BEN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Kuli-Kuli",
+                        "DESCRIPTION": "Kuli-kuli is a popular fried snack made primarily from ground peanuts.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/4b7b672cbaa24a69ac84a2c650fca94a.jpg?mw=1300",
+                        "RECIPE": "https://martymadeit.com/2017/05/14/019-benin-kuli-kuli/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170802,7 +170881,12 @@
                         "ISO_A3": "BFA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Riz Gras",
+                        "DESCRIPTION": "Riz gras is a one pot dish made of meat, rice, caroots, cabbage, tomatoes and spices.",
+                        "PHOTO": "https://myhungrytum.files.wordpress.com/2010/02/img_5713.jpg",
+                        "RECIPE": "https://www.food.com/recipe/riz-gras-fat-rice-burkina-faso-483120",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170850,7 +170934,12 @@
                         "ISO_A3": "BGD",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Ilish Macher Paturi",
+                        "DESCRIPTION": "Ilish macher paturi is mad with fish that has been marinated in spices and wrapped in a banana lead before being steamed or roasted.",
+                        "PHOTO": "https://www.freeindianrecipes.com/wp-content/uploads/ilish-macher-paturi-1.jpg",
+                        "RECIPE": "https://www.bongeats.com/recipe/ilish-paturi",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170879,7 +170968,12 @@
                         "ISO_A3": "BGR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Shopska Salad",
+                        "DESCRIPTION": "Shopska salad is a salad made from tomatoes, cucumbers, peppers, onion and grated sirene cheese.",
+                        "PHOTO": "https://tarasmulticulturaltable.com/wp-content/uploads/2015/03/Shopska-2-of-3.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/bulgarian-salad-recipe-shopska-salata-1137345",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170903,7 +170997,12 @@
                         "ISO_A3": "BHR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Machboos",
+                        "DESCRIPTION": "Machboos is a traditional rice dish cooked with a mix of spices, tomatoes and chicken.",
+                        "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2013/03/Machboos-3-sm.jpg",
+                        "RECIPE": "https://www.daringgourmet.com/chicken-machboos-bahraini-chicken-rice/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -170994,7 +171093,12 @@
                         "ISO_A3": "BHS",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Cracked Conch",
+                        "DESCRIPTION": "Cracked Conch is breaded and deep-fried conch served with peas and rice.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/efa99dcd107c48209ade4abf87a6afad.jpg?w=905&h=510",
+                        "RECIPE": "https://www.uncommoncaribbean.com/nassau/cracked-conch/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171022,7 +171126,12 @@
                         "ISO_A3": "BIH",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Ćevapi",
+                        "DESCRIPTION": "Ćevapi is a dish of grilled meat that is often served with flatbread and avjar, a spivy red pepper sauce.",
+                        "PHOTO": "https://philosokitchen.com/wp-content/uploads/2019/06/cevapcici-and-sandwich-final-1-squared-MAX-720x540.jpg",
+                        "RECIPE": "https://www.jamieoliver.com/recipes/beef-recipes/cevapi-with-ajvar/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171046,7 +171155,8 @@
                         "ISO_A3": "BLM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -171074,7 +171184,12 @@
                         "ISO_A3": "BLR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Draniki",
+                        "DESCRIPTION": "Draniki are a kind of grated potatoe pancake served with sour cream.",
+                        "PHOTO": "https://www.missioneurovision.co.uk/wp-content/uploads/2015/12/belarus-draniki-cream-1024x682.jpg",
+                        "RECIPE": "https://www.belarus.by/en/about-belarus/cuisine/draniki",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171107,7 +171222,12 @@
                         "ISO_A3": "BLZ",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Rice and Beans",
+                        "DESCRIPTION": "Rice and beans are cooked in coconut milk and served with meat",
+                        "PHOTO": "https://i.ytimg.com/vi/-Lfir10dnWM/maxresdefault.jpg",
+                        "RECIPE": "https://explorecookeat.com/belizean-rice-and-beans/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171131,7 +171251,8 @@
                         "ISO_A3": "BMU",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Northern America"
+                        "SUBREGION": "Northern America",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -171159,7 +171280,12 @@
                         "ISO_A3": "BOL",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Salteñas",
+                        "DESCRIPTION": "Salteñas are crescent-shaped pastries filled with meat and a sweet, spicy sauce.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2018/12/salten%CC%83as-1-FP-500x375.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/bolivian-style-beef-empanadas-3029698",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171275,7 +171401,12 @@
                         "ISO_A3": "BRA",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Feijoada",
+                        "DESCRIPTION": "Feijoada is a stew of pork, beef and black beans with onion, garlic and spices.",
+                        "PHOTO": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg",
+                        "RECIPE": "https://www.bbcgoodfood.com/recipes/black-bean-meat-stew-feijoada",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171299,7 +171430,12 @@
                         "ISO_A3": "BRB",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Flying Fish and Cou Cou",
+                        "DESCRIPTION": "Flying fish are marinated and served with a creole sauce and cou cou, a mixture of cornmeal and okra.",
+                        "PHOTO": "http://www.notesfromamessykitchen.com/wp-content/uploads/2017/10/IMG_20171001_201308.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-barbados-flying-fish-and-cou-cou/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171332,7 +171468,12 @@
                         "ISO_A3": "BRN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Ambuyat",
+                        "DESCRIPTION": "Ambuyat is a kind of starch made from sago palm. It is typically served with other dishes, such as meat or prawns.",
+                        "PHOTO": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0_2qYO6W6D8D4yTkNSGr7wHaFj%26pid%3DApi&f=1",
+                        "RECIPE": "https://nationalfoods.org/recipe/ambuyat-national-dish-of-brunei/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171357,7 +171498,12 @@
                         "ISO_A3": "BTN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Ema Datshi",
+                        "DESCRIPTION": "Ema Datshi is a dish made from chilli and cheese that is often served with Bhutanese red rice.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/10/ema-datshi-2-FP.jpg",
+                        "RECIPE": "https://www.196flavors.com/bhutan-ema-datshi/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -171383,7 +171529,12 @@
                         "ISO_A3": "BWA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Southern Africa"
+                        "SUBREGION": "Southern Africa",
+                        "DISH": "Seswaa",
+                        "DESCRIPTION": "Seswaa is a simple dish of cooked cuts of meat (typically beef) that is cooked slowly over an open fire.",
+                        "PHOTO": "http://www.browsersgrazers.com/wp-content/uploads/2014/04/beef-seswaa.jpg",
+                        "RECIPE": "https://www.theguardian.com/world/2012/oct/29/food-and-drink-africa",
+                        "COUNTRY": true
                     }
                 },
                 {
