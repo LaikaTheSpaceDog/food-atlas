@@ -1,0 +1,13 @@
+.countryList {
+    list-style: none;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 40vh;
+
+    .listItem {
+        a {
+            text-decoration: none;
+            color: $grey;
+        }
+    }
+}

@@ -15,8 +15,6 @@ class Map extends Component {
             description: "",
             photo: "",
             selected: false,
-            about: false,
-            list: false
         }
 
         this.handleBack = this.handleBack.bind(this);
@@ -61,7 +59,8 @@ class Map extends Component {
     
     render(){ 
     
-        const { country, dish, description, photo, selected, about, list } = this.state;
+        const { country, dish, description, photo, selected } = this.state;
+        const countries = geoUrl.objects.ne_50m_admin_0_countries.geometries;
 
         return(
             <SwitchTransition>
@@ -91,12 +90,15 @@ class Map extends Component {
                                                             key={geo.rsmKey} 
                                                             geography={geo}
                                                             onMouseEnter={() => {
-                                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
+                                                                const { NAME } = geo.properties;
                                                                 this.props.setTooltipContent(`${NAME}`);
-                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
                                                             }}
                                                             onMouseLeave={() => {
                                                                 this.props.setTooltipContent("");
+                                                            }}
+                                                            onClick={() => {
+                                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
+                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
                                                             }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
@@ -122,17 +124,23 @@ class Map extends Component {
                                 </ComposableMap>
                             </div>
                             <div className="overlay" id="about">
-                                <aside className="about" style={{ display: about ? "block" : "none" }}>
+                                <aside className="about">
                                     <a class="close" href="#" onClick={ this.handleAbout }>&times;</a>
-                                    <p className="asideText">Welcome to the Food Atlas! Here you can travel around the world in 197 dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                    <p className="asideText centre">Welcome to the Food Atlas!</p>
+                                    <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
                                     <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the list instead if you are struggling!</p>
                                 </aside>
                             </div>
                             <div className="overlay" id="list">
-                                <aside className="list" style={{ display: list ? "block" : "none" }}>
+                                <aside className="list">
                                     <a class="close" href="#" onClick={ this.handleList }>&times;</a>
-                                    <ul>
-
+                                    <ul className="countryList">
+                                        { countries.map(geo =>
+                                            <li className="listItem"><a href="#country" onClick={() => {
+                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
+                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
+                                            }}>{ geo.properties.NAME }</a></li>
+                                        )}
                                     </ul>
                                 </aside>
                             </div>

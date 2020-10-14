@@ -118,6 +118,11 @@ svg {
 .description {
   width: 50%; }
 
+.centre {
+  text-align: center;
+  padding-top: 0.75rem;
+  font-weight: bold; }
+
 .tooltip {
   background-color: yellow; }
 
@@ -132,6 +137,7 @@ svg {
 .close {
   text-decoration: none;
   font-size: 1.25rem;
+  font-weight: bold;
   color: #393E41; }
 
 .close:hover {
@@ -166,7 +172,8 @@ svg {
   transition: opacity 300ms ease-in; }
 
 .about, .list {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   width: 25vw;
   align-self: center;
   position: absolute;
@@ -175,7 +182,12 @@ svg {
   top: 25%;
   border: 5px solid #E94F37;
   border-radius: 8%;
-  padding: 1rem; }
+  padding: 1rem;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  overflow: hidden; }
 
 .overlay {
   position: fixed;
@@ -197,6 +209,9 @@ svg {
 .overlay:target {
   visibility: visible;
   opacity: 1; }
+  .overlay:target .about, .overlay:target .list {
+    visibility: visible;
+    opacity: 1; }
 
 .header {
   display: flex;
@@ -211,7 +226,10 @@ svg {
   width: 80vw;
   border-radius: 5%;
   border: 5px solid #E94F37;
-  transition: all 5s ease-in-out; }
+  -webkit-transition: opacity all 500ms ease-in-out;
+  -moz-transition: opacity all 500ms ease-in-out;
+  -o-transition: opacity all 500ms ease-in-out;
+  transition: all 500ms ease-in-out; }
   .country .countryHeader {
     display: flex;
     justify-content: center;
@@ -224,3 +242,12 @@ svg {
     display: flex;
     align-items: center;
     justify-content: space-around; }
+
+.countryList {
+  list-style: none;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 40vh; }
+  .countryList .listItem a {
+    text-decoration: none;
+    color: #393E41; }

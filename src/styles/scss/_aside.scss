@@ -1,5 +1,6 @@
 .about,.list {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   width: 25vw;
   align-self: center;
   position: absolute;
@@ -9,10 +10,11 @@
   border: 5px solid $orange;
   border-radius: 8%;
   padding: 1rem;
-  // -webkit-transition: background-color all 5s ease-in-out;
-  // -moz-transition: background-color all 5s ease-in-out;
-  // -o-transition: background-color all 5s ease-in-out;
-  // transition: all 5s ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  overflow: hidden;
 }
 
 .overlay {
@@ -36,4 +38,8 @@
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  .about,.list {
+    visibility: visible;
+    opacity: 1;
+  }
 }
