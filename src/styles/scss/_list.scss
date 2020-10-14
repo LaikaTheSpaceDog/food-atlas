@@ -3,11 +3,13 @@
     overflow: hidden;
     overflow-y: scroll;
     height: 40vh;
+    text-align: center;
 
     .listItem {
         a {
             text-decoration: none;
             color: $grey;
+            line-height: 1.25rem;
         }
     }
 }
