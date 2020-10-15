@@ -171563,7 +171563,12 @@
                         "ISO_A3": "CAF",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Kanda",
+                        "DESCRIPTION": "Kanda are meatballs made from ground beef and pumpkin seeds.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/04/kanda-3.jpg",
+                        "RECIPE": "https://www.196flavors.com/central-african-republic-kanda/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172144,7 +172149,12 @@
                         "ISO_A3": "CAN",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Northern America"
+                        "SUBREGION": "Northern America",
+                        "DISH": "Poutine",
+                        "DESCRIPTION": "Poutine is made from chips (french fries) covered in cheese curds and gravy.",
+                        "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Food_at_WIkimanian_2017_02.jpg/1200px-Food_at_WIkimanian_2017_02.jpg",
+                        "RECIPE": "https://www.seasonsandsuppers.ca/authentic-canadian-poutine-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172173,7 +172183,12 @@
                         "ISO_A3": "CHE",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Rosti",
+                        "DESCRIPTION": "Rosti are golden and crispy pan fried grated potatoes.",
+                        "PHOTO": "https://images.squarespace-cdn.com/content/57ea401815d5db35a6482940/1508862914629-13X7GLNARW9W6HOVLSNJ/tiph%27s-potato-rosti-with-bacon-tiny-budget-cooking-recipe-limahl-asmall.jpg?content-type=image%2Fjpeg",
+                        "RECIPE": "https://www.bbcgoodfood.com/recipes/potato-rosti-cakes-sage-leaves",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172343,7 +172358,12 @@
                         "ISO_A3": "CHL",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Curanto",
+                        "DESCRIPTION": "Curanto is a traditional meal of seafood, meat, potatoes and vegetables cooked on hot stones underground.",
+                        "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2015/01/chile-curanto-1024x685.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/chile-curanto/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172426,7 +172446,12 @@
                         "ISO_A3": "CHN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Peking Duck",
+                        "DESCRIPTION": "Peking duck is a dish of duck that has been specially roasted so it has very crispy skin.",
+                        "PHOTO": "https://img.theculturetrip.com/768x432/wp-content/uploads/2016/12/4103966297_1985a99850_b.jpg",
+                        "RECIPE": "https://thehappyfoodie.co.uk/recipes/kenis-peking-duck",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172455,7 +172480,12 @@
                         "ISO_A3": "CIV",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Atcheke",
+                        "DESCRIPTION": "Atcheke is a side dish made from fermented cassava pulp that has been grated or granulated.",
+                        "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/4/44/Attieke.JPG",
+                        "RECIPE": "https://africanfoodie.wordpress.com/2012/07/29/acheke/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172485,7 +172515,12 @@
                         "ISO_A3": "CMR",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Ndole",
+                        "DESCRIPTION": "Ndole is a stew typically made with peanuts, greens, prawns and ground beef.",
+                        "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/10/DOM_1512.jpg",
+                        "RECIPE": "https://www.africanbites.com/ndole/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172519,7 +172554,12 @@
                         "ISO_A3": "COD",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Poulet à la Moambé",
+                        "DESCRIPTION": "Poulet à la moambé is a stew made with chicken, spices and palm butter.",
+                        "PHOTO": "https://www.notesfromamessykitchen.com/wp-content/uploads/2017/04/IMG_20170424_192819.jpg",
+                        "RECIPE": "https://explorers.kitchen/recipes/mains/moambe-chicken/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172548,7 +172588,12 @@
                         "ISO_A3": "COG",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Chikwangue",
+                        "DESCRIPTION": "Chikwangue is a cassava loaf that is prepared whilst wrapped in a banana leaf.",
+                        "PHOTO": "https://bantutastes.com/wp-content/uploads/2019/08/BantuTastesCasavaProducts.png",
+                        "RECIPE": "https://www.congocookbook.com/staple-dish-recipes/baton-de-manioc-and-chikwangue/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172572,7 +172617,8 @@
                         "ISO_A3": "COK",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -172602,7 +172648,12 @@
                         "ISO_A3": "COL",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Aijaco",
+                        "DESCRIPTION": "Aijaco is a hearty chicken soup with potatoes and corn.",
+                        "PHOTO": "https://hispanickitchen-nglmedia.netdna-ssl.com/wp-content/uploads/2016/03/Ajiaco-Santaferen%CC%83o-700x500.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/colombian-chicken-and-potato-stew-4120146",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172638,7 +172689,12 @@
                         "ISO_A3": "COM",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Langouste a la Vanille",
+                        "DESCRIPTION": "Langouste a la vanille is a dish of lobsters served with a vanilla cream sauce.",
+                        "PHOTO": "https://www.savoirmaigrir.com/img/a/3471/5247/medaillons-de-langoustes-a-la-vanille.jpg",
+                        "RECIPE": "https://www.saveur.com/lobster-vanilla-sauce-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172699,7 +172755,12 @@
                         "ISO_A3": "CPV",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Cachupa",
+                        "DESCRIPTION": "Cachupa is a slow cooked stew of fish or meat with beans, cassava, sweet potato and blood sausage.",
+                        "PHOTO": "https://img-global.cpcdn.com/recipes/8cbb69fae36b55e6/1502x1064cq70/foto-principal-da-receita-cachupa-rica-made-in-cabo-verde.jpg",
+                        "RECIPE": "https://www.cookstr.com/African-Recipes/Cape-Verde-Sausage-Stew",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172726,7 +172787,12 @@
                         "ISO_A3": "CRI",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Gallo Pinto",
+                        "DESCRIPTION": "Gallo pinto is a dish of beans and rice, often with onion, garlic and bell peppers.",
+                        "PHOTO": "https://www.pcrm.org/sites/default/files/gallo-pinto-10.jpg",
+                        "RECIPE": "https://www.pcrm.org/recipes/costa-rican-rice-and-beans-gallo-pinto",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172777,7 +172843,12 @@
                         "ISO_A3": "CUB",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Ropa Vieja",
+                        "DESCRIPTION": "Ropa vieja is a dish of pulled steak served with vegetables and aromatics.",
+                        "PHOTO": "https://assets.bonappetit.com/photos/59c924d03b3bf713cb638086/master/pass/1017%20WEB%20WEEK0869.jpg",
+                        "RECIPE": "https://www.bonappetit.com/recipe/ropa-vieja",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172801,7 +172872,8 @@
                         "ISO_A3": "CUW",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -172825,7 +172897,8 @@
                         "ISO_A3": "CYM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -172850,7 +172923,8 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -172875,7 +172949,12 @@
                         "ISO_A3": "CYP",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Souvla",
+                        "DESCRIPTION": "Souvla consists of large pieces of meat cooked on a skewer over a charcoal barbeque.",
+                        "PHOTO": "https://in-cyprus.philenews.com/wp-content/uploads/2020/03/souvla.jpg",
+                        "RECIPE": "https://www.cyprusbbq.co.uk/blogs/recipes/souvla",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172902,7 +172981,12 @@
                         "ISO_A3": "CZE",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Vepřo-Knedlo-Zelo",
+                        "DESCRIPTION": "Vepřo-knedlo-zelo is a dish of roast pork served with dumplings and sauerkraut.",
+                        "PHOTO": "https://itesco.cz//imgglobal/content_platform/recipes/main/0f/0f51f0e11a8493d8dcd6378aa1f22540.jpg",
+                        "RECIPE": "https://www.196flavors.com/czech-republic-vepro-knedlo-zelo/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172954,7 +173038,12 @@
                         "ISO_A3": "DEU",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Sauerbraten",
+                        "DESCRIPTION": "Sauerbraten is a heavily marinated roast (typically beef) served with gravy and potatoes.",
+                        "PHOTO": "https://houseofnasheats.com/wp-content/uploads/2019/09/German-Sauerbraten-Recipe-13.jpg",
+                        "RECIPE": "https://www.allrecipes.com/recipe/221361/traditional-sauerbraten/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -172981,7 +173070,12 @@
                         "ISO_A3": "DJI",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Skoudehkaris",
+                        "DESCRIPTION": "Skoudehkaris is a spicy one-pot dish of lamb, tomatoes and rice ",
+                        "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/160ed2a29ee0432b9caae00fc7808618.jpg?w=600&h=450",
+                        "RECIPE": "http://globaltableadventure.com/recipe/recipe-skoudehkaris/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173005,7 +173099,12 @@
                         "ISO_A3": "DMA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Callaloo",
+                        "DESCRIPTION": "Callaloo is a thick soup of leafy greens, coconut milk, salted meat, yams, peppers, onion and plantains.",
+                        "PHOTO": "https://d2wtgwi3o396m5.cloudfront.net/recipe/0a2c08bd-a939-4f99-a40c-b28e1ec3fdac.jpg",
+                        "RECIPE": "http://globaltableadventure.com/recipe/recipe-callaloo/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173072,7 +173171,12 @@
                         "ISO_A3": "DNK",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Stegt Flæsk",
+                        "DESCRIPTION": "Stegt flæsk is fried pork belly served with potatoes, a white sauce and parsley.",
+                        "PHOTO": "https://mambeno.dk/wp-content/uploads/2018/01/Stegt-fl%C3%A6sk-med-glaserede-roedbeder-og-kartoffelmos.jpg",
+                        "RECIPE": "https://www.sbs.com.au/food/recipes/grilled-pork-belly-parsley-sauce-stegt-flaesk-med-persillesovs",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173097,7 +173201,12 @@
                         "ISO_A3": "DOM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "La Bandera",
+                        "DESCRIPTION": "La Bandera, named after the national flag, is a dish of chicken served with rice and beans.",
+                        "PHOTO": "https://theturquoisetable.com/wp-content/uploads/2012/07/bandera.jpg",
+                        "RECIPE": "https://www.dominicancooking.com/17570-la-bandera-dominicana-our-traditional-lunch-meal.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173128,7 +173237,12 @@
                         "ISO_A3": "DZA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Couscous",
+                        "DESCRIPTION": "Couscous is made from steamed semolina and regularly served with meat, vegetables and spices.",
+                        "PHOTO": "https://live.staticflickr.com/2833/34326768826_44f0b66fdc_b.jpg",
+                        "RECIPE": "https://www.allrecipes.com/recipe/256729/algerian-couscous/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173196,7 +173310,12 @@
                         "ISO_A3": "ECU",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Encebollado",
+                        "DESCRIPTION": "Encebollado is a fish stew served with boiled cassava and pickled red onion.",
+                        "PHOTO": "https://i1.wp.com/www.maxionline.ec/wp-content/uploads/2019/06/encebollado.jpg?w=1500&amp;ssl=1",
+                        "RECIPE": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173225,7 +173344,12 @@
                         "ISO_A3": "EGY",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Ful Medames",
+                        "DESCRIPTION": "Ful medames is a dish of fava beans cooked with oil, cumin, parsley, garlic, onion and lemon juice.",
+                        "PHOTO": "https://i2.wp.com/carolinescooking.com/wp-content/uploads/2017/06/Ful-medemes-Egyptian-fava-beans-picture.jpg",
+                        "RECIPE": "https://www.themediterraneandish.com/foul-mudammas-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173259,7 +173383,12 @@
                         "ISO_A3": "ERI",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Zigni with Injera",
+                        "DESCRIPTION": "Zigini is a spicy beef stew that is served with injera, a spongy, sour, fermented flatbread.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/12/zigni-and-injera.jpg",
+                        "RECIPE": "https://www.greatbritishchefs.com/recipes/zigni-berbere-recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173340,7 +173469,12 @@
                         "ISO_A3": "ESP",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Tortilla de Patatas",
+                        "DESCRIPTION": "Tortilla de Patatas is a dense omlette that contains potato and optionally some onion.",
+                        "PHOTO": "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg",
+                        "RECIPE": "https://tastesbetterfromscratch.com/tortilla-de-patatas/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173383,7 +173517,12 @@
                         "ISO_A3": "EST",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Verivorst",
+                        "DESCRIPTION": "Verivorst is a type of traditional blood sausage that is often served with a kind of sauerkraut called mulgikapsad.",
+                        "PHOTO": "https://estonianworld.com/wp-content/uploads/2013/12/Blood-saugages-with-sauerkraut-and-lingonberry-jam1.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-estonia-verivorst-with-mulgikapsad/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173413,7 +173552,12 @@
                         "ISO_A3": "ETH",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Doro Wat",
+                        "DESCRIPTION": "Doro wat is a meat (chicken, beef or lamb) stew with vegetables and berbere spice served on injera, a sour spongy flatbread.",
+                        "PHOTO": "https://www.easylifeforeveryone.com/wp-content/uploads/2018/07/Ethiopian-traditional-food-Doro-wat-.jpg",
+                        "RECIPE": "https://www.africanbites.com/doro-wat-ethiopian-chicken-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173452,7 +173596,12 @@
                         "ISO_A3": "FIN",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Rye Bread",
+                        "DESCRIPTION": "Rye bread is a kind of bread made from rye flour. It can bne light or dark in colour depending on its preparation.",
+                        "PHOTO": "https://www.thefooddictator.com/wp-content/uploads/2016/11/img_4831.jpg",
+                        "RECIPE": "https://myvintagecooking.com/finnish-rye-sourdough/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173508,7 +173657,12 @@
                         "ISO_A3": "FJI",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Melanesia"
+                        "SUBREGION": "Melanesia",
+                        "DISH": "Fijian Kokoda",
+                        "DESCRIPTION": "Fijian kokoda is a dish of raw fish marinated in lime and coconut milk.",
+                        "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/01/Arousing-Appetites-8-of-10.jpg",
+                        "RECIPE": "https://www.bestrecipes.com.au/recipes/fijian-kokoda-recipe/07c7tl98",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173549,7 +173703,8 @@
                         "ISO_A3": "FLK",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -173633,7 +173788,12 @@
                         "ISO_A3": "FRA",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Pot-au-Feu",
+                        "DESCRIPTION": "Pot-au-feu is a beef stew containing oxtail, root vegetables and spices, often served at Christmas.",
+                        "PHOTO": "https://foodandwine.ie/uploads/article/2019/3/2132/article_Pot-au-Feu.jpg?t=1553381538",
+                        "RECIPE": "https://foodandwine.ie/pot-au-feu",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173669,7 +173829,8 @@
                         "ISO_A3": "FRO",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -173693,7 +173854,12 @@
                         "ISO_A3": "FSM",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "DISH": "Pihlohlo mMehng",
+                        "DESCRIPTION": "Pihlohlo mwehng consists of taro root coated with coconut sap syrup.",
+                        "PHOTO": "https://2.bp.blogspot.com/-E9eBmMXzW48/TpQSfoFqXJI/AAAAAAAAJhM/l5vwo97ZlHg/s400/DSCF4568_modified.JPG",
+                        "RECIPE": null,
+                        "COUNTRY": true
                     }
                 },
                 {

@@ -136,10 +136,12 @@ class Map extends Component {
                                     <a class="close" href="#" onClick={ this.handleList }>&times;</a>
                                     <ul className="countryList">
                                         { countries.map(geo =>
+                                            geo.properties.COUNTRY ?
                                             <li className="listItem"><a href="#country" onClick={() => {
                                                 const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
                                             }}>{ geo.properties.NAME }</a></li>
+                                            : null
                                         )}
                                     </ul>
                                 </aside>
