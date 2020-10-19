@@ -173855,7 +173855,7 @@
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
                         "SUBREGION": "Micronesia",
-                        "DISH": "Pihlohlo mMehng",
+                        "DISH": "Pihlohlo Mwehng",
                         "DESCRIPTION": "Pihlohlo mwehng consists of taro root coated with coconut sap syrup.",
                         "PHOTO": "https://2.bp.blogspot.com/-E9eBmMXzW48/TpQSfoFqXJI/AAAAAAAAJhM/l5vwo97ZlHg/s400/DSCF4568_modified.JPG",
                         "RECIPE": null,
@@ -173886,7 +173886,12 @@
                         "ISO_A3": "GAB",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Poulet Nyembwe",
+                        "DESCRIPTION": "Poulet nyembwe is a spicy chicken dish cooked in palm oil, served with rice, plantain or mashed yams.",
+                        "PHOTO": "https://i1.wp.com/nationalfoods.org/wp-content/uploads/2017/07/National-Dish-of-Gabon-%E2%80%93-Poulet-Nyembwe.jpg?w=1140&ssl=1",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-gabon-poulet-nyembwe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -173983,7 +173988,12 @@
                         "ISO_A3": "GBR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Fish and Chips",
+                        "DESCRIPTION": "Fish and chips is a dish of fried fish (often cod or haddock) fried in batter and served with potato chips.",
+                        "PHOTO": "https://i2-prod.bristolpost.co.uk/incoming/article8494.ece/ALTERNATES/s1200b/Fish-and-Chips-1.jpg",
+                        "RECIPE": "https://www.196flavors.com/united-kingdom-fish-and-chips/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174011,7 +174021,12 @@
                         "ISO_A3": "GEO",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Khinkali",
+                        "DESCRIPTION": "Khinkali are dumplings with a twisted top that have been stuffed with meat and spices.",
+                        "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/d9ae0ef06bc54f7cb4e6b5b928bc6f41.jpg?w=600&h=450",
+                        "RECIPE": "https://www.foodandwine.com/recipes/khinkali-meat-filled-dumplings",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174035,7 +174050,8 @@
                         "ISO_A3": "GGY",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -174064,7 +174080,12 @@
                         "ISO_A3": "GHA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Fufu",
+                        "DESCRIPTION": "Fufu is a rough dough often made from starchy food crops such as cassava and yam. It is white and sticky and usually eaten as a side with soups or stews.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/f189408c715349a891af42809e22b4a9.jpg?mw=1300",
+                        "RECIPE": "https://www.tasteatlas.com/fufu/recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174094,7 +174115,12 @@
                         "ISO_A3": "GIN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Poulet Yassa",
+                        "DESCRIPTION": "Poulet yassa is a simple dish of chicken that has been marinated in onion and lemon and served with rice.",
+                        "PHOTO": "https://img.cuisineaz.com/610x610/2016-04-28/i96651-poulet-yassa.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-guinea-poulet-yassa/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174119,7 +174145,12 @@
                         "ISO_A3": "GMB",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Domoda",
+                        "DESCRIPTION": "Domoda is a peanut stew cooked with chicken, seasonal vegetables (usually pumpkin and sweet potato) and a saucy base.",
+                        "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2013/03/Domoda-1.jpg",
+                        "RECIPE": "https://www.daringgourmet.com/domoda-gambian-peanut-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174162,7 +174193,12 @@
                         "ISO_A3": "GNB",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Egusi Soup",
+                        "DESCRIPTION": "Egusi soup is a thick, rich soup made with ground egusi (melon) seeds, vegetables and meat or seafood.",
+                        "PHOTO": "https://cheflolaskitchen.com/wp-content/uploads/2018/06/Egusi-soup-Recipe-2-1024x683.jpg.webp",
+                        "RECIPE": "https://cheflolaskitchen.com/egusi-soup-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174195,7 +174231,12 @@
                         "ISO_A3": "GNQ",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Succotash",
+                        "DESCRIPTION": "Succotash is a dish made up of sweet corn and lima beans, with extra optional ingredients including meat, tomatoes, peppers and okra.",
+                        "PHOTO": "https://naptimeprepcook.files.wordpress.com/2018/09/temp-475.jpg",
+                        "RECIPE": "https://naptimeprepcook.wordpress.com/2018/10/02/equatorial-guinea-%F0%9F%87%AC%F0%9F%87%B6-succotash/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174350,7 +174391,12 @@
                         "ISO_A3": "GRC",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Moussaka",
+                        "DESCRIPTION": "Moussaka is a dish made of layers of either aubergine or potatoes, minced meat (usually lamb) and a creamy sauce.",
+                        "PHOTO": "https://www.mygreekdish.com/wp-content/uploads/2013/05/Moussaka-recipe-Traditional-Greek-Moussaka-with-Eggplants.jpg",
+                        "RECIPE": "https://www.mygreekdish.com/recipe/mousakas/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174374,7 +174420,12 @@
                         "ISO_A3": "GRD",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Oil Down",
+                        "DESCRIPTION": "Oil down is a stew of local vegetables (such as breadfruit), green bananas and salted meat that have been cooked in a mixture of spices and coconut milk.",
+                        "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/e35945ed97284cf0a9fe74d6299d0427.jpg?mw=1300",
+                        "RECIPE": "https://www.tasteatlas.com/oil-down/recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174480,7 +174531,8 @@
                         "ISO_A3": "GRL",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Northern America"
+                        "SUBREGION": "Northern America",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -174509,7 +174561,12 @@
                         "ISO_A3": "GTM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Chicken Pepian",
+                        "DESCRIPTION": "Chicken pepian is a stew containing chicken, vegetables and fuits (such as pear, squash, carrot, potato and corn) and mixture of spices.",
+                        "PHOTO": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/2/20/1424432910140/214aa0e4-4220-4854-bf7a-293cdb54d1f5-1020x612.jpeg?width=1020&quality=85&auto=format&fit=max&s=b4dff04db134a5b29e3bcfc3a0e9b06c",
+                        "RECIPE": "https://www.theguardian.com/cities/2015/feb/24/real-street-food-pepian-from-guatemala",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174533,7 +174590,8 @@
                         "ISO_A3": "GUM",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -174560,7 +174618,12 @@
                         "ISO_A3": "GUY",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Pepperpot",
+                        "DESCRIPTION": "Pepperpot is a meat stew with a dark, rich gravy that contains spices and the local cassareep syrup.",
+                        "PHOTO": "https://www.africanbites.com/wp-content/uploads/2018/07/IMG_2141.jpg",
+                        "RECIPE": "https://www.africanbites.com/pepperpot/",
+                        "COUNTRY": true
                     }
                 },
                 {
