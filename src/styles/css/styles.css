@@ -194,6 +194,10 @@ svg {
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
   overflow: hidden; }
+  .about .aboutText, .list .aboutText {
+    overflow-y: scroll;
+    height: 40vh;
+    scrollbar-color: #44BBA4 #F6F7EB; }
 
 .overlay {
   position: fixed;
@@ -260,8 +264,15 @@ svg {
   overflow: hidden;
   overflow-y: scroll;
   height: 40vh;
-  text-align: center; }
+  text-align: center;
+  scrollbar-color: #44BBA4 #F6F7EB; }
   .countryList .listItem a {
     text-decoration: none;
     color: #393E41;
     line-height: 1.25rem; }
+
+@media only screen and (max-width: 1050px) {
+  .heading {
+    font-size: 4rem; }
+  .subHeading {
+    font-size: 2rem; } }
