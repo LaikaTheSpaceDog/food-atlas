@@ -64,6 +64,10 @@ class Map extends Component {
         const url = new URL(photo);
         return url.hostname;
     }
+
+    handleAlphabetise = (array) => {
+        return array.sort();
+    }
     
     render(){ 
     
@@ -143,7 +147,7 @@ class Map extends Component {
                                 <aside className="list">
                                     <a class="close" href="#" onClick={ this.handleList }>&times;</a>
                                     <ul className="countryList">
-                                        { countries.map(geo =>
+                                        { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                             geo.properties.COUNTRY ?
                                             <li className="listItem"><a href="#country" onClick={() => {
                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
