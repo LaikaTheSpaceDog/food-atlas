@@ -120,6 +120,12 @@ svg {
   padding-top: 0.75rem;
   font-weight: bold; }
 
+.caption {
+  font-size: 0.75rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #393E41;
+  text-align: center; }
+
 .tooltip {
   background-color: yellow; }
 
@@ -143,13 +149,12 @@ svg {
 .photo {
   object-fit: cover;
   width: 25vw;
-  height: 30vh; }
+  height: 30vh;
+  border-radius: 8%; }
 
 .photoContainer {
   width: 25vw;
-  height: 30vh;
-  overflow: hidden;
-  border-radius: 8%; }
+  height: 30vh; }
 
 .transition-appear {
   opacity: 0.01; }

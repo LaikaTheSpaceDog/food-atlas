@@ -48,3 +48,10 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     padding-top: 0.75rem;
     font-weight: bold;
 }
+
+.caption {
+    font-size: 0.75rem;
+    font-family: $fontStackOpen;
+    color: $grey;
+    text-align: center;
+}

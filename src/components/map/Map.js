@@ -59,6 +59,11 @@ class Map extends Component {
             list: !current
         })
     }
+
+    handlePhotoSource = (photo) => {
+        const url = new URL(photo);
+        return url.hostname;
+    }
     
     render(){ 
     
@@ -150,7 +155,7 @@ class Map extends Component {
                                 </aside>
                             </div>
                             <div className="overlay" id="country">
-                                <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } />
+                                <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                             </div>
                         </section>
                     </>
