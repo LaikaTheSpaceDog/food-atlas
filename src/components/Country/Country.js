@@ -1,7 +1,7 @@
 import React from 'react';
 import back from "../../styles/assets/svg/angle-circle-left.svg";
 
-const Country = ({ country, dish, description, photo, handleBack }) => {
+const Country = ({ country, dish, description, photo, recipe, handleBack }) => {
 
     return (
         !dish ? 
@@ -30,7 +30,10 @@ const Country = ({ country, dish, description, photo, handleBack }) => {
                 <div className="photoContainer">
                     <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
                 </div>
-                <p className="text description">{ description }</p>
+                <div className="description">
+                    <p className="text">{ description }</p>
+                    <a href={ recipe } target="_blank" className="text link">Recipe</a>
+                </div>
             </section>
         </article>
     );

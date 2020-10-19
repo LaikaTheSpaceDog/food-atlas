@@ -115,9 +115,6 @@ svg {
   color: #393E41;
   padding-bottom: 1rem; }
 
-.description {
-  width: 50%; }
-
 .centre {
   text-align: center;
   padding-top: 0.75rem;
@@ -246,6 +243,12 @@ svg {
     display: flex;
     align-items: center;
     justify-content: space-around; }
+  .country .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 30vh; }
 
 .countryList {
   list-style: none;

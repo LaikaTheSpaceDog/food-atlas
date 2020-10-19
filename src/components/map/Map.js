@@ -14,6 +14,7 @@ class Map extends Component {
             dish: "",
             description: "",
             photo: "",
+            recipe: "",
             selected: false,
         }
 
@@ -22,12 +23,13 @@ class Map extends Component {
         this.handleList = this.handleList.bind(this);
     }
 
-    handleEnter(country, dish, description, photo){
+    handleEnter(country, dish, description, photo, recipe){
         this.setState({
             country: country,
             dish: dish,
             description: description,
-            photo: photo
+            photo: photo,
+            recipe: recipe
         })
     }
 
@@ -38,6 +40,7 @@ class Map extends Component {
                 dish: "",
                 description: "",
                 photo: "",
+                recipe: "",
                 selected: false
             })
         }, 1000);
@@ -59,7 +62,7 @@ class Map extends Component {
     
     render(){ 
     
-        const { country, dish, description, photo, selected } = this.state;
+        const { country, dish, description, photo, recipe, selected } = this.state;
         const countries = geoUrl.objects.ne_50m_admin_0_countries.geometries;
 
         return(
@@ -97,8 +100,8 @@ class Map extends Component {
                                                                 this.props.setTooltipContent("");
                                                             }}
                                                             onClick={() => {
-                                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
-                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
+                                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                             }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
@@ -138,8 +141,8 @@ class Map extends Component {
                                         { countries.map(geo =>
                                             geo.properties.COUNTRY ?
                                             <li className="listItem"><a href="#country" onClick={() => {
-                                                const { NAME, DISH, DESCRIPTION, PHOTO } = geo.properties;
-                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO);
+                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                             }}>{ geo.properties.NAME }</a></li>
                                             : null
                                         )}
@@ -147,7 +150,7 @@ class Map extends Component {
                                 </aside>
                             </div>
                             <div className="overlay" id="country">
-                                <Country country={ country } dish={ dish } description={ description } photo={ photo } handleBack={ this.handleBack } />
+                                <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } />
                             </div>
                         </section>
                     </>
