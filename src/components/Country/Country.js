@@ -27,7 +27,9 @@ const Country = ({ country, dish, description, photo, handleBack }) => {
                 </div>
             </header>
             <section className="countryBody">
-                <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
+                <div className="photoContainer">
+                    <img className="photo" src={ photo } alt={ `${ dish }, the national dish of ${ country }` } />
+                </div>
                 <p className="text description">{ description }</p>
             </section>
         </article>
