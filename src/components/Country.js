@@ -1,5 +1,5 @@
 import React from 'react';
-import back from "../../styles/assets/svg/angle-circle-left.svg";
+import back from "../styles/assets/svg/angle-circle-left.svg";
 
 const Country = ({ country, dish, description, photo, recipe, handleBack, handlePhotoSource }) => {
 

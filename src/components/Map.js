@@ -1,7 +1,7 @@
 import React, { memo, Component } from 'react';
 import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simple-maps";
-import geoUrl from "../../data/topo.json";
-import Country from '../Country/'
+import geoUrl from "../data/topo.json";
+import Country from './Country'
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 
 class Map extends Component { 
