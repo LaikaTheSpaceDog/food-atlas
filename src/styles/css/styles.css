@@ -329,7 +329,9 @@ svg {
     body .button {
       width: 1.5rem; }
     body .caption {
-      font-size: 0.5rem; } }
+      font-size: 0.5rem; }
+    body .photo {
+      height: 20vh; } }
 
 @media only screen and (max-width: 460px) {
   body .heading {
