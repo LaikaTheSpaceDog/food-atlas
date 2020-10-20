@@ -61,11 +61,12 @@
             justify-content: space-around;
         }
         .list {
-            width: 40vw;
+            width: 60vw;
         }
         .about {
             width: 80vw;
-            height: 25vh;
+            height: 50vh;
+            max-height: 200px;
         }
     }
 }
