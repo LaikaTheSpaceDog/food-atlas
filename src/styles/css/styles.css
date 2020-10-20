@@ -249,6 +249,8 @@ svg {
       position: absolute;
       top: 0;
       left: 0; }
+    .country .countryHeader .countryTitles {
+      width: 90%; }
   .country .countryBody {
     display: flex;
     align-items: center;
@@ -329,9 +331,10 @@ svg {
     body .button {
       width: 1.5rem; }
     body .caption {
-      font-size: 0.5rem; }
+      font-size: 0.5rem;
+      word-wrap: break-word; }
     body .photoContainer {
-      width: 20vw; }
+      width: 30vw; }
       body .photoContainer .photo {
         height: 20vh;
         width: 30vw; } }
