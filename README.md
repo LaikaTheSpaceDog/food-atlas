@@ -1,4 +1,4 @@
- # (Ping)-Pong
+ # Food Atlas
 ![Screen shot of landing page of Food Atlas](food.png)
 
 Mini web app built with React that combines three of my greatest loves: travel, geography and food! This app allows you to explore the national dish of each country through an interactive world map. This app utilises [React Simple Maps](https://www.react-simple-maps.io/) for the interactive map component as well as [react-tooltip](https://www.npmjs.com/package/react-tooltip) for the tooltips that display when the user hovers over a country. 
