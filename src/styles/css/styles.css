@@ -277,6 +277,8 @@ svg {
     font-size: 4rem; }
   .subHeading {
     font-size: 2rem; }
+  .text {
+    font-size: 1.75rem; }
   .about {
     width: 60vw; } }
 
@@ -284,6 +286,8 @@ svg {
   .heading {
     font-size: 2.75rem; }
   .subHeading {
+    font-size: 1.5rem; }
+  .text {
     font-size: 1.5rem; }
   .list {
     width: 30vw; } }
@@ -300,6 +304,8 @@ svg {
       font-size: 2rem; }
     body .subHeading {
       font-size: 1.25rem; }
+    body .text {
+      font-size: 1.1rem; }
     body .asideText {
       font-size: 0.75rem; }
     body .countryList .listItem a {
