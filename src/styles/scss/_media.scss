@@ -47,7 +47,7 @@
             font-size: 1.25rem;
         }
         .text {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
         .asideText {
             font-size: 0.75rem;
@@ -75,6 +75,12 @@
             width: 80vw;
             height: 50vh;
             max-height: 200px;
+        }
+        .button {
+            width: 1.5rem;
+        }
+        .caption {
+            font-size: 0.5rem;
         }
     }
 }
