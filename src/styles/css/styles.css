@@ -330,8 +330,11 @@ svg {
       width: 1.5rem; }
     body .caption {
       font-size: 0.5rem; }
-    body .photo {
-      height: 20vh; } }
+    body .photoContainer {
+      width: 20vw; }
+      body .photoContainer .photo {
+        height: 20vh;
+        width: 30vw; } }
 
 @media only screen and (max-width: 460px) {
   body .heading {

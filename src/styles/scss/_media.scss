@@ -87,8 +87,13 @@
         .caption {
             font-size: 0.5rem;
         }
-        .photo {
-            height: 20vh;
+        
+        .photoContainer{
+            width: 20vw;
+            .photo {
+                height: 20vh;
+                width: 30vw
+            }
         }
     }
 }
