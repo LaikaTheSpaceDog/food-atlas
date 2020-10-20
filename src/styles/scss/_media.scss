@@ -6,3 +6,52 @@
         font-size: 2rem;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .heading {
+        font-size: 2.75rem;
+    }
+    .subHeading {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+
+        #root {
+            display: flex;
+            justify-content: center;
+        }
+
+        .heading {
+            font-size: 2rem;
+        }
+        .subHeading {
+            font-size: 1.25rem;
+        }
+        .map {
+            width: 80vw;
+        }        
+        .header {
+            justify-content: space-around;
+        }
+    }
+}
+
+    
+@media only screen and (max-width: 460px) {
+    
+    body {
+        .heading {
+            font-size: 1.5rem;
+        }
+        .subHeading {
+            font-size: 1rem;
+        }
+    }
+}
