@@ -305,7 +305,10 @@ svg {
     body .subHeading {
       font-size: 1.25rem; }
     body .text {
-      font-size: 1rem; }
+      font-size: 0.75rem; }
+    body .country {
+      padding: 1rem;
+      padding-bottom: 2rem; }
     body .asideText {
       font-size: 0.75rem; }
     body .countryList .listItem a {
