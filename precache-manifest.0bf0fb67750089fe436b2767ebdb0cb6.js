@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ceb88cbbf0e3372cf7a53b90ccb5f13",
+    "revision": "6e92080cdd6e93a5eda85e0e7431d70b",
     "url": "/food-atlas/index.html"
   },
   {
-    "revision": "badc7a8944cc0d711ef6",
-    "url": "/food-atlas/static/css/main.29cbc6c7.chunk.css"
+    "revision": "d73a17e3f190068be9b3",
+    "url": "/food-atlas/static/css/main.e2bf6a75.chunk.css"
   },
   {
     "revision": "3a84453939e4810aed6f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/food-atlas/static/js/2.0e92558e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "badc7a8944cc0d711ef6",
+    "revision": "d73a17e3f190068be9b3",
     "url": "/food-atlas/static/js/main.b95ec144.chunk.js"
   },
   {
