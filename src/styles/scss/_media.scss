@@ -5,6 +5,9 @@
     .subHeading {
         font-size: 2rem;
     }
+    .about {
+        width: 60vw;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -13,6 +16,9 @@
     }
     .subHeading {
         font-size: 1.5rem;
+    }
+    .list {
+        width: 30vw;
     }
 }
 
@@ -34,11 +40,32 @@
         .subHeading {
             font-size: 1.25rem;
         }
+        .asideText {
+            font-size: 0.75rem;
+        }
+
+        .countryList {
+            .listItem a {
+                font-size: 0.75rem;
+                line-height: 1rem;
+            }
+        }
+        .close {
+            font-size: 0.75rem;
+        }
+
         .map {
             width: 80vw;
         }        
         .header {
             justify-content: space-around;
+        }
+        .list {
+            width: 40vw;
+        }
+        .about {
+            width: 80vw;
+            height: 25vh;
         }
     }
 }

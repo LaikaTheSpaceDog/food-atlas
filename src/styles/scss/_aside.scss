@@ -1,10 +1,8 @@
 .about,.list {
   visibility: hidden;
   opacity: 0;
-  width: 25vw;
   align-self: center;
   position: absolute;
-  height: 50vh;
   background-color: $cream;
   top: 25%;
   border: 5px solid $orange;
@@ -15,13 +13,16 @@
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
   overflow: hidden;
+}
 
-  .aboutText {
-    overflow-y: scroll;
-    height: 40vh;
-    scrollbar-color: $green $cream;
-  }
-  
+.about {
+  width: 40vw;
+  height: 40vh;
+}
+
+.list {
+  width: 25vw;
+  height: 50vh;
 }
 
 .overlay {

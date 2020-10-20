@@ -117,7 +117,6 @@ svg {
 
 .centre {
   text-align: center;
-  padding-top: 0.75rem;
   font-weight: bold; }
 
 .caption {
@@ -180,10 +179,8 @@ svg {
 .about, .list {
   visibility: hidden;
   opacity: 0;
-  width: 25vw;
   align-self: center;
   position: absolute;
-  height: 50vh;
   background-color: #F6F7EB;
   top: 25%;
   border: 5px solid #E94F37;
@@ -194,10 +191,14 @@ svg {
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
   overflow: hidden; }
-  .about .aboutText, .list .aboutText {
-    overflow-y: scroll;
-    height: 40vh;
-    scrollbar-color: #44BBA4 #F6F7EB; }
+
+.about {
+  width: 40vw;
+  height: 40vh; }
+
+.list {
+  width: 25vw;
+  height: 50vh; }
 
 .overlay {
   position: fixed;
@@ -275,13 +276,17 @@ svg {
   .heading {
     font-size: 4rem; }
   .subHeading {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .about {
+    width: 60vw; } }
 
 @media only screen and (max-width: 800px) {
   .heading {
     font-size: 2.75rem; }
   .subHeading {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .list {
+    width: 30vw; } }
 
 @media only screen and (max-width: 600px) {
   body {
@@ -295,10 +300,22 @@ svg {
       font-size: 2rem; }
     body .subHeading {
       font-size: 1.25rem; }
+    body .asideText {
+      font-size: 0.75rem; }
+    body .countryList .listItem a {
+      font-size: 0.75rem;
+      line-height: 1rem; }
+    body .close {
+      font-size: 0.75rem; }
     body .map {
       width: 80vw; }
     body .header {
-      justify-content: space-around; } }
+      justify-content: space-around; }
+    body .list {
+      width: 40vw; }
+    body .about {
+      width: 80vw;
+      height: 25vh; } }
 
 @media only screen and (max-width: 460px) {
   body .heading {
