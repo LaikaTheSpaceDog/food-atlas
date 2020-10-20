@@ -237,10 +237,13 @@ svg {
   width: 80vw;
   border-radius: 5%;
   border: 5px solid #E94F37;
-  -webkit-transition: opacity all 500ms ease-in-out;
-  -moz-transition: opacity all 500ms ease-in-out;
-  -o-transition: opacity all 500ms ease-in-out;
-  transition: all 500ms ease-in-out; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out; }
   .country .countryHeader {
     display: flex;
     justify-content: center;
@@ -250,7 +253,7 @@ svg {
       top: 0;
       left: 0; }
     .country .countryHeader .countryTitles {
-      width: 90%; }
+      width: 85%; }
   .country .countryBody {
     display: flex;
     align-items: center;
