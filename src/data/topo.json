@@ -174655,7 +174655,8 @@
                         "ISO_A3": "HKG",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -174679,7 +174680,8 @@
                         "ISO_A3": "HMD",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Seven seas (open ocean)",
-                        "SUBREGION": "Seven seas (open ocean)"
+                        "SUBREGION": "Seven seas (open ocean)",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -174707,7 +174709,12 @@
                         "ISO_A3": "HND",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Plato Típico",
+                        "DESCRIPTION": "Plato típico is a meal of grilled meat, plantains, beans, chismol (a salsa of tomato, red pepper and onion) and rice.",
+                        "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/09/Honduras-Plato-tipico.jpg",
+                        "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-honduras-plato-tipico/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174779,7 +174786,12 @@
                         "ISO_A3": "HRV",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Zagorski Štrukli",
+                        "DESCRIPTION": "Zagorski štrukli are made from thin (filo) pastry that is filled with cottage cheese, butter and cream.",
+                        "PHOTO": "https://honestcooking.com/wp-content/uploads/2012/01/IMG_1650.jpg",
+                        "RECIPE": "https://honestcooking.com/learn-how-to-make-traditional-croatian-baked-strukli/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174816,7 +174828,12 @@
                         "ISO_A3": "HTI",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Griot",
+                        "DESCRIPTION": "Griot is made from cubes of pork shoulder that is cooked in aromatics and citrus juices, often sevred with pikilz (pickled shredded vegetables).",
+                        "PHOTO": "https://gbc-cdn-public-media.azureedge.net/img85918.768x512.jpg",
+                        "RECIPE": "https://www.greatbritishchefs.com/recipes/haitian-griot-pikliz-recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -174846,7 +174863,12 @@
                         "ISO_A3": "HUN",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Goulash",
+                        "DESCRIPTION": "Goulash is a thick soup seasoned with paprika and containing beef, onions and other vegetables such as potatoes, carrots, pepper and tomatoes.",
+                        "PHOTO": "https://www.spendwithpennies.com/wp-content/uploads/2018/09/Hungarian-Goulash-21.jpg",
+                        "RECIPE": "https://www.spendwithpennies.com/hungarian-goulash/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175428,7 +175450,12 @@
                         "ISO_A3": "IDN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Nasi Goreng",
+                        "DESCRIPTION": "Nasi goreng is a dish of fried rice with meat (traditionally chicken), vegetables, sweet soy sauce (kecap manis) and served with a fried egg",
+                        "PHOTO": "https://www.recipetineats.com/wp-content/uploads/2016/03/Nasi-Goreng_3-1.jpg",
+                        "RECIPE": "https://www.recipetineats.com/nasi-goreng-indonesian-fried-rice/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175452,7 +175479,8 @@
                         "ISO_A3": "IMN",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -175517,7 +175545,12 @@
                         "ISO_A3": "IND",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "None/Khichdi",
+                        "DESCRIPTION": "Due to its diversity, India has purposefully chosen not to have a national dish, however a very popular candidate would be khichdi, which is a dish of rice and lentils with cumin, turmeric and other spices.",
+                        "PHOTO": "https://assets.bonappetit.com/photos/5f40055dd8a686d03a8e3372/3:2/w_2560,c_limit/Khichdi-new.jpg",
+                        "RECIPE": "https://www.bonappetit.com/recipe/khichdi",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175541,7 +175574,8 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Seven seas (open ocean)",
-                        "SUBREGION": "Seven seas (open ocean)"
+                        "SUBREGION": "Seven seas (open ocean)",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -175565,7 +175599,8 @@
                         "ISO_A3": "IOT",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Seven seas (open ocean)",
-                        "SUBREGION": "Seven seas (open ocean)"
+                        "SUBREGION": "Seven seas (open ocean)",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -175590,7 +175625,12 @@
                         "ISO_A3": "IRL",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Irish Stew",
+                        "DESCRIPTION": "Irish stew is a thick stew of mutton and root vegetables garnished with parsley.",
+                        "PHOTO": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-513754_11-2424e30.jpg?quality=90&webp=true&resize=440,400",
+                        "RECIPE": "https://www.bbcgoodfood.com/recipes/irish-stew",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175630,7 +175670,12 @@
                         "ISO_A3": "IRN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Abgoosht",
+                        "DESCRIPTION": "Abgoosht is a lamb stew thickened with chickpeas, also containing beans, onion, potatoes, tomatoes, turmeric and sour grapes or dried lime.",
+                        "PHOTO": "https://persianmama.com/wp-content/uploads/2015/07/Abgooshte-Dandeh-3.jpg",
+                        "RECIPE": "https://persianmama.com/abgoosht-persian-short-ribs-vegetable-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175660,7 +175705,12 @@
                         "ISO_A3": "IRQ",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Masgouf",
+                        "DESCRIPTION": "Masgouf is a dish of grilled carp that is seasoned with salt, lemon juice and curry powder.",
+                        "PHOTO": "https://hildaskitchenblog.com/wp-content/uploads/2019/10/masgouf-9.jpg",
+                        "RECIPE": "https://hildaskitchenblog.com/recipe/masgouf-iraqi-fish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175684,7 +175734,12 @@
                         "ISO_A3": "ISL",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Hákarl",
+                        "DESCRIPTION": "Hákarl is a dish of greenland shark that is cured, fermented and hung to dry for four to five months.",
+                        "PHOTO": "https://assets.atlasobscura.com/media/W1siZiIsIjIwMTcvMTEvMTMvMTcvNDEvNTgvMTdkMTYwNjktMzc0Zi00ZDQ0LThlOGEtYTUxMmViMjYyN2I0L2ZpbGUuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjYwMHg-Il1d/file.jpg",
+                        "RECIPE": "https://icecook.blogspot.com/2006/01/how-to-prepare-hakarl-rotten-or-cured_17.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175716,7 +175771,12 @@
                         "ISO_A3": "ISR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Falafel",
+                        "DESCRIPTION": "Falafel are deep fried balls of ground chickpeas or favabeans, and fresh herbs. They are often served with tahini, hummus, pita bread and salad.",
+                        "PHOTO": "https://toriavey.com/images/2011/01/Falafel-10-900x675.jpg",
+                        "RECIPE": "https://toriavey.com/toris-kitchen/falafel/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175767,7 +175827,12 @@
                         "ISO_A3": "ITA",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Pizza",
+                        "DESCRIPTION": "Pizza consists of a round dough base topped with tomatoes, cheese and a wide selection of other optional toppings, traditionally baked at a high temperature in a wood-fired oven.",
+                        "PHOTO": "https://www.simplyrecipes.com/wp-content/uploads/2007/01/homemade-pizza-horiz-a-1200.jpg",
+                        "RECIPE": "https://www.simplyrecipes.com/recipes/homemade_pizza/",
+                        "COUNTRY": true
                     }
                 },
                 {
