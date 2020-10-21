@@ -175856,7 +175856,12 @@
                         "ISO_A3": "JAM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Ackee and Saltfish",
+                        "DESCRIPTION": "Ackee and saltfish is a dish of ackee (a local fruit), salted fish, onions, tomatoes, peppers and spices like thyme and chilli.",
+                        "PHOTO": "https://www.saveur.com/resizer/CY3Hv3JYu22AXKxSbcocETqYKDk=/800x662/cloudfront-us-east-1.images.arcpublishing.com/bonnier/6TRBMAZPBFAGT3PCB3VPQ3LXUM.jpg",
+                        "RECIPE": "https://www.saveur.com/article/Recipes/Ackee-and-Saltfish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -175880,7 +175885,8 @@
                         "ISO_A3": "JEY",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -175910,7 +175916,12 @@
                         "ISO_A3": "JOR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Mansaf",
+                        "DESCRIPTION": "Mansaf is a lamb dish with a sauce called jameed that is made from fermented dried yoghurt, often served with rice or bulgur.",
+                        "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2015/06/Jordanian-Mansaf-ft-image-W-GRAPHIC.jpg",
+                        "RECIPE": "https://blog.arousingappetites.com/mansaf-jordanian-yogurt-meat-rice-pilaf/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176051,7 +176062,12 @@
                         "ISO_A3": "JPN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Sushi",
+                        "DESCRIPTION": "Sushi is typically made with sticky vinegared rice accompanied with other ingredients, most commonly raw seafood, seaweed and vegetables.",
+                        "PHOTO": "https://images.japancentre.com/recipes/pics/18/main/makisushi.jpg?1557308201",
+                        "RECIPE": "https://www.japancentre.com/en/recipes/18-maki-sushi-rolls",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176077,7 +176093,8 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -176113,7 +176130,12 @@
                         "ISO_A3": "KAZ",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Central Asia"
+                        "SUBREGION": "Central Asia",
+                        "DISH": "Beshbarmak",
+                        "DESCRIPTION": "Beshbarmak is a dish of boiled meat (mutton, beef, horse or camel) served with noodles and onions, typically eaten with one's hands.",
+                        "PHOTO": "https://cloud.foodista.com/content/images/45d8b6d9e319eb4f972bb0454914334360937909_607x400.jpg",
+                        "RECIPE": "https://arbuz.com/recipes/beshbarmak/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176149,7 +176171,12 @@
                         "ISO_A3": "KEN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Sukuma Wiki",
+                        "DESCRIPTION": "Sukuma wiki is a dish of braised greens (such as kale, spinach or collard greens) an tomatoes, often eaten alongside other dishes and roasted meat.",
+                        "PHOTO": "https://www.africanbites.com/wp-content/uploads/2015/01/IMG_6413.jpg",
+                        "RECIPE": "https://www.africanbites.com/sukuma-wiki/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176182,7 +176209,12 @@
                         "ISO_A3": "KGZ",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Central Asia"
+                        "SUBREGION": "Central Asia",
+                        "DISH": "Kuurdak",
+                        "DESCRIPTION": "Kuurdak is a dish made from roasted meat (typically mutton), offal and onions cooked in fat and oil.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/e56c558e22ac45d58011dc7ee4867ee3.jpg?w=600&h=450",
+                        "RECIPE": "http://easilygoodeats.blogspot.com/2011/04/kuurdak-recipe.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176209,7 +176241,12 @@
                         "ISO_A3": "KHM",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Samlar Kakou",
+                        "DESCRIPTION": "Samlar kakou is a traditional soup made from kroeung paste, vegetables and fish, pork or chicken.",
+                        "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Somlorkoko.jpg",
+                        "RECIPE": "https://www.196flavors.com/cambodia-samlor-kako/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176233,7 +176270,12 @@
                         "ISO_A3": "KIR",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "DISH": "Palusami",
+                        "DESCRIPTION": "Palusami is a dish that typically contains coconut cream and corned beef wrapped in taro leaves.",
+                        "PHOTO": "https://raffimatcha.files.wordpress.com/2017/05/1a3bd-img_6427.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-kiribati-palusami/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176257,7 +176299,12 @@
                         "ISO_A3": "KNA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Stewed Saltfish",
+                        "DESCRIPTION": "Stewed saltfish is a fish stew, often served with spicy fried plantains, coconut dumplings and breadfruit.",
+                        "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/09/Saint-kitts-and-nevis-1.jpg",
+                        "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-saint-kitts-and-nevis-stewed-saltfish-with-spicy-plantains-and-coconut-dumplings/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176314,7 +176361,12 @@
                         "ISO_A3": "KOR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Kimchi",
+                        "DESCRIPTION": "Kimchi is a side dish made from vegetables (often napa cabbage and Korean radish) that have been fermented with red pepepr flakes, spring onions, garlic and ginger.",
+                        "PHOTO": "https://www.koreanbapsang.com/wp-content/uploads/2019/11/DSC_0831.jpg",
+                        "RECIPE": "https://www.koreanbapsang.com/baechu-kimchi-napa-cabbage-kimchi/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176341,7 +176393,12 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Flia",
+                        "DESCRIPTION": "Flia consists of many layers of thin pancakes that have been brushed with cream and then served with sour cream.",
+                        "PHOTO": "https://www.myalbanianfood.com/wp-content/uploads/2017/02/Albanian-Flija-Sliced-1-1300x731.jpg",
+                        "RECIPE": "https://www.myalbanianfood.com/recipe/albanian-flija-pancake/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176374,7 +176431,12 @@
                         "ISO_A3": "KWT",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Machboos Laham",
+                        "DESCRIPTION": "Machboos laham is a rice dish containing a mix of fried onions, raisins and split peas, often served with meat (either lamb or chicken).",
+                        "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/02/Kuwait-Machboos-Laham.jpg",
+                        "RECIPE": "https://ingmar.app/blog/recipe-national-dish-of-kuwait-machboos-laham/",
+                        "COUNTRY": true
                     }
                 },
                 {
