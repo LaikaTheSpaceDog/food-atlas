@@ -92,7 +92,7 @@ class Map extends Component {
                                 <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
                             </header>
                             <div className="container">
-                                <ComposableMap width="1200" data-tip="" projectionConfig={{ scale: 200 }} >
+                                <ComposableMap width="1200" style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
                                     <ZoomableGroup>
                                         <Geographies geography={geoUrl}>
                                             {({ geographies }) =>
