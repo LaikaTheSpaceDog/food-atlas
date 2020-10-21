@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8d8681db724b1d56dd34de6b54b35f9",
+    "revision": "68407707ab10aacd9d837a9772e12f4b",
     "url": "/food-atlas/index.html"
   },
   {
-    "revision": "553edb65804edcdccbc7",
-    "url": "/food-atlas/static/css/main.ba68bf4b.chunk.css"
+    "revision": "7b5c9708488bf2a95a7c",
+    "url": "/food-atlas/static/css/main.1ca4e24f.chunk.css"
   },
   {
-    "revision": "3a84453939e4810aed6f",
-    "url": "/food-atlas/static/js/2.0e92558e.chunk.js"
+    "revision": "e53cdaa6df9cf417bc5d",
+    "url": "/food-atlas/static/js/2.ec7056af.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/food-atlas/static/js/2.0e92558e.chunk.js.LICENSE.txt"
+    "url": "/food-atlas/static/js/2.ec7056af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "553edb65804edcdccbc7",
-    "url": "/food-atlas/static/js/main.ca48ec06.chunk.js"
+    "revision": "7b5c9708488bf2a95a7c",
+    "url": "/food-atlas/static/js/main.036a8cd3.chunk.js"
   },
   {
     "revision": "baca7c4d3e2daed2abbc",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "01f72c9e186f033e3cf418d47f1d2d95",
     "url": "/food-atlas/static/media/angle-circle-left.01f72c9e.svg"
+  },
+  {
+    "revision": "ef354bc8dff041252ae33164e6511723",
+    "url": "/food-atlas/static/media/recipe-book.ef354bc8.svg"
   }
 ]);
