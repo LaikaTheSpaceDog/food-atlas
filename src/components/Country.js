@@ -1,5 +1,6 @@
 import React from 'react';
 import back from "../styles/assets/svg/angle-circle-left.svg";
+import recipeIcon from "../styles/assets/svg/recipe-book.svg";
 
 const Country = ({ country, dish, description, photo, recipe, handleBack, handlePhotoSource }) => {
 
@@ -25,6 +26,7 @@ const Country = ({ country, dish, description, photo, recipe, handleBack, handle
                     <h1 className="heading">{ country }</h1>
                     <h2 className="subHeading">{ dish }</h2>
                 </div>
+                <a href={ recipe } target="_blank"><img alt="recipe book icon" src={ recipeIcon } className="link"></img></a>
             </header>
             <section className="countryBody">
                 <figure className="photoContainer">
@@ -33,7 +35,6 @@ const Country = ({ country, dish, description, photo, recipe, handleBack, handle
                 </figure>
                 <div className="description">
                     <p className="text">{ description }</p>
-                    <a href={ recipe } target="_blank" className="text link">Recipe</a>
                 </div>
             </section>
         </article>

@@ -128,9 +128,6 @@ svg {
 .tooltip {
   background-color: yellow; }
 
-.button {
-  width: 3rem; }
-
 .headButton {
   border: none;
   background-color: #F6F7EB;
@@ -247,13 +244,21 @@ svg {
   .country .countryHeader {
     display: flex;
     justify-content: center;
-    position: relative; }
+    position: relative;
+    align-content: flex-end; }
+    .country .countryHeader .link {
+      width: 7.5%;
+      position: absolute;
+      top: 0;
+      right: 0; }
     .country .countryHeader .button {
+      width: 7.5%;
       position: absolute;
       top: 0;
       left: 0; }
     .country .countryHeader .countryTitles {
-      width: 85%; }
+      width: 85%;
+      align-content: center; }
   .country .countryBody {
     display: flex;
     align-items: center;

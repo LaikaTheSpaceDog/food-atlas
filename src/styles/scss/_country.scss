@@ -18,8 +18,17 @@
         display: flex;
         justify-content: center;
         position: relative;
+        align-content: flex-end;
+
+        .link {
+            width: 7.5%;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
 
         .button {
+            width: 7.5%;
             position: absolute;
             top: 0;
             left: 0;
@@ -27,6 +36,7 @@
 
         .countryTitles {
             width: 85%;
+            align-content: center;
         }
     }
     
