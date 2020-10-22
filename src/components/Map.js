@@ -79,6 +79,7 @@ class Map extends Component {
                 <CSSTransition
                     classNames="transition"
                     transitionAppearTimeout={50000}
+                    timeout={500000}
                     key={ selected }
                     in={ selected }
                     unmountOnExit
@@ -92,12 +93,12 @@ class Map extends Component {
                                 <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
                             </header>
                             <div className="container">
-                                <ComposableMap width="1200" style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
+                                <ComposableMap width={1200} style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
                                     <ZoomableGroup>
                                         <Geographies geography={geoUrl}>
                                             {({ geographies }) =>
                                                 geographies.map(geo =>
-                                                    <a href="#country">
+                                                    <a href="#country" key={ geo.properties.NAME }>
                                                         <Geography 
                                                             key={geo.rsmKey} 
                                                             geography={geo}
@@ -137,7 +138,7 @@ class Map extends Component {
                             </div>
                             <div className="overlay" id="about">
                                 <aside className="about">
-                                    <a class="close" href="#" onClick={ this.handleAbout }>&times;</a>
+                                    <a className="close" href="/#" onClick={ this.handleAbout }>&times;</a>
                                     <div className="aboutText">
                                         <p className="asideText centre">Welcome to the Food Atlas!</p>
                                         <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
@@ -147,11 +148,11 @@ class Map extends Component {
                             </div>
                             <div className="overlay" id="list">
                                 <aside className="list">
-                                    <a class="close" href="#" onClick={ this.handleList }>&times;</a>
+                                    <a className="close" href="/#" onClick={ this.handleList }>&times;</a>
                                     <ul className="countryList">
                                         { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                             geo.properties.COUNTRY ?
-                                            <li className="listItem"><a href="#country" onClick={() => {
+                                            <li className="listItem" key={ geo.properties.ISO_A3 }><a href="#country" onClick={() => {
                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                             }}>{ geo.properties.NAME }</a></li>
