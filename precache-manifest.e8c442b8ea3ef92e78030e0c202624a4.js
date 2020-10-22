@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b499258a84b3d397bcbe5f3a5d985c6",
+    "revision": "6e1673a8f872b5e42901eecd928315e6",
     "url": "/food-atlas/index.html"
   },
   {
