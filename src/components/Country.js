@@ -8,7 +8,7 @@ const Country = ({ country, dish, description, photo, recipe, handleBack, handle
         !dish ? 
         <article className="country">
             <header className="countryHeader">
-                <a href="/#" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></a>
+                <a href="#home" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></a>
                 <div className="countryTitles">
                     <h1 className="heading">{ country }</h1>
                     <h2 className="subHeading">It's a mystery to me to...</h2>
@@ -21,7 +21,7 @@ const Country = ({ country, dish, description, photo, recipe, handleBack, handle
         :
         <article className="country">
             <header className="countryHeader">
-                <a href="/#" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></a>
+                <a href="#home" onClick={ handleBack }><img alt="backwards arrow" src={ back } className="button"></img></a>
                 <div className="countryTitles">
                     <h1 className="heading">{ country }</h1>
                     <h2 className="subHeading">{ dish }</h2>

@@ -86,7 +86,7 @@ class Map extends Component {
                     appear
                 >         
                     <> 
-                        <section className="map">
+                        <section className="map" id="home">
                             <header className="header">
                                 <button className="headButton" onClick={ this.handleAbout }><a className="subHeading" href="#about">About</a></button>
                                 <h1 className="heading">Food Atlas</h1>
@@ -138,7 +138,7 @@ class Map extends Component {
                             </div>
                             <div className="overlay" id="about">
                                 <aside className="about">
-                                    <a className="close" href="/#" onClick={ this.handleAbout }>&times;</a>
+                                    <a className="close" href="#home" onClick={ this.handleAbout }>&times;</a>
                                     <div className="aboutText">
                                         <p className="asideText centre">Welcome to the Food Atlas!</p>
                                         <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
@@ -148,7 +148,7 @@ class Map extends Component {
                             </div>
                             <div className="overlay" id="list">
                                 <aside className="list">
-                                    <a className="close" href="/#" onClick={ this.handleList }>&times;</a>
+                                    <a className="close" href="#home" onClick={ this.handleList }>&times;</a>
                                     <ul className="countryList">
                                         { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                             geo.properties.COUNTRY ?
