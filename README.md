@@ -1,5 +1,5 @@
  # Food Atlas
-![Screen shot of landing page of Food Atlas](food.png)
+![Screen shot of landing page of Food Atlas](public/food.png)
 
 Mini web app built with React that combines three of my greatest loves: travel, geography and food! This app allows you to explore the national dish of each country through an interactive world map.
 
