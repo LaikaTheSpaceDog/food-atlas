@@ -187,7 +187,12 @@ svg {
   -moz-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .about .close, .list .close {
+    align-self: flex-end;
+    padding-bottom: 0.5rem; }
 
 .about {
   width: 40vw;
@@ -226,6 +231,8 @@ svg {
   width: 100%;
   justify-content: space-around;
   align-items: flex-end; }
+  .header .headButton .subHeading:hover {
+    color: #E94F37; }
 
 .country {
   background-color: #F6F7EB;
@@ -250,12 +257,12 @@ svg {
       width: 7.5%;
       position: absolute;
       top: 0;
-      right: 0; }
+      left: 0; }
     .country .countryHeader .button {
       width: 7.5%;
       position: absolute;
       top: 0;
-      left: 0; }
+      right: 0; }
     .country .countryHeader .countryTitles {
       width: 85%;
       align-content: center; }
@@ -281,6 +288,8 @@ svg {
     text-decoration: none;
     color: #393E41;
     line-height: 1.25rem; }
+  .countryList .listItem a:hover {
+    color: #E94F37; }
 
 @media only screen and (max-width: 1050px) {
   .heading {

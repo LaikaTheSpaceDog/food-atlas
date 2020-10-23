@@ -13,6 +13,13 @@
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .close {
+    align-self: flex-end;
+    padding-bottom: 0.5rem;
+  }
 }
 
 .about {
