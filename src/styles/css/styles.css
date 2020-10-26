@@ -72,7 +72,8 @@ svg {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 0.5rem; }
 
 .map {
   display: flex;
@@ -104,10 +105,14 @@ svg {
   padding-bottom: 2rem;
   text-decoration: none; }
 
-.text {
+.text, .link {
   font-size: 2rem;
   font-family: "Open Sans", Arial, sans-serif;
-  color: #393E41; }
+  color: #393E41;
+  text-decoration: none; }
+
+.link:hover {
+  color: #E94F37; }
 
 .asideText {
   font-size: 1.25rem;
@@ -115,7 +120,9 @@ svg {
   color: #393E41;
   padding-bottom: 1rem; }
   .asideText .link {
-    color: #393E41; }
+    color: #393E41;
+    font-size: 1.25rem;
+    text-decoration: underline; }
   .asideText .link:hover {
     color: #E94F37; }
 
@@ -379,3 +386,7 @@ svg {
     font-size: 1.5rem; }
   body .subHeading {
     font-size: 1rem; } }
+
+.footer {
+  display: flex;
+  align-items: flex-end; }

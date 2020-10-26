@@ -30,10 +30,15 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     text-decoration: none;
 }
 
-.text {
+.text, .link {
     font-size: 2rem;
     font-family: $fontStackOpen;
     color: $grey;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: $orange;
 }
 
 .asideText {
@@ -43,6 +48,8 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     padding-bottom: 1rem;
     .link {
         color: $grey;
+        font-size: 1.25rem;
+        text-decoration: underline;
     }
     .link:hover {
         color: $orange;

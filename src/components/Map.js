@@ -164,6 +164,9 @@ class Map extends Component {
                             <div className="overlay" id="country">
                                 <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                             </div>
+                            <footer className="footer">
+                                <h2 className="text">Made by <a className="link" href="https://github.com/LaikaTheSpaceDog" target="_blank" rel="noopener noreferrer">LaikaTheSpaceDog</a></h2>
+                            </footer>
                         </section>
                     </>
                 </CSSTransition>

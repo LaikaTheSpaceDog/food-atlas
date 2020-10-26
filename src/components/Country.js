@@ -1,6 +1,4 @@
 import React from 'react';
-import close from "../styles/assets/svg/close-round-line.svg";
-import recipeIcon from "../styles/assets/svg/recipe-book.svg";
 
 const Country = ({ country, dish, description, photo, recipe, handleBack, handlePhotoSource }) => {
 
