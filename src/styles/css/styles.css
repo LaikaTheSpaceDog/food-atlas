@@ -340,6 +340,12 @@ svg {
     body .country {
       padding: 1rem;
       padding-bottom: 2rem; }
+      body .country .countryHeader .recipe {
+        width: 2rem;
+        height: 2.5rem; }
+      body .country .countryHeader .button {
+        width: 2rem;
+        height: 2rem; }
     body .asideText {
       font-size: 0.75rem; }
     body .countryList .listItem a {

@@ -53,6 +53,17 @@
         .country {
             padding: 1rem;
             padding-bottom: 2rem;
+
+            .countryHeader {
+                .recipe{
+                    width: 2rem;
+                    height: 2.5rem;
+                }
+                .button{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
         }
         .asideText {
             font-size: 0.75rem;
