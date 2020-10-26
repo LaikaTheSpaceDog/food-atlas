@@ -41,6 +41,12 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     font-family: $fontStackOpen;
     color: $grey;
     padding-bottom: 1rem;
+    .link {
+        color: $grey;
+    }
+    .link:hover {
+        color: $orange;
+    }
 }
 
 .centre {

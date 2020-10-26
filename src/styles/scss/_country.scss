@@ -20,18 +20,29 @@
         position: relative;
         align-content: flex-end;
 
-        .link {
-            width: 7.5%;
+        .recipe {
+            width: 3rem;
+            height: 3.75rem;
             position: absolute;
             top: 0;
             left: 0;
+            background-image: url(../assets/svg/recipe-book.svg);
+        }
+
+        .recipe:hover {
+            background-image: url(../assets/svg/recipe-book-orange.svg);
         }
 
         .button {
-            width: 7.5%;
+            width: 3rem;
+            height: 3rem;
             position: absolute;
             top: 0;
             right: 0;
+            background-image: url(../assets/svg/close-round-line.svg);
+        }
+        .button:hover {
+            background-image: url(../assets/svg/close-round-line-orange.svg);
         }
 
         .countryTitles {

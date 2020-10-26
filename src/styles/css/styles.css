@@ -114,6 +114,10 @@ svg {
   font-family: "Open Sans", Arial, sans-serif;
   color: #393E41;
   padding-bottom: 1rem; }
+  .asideText .link {
+    color: #393E41; }
+  .asideText .link:hover {
+    color: #E94F37; }
 
 .centre {
   text-align: center;
@@ -253,16 +257,24 @@ svg {
     justify-content: center;
     position: relative;
     align-content: flex-end; }
-    .country .countryHeader .link {
-      width: 7.5%;
+    .country .countryHeader .recipe {
+      width: 3rem;
+      height: 3.75rem;
       position: absolute;
       top: 0;
-      left: 0; }
+      left: 0;
+      background-image: url(../assets/svg/recipe-book.svg); }
+    .country .countryHeader .recipe:hover {
+      background-image: url(../assets/svg/recipe-book-orange.svg); }
     .country .countryHeader .button {
-      width: 7.5%;
+      width: 3rem;
+      height: 3rem;
       position: absolute;
       top: 0;
-      right: 0; }
+      right: 0;
+      background-image: url(../assets/svg/close-round-line.svg); }
+    .country .countryHeader .button:hover {
+      background-image: url(../assets/svg/close-round-line-orange.svg); }
     .country .countryHeader .countryTitles {
       width: 85%;
       align-content: center; }
