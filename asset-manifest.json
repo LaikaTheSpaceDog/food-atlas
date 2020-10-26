@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/food-atlas/static/css/main.1ca4e24f.chunk.css",
-    "main.js": "/food-atlas/static/js/main.caf36f3f.chunk.js",
-    "main.js.map": "/food-atlas/static/js/main.caf36f3f.chunk.js.map",
+    "main.css": "/food-atlas/static/css/main.e39804d4.chunk.css",
+    "main.js": "/food-atlas/static/js/main.40c71ea1.chunk.js",
+    "main.js.map": "/food-atlas/static/js/main.40c71ea1.chunk.js.map",
     "runtime-main.js": "/food-atlas/static/js/runtime-main.d4478573.js",
     "runtime-main.js.map": "/food-atlas/static/js/runtime-main.d4478573.js.map",
-    "static/js/2.ec7056af.chunk.js": "/food-atlas/static/js/2.ec7056af.chunk.js",
-    "static/js/2.ec7056af.chunk.js.map": "/food-atlas/static/js/2.ec7056af.chunk.js.map",
+    "static/js/2.aa22c6a2.chunk.js": "/food-atlas/static/js/2.aa22c6a2.chunk.js",
+    "static/js/2.aa22c6a2.chunk.js.map": "/food-atlas/static/js/2.aa22c6a2.chunk.js.map",
     "index.html": "/food-atlas/index.html",
-    "precache-manifest.580d4e49bc133aa72d1a41cb6142c888.js": "/food-atlas/precache-manifest.580d4e49bc133aa72d1a41cb6142c888.js",
+    "precache-manifest.a9ba7f2d5c2aa04fe7f49b7e588492c1.js": "/food-atlas/precache-manifest.a9ba7f2d5c2aa04fe7f49b7e588492c1.js",
     "service-worker.js": "/food-atlas/service-worker.js",
-    "static/css/main.1ca4e24f.chunk.css.map": "/food-atlas/static/css/main.1ca4e24f.chunk.css.map",
-    "static/js/2.ec7056af.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.ec7056af.chunk.js.LICENSE.txt",
-    "static/media/styles.min.css": "/food-atlas/static/media/Sniglet Regular.7e4b174e.ttf",
-    "static/media/angle-circle-left.svg": "/food-atlas/static/media/angle-circle-left.01f72c9e.svg",
-    "static/media/recipe-book.svg": "/food-atlas/static/media/recipe-book.ef354bc8.svg"
+    "static/css/main.e39804d4.chunk.css.map": "/food-atlas/static/css/main.e39804d4.chunk.css.map",
+    "static/js/2.aa22c6a2.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.aa22c6a2.chunk.js.LICENSE.txt",
+    "static/media/styles.min.css": "/food-atlas/static/media/recipe-book.952976af.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4478573.js",
-    "static/js/2.ec7056af.chunk.js",
-    "static/css/main.1ca4e24f.chunk.css",
-    "static/js/main.caf36f3f.chunk.js"
+    "static/js/2.aa22c6a2.chunk.js",
+    "static/css/main.e39804d4.chunk.css",
+    "static/js/main.40c71ea1.chunk.js"
   ]
 }
