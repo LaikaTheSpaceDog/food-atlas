@@ -176464,7 +176464,12 @@
                         "ISO_A3": "LAO",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Larb",
+                        "DESCRIPTION": "Larb is a meat (often pork) salad made with corriander, mint, spring onions, shallots, chilli, lime and rice.",
+                        "PHOTO": "https://cinnamonandcoriander.com/wp-content/uploads/2015/04/Chicken-Larb-Laos-Rezept.jpg",
+                        "RECIPE": "https://norecipes.com/larb-mu-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176490,7 +176495,12 @@
                         "ISO_A3": "LBN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Kibbeh",
+                        "DESCRIPTION": "Kibbeh is a dish of croquettes of ground meat, bulgur wheat, pine nuts and spices that are then deep fried.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/m4G2DXU6wVvagEnyKGVc965EdbE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-beginner-kibbeh-recipe-2355367-Hero-5b7b259ec9e77c00505a8eaa.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/easy-beginner-kibbeh-recipe-2355367",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176517,7 +176527,12 @@
                         "ISO_A3": "LBR",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Dumboy",
+                        "DESCRIPTION": "Dumboy is a dish made from cassava that is boiler and pounder into a dough and shaped into balls. It is often served with meat stock or pepper soup.",
+                        "PHOTO": "https://liberiainfo.co/prd/wp-content/uploads/2018/11/grater-dumboy.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-liberia-dumboy/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176547,7 +176562,12 @@
                         "ISO_A3": "LBY",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Kusksu",
+                        "DESCRIPTION": "Kusksu is a couscous dish served with beef, chickpeas and vegetables (such as pumpkin) cooked in a spicy sauce.",
+                        "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2015/01/Libyan-Kusksu-final.jpg",
+                        "RECIPE": "https://www.daringgourmet.com/kusksu-libyan-couscous-with-spicy-beef-and-vegetables/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176571,7 +176591,12 @@
                         "ISO_A3": "LCA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Green Fig and Saltfish",
+                        "DESCRIPTION": "Green fig and saltdish is a dish of cured fish that is cooked with spices and vegetables, then served with green figs (the local name for unripe bananas).",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2015/10/Green-fig-and-saltfish-2-FP.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-st-lucia-green-fig-and-saltfish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176596,7 +176621,12 @@
                         "ISO_A3": "LIE",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Käsknöpfle",
+                        "DESCRIPTION": "Käsknöpfle is a dish made from spaetzle (a type of pasta) served in a cheese sauce with onions sprinkled on top.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/08/Kasknopfle-3b.jpg",
+                        "RECIPE": "https://www.196flavors.com/liechtenstein-kasknopfle/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176620,7 +176650,12 @@
                         "ISO_A3": "LKA",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Rice and Curry",
+                        "DESCRIPTION": "This dish consists of either steamed or boiled rice with some sort of curry (vegetable, fish or meat), typically heavily spiced with turmeric and coconut milk.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/a7c96da4df74439f92e41ee94c6885d2.jpg?mw=1300",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-sri-lanka-rice-and-curry/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176644,7 +176679,12 @@
                         "ISO_A3": "LSO",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Southern Africa"
+                        "SUBREGION": "Southern Africa",
+                        "DISH": "Chakalaka and Pap-pap",
+                        "DESCRIPTION": "Chakalaka is a stew of vegetables (carrots, onions, peppers and tomatoes) served with pap-pap, a dough made from cornmeal.",
+                        "PHOTO": "https://www.wikihow.com/images/thumb/6/69/Make-Chakalaka-Step-19.jpg/aid8863712-v4-1200px-Make-Chakalaka-Step-19.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/lesotho-chakalaka-and-pap-pap/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176672,7 +176712,12 @@
                         "ISO_A3": "LTU",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Cepelinai",
+                        "DESCRIPTION": "Cepelinai are potato dumplings stuffed with meat, cheese or mushrooms and often served with a bacon gravy and sour cream.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/cN_PSK6-FCc_n_E4aXNCrXUWZW0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cepelinai-258877532_a824eee0ba_o-5913e66d5f9b58647000e2bf.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/lithuanian-potato-meat-dumplings-recipe-cepelinai-1136766",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176698,7 +176743,12 @@
                         "ISO_A3": "LUX",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Judd mat Gaardebounen",
+                        "DESCRIPTION": "Judd mat Gaardebounen is a dish of smoked pork served with stewed broad beans and potatoes.",
+                        "PHOTO": "https://www.epicurus.com/food/recipes/wp-content/uploads/2018/12/JUDD-MAT-GAARDEBOUNEN.jpg",
+                        "RECIPE": "https://www.epicurus.com/food/recipes/judd-mat-gaardebounen/48589/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176726,7 +176776,12 @@
                         "ISO_A3": "LVA",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Pelēkie Zirņi ar Speķi",
+                        "DESCRIPTION": "Pelēkie zirņi ar speķi is a stew made from grey peas, fried onions and dried speck.",
+                        "PHOTO": "https://g4.delphi.lv/images/pix/676x385/--FyUkBimtY/pelekie-zirni-ar-speki-46652025.jpg",
+                        "RECIPE": "https://martymadeit.com/2017/09/30/093-latvia-pelekie-zirn%CC%A7i-ar-spek%CC%A7iti/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176751,7 +176806,8 @@
                         "ISO_A3": "MAC",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -176776,7 +176832,8 @@
                         "ISO_A3": "MAF",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -176802,7 +176859,12 @@
                         "ISO_A3": "MAR",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Tagine",
+                        "DESCRIPTION": "Tagine is a stew of meat and vegetables, often containing spices, nuts and dried fruits such as raisins and served in an earthenware pot.",
+                        "PHOTO": "https://es1-ladleandspricell.netdna-ssl.com/wp-content/uploads/2018/04/moroccan-lamb-tagine-2.jpg",
+                        "RECIPE": "https://www.bbc.co.uk/food/recipes/moroccanlambtagine_6696",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176827,7 +176889,12 @@
                         "ISO_A3": "MCO",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Barbajuan",
+                        "DESCRIPTION": "Barbajuan is a stuffed savoury pastry filled with Swiss chard and ricotta cheese.",
+                        "PHOTO": "https://i1.wp.com/worldfoodtour.co.uk/wp-content/uploads/2017/02/IMG_20160523_210039.jpg?fit=1300%2C975&ssl=1",
+                        "RECIPE": "https://worldfoodtour.co.uk/recipe/barbagiuan",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176852,7 +176919,12 @@
                         "ISO_A3": "MDA",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Mămăligă",
+                        "DESCRIPTION": "Mămăligă is a traditional porridge made out of yellow maize flour, often served with hearty stews.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/zLlj6m9y6djbVNdwzyJONDnlhY4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/romanian-cornmeal-porridge-recipe-mamaliga-1137442-hero-01-5c620e9146e0fb0001587b1c.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/romanian-cornmeal-porridge-recipe-mamaliga-1137442",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176883,7 +176955,12 @@
                         "ISO_A3": "MDG",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Romazava",
+                        "DESCRIPTION": "Romazava is a stew of meat (traditionally zebu) and leafy greens (paracress, anamamy and mustard greens), cooked with tomatoes and onions.",
+                        "PHOTO": "https://www.mastercook.com/app/Image/17212657/5439957.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/malagasy-romazava/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176907,7 +176984,12 @@
                         "ISO_A3": "MDV",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Gulha",
+                        "DESCRIPTION": "Gulha are small round dumplings stuffed with tuna, onion, coconut and chilli.",
+                        "PHOTO": "https://maldivescook.com/wp-content/uploads/gulha.jpg",
+                        "RECIPE": "https://maldivescook.com/recipe/gulha/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -176982,7 +177064,12 @@
                         "ISO_A3": "MEX",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Mole",
+                        "DESCRIPTION": "Mole is a sauce and marinade made from spicy chillis, bitter chocolate, peanuts, tomatoes, onion, garlic and spices.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/c-0kdELuYhjiirD9hciLYqiWBCA=/2832x2832/smart/filters:no_upscale()/easy-homemade-mole-sauce-2342969-Hero-5b75779f46e0fb004fdf91fc.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/easy-homemade-mole-sauce-2342969",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177006,7 +177093,12 @@
                         "ISO_A3": "MHL",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "DISH": "Barramundi Cod",
+                        "DESCRIPTION": "Barramundi cod is cooked by seasoning the whole fresh fish, wrapping it in banana leaves and then baking.",
+                        "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2016/10/Marshallese-grilled-fish_-684x1024.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/marshallese-grilled-fish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177034,7 +177126,12 @@
                         "ISO_A3": "MKD",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Tavče Gravče",
+                        "DESCRIPTION": "Tavče gravče is a bean and vegetable stew (sometimes containing meat) cooked in a terracota pot.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/02/TAVTCHE-GRAVTCHE-2-.jpg",
+                        "RECIPE": "https://www.196flavors.com/macedonia-tavce-gravce/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177064,7 +177161,12 @@
                         "ISO_A3": "MLI",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Tiguadege Na",
+                        "DESCRIPTION": "Tiguadege na is a rich peanut and vegetable stew (sometimes containing meat).",
+                        "PHOTO": "https://diningforwomen.org/wp-content/uploads/2015/05/meat-in-peanut-sauce.jpg",
+                        "RECIPE": "https://diningforwomen.org/recipes/tiguadege-na-meat-in-peanut-sauce/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177088,7 +177190,12 @@
                         "ISO_A3": "MLT",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Stuffat tal-Fenek",
+                        "DESCRIPTION": "Stuffat tal-fenek is a slow-cooked rabbit stew with potatoes, carrots, bay leaves and red wine.",
+                        "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/03/Malta-stuffat-tal-fenek.jpg",
+                        "RECIPE": "https://www.airmalta.com/blog/malta/how-to-make-traditional-maltese-rabbit-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177179,7 +177286,12 @@
                         "ISO_A3": "MMR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Mohinga",
+                        "DESCRIPTION": "Mohinga is a soup of rice noodles and fish that has been flavoured with lemongrass and served with a boiled egg.",
+                        "PHOTO": "https://www.foodrepublic.com/wp-content/uploads/2017/05/mohinga.jpg",
+                        "RECIPE": "https://www.foodrepublic.com/recipes/make-classic-mohinga/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177208,7 +177320,12 @@
                         "ISO_A3": "MNE",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Čorba",
+                        "DESCRIPTION": "Čorba is a fish soup made from fish stock with vegetables, such as carrots, onion, celery, garlic and parsley.",
+                        "PHOTO": "https://bennydoro.com/chef/wp-content/uploads/sites/3/2018/01/ecc6a391caab733fd3fbd8094844df4a.jpeg",
+                        "RECIPE": "https://grantourismotravels.com/riblja-corba-fish-soup-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177233,7 +177350,12 @@
                         "ISO_A3": "MNG",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Buuz",
+                        "DESCRIPTION": "Buuz are a style of steamed dumplings filled with spiced meat (usually mutton).",
+                        "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/a2f67a2c61d64866a94efef327a949b7.jpg?w=600&h=450",
+                        "RECIPE": "https://adamantkitchen.com/mongolian-buuz/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177257,7 +177379,8 @@
                         "ISO_A3": "MNP",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -177288,7 +177411,12 @@
                         "ISO_A3": "MOZ",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Xima",
+                        "DESCRIPTION": "Xima is a type of stiff porridge made from ground corn flour and water.",
+                        "PHOTO": "https://bornofafrica.files.wordpress.com/2017/02/best-xima.jpg?w=600&h=450",
+                        "RECIPE": "https://www.recipecommunity.com.au/side-dishes-recipes/xima-or-mielie-pap/d8fq87wb-52d3c-724365-cfcd2-iimm6grg",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177323,7 +177451,12 @@
                         "ISO_A3": "MRT",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Thieboudienne",
+                        "DESCRIPTION": "Thieboudienne is a rice and fish dish served with a tomato sauce.",
+                        "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/2/20/Thieboudienne_Mauritanienne.jpg",
+                        "RECIPE": "https://q-zine.blogspot.com/2016/01/mauritania-thieboudienne-fish-with-rice.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177347,7 +177480,8 @@
                         "ISO_A3": "MSR",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -177371,7 +177505,12 @@
                         "ISO_A3": "MUS",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Dholl Puri",
+                        "DESCRIPTION": "Dholl Puri is a type of wrap or flatbread made from yellow split peas, often eaten with different curries or pickles.",
+                        "PHOTO": "https://i.guim.co.uk/img/media/98574aa1b53a5bba758fbcc941cf994efe8807c9/0_750_3600_3599/master/3600.jpg?width=700&quality=85&auto=format&fit=max&s=72676a448f1edf2658d489fcb2e6c007",
+                        "RECIPE": "https://www.internationalcuisine.com/mauritius-dholl-puri/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177397,7 +177536,12 @@
                         "ISO_A3": "MWI",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Chambo with Nshima",
+                        "DESCRIPTION": "Chambo is a freshwater fish from Lake Malawi that can be dried, roasted or fried and served with nshima, a maize flour porridge.",
+                        "PHOTO": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2018/04/nsima-.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/malawian-chambo/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177464,7 +177608,12 @@
                         "ISO_A3": "MYS",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Nasi Lemak",
+                        "DESCRIPTION": "Nasi lemak is a dish of coconut milk rice served with spicy sambal, fried anchovies cucumber, peanuts and egg.",
+                        "PHOTO": "https://ucarecdn.com/b59dcb57-979c-4742-9d60-e71c74c0841e/-/scale_crop/1280x720/center/-/quality/normal/-/format/webp/nasi-lemak.webp",
+                        "RECIPE": "https://www.nyonyacooking.com/recipes/nasi-lemak~BynkuvoPf9-X",
+                        "COUNTRY": true
                     }
                 },
                 {
