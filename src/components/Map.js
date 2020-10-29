@@ -102,11 +102,11 @@ class Map extends Component {
                                                         <Geography 
                                                             key={geo.rsmKey} 
                                                             geography={geo}
-                                                            onMouseEnter={() => {
+                                                            onMouseOver={() => {
                                                                 const { NAME } = geo.properties;
                                                                 this.props.setTooltipContent(`${NAME}`);
                                                             }}
-                                                            onMouseLeave={() => {
+                                                            onMouseOut={() => {
                                                                 this.props.setTooltipContent("");
                                                             }}
                                                             onClick={() => {
