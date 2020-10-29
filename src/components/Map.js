@@ -113,6 +113,10 @@ class Map extends Component {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                             }}
+                                                            onTouchStart={() => {
+                                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                            }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
                                                             strokeWidth="0.5"
