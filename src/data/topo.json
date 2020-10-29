@@ -177641,7 +177641,12 @@
                         "ISO_A3": "NAM",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Southern Africa"
+                        "SUBREGION": "Southern Africa",
+                        "DISH": "Pap",
+                        "DESCRIPTION": "Pap is a cornmeal porridge that is regularly served alongside sauces, meats, fish and vegetables.",
+                        "PHOTO": "https://blogs.fcdo.gov.uk/wp-content/uploads/papandcabbage.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/namibian-pap-and-fried-cabbage/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177682,7 +177687,8 @@
                         "ISO_A3": "NCL",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Melanesia"
+                        "SUBREGION": "Melanesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -177712,7 +177718,12 @@
                         "ISO_A3": "NER",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Djerma",
+                        "DESCRIPTION": "Djerma is a stew that can be made with or without meat, consisting of peanuts, onions, tomatoes, thyme, spices and stock.",
+                        "PHOTO": "https://www.comegathereat.com/wp-content/uploads/2019/10/DSC1220-e1571882469602.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-niger-djerma-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177736,7 +177747,8 @@
                         "ISO_A3": "NFK",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Australia and New Zealand"
+                        "SUBREGION": "Australia and New Zealand",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -177771,7 +177783,12 @@
                         "ISO_A3": "NGA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Jollof Rice",
+                        "DESCRIPTION": "Jollof rice is a rice dish that most commonly contains tomatoes, onions, salt and pepper, along with meat, chilli, other vegetables and spices such as nutmeg, thyme and parsley.",
+                        "PHOTO": "https://i.pinimg.com/originals/85/84/1f/85841f70480411b53540aa229920f518.jpg",
+                        "RECIPE": "https://food52.com/recipes/61557-classic-nigerian-jollof-rice",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177798,7 +177815,12 @@
                         "ISO_A3": "NIC",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Nacatamal",
+                        "DESCRIPTION": "Nacatamales are made from corn dough, pork or chicken, potato, tomato, raisins, chili, peanuts and other ingredients cooked inside a banana leaf.",
+                        "PHOTO": "https://nicaraguanrecipes.com/wp-content/uploads/2019/06/nacatamal.png",
+                        "RECIPE": "https://www.quericavida.com/recipes/nacatamales/f02a0ae8-e434-4108-80b6-cb3ac66b9703",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -177822,7 +177844,8 @@
                         "ISO_A3": "NIU",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -177861,7 +177884,12 @@
                         "ISO_A3": "NLD",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Western Europe"
+                        "SUBREGION": "Western Europe",
+                        "DISH": "Stamppot",
+                        "DESCRIPTION": "Stamppot is a dish of mashed potatoes that can be mixed with various other ingredients, such as carrots, onions, kale or bacon.",
+                        "PHOTO": "https://static.ah.nl/static/recepten/img_RAM_PRD121472_1024x748_JPG.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/stamppot-with-curly-kale-and-rookworst-1128837",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178025,7 +178053,12 @@
                         "ISO_A3": "NOR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Fårikål",
+                        "DESCRIPTION": "Fårikål is a dish made from mutton and cabbage cooked with black peppercorns, salt, water and flour.",
+                        "PHOTO": "https://wwwremaprodstorage.blob.core.windows.net/sys-master-hyb-prod/hd1/h88/8809794633758/rec_68867_faarikaal_crop_40334_tif_w1280hq75",
+                        "RECIPE": "http://allrecipes.co.uk/recipe/1452/f-rik-l.aspx",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178050,7 +178083,12 @@
                         "ISO_A3": "NPL",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Dal Bhat",
+                        "DESCRIPTION": "Dal bhat is a lentil curry spiced with cumin, coriander, turmeric and chile, often served with white rice, pickles and greens.",
+                        "PHOTO": "https://www.whats4eats.com/files/vegetables-dal-bhat-tarkari-wikipedia-Matsuoka-Akirakaoru-4x3.jpg",
+                        "RECIPE": "https://www.whats4eats.com/vegetables/dal-bhat-tarkari-recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178074,7 +178112,12 @@
                         "ISO_A3": "NRU",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "DISH": "Coconut Crusted Fish",
+                        "DESCRIPTION": "Coconut crusted fish is made by dipping fillets of white fish in lime, salt and pepper, before being rolled in flour, eggs and grated coconut before being cooked.",
+                        "PHOTO": "https://www.notesfromamessykitchen.com/wp-content/uploads/2017/02/00001IMG_00001_BURST20170222195547_COVER.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/nauru-coconut-crusted-fish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178135,7 +178178,12 @@
                         "ISO_A3": "NZL",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Australia and New Zealand"
+                        "SUBREGION": "Australia and New Zealand",
+                        "DISH": "Kiwi Pie",
+                        "DESCRIPTION": "Kiwi pies are savoury pies containing meat, usually beef and gravy, with different varieties including different ingredients.",
+                        "PHOTO": "https://www.thehits.co.nz/media/7641197/pie.jpg?mode=crop&width=620&height=349&quality=60&scale=both",
+                        "RECIPE": "https://www.recipes.co.nz/shop/EVERYDAY/UltimateKiwiPie.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178175,7 +178223,12 @@
                         "ISO_A3": "OMN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Shuwa",
+                        "DESCRIPTION": "Shuwa is a dish of lamb or goat that is marinated in a rub of spices, garlic and oil before being slow cooked.",
+                        "PHOTO": "https://i1.wp.com/www.omanobserver.om/wp-content/uploads/2019/02/Omani-Shuwa.jpg?resize=800%2C445&ssl=1",
+                        "RECIPE": "https://www.omanobserver.om/omani-shuwa/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178204,7 +178257,12 @@
                         "ISO_A3": "PAK",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Southern Asia"
+                        "SUBREGION": "Southern Asia",
+                        "DISH": "Nihari",
+                        "DESCRIPTION": "Nihari is a slow cooked stew of meat, strong spices and thickened with flour, often served with lemon wedges, green chillies and julienned ginger.",
+                        "PHOTO": "https://www.recipesaresimple.com/wp-content/uploads/2015/10/nihari-pakistan.jpg",
+                        "RECIPE": "https://www.flourandspiceblog.com/nihari/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178243,7 +178301,12 @@
                         "ISO_A3": "PAN",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Sancocho",
+                        "DESCRIPTION": "Sancocho is a chicken soup made with corriander, yucca, corn, onion, garlic and oregano.",
+                        "PHOTO": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5455600.jpg&w=1200&h=678&c=sc&poi=face&q=85",
+                        "RECIPE": "https://www.allrecipes.com/recipe/259059/panamanian-sancocho/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178267,7 +178330,8 @@
                         "ISO_A3": "PCN",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -178296,7 +178360,12 @@
                         "ISO_A3": "PER",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Ceviche",
+                        "DESCRIPTION": "Ceviche is a dish of raw fish that has been marinated in cirtus juice (usually lemon or lime), often served with sliced red onions and sometimes other vegetables.",
+                        "PHOTO": "https://www.recipeselected.com/wp-content/uploads/2019/09/Recipes-Selected-Ceviche.jpg",
+                        "RECIPE": "https://www.laylita.com/recipes/peruvian-fish-cebiche-or-ceviche/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178517,7 +178586,12 @@
                         "ISO_A3": "PHL",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Adobo",
+                        "DESCRIPTION": "Adobo is a dish of chicken (usually thigh meat) that is marinated with soy sauce, ginger, vinegar, onion, garlic, pepper, sugar and bayleaves.",
+                        "PHOTO": "https://vikalinka.com/wp-content/uploads/2017/01/IMG_8510-Edit.jpg",
+                        "RECIPE": "https://www.recipetineats.com/filipino-chicken-adobo-flavour-kapow/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178541,7 +178615,12 @@
                         "ISO_A3": "PLW",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Micronesia"
+                        "SUBREGION": "Micronesia",
+                        "DISH": "Broiled Fish",
+                        "DESCRIPTION": "Palauan style broiled fish is made from whole fish that is seasoned with garlic, ginger, soy sauce, sesame oil and lime leves, cooked in banana leaves.",
+                        "PHOTO": "https://ethnicfoodsrus.com/wp-content/uploads/2016/12/Palauan-Style-Broiled-Fish.jpg",
+                        "RECIPE": "https://ethnicfoodsrus.com/around-the-world-recipes/smallest-countries-worldwide-cuisines/palauan-cuisine/palauan-style-broiled-fish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178678,7 +178757,12 @@
                         "ISO_A3": "PNG",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Melanesia"
+                        "SUBREGION": "Melanesia",
+                        "DISH": "Mumu",
+                        "DESCRIPTION": "Mumu is a traditional way to prepare food using a pit filled with hot stones to cook a mixture of fruits, vegetables, root crops and meat.",
+                        "PHOTO": "https://1.bp.blogspot.com/-ZytV9sHOm8Q/XSuf4wDznBI/AAAAAAAAUYQ/0-tEJkAhGPwW3x-tYeEo4HZ1ZwYJZMfJwCLcBGAs/s400/mumu.jpg",
+                        "RECIPE": "http://www.fairtradecookbook.org.uk/recipes/mumu.htm",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178711,7 +178795,12 @@
                         "ISO_A3": "POL",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Bigos",
+                        "DESCRIPTION": "Bigos is a meat stew that can be made with different meats, spicy polish sausage, cabbage, sauerkraut, tomatoes, onion and garlic.",
+                        "PHOTO": "https://www.hairybikers.com/uploads/images/_opengraphTwitterImage/Bigos.jpg",
+                        "RECIPE": "https://www.hairybikers.com/recipes/view/bigos-stew",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178735,7 +178824,8 @@
                         "ISO_A3": "PRI",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -178763,7 +178853,12 @@
                         "ISO_A3": "PRK",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Naengmyeon",
+                        "DESCRIPTION": "Naengmyeon is a cold noodle dish made with a broth of kimchi brine and beef stock, served with cucumbers, Korean pear and boiled egg.",
+                        "PHOTO": "https://www.maangchi.com/wp-content/uploads/2008/06/mul-naengmyeon.jpg",
+                        "RECIPE": "https://www.maangchi.com/recipe/naengmyeon",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178820,7 +178915,12 @@
                         "ISO_A3": "PRT",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Bacalhau",
+                        "DESCRIPTION": "Bacalhau is a dish of dried and salted cod that can be prepared in a large variety of ways, such as bacalhau à brás, where the fish is shredded and served with potatoes.",
+                        "PHOTO": "https://img.cybercook.com.br/receitas/5/churrasco-de-lombo-de-bacalhau-623x350.jpeg",
+                        "RECIPE": "https://www.foodandwine.com/recipes/bacalhau-bras-salt-cod-eggs-and-potatoes",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178846,7 +178946,12 @@
                         "ISO_A3": "PRY",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Sopa Paraguaya",
+                        "DESCRIPTION": "Sopa paraguaya is a cheesy cornbread made from corn flour, cheese, milk and onions.",
+                        "PHOTO": "https://comidasparaguayas.com/wp-content/uploads/2019/04/sopa-paraguaya_700x466.jpg",
+                        "RECIPE": "https://www.kingarthurbaking.com/recipes/sopa-paraguaya-recipe",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178880,7 +178985,12 @@
                         "ISO_A3": "PSE",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Maqluba",
+                        "DESCRIPTION": "Maqluba is a one pot dish made of layers of rice, vegetables and meat (or sometimes without) that is flipped upside down before being served.",
+                        "PHOTO": "https://www.cheftariq.com/wp-content/uploads/2020/03/maqluba-7.jpg",
+                        "RECIPE": "https://cooking.nytimes.com/recipes/1018535-maha-sarsours-maqluba-upside-down-chicken-and-rice",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -178926,7 +179036,8 @@
                         "ISO_A3": "PYF",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -178951,7 +179062,12 @@
                         "ISO_A3": "QAT",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Majboos",
+                        "DESCRIPTION": "Majboos is a dish made with slow cooked lamb or chicken served with seasoned rice, salad and a tomato sauce.",
+                        "PHOTO": "https://somethingiscooking.com/wp-content/uploads/2016/04/QatariChickenMajboos1-768x1024.jpg",
+                        "RECIPE": "https://somethingiscooking.com/2016/04/20/qatari-chicken-majboos-atozchallenge/",
+                        "COUNTRY": true
                     }
                 },
                 {
