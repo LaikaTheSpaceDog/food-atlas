@@ -126,7 +126,8 @@ class Map extends Component {
                                                                 },
                                                                 pressed: {
                                                                     outline: 'none'
-                                                                }
+                                                                },
+                                                                cursor:'pointer'
                                                             }}
                                                         />
                                                     </a>
