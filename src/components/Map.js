@@ -113,6 +113,10 @@ class Map extends Component {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                             }}
+                                                            onChange={() => {
+                                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                            }}
                                                             onClick={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
