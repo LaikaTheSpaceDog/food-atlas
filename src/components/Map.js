@@ -112,14 +112,12 @@ class Map extends Component {
                                                             onTouchStart={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                                            }}
-                                                            onChange={() => {
-                                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                                console.log("Touch event");
                                                             }}
                                                             onClick={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                                console.log("Click event");
                                                             }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
