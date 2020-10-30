@@ -179097,7 +179097,12 @@
                         "ISO_A3": "ROU",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Sarmale",
+                        "DESCRIPTION": "Sarmale are a dish of cabbage leaves or sauerkraut wrapped around ground pork, onions, parsley and dill.",
+                        "PHOTO": "https://www.jocooks.com/wp-content/uploads/2011/12/sarmale-1-2.jpg",
+                        "RECIPE": "https://www.jocooks.com/recipes/sarmale/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179534,7 +179539,12 @@
                         "ISO_A3": "RUS",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Pelmeni",
+                        "DESCRIPTION": "Pelmeni are small dumplings filled with beef, pork and spices, most commonly served with sour cream and dill.",
+                        "PHOTO": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2020-08-how-to-pelmeni%2FKitchn_SBSGuide_SiberianPelmeniDumpling_0203",
+                        "RECIPE": "https://momsdish.com/recipe/76/pelmeni",
+                        "COUNTRY": true
                     }
                 },
                 {

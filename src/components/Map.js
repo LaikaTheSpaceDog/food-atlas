@@ -109,11 +109,11 @@ class Map extends Component {
                                                             onMouseOut={() => {
                                                                 this.props.setTooltipContent("");
                                                             }}
-                                                            onClick={() => {
+                                                            onTouchStart={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                             }}
-                                                            onTouchStart={() => {
+                                                            onClick={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                             }}
