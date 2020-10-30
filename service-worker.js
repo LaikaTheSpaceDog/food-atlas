@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/food-atlas/precache-manifest.ff13b35003ac4b1e2206c846043e1524.js"
+  "/food-atlas/precache-manifest.da22eba1136c628031e5ee938a9c268b.js"
 );
 
 self.addEventListener('message', (event) => {
