@@ -51,17 +51,18 @@
         }
 
         .country {
-            padding: 1rem;
+            padding: 0.5rem;
             padding-bottom: 2rem;
+            padding-top: 1rem;
 
             .countryHeader {
                 .recipe{
-                    width: 2rem;
-                    height: 2.5rem;
+                    width: 1.2rem;
+                    height: 1.5rem;
                 }
                 .button{
-                    width: 2rem;
-                    height: 2rem;
+                    width: 1.5rem;
+                    height:1.5rem;
                 }
             }
         }
@@ -105,6 +106,29 @@
             .photo {
                 height: 20vh;
                 width: 30vw
+            }
+        }
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 600px) {
+    body {
+        .photoContainer{
+            .photo{
+                height: 30vh;
+                width: 25vw;
+            }
+        }
+        .country{
+            .countryHeader {
+                .recipe{
+                    width: 2rem;
+                    height: 2.5rem;
+                }
+                .button{
+                    width: 2.5rem;
+                    height:2.5rem;
+                }
             }
         }
     }

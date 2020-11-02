@@ -160,8 +160,7 @@ svg {
   border-radius: 8%; }
 
 .photoContainer {
-  width: 25vw;
-  height: 30vh; }
+  text-align: center; }
 
 .transition-appear {
   opacity: 0.01; }
@@ -345,14 +344,15 @@ svg {
     body .text, body .link {
       font-size: 0.75rem; }
     body .country {
-      padding: 1rem;
-      padding-bottom: 2rem; }
+      padding: 0.5rem;
+      padding-bottom: 2rem;
+      padding-top: 1rem; }
       body .country .countryHeader .recipe {
-        width: 2rem;
-        height: 2.5rem; }
+        width: 1.2rem;
+        height: 1.5rem; }
       body .country .countryHeader .button {
-        width: 2rem;
-        height: 2rem; }
+        width: 1.5rem;
+        height: 1.5rem; }
     body .asideText {
       font-size: 0.75rem; }
     body .countryList .listItem a {
@@ -380,6 +380,17 @@ svg {
       body .photoContainer .photo {
         height: 20vh;
         width: 30vw; } }
+
+@media only screen and (orientation: landscape) and (max-width: 600px) {
+  body .photoContainer .photo {
+    height: 30vh;
+    width: 25vw; }
+  body .country .countryHeader .recipe {
+    width: 2rem;
+    height: 2.5rem; }
+  body .country .countryHeader .button {
+    width: 2.5rem;
+    height: 2.5rem; } }
 
 @media only screen and (max-width: 460px) {
   body .heading {
