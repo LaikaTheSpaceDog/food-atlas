@@ -1,10 +1,11 @@
-import React, { memo, Component } from 'react';
+import React, { memo } from 'react';
 import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simple-maps";
 import geoUrl from "../data/topo.json";
 import Country from './Country'
 import { CSSTransition, SwitchTransition } from "react-transition-group";
+import { PersistentComponent } from 'react-persistent-state'
 
-class Map extends Component { 
+class Map extends PersistentComponent { 
 
     constructor(props){
         super(props);
