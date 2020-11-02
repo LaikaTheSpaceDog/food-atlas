@@ -110,14 +110,10 @@ class Map extends PersistentComponent {
                                                             onMouseOut={() => {
                                                                 this.props.setTooltipContent("");
                                                             }}
-                                                            onTouchStart={() => {
-                                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                                                console.log("Touch event");
-                                                            }}
                                                             onClick={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                                this.props.setTooltipContent("");
                                                             }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
