@@ -99,7 +99,7 @@ class Map extends PersistentComponent {
                                         <Geographies geography={geoUrl}>
                                             {({ geographies }) =>
                                                 geographies.map(geo =>
-                                                    <a href="/#country" key={ geo.properties.NAME }>
+                                                    <a href="/food-atlas/#country" key={ geo.properties.NAME }>
                                                         <Geography 
                                                             key={geo.rsmKey} 
                                                             geography={geo}
