@@ -179571,7 +179571,12 @@
                         "ISO_A3": "RWA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Brochettes",
+                        "DESCRIPTION": "Brochettes are made by cooking meat (goat, beef, chicken or pork_ on skewers, often served with potatoes or roasted bananas.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/efae24a95d314c118ae3c1153eaf1db0.jpg?mw=1300",
+                        "RECIPE": "https://africanbite.com/2012/10/23/lamb-brochettes-rwanda/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179598,7 +179603,8 @@
                         "ISO_A3": "ESH",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -179643,7 +179649,12 @@
                         "ISO_A3": "SAU",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Kabsa",
+                        "DESCRIPTION": "Kabsa is a mixed rice dish containing meat (often chicken), vegetables and a mixture of spices (such as cardamom, saffron, cinnamon, black lime, bay leaves and nutmeg).",
+                        "PHOTO": "https://www.manusmenu.com/wp-content/uploads/2015/10/1-Chicken-Kabsa-9-1-of-1.jpg",
+                        "RECIPE": "https://www.food.com/recipe/al-kabsa-traditional-saudi-rice-chicken-dish-289878",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179674,7 +179685,12 @@
                         "ISO_A3": "SDN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Ful Medames",
+                        "DESCRIPTION": "Ful medames is a breakfast dish of mashed fava beans with onions, spices and oil, with boiled egg served on top.",
+                        "PHOTO": "https://i2.wp.com/nationalfoods.org/wp-content/uploads/2018/02/National-Dish-of-Sudan-Ful-Medames.jpg?w=1140&ssl=1",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-sudan-ful-medames/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179703,7 +179719,12 @@
                         "ISO_A3": "SSD",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Ful Medames",
+                        "DESCRIPTION": "Ful medames is a breakfast dish of mashed fava beans with onions, spices and oil, with boiled egg served on top.",
+                        "PHOTO": "https://tasteofsouthsudan.com/wp-content/uploads/2017/10/Ful-medames-Sahan-ful.jpg",
+                        "RECIPE": "https://tasteofsouthsudan.com/ful-medames-sudanese-fava-beans/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179733,7 +179754,12 @@
                         "ISO_A3": "SEN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Thiéboudienne",
+                        "DESCRIPTION": "Thiéboudienne is a one pot dish of fish, rice and vegetables (such as potato, pumpkin and cassava) that are cooked in a tomato sauce",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2016/02/Thieboudienne-2-FP1.jpg",
+                        "RECIPE": "https://www.saveur.com/article/Recipes/Senegal-Fish-Rice/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179757,7 +179783,12 @@
                         "ISO_A3": "SGP",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Hainanese Chicken Rice",
+                        "DESCRIPTION": "Hainanese chicken rice is a dish of steamed rice and chicken topped with soy sauce, coriander and sesame oil, often served with a garlic-chilli dip.",
+                        "PHOTO": "https://steamykitchen.com/wp-content/uploads/2017/09/hainanese-chicken-rice-recipe-9681.jpg",
+                        "RECIPE": "https://steamykitchen.com/5068-hainanese-chicken-rice.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179781,7 +179812,8 @@
                         "ISO_A3": "SGS",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Seven seas (open ocean)",
-                        "SUBREGION": "Seven seas (open ocean)"
+                        "SUBREGION": "Seven seas (open ocean)",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -179805,7 +179837,8 @@
                         "ISO_A3": "SHN",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -179921,7 +179954,12 @@
                         "ISO_A3": "SLB",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Melanesia"
+                        "SUBREGION": "Melanesia",
+                        "DISH": "Poi",
+                        "DESCRIPTION": "Poi is a savoury paste, typically served as a side dish, made from rinsed taro roots.",
+                        "PHOTO": "https://i2.wp.com/nationalfoods.org/wp-content/uploads/2018/02/National-Dish-of-Solomon-Islands-Poi.jpg?w=1140&ssl=1",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-solomon-islands-poi/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179954,7 +179992,12 @@
                         "ISO_A3": "SLE",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Cassava Leaf Stew",
+                        "DESCRIPTION": "Cassava leaf stew (or soup) is prepared with meat or dish, cassava leaves, peanuts, onion and chilli.",
+                        "PHOTO": "https://www.africanbites.com/wp-content/uploads/2014/01/IMG_0719.jpg",
+                        "RECIPE": "https://www.africanbites.com/cassava-leaf-soup/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -179980,7 +180023,12 @@
                         "ISO_A3": "SLV",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Central America"
+                        "SUBREGION": "Central America",
+                        "DISH": "Pupusa",
+                        "DESCRIPTION": "Pupusas are a type of thick flatbread made from cornmeal or rice flour that can be stuffed with a variety of fillings, such as beans, cheese and meat.",
+                        "PHOTO": "https://hispanickitchen-nglmedia.netdna-ssl.com/wp-content/uploads/2017/03/Pupusas-1500-700x500.jpg",
+                        "RECIPE": "https://hispanickitchen.com/recipes/pupusas-de-chicharron/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180004,7 +180052,12 @@
                         "ISO_A3": "SMR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Torta Tre Monti",
+                        "DESCRIPTION": "Torta Tre Monti is a cake made from layers of waffled wafers and chocolate or hazlenut cream.",
+                        "PHOTO": "https://www.laserenissima.sm/56-thickbox_default/torta-tre-monti-metallo.jpg",
+                        "RECIPE": "https://inmamamaggieskitchen.com/torta-tre-monti/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180031,7 +180084,8 @@
                         "ISO_A3": "-99",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -180058,7 +180112,12 @@
                         "ISO_A3": "SOM",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Sambusa",
+                        "DESCRIPTION": "Sambusa are triangular pastries, most often stuffed with spiced lamb or beef and onion.",
+                        "PHOTO": "https://www.mysomalifood.com/wp-content/uploads/2009/08/sambusa.jpg",
+                        "RECIPE": "https://www.mysomalifood.com/somali-sambusa/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180082,7 +180141,8 @@
                         "ISO_A3": "SPM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Northern America"
+                        "SUBREGION": "Northern America",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -180113,7 +180173,12 @@
                         "ISO_A3": "SRB",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Gibanica",
+                        "DESCRIPTION": "Gibanica is a layered pastry dish filled with cottage cheese and eggs, with specific recipes ranging between sweet and savoury.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/0-Ndob5M1hoSnsaXVJtn2JdW9tY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Gibanica-30272850805_5b6a124de2_k-592b65275f9b585950090e36.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/salty-serbian-gibanica-1135905",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180144,7 +180209,12 @@
                         "ISO_A3": "STP",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Calulu",
+                        "DESCRIPTION": "Calulu is a fish stew containing vegetables, okra and sweet potato leaves, often served with a cassava paste called funje.",
+                        "PHOTO": "https://easyportugueserecipes.com/wp-content/uploads/2013/08/800px-Calulu.jpg",
+                        "RECIPE": "https://easyportugueserecipes.com/fish-calulu-calulu-de-peixe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180171,7 +180241,12 @@
                         "ISO_A3": "SUR",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Pom",
+                        "DESCRIPTION": "Pom is an oven dish made from meat, citrus, spices, American taro root and other root vegetables.",
+                        "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/02/Suriname-Pom-26.jpg",
+                        "RECIPE": "https://blog.arousingappetites.com/pom-surinamese-chicken-pomtajer-potato-root-vegetable-casserole/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180199,7 +180274,12 @@
                         "ISO_A3": "SVK",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Bryndzové Halušky",
+                        "DESCRIPTION": "Bryndzové halušky is a dish of small potato dumplings with sheeps cheese and bacon.",
+                        "PHOTO": "https://www.halusky.co.uk/wordpress/wp-content/uploads/2018/04/halusky-800x600-700x525.jpg",
+                        "RECIPE": "https://www.halusky.co.uk/czech-slovak-foods/content/recipes/slovakian-national-dish-bryndzove-halusky/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180227,7 +180307,12 @@
                         "ISO_A3": "SVN",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Ajdovi Vzhajanci",
+                        "DESCRIPTION": "Ajdovi vzhajanci are dumplings made from buckwheat, often served as a side with sauerkraut, vegetables, stews and roasted meats (such as veal).",
+                        "PHOTO": "https://odprtakuhinja.delo.si/wp-content/uploads/2020/04/Odprtakuhinja-ajdovi-vzhajanci.jpg",
+                        "RECIPE": "https://homemadeslovenianfood.blogspot.com/2018/03/buckwheat-leavened-dumplings.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180265,7 +180350,12 @@
                         "ISO_A3": "SWE",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Northern Europe"
+                        "SUBREGION": "Northern Europe",
+                        "DISH": "Köttbullar",
+                        "DESCRIPTION": "Köttbullar are Swedish meatballs made from pork and veal mince, usually served with a cream sauce.",
+                        "PHOTO": "https://www.swedishfood.com/images/Mains/Meatballs/Meatballs-570-L1476.jpg",
+                        "RECIPE": "https://www.swedishfood.com/swedish-food-recipes-main-courses/44-meatballs",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180277,10 +180367,10 @@
                     ],
                     "type": "Polygon",
                     "properties": {
-                        "NAME": "Swaziland",
-                        "NAME_LONG": "Swaziland",
+                        "NAME": "Eswatini",
+                        "NAME_LONG": "Eswatini",
                         "ABBREV": "Swz.",
-                        "FORMAL_EN": "Kingdom of Swaziland",
+                        "FORMAL_EN": "Kingdom of Eswatini",
                         "POP_EST": 1467152,
                         "POP_RANK": 12,
                         "GDP_MD_EST": 11060,
@@ -180290,7 +180380,12 @@
                         "ISO_A3": "SWZ",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Southern Africa"
+                        "SUBREGION": "Southern Africa",
+                        "DISH": "Slaai",
+                        "DESCRIPTION": "Slaai is an avocado salad, often containing peanuts, lemon juice and ginger.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/02/swaziland-slaai-3.jpg",
+                        "RECIPE": "https://www.196flavors.com/eswatini-slaai/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180315,7 +180410,8 @@
                         "ISO_A3": "SXM",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -180339,7 +180435,12 @@
                         "ISO_A3": "SYC",
                         "CONTINENT": "Seven seas (open ocean)",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Octopus Curry",
+                        "DESCRIPTION": "Octopus curry is a one pot curry dish made using fresh octopus, often based around masala spices, curry leaves, chilli and coconut cream.",
+                        "PHOTO": "https://nourishingafrica.com/wp-content/uploads/2019/11/Octopus-and-Eggplant-Curry-1-760x507.jpg",
+                        "RECIPE": "https://www.internationalcuisine.com/octopus-curry/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180368,7 +180469,12 @@
                         "ISO_A3": "SYR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Kibbeh",
+                        "DESCRIPTION": "Kibbeh are meat-filled croquettes made with bulgur wheat and spiced ground lamb.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/iG-yv4J-8E-xITbpomaojJSWxmY=/4288x2848/filters:fill(auto,1)/easy-beginner-kibbeh-recipe-2355367-Hero-5b7b259ec9e77c00505a8eaa.jpg",
+                        "RECIPE": "https://www.foodhopping.us/recipes/kibbeh-national-dish-syria/",
+                        "COUNTRY": true
                     }
                 },
                 {
