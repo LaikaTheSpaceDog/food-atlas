@@ -30,7 +30,7 @@ class Map extends Component {
             description: description,
             photo: photo,
             recipe: recipe
-        })
+        }, () => console.log(this.state))
     }
 
     handleBack(){
@@ -42,7 +42,7 @@ class Map extends Component {
                 photo: "",
                 recipe: "",
                 selected: false
-            })
+            }) 
         }, 1000);
     }
 
@@ -98,7 +98,7 @@ class Map extends Component {
                                         <Geographies geography={geoUrl}>
                                             {({ geographies }) =>
                                                 geographies.map(geo =>
-                                                    <a href="#country" key={ geo.properties.NAME }>
+                                                    <a href="/#country" key={ geo.properties.NAME }>
                                                         <Geography 
                                                             key={geo.rsmKey} 
                                                             geography={geo}
@@ -117,7 +117,6 @@ class Map extends Component {
                                                             onClick={() => {
                                                                 const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                                 this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                                                console.log("Click event");
                                                             }}
                                                             fill="#44BBA4"
                                                             stroke="#E94F37"
