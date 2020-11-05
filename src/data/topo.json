@@ -180510,7 +180510,8 @@
                         "ISO_A3": "TCA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -180539,7 +180540,12 @@
                         "ISO_A3": "TCD",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Middle Africa"
+                        "SUBREGION": "Middle Africa",
+                        "DISH": "Peanut and Squash Stew",
+                        "DESCRIPTION": "Peanut and squash stew is a simple and hearty stew, primarily consisting of squash, chopped peanuts and spices.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/2121c51c24374a239ebf1257d60be69d.jpg?mw=1300",
+                        "RECIPE": "https://food52.com/recipes/23979-african-squash-and-peanut-stew-with-coconut-milk-and-quinoa",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180566,7 +180572,12 @@
                         "ISO_A3": "TGO",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Western Africa"
+                        "SUBREGION": "Western Africa",
+                        "DISH": "Gboma Dessi",
+                        "DESCRIPTION": "Gboma dessi is a stew primarily consisting of spinach, meat (often beef) and tomatoes, which are cooked with onions, garlic, ginger, chilli peppers and a local gbotemi spice blend.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/06/gboma-dessi-and-akoume-1024x768.jpg",
+                        "RECIPE": "https://www.196flavors.com/togo-gboma-dessi-and-akoume/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180617,7 +180628,12 @@
                         "ISO_A3": "THA",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Pad Thai",
+                        "DESCRIPTION": "Pad thai is a stir-fried noodle dish containing crushed peanuts, bean sprouts, garlic, egg and some form of protein (tofu, chicken or shrimp).",
+                        "PHOTO": "https://www.feastingathome.com/wp-content/uploads/2016/04/easy-authentic-pad-thai-recipe-100-8.jpg",
+                        "RECIPE": "https://www.feastingathome.com/15-minute-pad-thai/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180651,7 +180667,12 @@
                         "ISO_A3": "TJK",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Central Asia"
+                        "SUBREGION": "Central Asia",
+                        "DISH": "Qurutob",
+                        "DESCRIPTION": "Qurutob is a dish of layers of fatir bread, dried yogurt and vegetables, such as tomatoes, spring onions and herbs.",
+                        "PHOTO": "https://www.thefooddictator.com/wp-content/uploads/2018/01/%D2%9B%D1%83%D1%80%D1%83%D1%82%D0%BE%D0%B1-1200x799.jpg",
+                        "RECIPE": "https://foodperestroika.com/2013/10/15/qurutob-tajikistans-national-dish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180679,7 +180700,12 @@
                         "ISO_A3": "TKM",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Central Asia"
+                        "SUBREGION": "Central Asia",
+                        "DISH": "Ichlekli",
+                        "DESCRIPTION": "Ichlekli is a meat pie that is traditionally cooked underground, often containing beef, tomato, onions and peppers.",
+                        "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/10/Turkmenistan-Ichlekli.jpg",
+                        "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-turkmenistan-ichlekli/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180717,7 +180743,12 @@
                         "ISO_A3": "TLS",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Batar Da'an",
+                        "DESCRIPTION": "Batar da'an is a vegetable stew consisting of corn, mung beans and butternut squash.",
+                        "PHOTO": "https://thehungarybuddha.files.wordpress.com/2013/08/batar-daan.jpg",
+                        "RECIPE": "https://thehungarybuddha.com/2013/08/29/batar-daan-expected-squash-bean-and-corn-stew/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180748,7 +180779,12 @@
                         "ISO_A3": "TON",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "DISH": "'Ota 'Ika",
+                        "DESCRIPTION": "'Ota 'ika is a dish of raw fish that is marinated in coconut milk and citrus juice, often served with tomatoes, green onions, cucumbers and hot peppers.",
+                        "PHOTO": "https://kara-coconut.com/wp-content/uploads/2019/01/Ota-ika.jpg",
+                        "RECIPE": "https://www.odt.co.nz/lifestyle/food-wine/how-make-ota-ika-tongan-raw-fish",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180779,7 +180815,12 @@
                         "ISO_A3": "TTO",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Callaloo",
+                        "DESCRIPTION": "Callaloo is a thick stew of dasheen leaves cooked with spices, coconut milk and other vegetables. It is traditionally served with crab, but other meats can be used.",
+                        "PHOTO": "https://i0.wp.com/nationalfoods.org/wp-content/uploads/2018/12/National-Dish-of-Trinidad-and-Tobago-crab-and-callaloo-Callaloo.jpg?w=2280&ssl=1",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-trinidad-tobago-callaloo/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180812,7 +180853,12 @@
                         "ISO_A3": "TUN",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Northern Africa"
+                        "SUBREGION": "Northern Africa",
+                        "DISH": "Brik",
+                        "DESCRIPTION": "Brik is a dish of thin pastry, often wrapped around egg, onion, tuna, harisa and parsley, which is then deep fried.",
+                        "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/07/Tunisia-Tuna-Briks-2.jpg",
+                        "RECIPE": "https://www.196flavors.com/tunisia-tuna-briks/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180856,7 +180902,12 @@
                         "ISO_A3": "TUR",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Kuru Fasulye",
+                        "DESCRIPTION": "Kuru fasulye is a stew of white beans and vegetables in a tomato sauce.",
+                        "PHOTO": "https://lezzet.blob.core.windows.net/images-xxlarge-recipe/kuru_fasulye-deae63dd-dda5-4390-b67b-3b2d68d4a1eb.jpg",
+                        "RECIPE": "https://theturkishplate.com/recipe/turkish-white-beans-kuru-fasulye/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180887,7 +180938,12 @@
                         "ISO_A3": "TWN",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Eastern Asia"
+                        "SUBREGION": "Eastern Asia",
+                        "DISH": "Beef Noodles",
+                        "DESCRIPTION": "Taiwanese beef noodles is a noodle dish containing braised beef, served in a rich and spicy broth with bok choy, pickled mustard greens, spring onions and corriander.",
+                        "PHOTO": "https://www.saveur.com/resizer/7RQ2ZNgPAmNkX55QbO9nI64wwVI=/2046x1534/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/HMH4STHMBCAYWE5GZ6NBXFC3E4.jpg",
+                        "RECIPE": "https://tasty.co/recipe/taiwanese-beef-noodle-soup",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180936,7 +180992,12 @@
                         "ISO_A3": "TZA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Mchicha",
+                        "DESCRIPTION": "Mchicha is a curry of amaranth greens (which can be substituted for spinach) and peanuts cooked with tomatoes, onion, cocnut milk and spices.",
+                        "PHOTO": "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_562,h_316/v1/img/recipes/31/03/41/picpcbhO9.jpg",
+                        "RECIPE": "https://www.food.com/recipe/mchicha-tanzanian-spinach-peanut-curry-310341",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -180964,7 +181025,12 @@
                         "ISO_A3": "UGA",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Matoke",
+                        "DESCRIPTION": "Matoke is a curry dish made from mashed green bananas that are cooked with cumin, coriander, cinnamon, pepper, chilli, onion and tomatoes.",
+                        "PHOTO": "https://www.sanjanafeasts.co.uk/blog/wp-content/uploads/2019/04/matoke_1-1.jpg",
+                        "RECIPE": "https://www.sanjanafeasts.co.uk/blog/2019/04/ugandan-matoke-spicy-green-banana-mash/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181005,7 +181071,12 @@
                         "ISO_A3": "UKR",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Eastern Europe"
+                        "SUBREGION": "Eastern Europe",
+                        "DISH": "Borsch",
+                        "DESCRIPTION": "Borsch is a sour beetroot soup usually containing potatoes, cabbage and sometimes other vegetables. It is served with sour cream and sometimes contains meat, often beef.",
+                        "PHOTO": "https://natashaskitchen.com/wp-content/uploads/2018/10/Borscht-Recipe-3.jpg",
+                        "RECIPE": "https://natashaskitchen.com/classic-russian-borscht-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181031,7 +181102,12 @@
                         "ISO_A3": "URY",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Chivito",
+                        "DESCRIPTION": "Chivito is a sandwich containing beef steak, mozzarella, tomatoes, mayonaise and olives, often with bacon and eggs added.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/IF1cgp4tLQIAUGDF__J3mzj7TUs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chivito_al_pan_uruguayo-589305e15f9b5874ee7b9292.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/chivito-sandwich-from-uruguay-3029718",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181419,7 +181495,12 @@
                         "ISO_A3": "USA",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Northern America"
+                        "SUBREGION": "Northern America",
+                        "DISH": "Hamburger",
+                        "DESCRIPTION": "Hamburgers are sandwiches of cooked patties of ground beef served inside a bread roll, often with other ingreidents such as cheese, lettuce, tomato and pickles.",
+                        "PHOTO": "https://girlscangrill.com/wp-content/uploads/2015/09/classic-american-hamburger.jpg",
+                        "RECIPE": "https://girlscangrill.com/recipe/classic-hamburgers/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181454,7 +181535,12 @@
                         "ISO_A3": "UZB",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Central Asia"
+                        "SUBREGION": "Central Asia",
+                        "DISH": "Plov",
+                        "DESCRIPTION": "Plov is a rice dish containing lamb, carrot, onions, garlic and chilli served in a large dish.",
+                        "PHOTO": "https://user-images.immediate.co.uk/bbcgoodfood/recipes/user-recipe/ready_4.jpg?quality=90&webp=true&resize=600,545",
+                        "RECIPE": "https://www.bbcgoodfood.com/user/186153/recipe/uzbek-plov",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181478,7 +181564,12 @@
                         "ISO_A3": "VAT",
                         "CONTINENT": "Europe",
                         "REGION_UN": "Europe",
-                        "SUBREGION": "Southern Europe"
+                        "SUBREGION": "Southern Europe",
+                        "DISH": "Fettucine alla Papalina",
+                        "DESCRIPTION": "Fettucine alla Papalina (or the Pope's Fettuccine) is a creamy pasta dish with parmesan, prosciutto and sometimes peas.",
+                        "PHOTO": "https://blog.giallozafferano.it/valeriaciccotti/wp-content/uploads/2019/09/fett-blog.jpg",
+                        "RECIPE": "https://memoriediangelina.com/2009/07/06/fettuccine-alla-papalina/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181502,7 +181593,12 @@
                         "ISO_A3": "VCT",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "DISH": "Roasted Breadfruit and Fried Jackish",
+                        "DESCRIPTION": "For this recipe, the breadfruit is traditionally roasted over an open fire whilst the fish is marinated in lemon juice and dusted in flour before being fried.",
+                        "PHOTO": "https://pbs.twimg.com/media/EWD0oJaXgAMRiWi.jpg",
+                        "RECIPE": "https://foodtravelogue.com/2016/11/roasted-breadfruit-fried-jackfish/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181546,7 +181642,12 @@
                         "ISO_A3": "VEN",
                         "CONTINENT": "South America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "South America"
+                        "SUBREGION": "South America",
+                        "DISH": "Pabellon Criollo",
+                        "DESCRIPTION": "Pabellon criollo is a dish of shredded beef served with rice and stewed black beans.",
+                        "PHOTO": "https://www.thespruceeats.com/thmb/U-DD2cc2sPADXPxU36Aek9iWUY0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pabellon-5822b3635f9b58d5b125206a.jpg",
+                        "RECIPE": "https://www.thespruceeats.com/venezuelan-steak-with-black-beans-rice-3029474",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181570,7 +181671,8 @@
                         "ISO_A3": "VGB",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -181594,7 +181696,8 @@
                         "ISO_A3": "VIR",
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
-                        "SUBREGION": "Caribbean"
+                        "SUBREGION": "Caribbean",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -181638,7 +181741,12 @@
                         "ISO_A3": "VNM",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "South-Eastern Asia"
+                        "SUBREGION": "South-Eastern Asia",
+                        "DISH": "Pho",
+                        "DESCRIPTION": "Pho is a coup of bone broth, noodles, spices and thinly sliced beef, often topped with herbs and bean sprouts.",
+                        "PHOTO": "https://s23991.pcdn.co/wp-content/uploads/2016/06/pho-recipe.jpg",
+                        "RECIPE": "https://leitesculinaria.com/36506/recipes-pho-noodle-soup.html",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181729,7 +181837,12 @@
                         "ISO_A3": "VUT",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Melanesia"
+                        "SUBREGION": "Melanesia",
+                        "DISH": "Lap Lap",
+                        "DESCRIPTION": "Lap lap is a bakes casserole dish, primarily consisting of grated root vegetables, bananas, coconut milk and sometimes mear that is wrapped in banana leaves and cooked under hot stones.",
+                        "PHOTO": "https://i.ytimg.com/vi/JXAh8d0TKk0/maxresdefault.jpg",
+                        "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-vanuatu-lap-lap/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181753,7 +181866,8 @@
                         "ISO_A3": "WLF",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "COUNTRY": false
                     }
                 },
                 {
@@ -181784,7 +181898,12 @@
                         "ISO_A3": "WSM",
                         "CONTINENT": "Oceania",
                         "REGION_UN": "Oceania",
-                        "SUBREGION": "Polynesia"
+                        "SUBREGION": "Polynesia",
+                        "DISH": "Oka I'a",
+                        "DESCRIPTION": "Oka i'a is a dish of raw fish, usually tuna, that is marinated in lemon juice and coconut vream and served with onion.",
+                        "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2019/05/Samoan-Fish-Salad.jpeg",
+                        "RECIPE": "https://www.internationalcuisine.com/samoan-fish-salad/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181822,7 +181941,12 @@
                         "ISO_A3": "YEM",
                         "CONTINENT": "Asia",
                         "REGION_UN": "Asia",
-                        "SUBREGION": "Western Asia"
+                        "SUBREGION": "Western Asia",
+                        "DISH": "Saltah",
+                        "DESCRIPTION": "Saltah is a meat or vegetable soup that is topped with a fenugreek broth called hilbeh.",
+                        "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/ee8801c266e8497bb4aa998f172cc369.jpg",
+                        "RECIPE": "https://www.196flavors.com/yemen-saltah/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181862,7 +181986,12 @@
                         "ISO_A3": "ZAF",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Southern Africa"
+                        "SUBREGION": "Southern Africa",
+                        "DISH": "Bobotie",
+                        "DESCRIPTION": "Bobotie is a dish of curried minced meat that is topped with a mixture of milk and egg before being baked.",
+                        "PHOTO": "https://www.africanbites.com/wp-content/uploads/2018/07/IMG_3340.jpg",
+                        "RECIPE": "https://www.africanbites.com/bobotie/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181892,7 +182021,12 @@
                         "ISO_A3": "ZMB",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Kalembula",
+                        "DESCRIPTION": "Kalembula is a dish of sweet potato leaves that are fried with onion and tomato and often eaten with nsima, a type of maize flour porridge.",
+                        "PHOTO": "https://zambiankitchen.com/wp-content/uploads/2020/03/kalembula.jpg",
+                        "RECIPE": "https://zambiankitchen.com/how-to-cook-kalembula/",
+                        "COUNTRY": true
                     }
                 },
                 {
@@ -181919,7 +182053,23 @@
                         "ISO_A3": "ZWE",
                         "CONTINENT": "Africa",
                         "REGION_UN": "Africa",
-                        "SUBREGION": "Eastern Africa"
+                        "SUBREGION": "Eastern Africa",
+                        "DISH": "Muboora",
+                        "DESCRIPTION": "Muboora is a dish of pumpkin leaves, oil, otmatoes, onions and salt, often served with sadza, which is a cornmeal dough or porridge.",
+                        "PHOTO": "https://cdn.tasteatlas.com/images/dishes/25adf3d4153148109d9c600cfdab016a.jpg?mw=1300",
+                        "RECIPE": "https://www.zimbokitchen.com/delicious-traditional-muboora-pumpkin-leaves/",
+                        "COUNTRY": true
+                    }
+                    
+                },
+                {
+                    "properties": {
+                        "NAME": "Tuvalu",
+                        "DISH": "Coconut Tuna",
+                        "DESCRIPTION": "Coconut tuna is a seafood curry made from locally caught fish and coconut milk, along with onions, ginger, garlic, chillis, spring onions and cucumber.",
+                        "PHOTO": "http://globaltableadventure.com/wp-content/uploads/2013/07/tuvalu.food_.recipe.img_0637.jpg",
+                        "RECIPE": "http://globaltableadventure.com/recipe/tuvalu-tuna/",
+                        "COUNTRY": true
                     }
                 }
             ]
