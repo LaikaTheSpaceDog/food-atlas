@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/food-atlas/static/css/main.0aff33bf.chunk.css",
-    "main.js": "/food-atlas/static/js/main.56850e45.chunk.js",
-    "main.js.map": "/food-atlas/static/js/main.56850e45.chunk.js.map",
+    "main.css": "/food-atlas/static/css/main.4c209866.chunk.css",
+    "main.js": "/food-atlas/static/js/main.6e46f067.chunk.js",
+    "main.js.map": "/food-atlas/static/js/main.6e46f067.chunk.js.map",
     "runtime-main.js": "/food-atlas/static/js/runtime-main.d4478573.js",
     "runtime-main.js.map": "/food-atlas/static/js/runtime-main.d4478573.js.map",
     "static/js/2.72b53a3b.chunk.js": "/food-atlas/static/js/2.72b53a3b.chunk.js",
     "static/js/2.72b53a3b.chunk.js.map": "/food-atlas/static/js/2.72b53a3b.chunk.js.map",
     "index.html": "/food-atlas/index.html",
-    "precache-manifest.b8dc574680f4c73ec44f2a9ef9595e5b.js": "/food-atlas/precache-manifest.b8dc574680f4c73ec44f2a9ef9595e5b.js",
+    "precache-manifest.a54f6f05207045417d28eaae3c008e44.js": "/food-atlas/precache-manifest.a54f6f05207045417d28eaae3c008e44.js",
     "service-worker.js": "/food-atlas/service-worker.js",
-    "static/css/main.0aff33bf.chunk.css.map": "/food-atlas/static/css/main.0aff33bf.chunk.css.map",
+    "static/css/main.4c209866.chunk.css.map": "/food-atlas/static/css/main.4c209866.chunk.css.map",
     "static/js/2.72b53a3b.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.72b53a3b.chunk.js.LICENSE.txt",
     "static/media/styles.min.css": "/food-atlas/static/media/recipe-book.952976af.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4478573.js",
     "static/js/2.72b53a3b.chunk.js",
-    "static/css/main.0aff33bf.chunk.css",
-    "static/js/main.56850e45.chunk.js"
+    "static/css/main.4c209866.chunk.css",
+    "static/js/main.6e46f067.chunk.js"
   ]
 }
