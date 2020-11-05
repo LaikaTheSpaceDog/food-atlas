@@ -13,7 +13,7 @@ const Country = ({ country, dish, description, photo, recipe, handleBack, handle
                 <a href="#home" onClick={ handleBack }><span className="button"></span></a>
             </header>
             <section className="countryBody">
-                <p className="text description">The data for this country hasn't been added yet - please check back later!</p>
+                <p className="text description">There's currently no data on this place! If you have any suggestions, <a className="link" href="mailto:oscarjwales@gmail.com" target="_blank" rel="noopener noreferrer">please get in touch</a>!</p>
             </section>
         </article>
         :
