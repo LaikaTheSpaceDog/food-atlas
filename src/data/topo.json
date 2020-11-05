@@ -174532,7 +174532,11 @@
                         "CONTINENT": "North America",
                         "REGION_UN": "Americas",
                         "SUBREGION": "Northern America",
-                        "COUNTRY": false
+                        "DISH": "Suaasat",
+                        "DESCRIPTION": "Suaasat is a thick broth or soup that is traditionally made with seal meat, onions and potatoes..",
+                        "PHOTO": "https://chili365.files.wordpress.com/2014/07/jul2.jpg",
+                        "RECIPE": "https://2kalaallitnunaatigo.wordpress.com/2015/07/24/cooking-suaasat-a-traditional-greenlandic-seal-soup-recipe/",
+                        "COUNTRY": true
                     }
                 },
                 {
