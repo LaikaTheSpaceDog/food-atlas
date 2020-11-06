@@ -11,6 +11,12 @@
     .about {
         width: 60vw;
     }
+    .country.noData {
+        .countryBody {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -26,6 +32,13 @@
     .list {
         width: 30vw;
     }
+    .country.noData {
+        .countryBody {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,9 +64,7 @@
         }
 
         .country {
-            padding: 0.5rem;
-            padding-bottom: 2rem;
-            padding-top: 1rem;
+            padding: 1rem 0.5rem;
 
             .countryHeader {
                 .recipe{
@@ -64,6 +75,16 @@
                     width: 1.5rem;
                     height:1.5rem;
                 }
+                .subHeading {
+                    padding-bottom: 0.5rem;
+                }
+            }
+        }
+
+        .country.noData {
+            .countryBody {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
         }
         .asideText {

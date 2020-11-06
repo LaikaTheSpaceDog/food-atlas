@@ -295,6 +295,18 @@ svg {
     width: 50%;
     height: 30vh; }
 
+.country.noData {
+  display: block; }
+  .country.noData .countryBody {
+    margin-bottom: 3rem; }
+    .country.noData .countryBody .text {
+      width: 85%;
+      height: 20%; }
+      .country.noData .countryBody .text span a {
+        display: inline; }
+    .country.noData .countryBody .description {
+      display: block; }
+
 .countryList {
   list-style: none;
   overflow: hidden;
@@ -317,7 +329,10 @@ svg {
   .text, .link {
     font-size: 1.75rem; }
   .about {
-    width: 60vw; } }
+    width: 60vw; }
+  .country.noData .countryBody {
+    margin-top: 1rem;
+    margin-bottom: 2rem; } }
 
 @media only screen and (max-width: 800px) {
   .heading {
@@ -327,7 +342,10 @@ svg {
   .text, .link {
     font-size: 1.5rem; }
   .list {
-    width: 30vw; } }
+    width: 30vw; }
+  .country.noData .countryBody {
+    margin-top: 1rem;
+    margin-bottom: 2rem; } }
 
 @media only screen and (max-width: 600px) {
   body {
@@ -344,15 +362,18 @@ svg {
     body .text, body .link {
       font-size: 0.75rem; }
     body .country {
-      padding: 0.5rem;
-      padding-bottom: 2rem;
-      padding-top: 1rem; }
+      padding: 1rem 0.5rem; }
       body .country .countryHeader .recipe {
         width: 1.2rem;
         height: 1.5rem; }
       body .country .countryHeader .button {
         width: 1.5rem;
         height: 1.5rem; }
+      body .country .countryHeader .subHeading {
+        padding-bottom: 0.5rem; }
+    body .country.noData .countryBody {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
     body .asideText {
       font-size: 0.75rem; }
       body .asideText .link {

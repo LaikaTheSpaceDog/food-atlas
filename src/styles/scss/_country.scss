@@ -65,3 +65,20 @@
         height: 30vh;
     }
 }
+
+.country.noData {
+    display: block;
+    .countryBody {
+        margin-bottom: 3rem;
+        .text {
+            width: 85%;
+            height: 20%;
+            span a {
+                display: inline;
+            }
+        }
+        .description {
+            display: block;
+        }
+    }
+}
