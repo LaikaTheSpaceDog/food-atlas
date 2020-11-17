@@ -184,8 +184,6 @@ svg {
   transition: opacity 300ms ease-in; }
 
 .about, .list {
-  visibility: hidden;
-  opacity: 0;
   align-self: center;
   position: absolute;
   background-color: #F6F7EB;
@@ -227,14 +225,12 @@ svg {
   transition: all 500ms ease-in-out;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  cursor: default; }
 
 .overlay:target {
   visibility: visible;
   opacity: 1; }
-  .overlay:target .about, .overlay:target .list {
-    visibility: visible;
-    opacity: 1; }
 
 .header {
   display: flex;

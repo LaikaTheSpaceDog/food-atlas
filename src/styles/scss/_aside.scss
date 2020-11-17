@@ -1,6 +1,4 @@
 .about,.list {
-  visibility: hidden;
-  opacity: 0;
   align-self: center;
   position: absolute;
   background-color: $cream;
@@ -48,13 +46,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: default;
 }
 
 .overlay:target {
   visibility: visible;
   opacity: 1;
-  .about,.list {
-    visibility: visible;
-    opacity: 1;
-  }
 }

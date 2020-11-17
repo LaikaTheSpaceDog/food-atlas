@@ -3,7 +3,7 @@ import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simp
 import geoUrl from "../data/topo.json";
 import Country from './Country'
 import { CSSTransition, SwitchTransition } from "react-transition-group";
-import { PersistentComponent } from 'react-persistent-state'
+import { PersistentComponent } from 'react-persistent-state';
 
 class Map extends PersistentComponent { 
 
@@ -139,34 +139,40 @@ class Map extends PersistentComponent {
                                     </ZoomableGroup>
                                 </ComposableMap>
                             </div>
-                            <div className="overlay" id="about">
-                                <aside className="about">
-                                    <a className="close" href="#home" onClick={ this.handleAbout }>&times;</a>
-                                    <div className="aboutText">
-                                        <p className="asideText centre">Welcome to the Food Atlas!</p>
-                                        <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                        <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
-                                    </div>
-                                </aside>
-                            </div>
-                            <div className="overlay" id="list">
-                                <aside className="list">
-                                    <a className="close" href="#home" onClick={ this.handleList }>&times;</a>
-                                    <ul className="countryList">
-                                        { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
-                                            geo.properties.COUNTRY ?
-                                            <li className="listItem" key={ geo.properties.ISO_A3 }><a href="#country" onClick={() => {
-                                                const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                                this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                            }}>{ geo.properties.NAME }</a></li>
-                                            : null
-                                        )}
-                                    </ul>
-                                </aside>
-                            </div>
-                            <div className="overlay" id="country">
-                                <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
-                            </div>
+                            <a href="#home">
+                                <div className="overlay" id="about">
+                                    <aside className="about">
+                                        <a className="close" href="#home" onClick={ this.handleAbout }>&times;</a>
+                                        <div className="aboutText">
+                                            <p className="asideText centre">Welcome to the Food Atlas!</p>
+                                            <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                            <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div className="overlay" id="list">
+                                    <aside className="list">
+                                        <a className="close" href="#home" onClick={ this.handleList }>&times;</a>
+                                        <ul className="countryList">
+                                            { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
+                                                geo.properties.COUNTRY ?
+                                                <li className="listItem" key={ geo.properties.ISO_A3 }><a href="#country" onClick={() => {
+                                                    const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                                    this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                                }}>{ geo.properties.NAME }</a></li>
+                                                : null
+                                            )}
+                                        </ul>
+                                    </aside>
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div className="overlay" id="country">
+                                    <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
+                                </div>
+                            </a>
                             <footer className="footer">
                                 <h2 className="text">Made by <a className="link" href="https://github.com/LaikaTheSpaceDog" target="_blank" rel="noopener noreferrer">LaikaTheSpaceDog</a></h2>
                             </footer>
