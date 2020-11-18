@@ -226,7 +226,17 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: default; }
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw; }
 
 .overlay:target {
   visibility: visible;

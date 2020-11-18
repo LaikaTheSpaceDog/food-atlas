@@ -16,7 +16,8 @@ class Map extends PersistentComponent {
             description: "",
             photo: "",
             recipe: "",
-            selected: false,
+            cssTrans: false,
+            selected: false
         }
 
         this.handleBack = this.handleBack.bind(this);
@@ -30,19 +31,22 @@ class Map extends PersistentComponent {
             dish: dish,
             description: description,
             photo: photo,
-            recipe: recipe
-        }, () => console.log(this.state))
+            recipe: recipe,
+            selected: true
+        })
     }
 
     handleBack(){
+        this.setState({
+            selected: false
+        });
         setTimeout(() => {
             this.setState({
                 country: "",
                 dish: "",
                 description: "",
                 photo: "",
-                recipe: "",
-                selected: false
+                recipe: ""
             }) 
         }, 1000);
     }
@@ -72,7 +76,7 @@ class Map extends PersistentComponent {
     
     render(){ 
     
-        const { country, dish, description, photo, recipe, selected } = this.state;
+        const { country, dish, description, photo, recipe, selected, cssTrans } = this.state;
         const countries = geoUrl.objects.ne_50m_admin_0_countries.geometries;
 
         return(
@@ -81,8 +85,8 @@ class Map extends PersistentComponent {
                     classNames="transition"
                     transitionAppearTimeout={50000}
                     timeout={500000}
-                    key={ selected }
-                    in={ selected }
+                    key={ cssTrans }
+                    in={ cssTrans }
                     unmountOnExit
                     appear
                 >         
@@ -168,11 +172,11 @@ class Map extends PersistentComponent {
                                     </aside>
                                 </div>
                             </a>
-                            <a href="#home">
+                            {/* <a href="#home"> */}
                                 <div className="overlay" id="country">
-                                    <Country country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
+                                    <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                                 </div>
-                            </a>
+                            {/* </a> */}
                             <footer className="footer">
                                 <h2 className="text">Made by <a className="link" href="https://github.com/LaikaTheSpaceDog" target="_blank" rel="noopener noreferrer">LaikaTheSpaceDog</a></h2>
                             </footer>
