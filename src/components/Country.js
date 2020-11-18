@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 class Country extends Component {
     constructor(props, context) {
@@ -36,7 +35,7 @@ class Country extends Component {
         return (
             <div className="wrapper" ref={this.setWrapperRef}>
             {
-            !dish ? 
+            country && !dish ? 
                 <article className="country noData">
                     <header className="countryHeader">
                         <div className="countryTitles">
@@ -48,6 +47,15 @@ class Country extends Component {
                     <section className="countryBody">
                         <p className="text description">There's currently no data on this place! If you have any suggestions, <span><a className="link" href="mailto:oscarjwales@gmail.com" target="_blank" rel="noopener noreferrer">please get in touch</a></span>!</p>
                     </section>
+                </article>
+            : !country ?
+                <article className="country noData">
+                    <header className="countryHeader">
+                        <div className="countryTitles">
+                            <h2 className="subHeading">Something went wrong :(</h2>
+                        </div>
+                        <a href="#home" onClick={ handleBack }><span className="button"></span></a>
+                    </header>
                 </article>
             :
                 <article className="country">
@@ -73,10 +81,6 @@ class Country extends Component {
             </div>
         );
     };
-};
-
-Country.propTypes = {
-    children: PropTypes.element.isRequired,
 };
 
 export default withRouter(Country);

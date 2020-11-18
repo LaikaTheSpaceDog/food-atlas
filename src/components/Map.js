@@ -143,7 +143,6 @@ class Map extends PersistentComponent {
                                     </ZoomableGroup>
                                 </ComposableMap>
                             </div>
-                            <a href="#home">
                                 <div className="overlay" id="about">
                                     <aside className="about">
                                         <a className="close" href="#home" onClick={ this.handleAbout }>&times;</a>
@@ -154,15 +153,13 @@ class Map extends PersistentComponent {
                                         </div>
                                     </aside>
                                 </div>
-                            </a>
-                            <a href="#home">
                                 <div className="overlay" id="list">
                                     <aside className="list">
                                         <a className="close" href="#home" onClick={ this.handleList }>&times;</a>
                                         <ul className="countryList">
                                             { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                                 geo.properties.COUNTRY ?
-                                                <li className="listItem" key={ geo.properties.ISO_A3 }><a href="#country" onClick={() => {
+                                                <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
                                                     const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                                     this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                                 }}>{ geo.properties.NAME }</a></li>
@@ -171,12 +168,9 @@ class Map extends PersistentComponent {
                                         </ul>
                                     </aside>
                                 </div>
-                            </a>
-                            {/* <a href="#home"> */}
-                                <div className="overlay" id="country">
-                                    <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
-                                </div>
-                            {/* </a> */}
+                            <div className="overlay" id="country">
+                                <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
+                            </div>
                             <footer className="footer">
                                 <h2 className="text">Made by <a className="link" href="https://github.com/LaikaTheSpaceDog" target="_blank" rel="noopener noreferrer">LaikaTheSpaceDog</a></h2>
                             </footer>
