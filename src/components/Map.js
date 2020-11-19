@@ -1,7 +1,9 @@
 import React, { memo } from 'react';
 import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simple-maps";
 import geoUrl from "../data/topo.json";
-import Country from './Country'
+import Country from './Country';
+import List from './List';
+import About from './About';
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import { PersistentComponent } from 'react-persistent-state';
 
@@ -21,8 +23,7 @@ class Map extends PersistentComponent {
         }
 
         this.handleBack = this.handleBack.bind(this);
-        this.handleAbout = this.handleAbout.bind(this);
-        this.handleList = this.handleList.bind(this);
+        this.handleEnter = this.handleEnter.bind(this);
     }
 
     handleEnter(country, dish, description, photo, recipe){
@@ -51,33 +52,14 @@ class Map extends PersistentComponent {
         }, 1000);
     }
 
-    handleAbout(){
-        let current = this.state.about;
-        this.setState({
-            about: !current
-        })
-    }
-
-    handleList(){
-        let current = this.state.list;
-        this.setState({
-            list: !current
-        })
-    }
-
     handlePhotoSource = (photo) => {
         const url = new URL(photo);
         return url.hostname;
-    }
-
-    handleAlphabetise = (array) => {
-        return array.sort();
     }
     
     render(){ 
     
         const { country, dish, description, photo, recipe, selected, cssTrans } = this.state;
-        const countries = geoUrl.objects.ne_50m_admin_0_countries.geometries;
 
         return(
             <SwitchTransition>
@@ -93,9 +75,9 @@ class Map extends PersistentComponent {
                     <> 
                         <section className="map" id="home">
                             <header className="header">
-                                <button className="headButton" onClick={ this.handleAbout }><a className="subHeading" href="#about">About</a></button>
+                                <button className="headButton"><a className="subHeading" href="#about">About</a></button>
                                 <h1 className="heading">Food Atlas</h1>
-                                <button className="headButton" onClick={ this.handleList }><a className="subHeading" href="#list">List</a></button>
+                                <button className="headButton"><a className="subHeading" href="#list">List</a></button>
                             </header>
                             <div className="container">
                                 <ComposableMap width={1200} style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
@@ -144,29 +126,10 @@ class Map extends PersistentComponent {
                                 </ComposableMap>
                             </div>
                                 <div className="overlay" id="about">
-                                    <aside className="about">
-                                        <a className="close" href="#home" onClick={ this.handleAbout }>&times;</a>
-                                        <div className="aboutText">
-                                            <p className="asideText centre">Welcome to the Food Atlas!</p>
-                                            <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                            <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
-                                        </div>
-                                    </aside>
+                                    <About />
                                 </div>
                                 <div className="overlay" id="list">
-                                    <aside className="list">
-                                        <a className="close" href="#home" onClick={ this.handleList }>&times;</a>
-                                        <ul className="countryList">
-                                            { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
-                                                geo.properties.COUNTRY ?
-                                                <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
-                                                    const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                                    this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                                }}>{ geo.properties.NAME }</a></li>
-                                                : null
-                                            )}
-                                        </ul>
-                                    </aside>
+                                    <List handleEnter={ this.handleEnter } />
                                 </div>
                             <div className="overlay" id="country">
                                 <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
