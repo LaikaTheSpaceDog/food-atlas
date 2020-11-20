@@ -173,18 +173,18 @@ svg {
   transition: opacity .5s ease-in; }
 
 .transition-enter {
-  opacity: 0.01; }
+  opacity: 0; }
 
-.transition-enter.transition-enter-active {
+.transition-enter-active {
   opacity: 1;
   transition: opacity .5s ease-in; }
 
 .transition-exit {
-  opacity: 0; }
+  opacity: 1; }
 
-.transition-exit.transition-exit-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in; }
+.transition-exit-active {
+  opacity: 0;
+  transition: opacity .5s ease-in; }
 
 .about, .list {
   align-self: center;
@@ -194,10 +194,6 @@ svg {
   border: 5px solid #E94F37;
   border-radius: 8%;
   padding: 1rem;
-  -webkit-transition: opacity 500ms ease-in-out;
-  -moz-transition: opacity 500ms ease-in-out;
-  -o-transition: opacity 500ms ease-in-out;
-  transition: opacity 500ms ease-in-out;
   overflow: hidden;
   display: flex;
   flex-direction: column; }
@@ -220,12 +216,6 @@ svg {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,10 +230,6 @@ svg {
   flex-direction: column;
   justify-content: center;
   width: 80vw; }
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1; }
 
 .header {
   display: flex;
@@ -262,11 +248,7 @@ svg {
   border: 5px solid #E94F37;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  -webkit-transition: opacity 500ms ease-in-out;
-  -moz-transition: opacity 500ms ease-in-out;
-  -o-transition: opacity 500ms ease-in-out;
-  transition: opacity 500ms ease-in-out; }
+  justify-content: center; }
   .country .countryHeader {
     display: flex;
     justify-content: center;
