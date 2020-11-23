@@ -402,3 +402,16 @@ svg {
   flex-direction: column;
   justify-content: center;
   width: 80vw; }
+
+.container {
+  border: 5px solid #E94F37;
+  border-radius: 10%;
+  background-color: #3F88C5;
+  max-height: 75vh;
+  width: 80vw;
+  max-width: 80vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem; }
