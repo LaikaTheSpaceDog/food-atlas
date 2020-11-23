@@ -1,16 +1,14 @@
 import React, { memo } from 'react';
-import { ZoomableGroup, ComposableMap, Geographies, Geography } from "react-simple-maps";
-import geoUrl from "../data/topo.json";
 import Country from './Country';
 import List from './List';
 import About from './About';
 import Footer from './Footer';
 import Header from './Header';
+import Map from './Map';
 import { CSSTransition } from "react-transition-group";
 import { PersistentComponent } from 'react-persistent-state';
-import { Link } from 'react-router-dom';
 
-class Map extends PersistentComponent { 
+class Home extends PersistentComponent { 
 
     constructor(props){
         super(props);
@@ -91,54 +89,9 @@ class Map extends PersistentComponent {
                 unmountOnExit
                 appear
             >         
-                <section className="map" id="home">
+                <section className="home" id="home">
                     <Header handleAbout={this.handleAbout} handleList={this.handleList} />
-                    <div className="container">
-                        <ComposableMap width={1200} style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
-                            <ZoomableGroup>
-                                <Geographies geography={geoUrl}>
-                                    {({ geographies }) =>
-                                        geographies.map(geo =>
-                                            <Link to="/food-atlas/#country" key={ geo.properties.NAME }>
-                                                <Geography 
-                                                    key={geo.rsmKey} 
-                                                    geography={geo}
-                                                    onMouseOver={() => {
-                                                        const { NAME } = geo.properties;
-                                                        this.props.setTooltipContent(`${NAME}`);
-                                                    }}
-                                                    onMouseOut={() => {
-                                                        this.props.setTooltipContent("");
-                                                    }}
-                                                    onClick={() => {
-                                                        const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                                        this.handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                                        this.props.setTooltipContent("");
-                                                    }}
-                                                    fill="#44BBA4"
-                                                    stroke="#E94F37"
-                                                    strokeWidth="0.5"
-                                                    style={{
-                                                        default: {
-                                                            outline: 'none'
-                                                        },
-                                                        hover: {
-                                                            fill: "#E94F37",
-                                                            outline: 'none'
-                                                        },
-                                                        pressed: {
-                                                            outline: 'none'
-                                                        },
-                                                        cursor:'pointer'
-                                                    }}
-                                                />
-                                            </Link>
-                                        )
-                                    }
-                                </Geographies>
-                            </ZoomableGroup>
-                        </ComposableMap>
-                    </div>
+                    <Map setTooltipContent={this.props.setTooltipContent} handleEnter={this.handleEnter} />
                     <About handleAbout={ this.handleAbout } about={about} />
                     <List handleEnter={ this.handleEnter } handleList={ this.handleList } list={list} />
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
@@ -149,4 +102,4 @@ class Map extends PersistentComponent {
     }
 }
 
-export default memo(Map);
+export default memo(Home);
