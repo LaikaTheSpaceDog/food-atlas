@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import geoUrl from "../data/topo.json";
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { CSSTransition } from "react-transition-group";
 
 class List extends Component {
@@ -49,7 +49,7 @@ class List extends Component {
                 <div className="overlay" id="list">      
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="list">
-                            <a className="close" href="#home" onClick={handleList}>&times;</a>
+                            <Link className="close" href="#home" onClick={handleList}>&times;</Link>
                             <ul className="countryList">
                                 { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                     geo.properties.COUNTRY ?

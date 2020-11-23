@@ -6,6 +6,7 @@ import List from './List';
 import About from './About';
 import { CSSTransition } from "react-transition-group";
 import { PersistentComponent } from 'react-persistent-state';
+import { Link } from 'react-router-dom';
 
 class Map extends PersistentComponent { 
 
@@ -101,7 +102,7 @@ class Map extends PersistentComponent {
                                     <Geographies geography={geoUrl}>
                                         {({ geographies }) =>
                                             geographies.map(geo =>
-                                                <a href="/food-atlas/#country" key={ geo.properties.NAME }>
+                                                <Link to="/food-atlas/#country" key={ geo.properties.NAME }>
                                                     <Geography 
                                                         key={geo.rsmKey} 
                                                         geography={geo}
@@ -134,7 +135,7 @@ class Map extends PersistentComponent {
                                                             cursor:'pointer'
                                                         }}
                                                     />
-                                                </a>
+                                                </Link>
                                             )
                                         }
                                     </Geographies>

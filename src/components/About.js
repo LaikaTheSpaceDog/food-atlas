@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { CSSTransition } from "react-transition-group";
 
 class About extends Component {
@@ -46,7 +46,7 @@ class About extends Component {
                 <div className="overlay" id="about">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="about">
-                            <a className="close" href="#home" onClick={handleAbout}>&times;</a>
+                            <Link className="close" to="#home" onClick={handleAbout}>&times;</Link>
                             <div className="aboutText">
                                 <p className="asideText centre">Welcome to the Food Atlas!</p>
                                 <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
