@@ -49,17 +49,20 @@ class List extends Component {
                 <div className="overlay" id="list">      
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="list">
-                            <Link className="close" href="#home" onClick={handleList}>&times;</Link>
-                            <ul className="countryList">
-                                { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
-                                    geo.properties.COUNTRY ?
-                                    <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
-                                        const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
-                                        handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
-                                    }}>{ geo.properties.NAME }</a></li>
-                                    : null
-                                )}
-                            </ul>
+                            <Link className="close" href="#home" onClick={handleList}><span className="closeButton"></span></Link>
+                            <p className="asideHeading">List</p>
+                            <div className="listContainer">
+                                <ul className="countryList">
+                                    { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
+                                        geo.properties.COUNTRY ?
+                                        <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
+                                            const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
+                                            handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                        }}>{ geo.properties.NAME }</a></li>
+                                        : null
+                                    )}
+                                </ul>
+                            </div>
                         </aside>
                     </div>
                 </div>

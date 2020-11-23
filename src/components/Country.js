@@ -53,7 +53,7 @@ class Country extends Component {
                                     <h1 className="heading">{ country }</h1>
                                     <h2 className="subHeading">It's a mystery to me...</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="button"></span></Link>
+                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                             </header>
                             <section className="countryBody">
                                 <p className="text description">There's currently no data on this place! If you have any suggestions, <span><a className="link" href="mailto:oscarjwales@gmail.com" target="_blank" rel="noopener noreferrer">please get in touch</a></span>!</p>
@@ -65,7 +65,7 @@ class Country extends Component {
                                 <div className="countryTitles">
                                     <h2 className="subHeading">Something went wrong :(</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="button"></span></Link>
+                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                             </header>
                         </article>
                     :
@@ -76,7 +76,7 @@ class Country extends Component {
                                     <h1 className="heading">{ country }</h1>
                                     <h2 className="subHeading">{ dish }</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="button"></span></Link>
+                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                             </header>
                             <section className="countryBody">
                                 <figure className="photoContainer">

@@ -30,6 +30,14 @@ $fontStackSniglet: "Sniglet", Arial, sans-serif;
     text-decoration: none;
 }
 
+.asideHeading {
+    font-size: 3rem;
+    font-family: $fontStackSniglet;
+    color: $grey;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .text, .link {
     font-size: 2rem;
     font-family: $fontStackOpen;

@@ -1,19 +1,29 @@
-.countryList {
-    list-style: none;
+.listContainer{
+    border: 1px $grey solid;
+    border-radius: 8%;
+    height: 35vh;
     overflow: hidden;
-    overflow-y: scroll;
-    height: 40vh;
-    text-align: center;
-    scrollbar-color: $green $cream;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    .listItem {
-        a {
-            text-decoration: none;
-            color: $grey;
-            line-height: 1.25rem;
-        }
-        a:hover{
-            color: $orange;
+    .countryList {
+        list-style: none;
+        overflow-y: scroll;
+        text-align: center;
+        height: 34vh;
+        scrollbar-color: $green $cream;
+        width: 90%;
+
+        .listItem {
+            a {
+                text-decoration: none;
+                color: $grey;
+                line-height: 1.25rem;
+            }
+            a:hover{
+                color: $orange;
+            }
         }
     }
 }

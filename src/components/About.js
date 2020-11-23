@@ -46,11 +46,11 @@ class About extends Component {
                 <div className="overlay" id="about">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="about">
-                            <Link className="close" to="#home" onClick={handleAbout}>&times;</Link>
+                            <Link to="#home" onClick={handleAbout}><span className="closeButton"></span></Link>
                             <div className="aboutText">
-                                <p className="asideText centre">Welcome to the Food Atlas!</p>
-                                <p className="asideText">Travel around the world in 197(ish) dishes by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                <p className="asideText">Some small nations may be hard to locate on the map due to its resolution, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
+                                <p className="asideHeading">Welcome!</p>
+                                <p className="asideText">Explore the world of food by simply clicking on a country to find out about one of its signature national dishes.</p>
+                                <p className="asideText">Some small nations may be hard to locate on the map, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
                             </div>
                         </aside>
                     </div>

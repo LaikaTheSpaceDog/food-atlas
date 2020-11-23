@@ -2,7 +2,7 @@
     .heading {
         font-size: 4rem;
     }
-    .subHeading {
+    .subHeading, .asideHeading {
         font-size: 2rem;
     }
     .text, .link {
@@ -23,7 +23,7 @@
     .heading {
         font-size: 2.75rem;
     }
-    .subHeading {
+    .subHeading, .asideHeading {
         font-size: 1.5rem;
     }
     .text, .link {
@@ -56,7 +56,7 @@
         .heading {
             font-size: 2rem;
         }
-        .subHeading {
+        .subHeading, .asideHeading {
             font-size: 1.25rem;
         }
         .text, .link {
@@ -71,13 +71,23 @@
                     width: 1.2rem;
                     height: 1.5rem;
                 }
-                .button{
-                    width: 1.5rem;
-                    height:1.5rem;
-                }
-                .subHeading {
+                .subHeading, .asideHeading {
                     padding-bottom: 0.5rem;
                 }
+            }
+        }
+
+        .closeButton{
+            width: 1.5rem;
+            height:1.5rem;
+        }
+
+        .about, .list{
+            .closeButton{
+                margin-top: 0.5rem;
+                margin-right: 0.5rem;
+                width: 1.5rem;
+                height:1.5rem;
             }
         }
 
@@ -99,9 +109,6 @@
                 line-height: 1rem;
             }
         }
-        .close {
-            font-size: 0.75rem;
-        }
 
         .map {
             width: 80vw;
@@ -116,9 +123,6 @@
             width: 80vw;
             height: 50vh;
             max-height: 200px;
-        }
-        .button {
-            width: 1.5rem;
         }
         .caption {
             font-size: 0.5rem;
@@ -149,10 +153,16 @@
                     width: 2rem;
                     height: 2.5rem;
                 }
-                .button{
-                    width: 2.5rem;
-                    height:2.5rem;
-                }
+            }
+        }
+        .closeButton{
+            width: 2.5rem;
+            height:2.5rem;
+        }
+        .about, .list{
+            .closeButton{
+                width: 2.5rem;
+                height:2.5rem;
             }
         }
     }
@@ -165,7 +175,7 @@
         .heading {
             font-size: 1.5rem;
         }
-        .subHeading {
+        .subHeading, .asideHeading {
             font-size: 1rem;
         }
     }

@@ -95,6 +95,13 @@ svg {
   padding-bottom: 2rem;
   text-decoration: none; }
 
+.asideHeading {
+  font-size: 3rem;
+  font-family: "Sniglet", Arial, sans-serif;
+  color: #393E41;
+  text-align: center;
+  padding-bottom: 1rem; }
+
 .text, .link {
   font-size: 2rem;
   font-family: "Open Sans", Arial, sans-serif;
@@ -134,14 +141,16 @@ svg {
   background-color: #F6F7EB;
   cursor: pointer; }
 
-.close {
-  text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #393E41; }
+.closeButton {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../assets/svg/close-round-line.svg); }
 
-.close:hover {
-  color: #E94F37; }
+.closeButton:hover {
+  background-image: url(../assets/svg/close-round-line-orange.svg); }
 
 .photo {
   object-fit: cover;
@@ -184,17 +193,22 @@ svg {
   overflow: hidden;
   display: flex;
   flex-direction: column; }
-  .about .close, .list .close {
-    align-self: flex-end;
-    padding-bottom: 0.5rem; }
+  .about .closeButton, .list .closeButton {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem; }
 
 .about {
   width: 40vw;
-  height: 40vh; }
+  height: 40vh;
+  text-align: center;
+  justify-content: center; }
 
 .list {
   width: 25vw;
-  height: 50vh; }
+  height: 50vh;
+  justify-content: center; }
 
 .header {
   display: flex;
@@ -228,15 +242,6 @@ svg {
       background-image: url(../assets/svg/recipe-book.svg); }
     .country .countryHeader .recipe:hover {
       background-image: url(../assets/svg/recipe-book-orange.svg); }
-    .country .countryHeader .button {
-      width: 3rem;
-      height: 3rem;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-image: url(../assets/svg/close-round-line.svg); }
-    .country .countryHeader .button:hover {
-      background-image: url(../assets/svg/close-round-line-orange.svg); }
     .country .countryHeader .countryTitles {
       width: 85%;
       align-content: center; }
@@ -263,24 +268,32 @@ svg {
     .country.noData .countryBody .description {
       display: block; }
 
-.countryList {
-  list-style: none;
+.listContainer {
+  border: 1px #393E41 solid;
+  border-radius: 8%;
+  height: 35vh;
   overflow: hidden;
-  overflow-y: scroll;
-  height: 40vh;
-  text-align: center;
-  scrollbar-color: #44BBA4 #F6F7EB; }
-  .countryList .listItem a {
-    text-decoration: none;
-    color: #393E41;
-    line-height: 1.25rem; }
-  .countryList .listItem a:hover {
-    color: #E94F37; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .listContainer .countryList {
+    list-style: none;
+    overflow-y: scroll;
+    text-align: center;
+    height: 34vh;
+    scrollbar-color: #44BBA4 #F6F7EB;
+    width: 90%; }
+    .listContainer .countryList .listItem a {
+      text-decoration: none;
+      color: #393E41;
+      line-height: 1.25rem; }
+    .listContainer .countryList .listItem a:hover {
+      color: #E94F37; }
 
 @media only screen and (max-width: 1050px) {
   .heading {
     font-size: 4rem; }
-  .subHeading {
+  .subHeading, .asideHeading {
     font-size: 2rem; }
   .text, .link {
     font-size: 1.75rem; }
@@ -293,7 +306,7 @@ svg {
 @media only screen and (max-width: 800px) {
   .heading {
     font-size: 2.75rem; }
-  .subHeading {
+  .subHeading, .asideHeading {
     font-size: 1.5rem; }
   .text, .link {
     font-size: 1.5rem; }
@@ -313,7 +326,7 @@ svg {
       justify-content: center; }
     body .heading {
       font-size: 2rem; }
-    body .subHeading {
+    body .subHeading, body .asideHeading {
       font-size: 1.25rem; }
     body .text, body .link {
       font-size: 0.75rem; }
@@ -322,11 +335,16 @@ svg {
       body .country .countryHeader .recipe {
         width: 1.2rem;
         height: 1.5rem; }
-      body .country .countryHeader .button {
-        width: 1.5rem;
-        height: 1.5rem; }
-      body .country .countryHeader .subHeading {
+      body .country .countryHeader .subHeading, body .country .countryHeader .asideHeading {
         padding-bottom: 0.5rem; }
+    body .closeButton {
+      width: 1.5rem;
+      height: 1.5rem; }
+    body .about .closeButton, body .list .closeButton {
+      margin-top: 0.5rem;
+      margin-right: 0.5rem;
+      width: 1.5rem;
+      height: 1.5rem; }
     body .country.noData .countryBody {
       margin-top: 1rem;
       margin-bottom: 1rem; }
@@ -337,8 +355,6 @@ svg {
     body .countryList .listItem a {
       font-size: 0.75rem;
       line-height: 1rem; }
-    body .close {
-      font-size: 0.75rem; }
     body .map {
       width: 80vw; }
     body .header {
@@ -349,8 +365,6 @@ svg {
       width: 80vw;
       height: 50vh;
       max-height: 200px; }
-    body .button {
-      width: 1.5rem; }
     body .caption {
       font-size: 0.5rem;
       word-wrap: break-word; }
@@ -367,14 +381,17 @@ svg {
   body .country .countryHeader .recipe {
     width: 2rem;
     height: 2.5rem; }
-  body .country .countryHeader .button {
+  body .closeButton {
+    width: 2.5rem;
+    height: 2.5rem; }
+  body .about .closeButton, body .list .closeButton {
     width: 2.5rem;
     height: 2.5rem; } }
 
 @media only screen and (max-width: 460px) {
   body .heading {
     font-size: 1.5rem; }
-  body .subHeading {
+  body .subHeading, body .asideHeading {
     font-size: 1rem; } }
 
 .footer {
