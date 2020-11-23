@@ -10,14 +10,17 @@ class About extends Component {
         this.wrapperRef = React.createRef();
         this.setWrapperRef = this.setWrapperRef.bind(this);
         this.handleClickOutside = this.handleClickOutside.bind(this);
+        this.escFunction = this.escFunction.bind(this);
     }
 
     componentDidMount() {
         document.addEventListener('mousedown', this.handleClickOutside);
+        document.addEventListener("keydown", this.escFunction, false);
     }
 
     componentWillUnmount() {
         document.removeEventListener('mousedown', this.handleClickOutside);
+        document.removeEventListener("keydown", this.escFunction, false);
     }
 
     setWrapperRef(node) {
@@ -27,6 +30,13 @@ class About extends Component {
     handleClickOutside(event) {
         if (this.props.about && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.history.push('/food-atlas/#home');
+            this.props.handleAbout();
+        }
+    }
+
+    escFunction(event){
+        if(this.props.about && event.keyCode === 27) {
+            this.props.history.push("/food-atlas/#home");
             this.props.handleAbout();
         }
     }

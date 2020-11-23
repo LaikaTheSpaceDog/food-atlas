@@ -9,14 +9,17 @@ class Country extends Component {
         this.wrapperRef = React.createRef();
         this.setWrapperRef = this.setWrapperRef.bind(this);
         this.handleClickOutside = this.handleClickOutside.bind(this);
+        this.escFunction = this.escFunction.bind(this);
     }
 
     componentDidMount() {
         document.addEventListener('mousedown', this.handleClickOutside);
+        document.addEventListener("keydown", this.escFunction, false);
     }
 
     componentWillUnmount() {
         document.removeEventListener('mousedown', this.handleClickOutside);
+        document.removeEventListener("keydown", this.escFunction, false);
     }
 
     setWrapperRef(node) {
@@ -27,6 +30,13 @@ class Country extends Component {
         if (this.props.selected && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.handleBack();
             this.props.history.push('/food-atlas/#home');
+        }
+    }
+
+    escFunction(event){
+        if(this.props.selected && event.keyCode === 27) {
+            this.props.handleBack();
+            this.props.history.push("/food-atlas/#home");
         }
     }
 
