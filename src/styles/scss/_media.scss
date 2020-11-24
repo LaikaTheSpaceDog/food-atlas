@@ -91,6 +91,12 @@
             }
         }
 
+        .list{
+            .asideHeading{
+                font-size: 1.25rem;
+            }
+        }
+
         .country.noData {
             .countryBody {
                 margin-top: 1rem;
@@ -103,10 +109,15 @@
                 font-size: 0.75rem;
             }
         }
-        .countryList {
-            .listItem a {
-                font-size: 0.75rem;
-                line-height: 1rem;
+
+        .listContainer{
+            .countryList {
+                .listItem {
+                    a {
+                        font-size: 0.75rem;
+                        line-height: 0.75rem;
+                    }
+                }
             }
         }
 

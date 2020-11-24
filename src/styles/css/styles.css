@@ -345,6 +345,8 @@ svg {
       margin-right: 0.5rem;
       width: 1.5rem;
       height: 1.5rem; }
+    body .list .asideHeading {
+      font-size: 1.25rem; }
     body .country.noData .countryBody {
       margin-top: 1rem;
       margin-bottom: 1rem; }
@@ -352,9 +354,9 @@ svg {
       font-size: 0.75rem; }
       body .asideText .link {
         font-size: 0.75rem; }
-    body .countryList .listItem a {
+    body .listContainer .countryList .listItem a {
       font-size: 0.75rem;
-      line-height: 1rem; }
+      line-height: 0.75rem; }
     body .map {
       width: 80vw; }
     body .header {
