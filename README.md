@@ -10,6 +10,11 @@ This app utilises [React Simple Maps](https://www.react-simple-maps.io/) for the
 
 https://laikathespacedog.github.io/food-atlas/#/
 
+## Features to be added
+1. Back-end using Laravel so that the data is stored server-side.
+2. Capacity to set up users who can login via a login component.
+3. 'Saved' countries/dishes component so users can create their own custom list of dishes.
+
 ## Known issues
 1. On some mobile devices (Android), you can only zoom in on the map once. If you try and zoom on the map a subsequent time, you will zoom in on the whole page and have to refresh the page to be able to zoom in on the map again. I'm currently looking into fixing this issue.
 
