@@ -152,6 +152,21 @@ svg {
 .closeButton:hover {
   background-image: url(../assets/svg/close-round-line-orange.svg); }
 
+.formButton {
+  border: 0;
+  outline: none;
+  border-radius: 8%;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #44BBA4;
+  color: #F6F7EB;
+  transition: all 0.5s ease;
+  -webkit-appearance: none; }
+  .formButton:hover, .formButton:focus {
+    background: #E94F37; }
+
 .photo {
   object-fit: cover;
   width: 25vw;
@@ -182,7 +197,7 @@ svg {
   opacity: 0;
   transition: opacity .5s ease-in; }
 
-.about, .list {
+.about, .list, .logReg {
   align-self: center;
   position: absolute;
   background-color: #F6F7EB;
@@ -193,7 +208,7 @@ svg {
   overflow: hidden;
   display: flex;
   flex-direction: column; }
-  .about .closeButton, .list .closeButton {
+  .about .closeButton, .list .closeButton, .logReg .closeButton {
     height: 2rem;
     width: 2rem;
     margin-top: 1rem;
@@ -434,3 +449,57 @@ svg {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem; }
+
+.tabGroup {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem; }
+  .tabGroup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .tabGroup li {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    background: #44BBA4;
+    color: #F6F7EB;
+    font-size: 1.25rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease; }
+    .tabGroup li:hover {
+      background: #E94F37;
+      color: #F6F7EB; }
+  .tabGroup .active {
+    background: #E94F37;
+    color: #F6F7EB; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form .input {
+    font-size: 1.25rem;
+    display: block;
+    width: 75%;
+    height: 100%;
+    padding: 0.3rem 0.6rem;
+    background: none;
+    background-image: none;
+    border: 1px solid #393E41;
+    color: #393E41;
+    border-radius: 0;
+    transition: border-color .25s ease, box-shadow .25s ease; }
+    .form .input:focus {
+      outline: 0;
+      border-color: #44BBA4; }
+  .form .label {
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem; }
+  .form .label:not(:first-child) {
+    margin-top: 0.5rem; }
+  .form .formButton {
+    margin-top: 1rem; }

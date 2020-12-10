@@ -1,0 +1,67 @@
+.tabGroup {
+    list-style:none;
+    padding:0;
+    margin-bottom: 1rem;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    li {
+      display:block;
+      text-decoration:none;
+      padding:1rem;
+      background:$green;
+      color:$cream;
+      font-size:1.25rem;
+      float:left;
+      width:50%;
+      text-align:center;
+      cursor:pointer;
+      transition:.5s ease;
+      &:hover {
+        background:$orange;
+        color:$cream;
+      }
+    }
+    .active {
+      background:$orange;
+      color:$cream;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .input {
+        font-size:1.25rem;
+        display:block;
+        width:75%;
+        height:100%;
+        padding:0.3rem 0.6rem;
+        background:none;
+        background-image:none;
+        border:1px solid $grey;
+        color:$grey;
+        border-radius:0;
+        transition:border-color .25s ease, box-shadow .25s ease;
+        &:focus {
+            outline:0;
+            border-color:$green;
+        }
+    }
+
+    .label {
+        font-size:1.25rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .label:not(:first-child) {
+        margin-top: 0.5rem;
+    }
+
+    .formButton {
+        margin-top: 1rem;
+    }
+}

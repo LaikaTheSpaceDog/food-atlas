@@ -5,6 +5,7 @@ import About from './About';
 import Footer from './Footer';
 import Header from './Header';
 import Map from './Map';
+import Login from './Login';
 import { CSSTransition } from "react-transition-group";
 import { PersistentComponent } from 'react-persistent-state';
 
@@ -96,6 +97,7 @@ class Home extends PersistentComponent {
                     <List handleEnter={ this.handleEnter } handleList={ this.handleList } list={list} />
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                     <Footer />
+                    <Login />
                 </section>
             </CSSTransition>
         );
