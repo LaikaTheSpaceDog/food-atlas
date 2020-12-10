@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-// import { CSSTransition } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 
 class Login extends Component {
 
@@ -34,16 +34,16 @@ class Login extends Component {
       }
     
     handleClickOutside(event) {
-        if (this.props.about && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+        if (this.props.login && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.history.push('/food-atlas/#home');
-            this.props.handleAbout();
+            this.props.handleLogin();
         }
     }
 
     escFunction(event){
-        if(this.props.about && event.keyCode === 27) {
+        if(this.props.login && event.keyCode === 27) {
             this.props.history.push("/food-atlas/#home");
-            this.props.handleAbout();
+            this.props.handleLogin();
         }
     }
 
@@ -61,14 +61,14 @@ class Login extends Component {
         const { register, login } = this.state;
 
         return (
-            // <CSSTransition
-            //     classNames="transition"
-            //     transitionappeartimeout={500}
-            //     timeout={500}
-            //     in={ this.props.about } // needs changing
-            //     unmountOnExit
-            //     appear
-            // >   
+            <CSSTransition
+                classNames="transition"
+                transitionappeartimeout={500}
+                timeout={500}
+                in={ this.props.login }
+                unmountOnExit
+                appear
+            >   
                 <div className="overlay" id="login">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="logReg">
@@ -106,7 +106,7 @@ class Login extends Component {
                         </aside>
                     </div>
                 </div>
-            // </CSSTransition>
+            </CSSTransition>
         );
     }
 }

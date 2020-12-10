@@ -85,7 +85,8 @@ svg {
   font-size: 6rem;
   font-family: "Sniglet", Arial, sans-serif;
   color: #393E41;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
 
 .subHeading {
   font-size: 3rem;

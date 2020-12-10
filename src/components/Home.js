@@ -23,6 +23,7 @@ class Home extends PersistentComponent {
             selected: false,
             about: false,
             list: false,
+            login: false,
             cssTrans: true
         }
 
@@ -30,6 +31,7 @@ class Home extends PersistentComponent {
         this.handleEnter = this.handleEnter.bind(this);
         this.handleAbout = this.handleAbout.bind(this);
         this.handleList = this.handleList.bind(this);
+        this.handleLogin = this.handleLogin.bind(this);
     }
 
     handleEnter(country, dish, description, photo, recipe){
@@ -76,10 +78,17 @@ class Home extends PersistentComponent {
             list: !current
         })
     }
+
+    handleLogin(){
+        let current = this.state.login;
+        this.setState({
+            login: !current
+        })
+    }
     
     render(){ 
     
-        const { country, dish, description, photo, recipe, selected, about, list, cssTrans } = this.state;
+        const { country, dish, description, photo, recipe, selected, about, list, cssTrans, login } = this.state;
 
         return(
             <CSSTransition
@@ -91,13 +100,13 @@ class Home extends PersistentComponent {
                 appear
             >         
                 <section className="home" id="home">
-                    <Header handleAbout={this.handleAbout} handleList={this.handleList} />
+                    <Header handleAbout={this.handleAbout} handleList={this.handleList} handleLogin={this.handleLogin} />
                     <Map setTooltipContent={this.props.setTooltipContent} handleEnter={this.handleEnter} />
                     <About handleAbout={ this.handleAbout } about={about} />
                     <List handleEnter={ this.handleEnter } handleList={ this.handleList } list={list} />
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                     <Footer />
-                    <Login />
+                    <Login login={ login } handleLogin={ this.handleLogin } />
                 </section>
             </CSSTransition>
         );
