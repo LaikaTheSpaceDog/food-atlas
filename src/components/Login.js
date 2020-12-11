@@ -8,8 +8,18 @@ class Login extends Component {
         super(props, context);
 
         this.state = {
-            register: true,
-            login: false
+            reg: true,
+            register: {
+                name: "",
+                email: "",
+                pass: "",
+                conf: ""
+            },
+            log: false,
+            login: {
+                email: "",
+                pass: ""
+            }
         }
 
         this.wrapperRef = React.createRef();
@@ -17,6 +27,12 @@ class Login extends Component {
         this.handleClickOutside = this.handleClickOutside.bind(this);
         this.escFunction = this.escFunction.bind(this);
         this.handleClick = this.handleClick.bind(this);
+        this.handleRegName = this.handleRegName.bind(this);
+        this.handleRegEmail = this.handleRegEmail.bind(this);
+        this.handleRegPass = this.handleRegPass.bind(this);
+        this.handleRegConf = this.handleRegConf.bind(this);
+        this.handleLogEmail = this.handleLogEmail.bind(this);
+        this.handleLogPass = this.handleLogPass.bind(this);
     }
 
     componentDidMount() {
@@ -48,17 +64,65 @@ class Login extends Component {
     }
 
     handleClick(){
-        let currentReg = this.state.register;
-        let currentLog = this.state.login;
+        let currentReg = this.state.reg;
+        let currentLog = this.state.log;
         this.setState({
-            register: !currentReg,
-            login: !currentLog
+            reg: !currentReg,
+            log: !currentLog
         })
+    }
+
+    handleRegName(e){
+        let registerCopy = JSON.parse(JSON.stringify(this.state.register));
+        registerCopy.name = e.currentTarget.value;
+        this.setState({ 
+            register: registerCopy
+        });
+    }
+
+    handleRegEmail(e){
+        let registerCopy = JSON.parse(JSON.stringify(this.state.register));
+        registerCopy.email = e.currentTarget.value;
+        this.setState({ 
+            register: registerCopy
+        });
+    }
+
+    handleRegPass(e){
+        let registerCopy = JSON.parse(JSON.stringify(this.state.register));
+        registerCopy.pass = e.currentTarget.value;
+        this.setState({ 
+            register: registerCopy
+        });
+    }
+
+    handleRegConf(e){
+        let registerCopy = JSON.parse(JSON.stringify(this.state.register));
+        registerCopy.conf = e.currentTarget.value;
+        this.setState({ 
+            register: registerCopy
+        });
+    }
+
+    handleLogEmail(e){
+        let loginCopy = JSON.parse(JSON.stringify(this.state.login));
+        loginCopy.email = e.currentTarget.value;
+        this.setState({ 
+            login: loginCopy
+        });
+    }
+
+    handleLogPass(e){
+        let loginCopy = JSON.parse(JSON.stringify(this.state.login));
+        loginCopy.pass = e.currentTarget.value;
+        this.setState({ 
+            login: loginCopy
+        });
     }
 
     render(){
 
-        const { register, login } = this.state;
+        const { reg, log } = this.state;
 
         return (
             <CSSTransition
@@ -73,36 +137,36 @@ class Login extends Component {
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="logReg">
                             <ul className="tabGroup">
-                                <li className={`tab${register ? " active" : ""}`} onClick={this.handleClick}>Register</li>
-                                <li className={`tab${login ? " active" : ""}`} onClick={this.handleClick}>Login</li>
+                                <li className={`tab${reg ? " active" : ""}`} onClick={this.handleClick}>Register</li>
+                                <li className={`tab${log ? " active" : ""}`} onClick={this.handleClick}>Login</li>
                             </ul>
-                            {register ?
+                            {reg ?
                                 <form className="form" id="register" /* action="https://food-atlas.laikathespacedog.co.uk/api/register" method="post"*/>
                                     <label className="label">Full Name</label>
-                                    <input className="input" type="text" required/>
+                                    <input className="input" type="text" onChange={ this.handleRegName } value={ this.state.register.name } required/>
 
                                     <label className="label">Email</label>
-                                    <input className="input" type="email" required/>
+                                    <input className="input" type="email" onChange={ this.handleRegEmail } value={ this.state.register.email } required/>
 
                                     <label className="label">Password</label>
-                                    <input className="input" type="password" required/>
+                                    <input className="input" type="password" onChange={ this.handleRegPass } value={ this.state.register.pass } required/>
 
                                     <label className="label">Password Confirmation</label>
-                                    <input className="input" type="password" required/>
+                                    <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
 
                                     <button className="formButton" type="submit">Register</button>
                                 </form>
                             :
                                 <form className="form" id="login" /* action="https://food-atlas.laikathespacedog.co.uk/api/login" method="post"*/>
                                     <label className="label">Email</label>
-                                    <input className="input" type="email" required/>
+                                    <input className="input" type="email" onChange={ this.handleLogEmail } value={ this.state.login.email } required/>
 
                                     <label className="label">Password</label>
-                                    <input className="input" type="password" required/>
+                                    <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
 
                                     <button className="formButton" type="submit">Login</button>
                                 </form>
-                        }
+                            }
                         </aside>
                     </div>
                 </div>
