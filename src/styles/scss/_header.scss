@@ -5,7 +5,7 @@
     align-items: flex-end;
 
     .headButton{
-        .subHeading:hover {
+        .subHeading:hover, .heading:hover {
                 color: $orange;
         }
     }

@@ -231,7 +231,7 @@ svg {
   width: 100%;
   justify-content: space-evenly;
   align-items: flex-end; }
-  .header .headButton .subHeading:hover {
+  .header .headButton .subHeading:hover, .header .headButton .heading:hover {
     color: #E94F37; }
 
 .country {
