@@ -33,6 +33,8 @@ class Login extends Component {
         this.handleRegConf = this.handleRegConf.bind(this);
         this.handleLogEmail = this.handleLogEmail.bind(this);
         this.handleLogPass = this.handleLogPass.bind(this);
+        this.handleLogin = this.handleLogin.bind(this);
+        this.handleRegister = this.handleRegister.bind(this);
     }
 
     componentDidMount() {
@@ -120,6 +122,20 @@ class Login extends Component {
         });
     }
 
+    handleRegister(){
+        let {name, email, pass, conf} = this.state.register;
+        if( pass === conf ){
+            return this.props.handleReg(name, email, pass)
+        } else { 
+           return "Passwords must match" 
+        }
+    }
+    
+    handleLogin(){
+        let {email, pass} = this.state.login;
+        return this.props.handleLog(email, pass);
+    }
+
     render(){
 
         const { reg, log } = this.state;
@@ -141,7 +157,7 @@ class Login extends Component {
                                 <li className={`tab${log ? " active" : ""}`} onClick={this.handleClick}>Login</li>
                             </ul>
                             {reg ?
-                                <form className="form" id="register" /* action="https://food-atlas.laikathespacedog.co.uk/api/register" method="post"*/>
+                                <form className="form" id="register">
                                     <label className="label">Full Name</label>
                                     <input className="input" type="text" onChange={ this.handleRegName } value={ this.state.register.name } required/>
 
@@ -154,17 +170,17 @@ class Login extends Component {
                                     <label className="label">Password Confirmation</label>
                                     <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
 
-                                    <button className="formButton" type="submit">Register</button>
+                                    <button className="formButton" type="submit" onClick={ this.handleRegister }>Register</button>
                                 </form>
                             :
-                                <form className="form" id="login" /* action="https://food-atlas.laikathespacedog.co.uk/api/login" method="post"*/>
+                                <form className="form" id="login">
                                     <label className="label">Email</label>
                                     <input className="input" type="email" onChange={ this.handleLogEmail } value={ this.state.login.email } required/>
 
                                     <label className="label">Password</label>
                                     <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
 
-                                    <button className="formButton" type="submit">Login</button>
+                                    <button className="formButton" type="submit" onClick={ this.handleLogin }>Login</button>
                                 </form>
                             }
                         </aside>

@@ -5,7 +5,7 @@ import About from './About';
 import Footer from './Footer';
 import Header from './Header';
 import Map from './Map';
-import Login from './Login';
+import Login from './Login/';
 import { CSSTransition } from "react-transition-group";
 import { PersistentComponent } from 'react-persistent-state';
 
