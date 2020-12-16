@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 .header {
     display: flex;
     width: 40vw;
@@ -9,23 +13,24 @@
         background-color: $cream;
         z-index: 2;
         width: 40vw;
+        padding-top: 2rem;
     }
     .heading:hover {
         color: $orange;
     }
 
     .dropdown-content {
-        display: none;
-        opacity: 0;
         position: absolute;
         z-index: 1;
         text-align: center;
         width: 40vw;
         background-color: $cream;
-        top: 4rem;
+        top: -2rem;
         border-bottom: 5px solid $orange;
         border-left: 5px solid $orange;
         border-right: 5px solid $orange;
+        animation: barUp 1s ease;
+        -webkit-animation: barUp 1s ease;
 
         .subHeading {
             padding-bottom: 0rem;
@@ -40,17 +45,28 @@
     .dropdown-content {
         display: block;
         opacity: 1;
-        animation: bar 1s ease;
-        -webkit-animation: bar 1s ease;
+        top: 6rem;
+        animation: barDown 1s ease;
+        -webkit-animation: barDown 1s ease;
     }
 }
 
-@keyframes bar
+@keyframes barDown
 {
   0% {
-    top: 0;
+    top: -2rem;
   }
   100% {
-    top: 4rem;
+    top: 6rem;
+  }
+}
+
+@keyframes barUp
+{
+  0% {
+    top: 6rem;
+  }
+  100% {
+    top: -2rem;
   }
 }
