@@ -226,14 +226,14 @@ svg {
 
 .header {
   display: flex;
-  width: 100%;
+  width: 60%;
   justify-content: space-evenly;
   align-items: flex-end; }
   .header .headContainer {
     position: relative;
     background-color: #F6F7EB;
     z-index: 2;
-    width: 100%;
+    width: 60vw;
     padding-top: 2rem; }
   .header .heading:hover {
     color: #E94F37; }
