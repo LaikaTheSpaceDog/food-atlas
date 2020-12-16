@@ -1,11 +1,13 @@
 const loggedIn = (state, { token }) => ({
     ...state,
-    token: token
+    token: token,
+    loggedIn: true
 });
 
 const registered = (state, { token }) => ({
     ...state,
-    token: token
+    token: token,
+    loggedIn: true
 });
 
 const reducer = (state, action) => {
