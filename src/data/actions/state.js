@@ -1,13 +1,5 @@
-export const loggedIn = ({token}) => {
+export const logReg = ({token}) => {
     return {
-        type: "login",
-        token
-    }
-}
-
-export const registered = ({token}) => {
-    return {
-        type: "register",
-        token
+        type: "logReg",
     }
 }

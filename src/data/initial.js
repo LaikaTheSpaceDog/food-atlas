@@ -1,5 +1,4 @@
 const initial = {
-    token: "",
     loggedIn: false
 };
 

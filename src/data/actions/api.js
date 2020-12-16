@@ -1,5 +1,5 @@
 import axios from "../../axios";
-import { loggedIn, registered } from "./state";
+import { logReg } from "./state";
 
 export const login = (email, password) => {
     return (dispatch) => {
@@ -8,7 +8,7 @@ export const login = (email, password) => {
             password: password,
             password_confirmation: password
         }).then(({ data }) => {
-            dispatch(loggedIn(data));
+            dispatch(logReg(data));
         })
     }
 }
@@ -21,7 +21,7 @@ export const reg = (name, email, password) => {
             password: password,
             password_confirmation: password
         }).then(({ data }) => {
-            dispatch(registered(data));
+            dispatch(logReg(data));
         })
     }
 }
