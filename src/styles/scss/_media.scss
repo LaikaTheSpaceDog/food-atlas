@@ -17,6 +17,32 @@
             margin-bottom: 2rem;
         }
     }
+
+    .header:hover {
+        .dropdown-content {
+            top: 6rem;
+        }
+    }
+    
+    @keyframes barDown
+    {
+      0% {
+        top: -2rem;
+      }
+      100% {
+        top: 6rem;
+      }
+    }
+    
+    @keyframes barUp
+    {
+      0% {
+        top: 6rem;
+      }
+      100% {
+        top: -2rem;
+      }
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -38,7 +64,31 @@
             margin-bottom: 2rem;
         }
     }
-
+    .header:hover {
+        .dropdown-content {
+            top: 4.75rem;
+        }
+    }
+    
+    @keyframes barDown
+    {
+      0% {
+        top: -2rem;
+      }
+      100% {
+        top: 4.75rem;
+      }
+    }
+    
+    @keyframes barUp
+    {
+      0% {
+        top: 4.75rem;
+      }
+      100% {
+        top: -2rem;
+      }
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -46,7 +96,6 @@
     body {
         margin-left: 2rem;
         margin-right: 2rem;
-        margin-top: 1rem;
 
         #root {
             display: flex;
@@ -148,6 +197,36 @@
             }
         }
     }
+    .header {
+        .headContainer {
+            padding-top: 1rem;
+        }
+    }
+    .header:hover {
+        .dropdown-content {
+            top: 3rem;
+        }
+    }
+    
+    @keyframes barDown
+    {
+      0% {
+        top: -2rem;
+      }
+      100% {
+        top: 3rem;
+      }
+    }
+    
+    @keyframes barUp
+    {
+      0% {
+        top: 3rem;
+      }
+      100% {
+        top: -2rem;
+      }
+    }
 }
 
 @media only screen and (orientation:landscape) and (max-width: 600px) {
@@ -188,6 +267,31 @@
         }
         .subHeading, .asideHeading {
             font-size: 1rem;
+        }
+        .header:hover {
+            .dropdown-content {
+                top: 2.5rem;
+            }
+        }
+        
+        @keyframes barDown
+        {
+          0% {
+            top: -2rem;
+          }
+          100% {
+            top: 2.5rem;
+          }
+        }
+        
+        @keyframes barUp
+        {
+          0% {
+            top: 2.5rem;
+          }
+          100% {
+            top: -2rem;
+          }
         }
     }
 }
