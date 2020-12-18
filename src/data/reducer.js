@@ -6,7 +6,8 @@ const loggedIn = (state, { token }) => ({
 
 const loggedOut = (state) => ({
     ...state,
-    loggedIn: false
+    loggedIn: false,
+    token: ""
 })
 
 const reducer = (state, action) => {

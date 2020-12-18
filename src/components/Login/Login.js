@@ -33,8 +33,8 @@ class Login extends Component {
         this.handleRegConf = this.handleRegConf.bind(this);
         this.handleLogEmail = this.handleLogEmail.bind(this);
         this.handleLogPass = this.handleLogPass.bind(this);
-        this.handleLogin = this.handleLogin.bind(this);
-        this.handleRegister = this.handleRegister.bind(this);
+        this.handleLoginApi = this.handleLoginApi.bind(this);
+        this.handleRegisterApi = this.handleRegisterApi.bind(this);
     }
 
     componentDidMount() {
@@ -122,7 +122,7 @@ class Login extends Component {
         });
     }
 
-    handleRegister(){
+    handleRegisterApi(){
         let {name, email, pass, conf} = this.state.register;
         if( pass === conf ){
             return this.props.handleReg(name, email, pass)
@@ -131,7 +131,7 @@ class Login extends Component {
         }
     }
     
-    handleLogin(){
+    handleLoginApi(){
         let {email, pass} = this.state.login;
         return this.props.handleLog(email, pass);
     }
@@ -170,7 +170,7 @@ class Login extends Component {
                                     <label className="label">Password Confirmation</label>
                                     <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
 
-                                    <button className="formButton" type="submit" onClick={ this.handleRegister }>Register</button>
+                                    <button className="formButton" type="button" onClick={ this.handleRegisterApi }>Register</button>
                                 </form>
                             :
                                 <form className="form" id="login">
@@ -180,7 +180,7 @@ class Login extends Component {
                                     <label className="label">Password</label>
                                     <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
 
-                                    <button className="formButton" type="submit" onClick={ this.handleLogin }>Login</button>
+                                    <button className="formButton" type="button" onClick={ this.handleLoginApi }>Login</button>
                                 </form>
                             }
                         </aside>

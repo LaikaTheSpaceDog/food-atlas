@@ -18,6 +18,8 @@ export const login = (email, password) => {
             password_confirmation: password
         }).then(({ data }) => {
             dispatch(logReg(data));
+        }).catch(function(error) {
+            console.log(error.message);
         })
     }
 }
