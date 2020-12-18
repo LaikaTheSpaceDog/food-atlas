@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 
-const Header = ({handleAbout, handleList, handleLogin}) => {
+const Header = ({handleAbout, handleList, handleLogin, loggedIn, token, dispatchLogout}) => {
 
     const [hovered, setHovered] = useState(false);
     const hover = () => setHovered(true);
+
+    let handleLogout = () => {
+        dispatchLogout(token);
+    }
     
     return (
         <header className="header">
@@ -12,7 +16,12 @@ const Header = ({handleAbout, handleList, handleLogin}) => {
             </div>
             <nav className={ !hovered ? "hidden" : "dropdown-content" }>
                 <ul>
-                    <li><a className="subHeading headButton" href="#login" onClick={ handleLogin }>Register/Log In</a></li>                
+                    {loggedIn ?
+                        <li><a className="subHeading headButton" href="#logout" onClick={ handleLogout }>Log Out</a></li>                
+
+                    :
+                        <li><a className="subHeading headButton" href="#login" onClick={ handleLogin }>Register/Log In</a></li>                
+                    }
                     <li><a className="subHeading headButton" href="#about" onClick={ handleAbout }>About</a></li>
                     <li><a className="subHeading headButton" href="#list" onClick={ handleList }>Countries</a></li>
                 </ul>

@@ -3,7 +3,7 @@ import Country from './Country';
 import List from './List';
 import About from './About';
 import Footer from './Footer';
-import Header from './Header/Header';
+import Header from './Header/';
 import Map from './Map';
 import Login from './Login/';
 import { CSSTransition } from "react-transition-group";
