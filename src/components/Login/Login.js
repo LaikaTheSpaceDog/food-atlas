@@ -135,7 +135,7 @@ class Login extends Component {
     handleLoginApi(){
         let {email, pass} = this.state.login;
         this.props.handleLog(email, pass);
-        this.props.handleLogin();
+        this.props.handleLoginView();
     }
 
     render(){
