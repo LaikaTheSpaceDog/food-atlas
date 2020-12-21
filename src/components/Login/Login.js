@@ -125,7 +125,8 @@ class Login extends Component {
     handleRegisterApi(){
         let {name, email, pass, conf} = this.state.register;
         if( pass === conf ){
-            return this.props.handleReg(name, email, pass)
+            this.props.handleReg(name, email, pass)
+            this.props.handleLogin();
         } else { 
            return "Passwords must match" 
         }
@@ -133,7 +134,8 @@ class Login extends Component {
     
     handleLoginApi(){
         let {email, pass} = this.state.login;
-        return this.props.handleLog(email, pass);
+        this.props.handleLog(email, pass);
+        this.props.handleLogin();
     }
 
     render(){
