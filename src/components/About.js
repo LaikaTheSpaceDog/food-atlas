@@ -30,19 +30,19 @@ class About extends Component {
     handleClickOutside(event) {
         if (this.props.about && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.history.push('/food-atlas/#home');
-            this.props.handleAbout();
+            this.props.handleAboutView();
         }
     }
 
     escFunction(event){
         if(this.props.about && event.keyCode === 27) {
             this.props.history.push("/food-atlas/#home");
-            this.props.handleAbout();
+            this.props.handleAboutView();
         }
     }
 
     render(){
-        const {handleAbout, about} = this.props;
+        const {handleAboutView, about} = this.props;
 
         return (
             <CSSTransition
@@ -56,7 +56,7 @@ class About extends Component {
                 <div className="overlay" id="about">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="about">
-                            <Link to="#home" onClick={handleAbout}><span className="closeButton"></span></Link>
+                            <Link to="#home" onClick={handleAboutView}><span className="closeButton"></span></Link>
                             <div className="aboutText">
                                 <p className="asideHeading">Welcome!</p>
                                 <p className="asideText">Explore the world of food by simply clicking on a country to find out about one of its signature national dishes.</p>

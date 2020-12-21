@@ -31,21 +31,21 @@ class List extends Component {
     handleClickOutside(event) {
         if (this.props.list && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.history.push("/food-atlas/#home");
-            this.props.handleList();
+            this.props.handleListView();
         }
     }
 
     escFunction(event){
         if(this.props.list && event.keyCode === 27) {
             this.props.history.push("/food-atlas/#home");
-            this.props.handleList();
+            this.props.handleListView();
         }
     }
 
     render(){
 
         const countries = geoUrl.objects.ne_50m_admin_0_countries.geometries;
-        const { handleEnter, handleList, list } = this.props;
+        const { handleEnter, handleListView, list } = this.props;
 
         return (
             <CSSTransition
@@ -59,7 +59,7 @@ class List extends Component {
                 <div className="overlay" id="list">      
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="list">
-                            <Link className="close" href="#home" onClick={handleList}><span className="closeButton"></span></Link>
+                            <Link className="close" href="#home" onClick={handleListView}><span className="closeButton"></span></Link>
                             <p className="asideHeading">List</p>
                             <div className="listContainer">
                                 <ul className="countryList">

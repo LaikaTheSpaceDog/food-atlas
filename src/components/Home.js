@@ -29,9 +29,9 @@ class Home extends PersistentComponent {
 
         this.handleBack = this.handleBack.bind(this);
         this.handleEnter = this.handleEnter.bind(this);
-        this.handleAbout = this.handleAbout.bind(this);
-        this.handleList = this.handleList.bind(this);
-        this.handleLogin = this.handleLogin.bind(this);
+        this.handleAboutView = this.handleAboutView.bind(this);
+        this.handleListView = this.handleListView.bind(this);
+        this.handleLoginView = this.handleLoginView.bind(this);
     }
 
     handleEnter(country, dish, description, photo, recipe){
@@ -65,21 +65,21 @@ class Home extends PersistentComponent {
         return url.hostname;
     }
 
-    handleAbout(){
+    handleAboutView(){
         let current = this.state.about;
         this.setState({
             about: !current
         })
     }
 
-    handleList(){
+    handleListView(){
         let current = this.state.list;
         this.setState({
             list: !current
         })
     }
 
-    handleLogin(){
+    handleLoginView(){
         let current = this.state.login;
         this.setState({
             login: !current
@@ -100,13 +100,13 @@ class Home extends PersistentComponent {
                 appear
             >         
                 <section className="home" id="home">
-                    <Header handleAbout={this.handleAbout} handleList={this.handleList} handleLogin={this.handleLogin} />
+                    <Header handleAboutView={this.handleAboutView} handleListView={this.handleListView} handleLoginView={this.handleLoginView} />
                     <Map setTooltipContent={this.props.setTooltipContent} handleEnter={this.handleEnter} />
-                    <About handleAbout={ this.handleAbout } about={about} />
-                    <List handleEnter={ this.handleEnter } handleList={ this.handleList } list={list} />
+                    <About handleAboutView={ this.handleAboutView } about={about} />
+                    <List handleEnter={ this.handleEnter } handleListView={ this.handleListView } list={list} />
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                     <Footer />
-                    <Login login={ login } handleLogin={ this.handleLogin } />
+                    <Login login={ login } handleLoginView={ this.handleLoginView } />
                 </section>
             </CSSTransition>
         );

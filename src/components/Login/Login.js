@@ -54,14 +54,14 @@ class Login extends Component {
     handleClickOutside(event) {
         if (this.props.login && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.history.push('/food-atlas/#home');
-            this.props.handleLogin();
+            this.props.handleLoginView();
         }
     }
 
     escFunction(event){
         if(this.props.login && event.keyCode === 27) {
             this.props.history.push("/food-atlas/#home");
-            this.props.handleLogin();
+            this.props.handleLoginView();
         }
     }
 
