@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import Country from './Country';
+import Country from './Country/';
 import List from './List';
 import About from './About';
 import Footer from './Footer';

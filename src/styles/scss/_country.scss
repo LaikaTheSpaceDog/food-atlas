@@ -15,17 +15,17 @@
         position: relative;
         align-content: flex-end;
 
-        .recipe {
+        .heart {
             width: 3rem;
-            height: 3.75rem;
+            height: 2.7rem;
             position: absolute;
             top: 0;
             left: 0;
-            background-image: url(../assets/svg/recipe-book.svg);
+            background-image: url(../assets/svg/heart-thin.svg);
         }
 
-        .recipe:hover {
-            background-image: url(../assets/svg/recipe-book-orange.svg);
+        .heart:hover {
+            background-image: url(../assets/svg/heart-thin-orange.svg);
         }
 
         .countryTitles {

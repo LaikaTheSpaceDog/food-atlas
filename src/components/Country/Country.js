@@ -81,12 +81,12 @@ class Country extends Component {
                     :
                         <article className="country">
                             <header className="countryHeader">
-                                <a href={ recipe } target="_blank" rel="noopener noreferrer"><span className="recipe"></span></a>
+                                <span className="heart"></span>
+                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                                 <div className="countryTitles">
                                     <h1 className="heading">{ country }</h1>
                                     <h2 className="subHeading">{ dish }</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                             </header>
                             <section className="countryBody">
                                 <figure className="photoContainer">
@@ -95,6 +95,7 @@ class Country extends Component {
                                 </figure>
                                 <div className="description">
                                     <p className="text">{ description }</p>
+                                    <a className="link underline" href={ recipe }>Learn to cook it here!</a>
                                 </div>
                             </section>
                         </article>
