@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, token, dispatchLogout}) => {
+const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, token, dispatchLogout, handleFavouritesView}) => {
 
     const [hovered, setHovered] = useState(false);
     const hover = () => setHovered(true);
@@ -17,8 +17,10 @@ const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, tok
             <nav className={ !hovered ? "hidden" : "dropdown-content" }>
                 <ul>
                     {loggedIn ?
-                        <li><a className="subHeading headButton" href="#logout" onClick={ handleLogout }>Log Out</a></li>                
-
+                        <>
+                            <li><a className="subHeading headButton" href="#logout" onClick={ handleLogout }>Log Out</a></li>
+                            <li><a className="subHeading headButton" href="#favourites" onClick={ handleFavouritesView }>Favourites</a></li>
+                        </>                
                     :
                         <li><a className="subHeading headButton" href="#login" onClick={ handleLoginView }>Register/Log In</a></li>                
                     }

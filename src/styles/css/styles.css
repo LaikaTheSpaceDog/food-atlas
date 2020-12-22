@@ -193,7 +193,7 @@ svg {
   opacity: 0;
   transition: opacity .5s ease-in; }
 
-.about, .list, .logReg {
+.about, .list, .logReg, .favourites {
   align-self: center;
   position: absolute;
   background-color: #F6F7EB;
@@ -204,7 +204,7 @@ svg {
   overflow: hidden;
   display: flex;
   flex-direction: column; }
-  .about .closeButton, .list .closeButton, .logReg .closeButton {
+  .about .closeButton, .list .closeButton, .logReg .closeButton, .favourites .closeButton {
     height: 2rem;
     width: 2rem;
     margin-top: 1rem;
@@ -220,6 +220,9 @@ svg {
   width: 25vw;
   height: 50vh;
   justify-content: center; }
+
+.favourites {
+  width: 40vw; }
 
 .hidden {
   display: none; }

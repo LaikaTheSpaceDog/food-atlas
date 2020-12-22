@@ -1,4 +1,4 @@
-.about,.list,.logReg {
+.about,.list,.logReg,.favourites {
   align-self: center;
   position: absolute;
   background-color: $cream;
@@ -29,4 +29,8 @@
   width: 25vw;
   height: 50vh;
   justify-content: center;
+}
+
+.favourites {
+  width: 40vw;
 }

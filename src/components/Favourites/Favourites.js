@@ -1,0 +1,74 @@
+import React, { Component } from 'react';
+import { withRouter, Link } from 'react-router-dom';
+import { CSSTransition } from "react-transition-group";
+
+class Favourites extends Component {
+
+    constructor(props, context) {
+        super(props, context);
+
+        this.wrapperRef = React.createRef();
+        this.setWrapperRef = this.setWrapperRef.bind(this);
+        this.handleClickOutside = this.handleClickOutside.bind(this);
+        this.escFunction = this.escFunction.bind(this);
+    }
+
+    componentDidMount() {
+        document.addEventListener('mousedown', this.handleClickOutside);
+        document.addEventListener("keydown", this.escFunction, false);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('mousedown', this.handleClickOutside);
+        document.removeEventListener("keydown", this.escFunction, false);
+    }
+
+    setWrapperRef(node) {
+        this.wrapperRef = node;
+      }
+    
+    handleClickOutside(event) {
+        if (this.props.favourites && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+            this.props.history.push('/food-atlas/#home');
+            this.props.handleFavouritesView();
+        }
+    }
+
+    escFunction(event){
+        if(this.props.favourites && event.keyCode === 27) {
+            this.props.history.push("/food-atlas/#home");
+            this.props.handleFavouritesView();
+        }
+    }
+
+    render(){
+        const {handleFavouritesView, favourites} = this.props;
+
+        return (
+            <CSSTransition
+                classNames="transition"
+                transitionappeartimeout={500}
+                timeout={500}
+                in={ favourites }
+                unmountOnExit
+                appear
+            >   
+                <div className="overlay" id="favourites">
+                    <div className="wrapper" ref={this.setWrapperRef}>
+                        <aside className="favourites">
+                            <Link to="#favourites" onClick={handleFavouritesView}><span className="closeButton"></span></Link>
+                            <p className="asideHeading">Favourites</p>
+                            <div className="listContainer">
+                                <ul className="countryList">
+
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </CSSTransition>
+        );
+    }
+}
+
+export default withRouter(Favourites);
