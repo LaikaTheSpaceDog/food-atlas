@@ -10,3 +10,9 @@ export const loggedOut = () => {
         type: "loggedOut"
     }
 }
+
+export const liked = () => {
+    return {
+        type: "liked"
+    }
+}

@@ -10,6 +10,7 @@ class Country extends Component {
         this.setWrapperRef = this.setWrapperRef.bind(this);
         this.handleClickOutside = this.handleClickOutside.bind(this);
         this.escFunction = this.escFunction.bind(this);
+        this.handleLike = this.handleLike.bind(this);
     }
 
     componentDidMount() {
@@ -37,6 +38,12 @@ class Country extends Component {
         if(this.props.selected && event.keyCode === 27) {
             this.props.handleBack();
             this.props.history.push("/food-atlas/#home");
+        }
+    }
+
+    handleLike(){
+        if(this.props.loggedIn){
+            this.props.dispatchLike(this.props.country);
         }
     }
 
@@ -81,7 +88,7 @@ class Country extends Component {
                     :
                         <article className="country">
                             <header className="countryHeader">
-                                <span className="heart"></span>
+                                <span className="heart" onClick={this.handleLike}></span>
                                 <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                                 <div className="countryTitles">
                                     <h1 className="heading">{ country }</h1>

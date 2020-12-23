@@ -1,5 +1,5 @@
 import axios from "../../axios";
-import { logReg, loggedOut } from "./state";
+import { logReg, loggedOut, liked } from "./state";
 import store from "../../store";
 
 axios.interceptors.request.use(function (config) {
@@ -8,7 +8,6 @@ axios.interceptors.request.use(function (config) {
 
     return config;
 });
-
 
 export const login = (email, password) => {
     return (dispatch) => {
@@ -43,6 +42,16 @@ export const logout = (token) => {
             token: token,
         }).then(({ data }) => {
             dispatch(loggedOut(data));
+        })
+    }
+}
+
+export const like = (country) => {
+    return (dispatch) => {
+        axios.post("/me/countries", {
+            countries: [country]
+        }).then(({ data }) => {
+            dispatch(liked(data));
         })
     }
 }
