@@ -1,0 +1,1597 @@
+{
+    "countries": [
+        {
+            "NAME": "Afghanistan",
+            "CONTINENT": "Asia",
+            "DISH": "Kabuli Palaw",
+            "DESCRIPTION": "Kabuli palaw is a variety of pilaf consisting of steamed rice mixed with raisins, carrots, and beef or lamb.",
+            "PHOTO": "https://i2.wp.com/cooktogether.com/pinpics/uploads/2015/07/IMG_5995-2.jpg?fit=3264%2C2448&ssl=1",
+            "RECIPE": "https://www.gourmettraveller.com.au/recipes/chefs-recipes/kabuli-palaw-8270"
+        },
+        {
+            "NAME": "Angola",
+            "CONTINENT": "Africa",
+            "DISH": "Muamba de Galinha",
+            "DESCRIPTION": "Muamba de galinha (or chicken moamba) is chicken with palm paste, okra, garlic and palm oil hash or red palm oil sauce, often served with rice and funge.",
+            "PHOTO": "https://www.conexaolusofona.org/wp-content/uploads/2019/02/moamba-de-galinha.jpg",
+            "RECIPE": "https://www.africanbites.com/muamba-chickenmuamba-de-galinha/"
+        },
+        {
+            "NAME": "Albania",
+            "CONTINENT": "Europe",
+            "DISH": "Tavë kosi",
+            "DESCRIPTION": "Tavë kosi is a dish of lamb and rice baked with yogurt, eggs and a roux.",
+            "PHOTO": "https://flavorverse.com/wp-content/uploads/2018/08/Tave-Kosi-Albania-National-Food.jpg",
+            "RECIPE": "https://www.bbc.co.uk/food/recipes/albanian_baked_lamb_with_92485"
+        },
+        {
+            "NAME": "Andorra",
+            "CONTINENT": "Europe",
+            "DISH": "Escudella de Pagés",
+            "DESCRIPTION": "Escudella de pagés is a thick soup that consists of white beans, ham bone, veal or beed marrow bone, chicken, pork sausage, cured ham cabbage, potatoes, rice and pasta.",
+            "PHOTO": "https://3.bp.blogspot.com/-7U6UfQeURN4/VB712zkGZpI/AAAAAAADLAs/UqEP7dsIQ4k/s1600/IMG_5648.JPG",
+            "RECIPE": "https://recipeland.com/recipe/v/escudella-de-pages-country-stew-42390"
+        },
+        {
+            "NAME": "United Arab Emirates",
+            "CONTINENT": "Asia",
+            "DISH": "Harees",
+            "DESCRIPTION": "Harees is a kind of seasoned porridge made of mear and mixed with meat (often lamb or chicken).",
+            "PHOTO": "https://en.wikipedia.org/wiki/Harees#/media/File:Al_fanar_harees_(7797136886).jpg",
+            "RECIPE": "https://www.bbcgoodfoodme.com/recipes/20320-harees-meat-porridge/"
+        },
+        {
+            "NAME": "Argentina",
+            "CONTINENT": "South America",
+            "DISH": "Empanadas",
+            "DESCRIPTION": "Empanadas are small savoury pastries that can either be baked or fried and typically contain a mixture of beef and vegetables.",
+            "PHOTO": "https://therecipecritic.com/wp-content/uploads/2020/04/easy-empanada.jpg",
+            "RECIPE": "https://www.bonappetit.com/recipe/argentinian-beef-empanadas"
+        },
+        {
+            "NAME": "Armenia",
+            "CONTINENT": "Asia",
+            "DISH": "Dolma",
+            "DESCRIPTION": "Dolma refers to a family of stuffed vegetable dishes. They are often wrapped in grape or cabbage leaves with a meat-and-rice filling.",
+            "PHOTO": "https://iarmenia.org/wp-content/uploads/2017/07/Armenian-Cabbage-Dolma.jpg",
+            "RECIPE": "https://i.ytimg.com/vi/kOgjqAaLbVQ/maxresdefault.jpg"
+        },
+        {
+            "NAME": "Antarctica",
+            "CONTINENT": "Antarctica",
+            "DISH": "Ice",
+            "DESCRIPTION": "There's not much else...",
+            "PHOTO": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F6d5cb004-9ce0-11e9-8dd0-924c0ba9bcc8.jpg?crop=2949%2C1659%2C0%2C154&resize=1180",
+            "RECIPE": "https://www.food.com/recipe/ice-cubes-420398"
+        },
+        {
+            "NAME": "Antigua and Barb.",
+            "CONTINENT": "North America",
+            "DISH": "Fungee and Pepperpot",
+            "DESCRIPTION": "Fungee and Pepperpot is a hearty one-pot meaty stew served with a side of cornmeal with okra.",
+            "PHOTO": "https://i.pinimg.com/736x/6c/3c/93/6c3c93fdd679b9ab8b5c32193eb5dc66--food-challenge-the-shot.jpg",
+            "RECIPE": "https://www.food.com/recipe/fungie-and-pepperpot-415686"
+        },
+        {
+            "NAME": "Australia",
+            "CONTINENT": "Oceania",
+            "DISH": "Meat Pie",
+            "DESCRIPTION": "Australian meat pies are traditionally hand-sized with a filling of minced meat, gravy and onions.",
+            "PHOTO": "https://img.taste.com.au/MtE3MQVO/w720-h480-cfill-q80/taste/2016/11/aussie-meat-pies-16289-1.jpeg",
+            "RECIPE": "https://www.bestrecipes.com.au/recipes/aussie-meat-pie-recipe-2/34l4qr5q"
+        },
+        {
+            "NAME": "Austria",
+            "CONTINENT": "Europe",
+            "DISH": "Wiener Schnitzel",
+            "DESCRIPTION": "Wiener schnitzel is a very thin cutlet of meat (typically veal) that has been breaded and fried.",
+            "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1200px-Wiener-Schnitzel02.jpg",
+            "RECIPE": "https://www.thespruceeats.com/wiener-schnitzel-recipe-1447089"
+        },
+        {
+            "NAME": "Azerbaijan",
+            "CONTINENT": "Asia",
+            "DISH": "Yarpaq Dolmasi",
+            "DESCRIPTION": "Yarpaq dolmasi are a kind of dolma (stuffed vine leaves) with meat, rice, salt, pepper and herbs.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishrestaurants/d873397006c94dccb504f232ce709f4a.jpg?mw=1300",
+            "RECIPE": "https://azcookbook.com/2017/09/15/stuffed-grape-leaves/"
+        },
+        {
+            "NAME": "Burundi",
+            "CONTINENT": "Africa",
+            "DISH": "Ibiharage",
+            "DESCRIPTION": "A simple stew of red beans with onion and chilli.",
+            "PHOTO": "https://img.sndimg.com/food/image/upload/w_560,h_315,c_thumb,fl_progressive,q_80/v1/img/recipes/48/44/18/picnJscZm.jpg",
+            "RECIPE": "https://www.food.com/recipe/ibiharage-burundi-484418"
+        },
+        {
+            "NAME": "Belgium",
+            "CONTINENT": "Europe",
+            "DISH": "Moules-Frites",
+            "DESCRIPTION": "Moules-frites is a dish of mussels served with potato chips (fries)",
+            "PHOTO": "https://static.750g.com/images/640-420/203a157ca1eec1f5271705aa553435f4/adobestock-184713102.jpeg",
+            "RECIPE": "https://www.bbcgoodfood.com/recipes/moules-frites"
+        },
+        {
+            "NAME": "Benin",
+            "CONTINENT": "Africa",
+            "DISH": "Kuli-Kuli",
+            "DESCRIPTION": "Kuli-kuli is a popular fried snack made primarily from ground peanuts.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/4b7b672cbaa24a69ac84a2c650fca94a.jpg?mw=1300",
+            "RECIPE": "https://martymadeit.com/2017/05/14/019-benin-kuli-kuli/"
+        },
+        {
+            "NAME": "Burkina Faso",
+            "CONTINENT": "Africa",
+            "DISH": "Riz Gras",
+            "DESCRIPTION": "Riz gras is a one pot dish made of meat, rice, caroots, cabbage, tomatoes and spices.",
+            "PHOTO": "https://myhungrytum.files.wordpress.com/2010/02/img_5713.jpg",
+            "RECIPE": "https://www.food.com/recipe/riz-gras-fat-rice-burkina-faso-483120"
+        },
+        {
+            "NAME": "Bangladesh",
+            "CONTINENT": "Asia",
+            "DISH": "Ilish Macher Paturi",
+            "DESCRIPTION": "Ilish macher paturi is mad with fish that has been marinated in spices and wrapped in a banana lead before being steamed or roasted.",
+            "PHOTO": "https://www.freeindianrecipes.com/wp-content/uploads/ilish-macher-paturi-1.jpg",
+            "RECIPE": "https://www.bongeats.com/recipe/ilish-paturi"
+        },
+        {
+            "NAME": "Bulgaria",
+            "CONTINENT": "Europe",
+            "DISH": "Shopska Salad",
+            "DESCRIPTION": "Shopska salad is a salad made from tomatoes, cucumbers, peppers, onion and grated sirene cheese.",
+            "PHOTO": "https://tarasmulticulturaltable.com/wp-content/uploads/2015/03/Shopska-2-of-3.jpg",
+            "RECIPE": "https://www.thespruceeats.com/bulgarian-salad-recipe-shopska-salata-1137345"
+        },
+        {
+            "NAME": "Bahrain",
+            "CONTINENT": "Asia",
+            "DISH": "Machboos",
+            "DESCRIPTION": "Machboos is a traditional rice dish cooked with a mix of spices, tomatoes and chicken.",
+            "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2013/03/Machboos-3-sm.jpg",
+            "RECIPE": "https://www.daringgourmet.com/chicken-machboos-bahraini-chicken-rice/"
+        },
+        {
+            "NAME": "Bahamas",
+            "CONTINENT": "North America",
+            "DISH": "Cracked Conch",
+            "DESCRIPTION": "Cracked Conch is breaded and deep-fried conch served with peas and rice.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/efa99dcd107c48209ade4abf87a6afad.jpg?w=905&h=510",
+            "RECIPE": "https://www.uncommoncaribbean.com/nassau/cracked-conch/",
+            "COUNTRY": true
+        },
+        {
+            "NAME": "Bosnia and Herz.",
+            "CONTINENT": "Europe",
+            "DISH": "Ćevapi",
+            "DESCRIPTION": "Ćevapi is a dish of grilled meat that is often served with flatbread and avjar, a spivy red pepper sauce.",
+            "PHOTO": "https://philosokitchen.com/wp-content/uploads/2019/06/cevapcici-and-sandwich-final-1-squared-MAX-720x540.jpg",
+            "RECIPE": "https://www.jamieoliver.com/recipes/beef-recipes/cevapi-with-ajvar/"
+        },
+        {
+            "NAME": "Belarus",
+            "CONTINENT": "Europe",
+            "DISH": "Draniki",
+            "DESCRIPTION": "Draniki are a kind of grated potatoe pancake served with sour cream.",
+            "PHOTO": "https://www.missioneurovision.co.uk/wp-content/uploads/2015/12/belarus-draniki-cream-1024x682.jpg",
+            "RECIPE": "https://www.belarus.by/en/about-belarus/cuisine/draniki"
+        },
+        {
+            "NAME": "Belize",
+            "CONTINENT": "North America",
+            "DISH": "Rice and Beans",
+            "DESCRIPTION": "Rice and beans are cooked in coconut milk and served with meat",
+            "PHOTO": "https://i.ytimg.com/vi/-Lfir10dnWM/maxresdefault.jpg",
+            "RECIPE": "https://explorecookeat.com/belizean-rice-and-beans/"
+        },
+        {
+            "NAME": "Bolivia",
+            "CONTINENT": "South America",
+            "DISH": "Salteñas",
+            "DESCRIPTION": "Salteñas are crescent-shaped pastries filled with meat and a sweet, spicy sauce.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2018/12/salten%CC%83as-1-FP-500x375.jpg",
+            "RECIPE": "https://www.thespruceeats.com/bolivian-style-beef-empanadas-3029698"
+        },
+        {
+            "NAME": "Brazil",
+            "CONTINENT": "South America",
+            "DISH": "Feijoada",
+            "DESCRIPTION": "Feijoada is a stew of pork, beef and black beans with onion, garlic and spices.",
+            "PHOTO": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg",
+            "RECIPE": "https://www.bbcgoodfood.com/recipes/black-bean-meat-stew-feijoada"
+        },
+        {
+            "NAME": "Barbados",
+            "CONTINENT": "North America",
+            "DISH": "Flying Fish and Cou Cou",
+            "DESCRIPTION": "Flying fish are marinated and served with a creole sauce and cou cou, a mixture of cornmeal and okra.",
+            "PHOTO": "http://www.notesfromamessykitchen.com/wp-content/uploads/2017/10/IMG_20171001_201308.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-barbados-flying-fish-and-cou-cou/"
+        },
+        {
+            "NAME": "Brunei",
+            "CONTINENT": "Asia",
+            "DISH": "Ambuyat",
+            "DESCRIPTION": "Ambuyat is a kind of starch made from sago palm. It is typically served with other dishes, such as meat or prawns.",
+            "PHOTO": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0_2qYO6W6D8D4yTkNSGr7wHaFj%26pid%3DApi&f=1",
+            "RECIPE": "https://nationalfoods.org/recipe/ambuyat-national-dish-of-brunei/"
+        },
+        {
+            "NAME": "Bhutan",
+            "CONTINENT": "Asia",
+            "DISH": "Ema Datshi",
+            "DESCRIPTION": "Ema Datshi is a dish made from chilli and cheese that is often served with Bhutanese red rice.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/10/ema-datshi-2-FP.jpg",
+            "RECIPE": "https://www.196flavors.com/bhutan-ema-datshi/"
+        },
+        {
+            "NAME": "Botswana",
+            "CONTINENT": "Africa",
+            "DISH": "Seswaa",
+            "DESCRIPTION": "Seswaa is a simple dish of cooked cuts of meat (typically beef) that is cooked slowly over an open fire.",
+            "PHOTO": "http://www.browsersgrazers.com/wp-content/uploads/2014/04/beef-seswaa.jpg",
+            "RECIPE": "https://www.theguardian.com/world/2012/oct/29/food-and-drink-africa"
+        },
+        {
+            "NAME": "Central African Rep.",
+            "CONTINENT": "Africa",
+            "DISH": "Kanda",
+            "DESCRIPTION": "Kanda are meatballs made from ground beef and pumpkin seeds.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/04/kanda-3.jpg",
+            "RECIPE": "https://www.196flavors.com/central-african-republic-kanda/"
+        },
+        {
+            "NAME": "Canada",
+            "CONTINENT": "North America",
+            "DISH": "Poutine",
+            "DESCRIPTION": "Poutine is made from chips (french fries) covered in cheese curds and gravy.",
+            "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Food_at_WIkimanian_2017_02.jpg/1200px-Food_at_WIkimanian_2017_02.jpg",
+            "RECIPE": "https://www.seasonsandsuppers.ca/authentic-canadian-poutine-recipe/"
+        },
+        {
+            "NAME": "Switzerland",
+            "CONTINENT": "Europe",
+            "DISH": "Rosti",
+            "DESCRIPTION": "Rosti are golden and crispy pan fried grated potatoes.",
+            "PHOTO": "https://images.squarespace-cdn.com/content/57ea401815d5db35a6482940/1508862914629-13X7GLNARW9W6HOVLSNJ/tiph%27s-potato-rosti-with-bacon-tiny-budget-cooking-recipe-limahl-asmall.jpg?content-type=image%2Fjpeg",
+            "RECIPE": "https://www.bbcgoodfood.com/recipes/potato-rosti-cakes-sage-leaves"
+        },
+        {
+            "NAME": "Chile",
+            "CONTINENT": "South America",
+            "DISH": "Curanto",
+            "DESCRIPTION": "Curanto is a traditional meal of seafood, meat, potatoes and vegetables cooked on hot stones underground.",
+            "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2015/01/chile-curanto-1024x685.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/chile-curanto/"
+        },
+        {
+            "NAME": "China",
+            "CONTINENT": "Asia",
+            "DISH": "Peking Duck",
+            "DESCRIPTION": "Peking duck is a dish of duck that has been specially roasted so it has very crispy skin.",
+            "PHOTO": "https://img.theculturetrip.com/768x432/wp-content/uploads/2016/12/4103966297_1985a99850_b.jpg",
+            "RECIPE": "https://thehappyfoodie.co.uk/recipes/kenis-peking-duck"
+        },
+        {
+            "NAME": "Côte d'Ivoire",
+            "CONTINENT": "Africa",
+            "DISH": "Atcheke",
+            "DESCRIPTION": "Atcheke is a side dish made from fermented cassava pulp that has been grated or granulated.",
+            "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/4/44/Attieke.JPG",
+            "RECIPE": "https://africanfoodie.wordpress.com/2012/07/29/acheke/"
+        },
+        {
+            "NAME": "Cameroon",
+            "CONTINENT": "Africa",
+            "DISH": "Ndole",
+            "DESCRIPTION": "Ndole is a stew typically made with peanuts, greens, prawns and ground beef.",
+            "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/10/DOM_1512.jpg",
+            "RECIPE": "https://www.africanbites.com/ndole/"
+        },
+        {
+            "NAME": "Dem. Rep. Congo",
+            "CONTINENT": "Africa",
+            "DISH": "Poulet à la Moambé",
+            "DESCRIPTION": "Poulet à la moambé is a stew made with chicken, spices and palm butter.",
+            "PHOTO": "https://www.notesfromamessykitchen.com/wp-content/uploads/2017/04/IMG_20170424_192819.jpg",
+            "RECIPE": "https://explorers.kitchen/recipes/mains/moambe-chicken/"
+        },
+        {
+            "NAME": "Congo",
+            "CONTINENT": "Africa",
+            "DISH": "Chikwangue",
+            "DESCRIPTION": "Chikwangue is a cassava loaf that is prepared whilst wrapped in a banana leaf.",
+            "PHOTO": "https://bantutastes.com/wp-content/uploads/2019/08/BantuTastesCasavaProducts.png",
+            "RECIPE": "https://www.congocookbook.com/staple-dish-recipes/baton-de-manioc-and-chikwangue/"
+        },
+        {
+            "NAME": "Colombia",
+            "CONTINENT": "South America",
+            "DISH": "Aijaco",
+            "DESCRIPTION": "Aijaco is a hearty chicken soup with potatoes and corn.",
+            "PHOTO": "https://hispanickitchen-nglmedia.netdna-ssl.com/wp-content/uploads/2016/03/Ajiaco-Santaferen%CC%83o-700x500.jpg",
+            "RECIPE": "https://www.thespruceeats.com/colombian-chicken-and-potato-stew-4120146"
+        },
+        {
+            "NAME": "Comoros",
+            "CONTINENT": "Africa",
+            "DISH": "Langouste a la Vanille",
+            "DESCRIPTION": "Langouste a la vanille is a dish of lobsters served with a vanilla cream sauce.",
+            "PHOTO": "https://www.savoirmaigrir.com/img/a/3471/5247/medaillons-de-langoustes-a-la-vanille.jpg",
+            "RECIPE": "https://www.saveur.com/lobster-vanilla-sauce-recipe/"
+        },
+        {
+            "NAME": "Cabo Verde",
+            "CONTINENT": "Africa",
+            "DISH": "Cachupa",
+            "DESCRIPTION": "Cachupa is a slow cooked stew of fish or meat with beans, cassava, sweet potato and blood sausage.",
+            "PHOTO": "https://img-global.cpcdn.com/recipes/8cbb69fae36b55e6/1502x1064cq70/foto-principal-da-receita-cachupa-rica-made-in-cabo-verde.jpg",
+            "RECIPE": "https://www.cookstr.com/African-Recipes/Cape-Verde-Sausage-Stew"
+        },
+        {
+            "NAME": "Costa Rica",
+            "CONTINENT": "North America",
+            "DISH": "Gallo Pinto",
+            "DESCRIPTION": "Gallo pinto is a dish of beans and rice, often with onion, garlic and bell peppers.",
+            "PHOTO": "https://www.pcrm.org/sites/default/files/gallo-pinto-10.jpg",
+            "RECIPE": "https://www.pcrm.org/recipes/costa-rican-rice-and-beans-gallo-pinto"
+        },
+        {
+            "NAME": "Cuba",
+            "CONTINENT": "North America",
+            "DISH": "Ropa Vieja",
+            "DESCRIPTION": "Ropa vieja is a dish of pulled steak served with vegetables and aromatics.",
+            "PHOTO": "https://assets.bonappetit.com/photos/59c924d03b3bf713cb638086/master/pass/1017%20WEB%20WEEK0869.jpg",
+            "RECIPE": "https://www.bonappetit.com/recipe/ropa-vieja"
+        },
+        {
+            "NAME": "Cyprus",
+            "CONTINENT": "Asia",
+            "DISH": "Souvla",
+            "DESCRIPTION": "Souvla consists of large pieces of meat cooked on a skewer over a charcoal barbeque.",
+            "PHOTO": "https://in-cyprus.philenews.com/wp-content/uploads/2020/03/souvla.jpg",
+            "RECIPE": "https://www.cyprusbbq.co.uk/blogs/recipes/souvla"
+        },
+        {
+            "NAME": "Czechia",
+            "CONTINENT": "Europe",
+            "DISH": "Vepřo-Knedlo-Zelo",
+            "DESCRIPTION": "Vepřo-knedlo-zelo is a dish of roast pork served with dumplings and sauerkraut.",
+            "PHOTO": "https://itesco.cz//imgglobal/content_platform/recipes/main/0f/0f51f0e11a8493d8dcd6378aa1f22540.jpg",
+            "RECIPE": "https://www.196flavors.com/czech-republic-vepro-knedlo-zelo/"
+        },
+        {
+            "NAME": "Germany",
+            "CONTINENT": "Europe",
+            "DISH": "Sauerbraten",
+            "DESCRIPTION": "Sauerbraten is a heavily marinated roast (typically beef) served with gravy and potatoes.",
+            "PHOTO": "https://houseofnasheats.com/wp-content/uploads/2019/09/German-Sauerbraten-Recipe-13.jpg",
+            "RECIPE": "https://www.allrecipes.com/recipe/221361/traditional-sauerbraten/"
+        },
+        {
+            "NAME": "Djibouti",
+            "CONTINENT": "Africa",
+            "DISH": "Skoudehkaris",
+            "DESCRIPTION": "Skoudehkaris is a spicy one-pot dish of lamb, tomatoes and rice ",
+            "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/160ed2a29ee0432b9caae00fc7808618.jpg?w=600&h=450",
+            "RECIPE": "http://globaltableadventure.com/recipe/recipe-skoudehkaris/"
+        },
+        {
+            "NAME": "Dominica",
+            "CONTINENT": "North America",
+            "DISH": "Callaloo",
+            "DESCRIPTION": "Callaloo is a thick soup of leafy greens, coconut milk, salted meat, yams, peppers, onion and plantains.",
+            "PHOTO": "https://d2wtgwi3o396m5.cloudfront.net/recipe/0a2c08bd-a939-4f99-a40c-b28e1ec3fdac.jpg",
+            "RECIPE": "http://globaltableadventure.com/recipe/recipe-callaloo/"
+        },
+        {
+            "NAME": "Denmark",
+            "CONTINENT": "Europe",
+            "DISH": "Stegt Flæsk",
+            "DESCRIPTION": "Stegt flæsk is fried pork belly served with potatoes, a white sauce and parsley.",
+            "PHOTO": "https://mambeno.dk/wp-content/uploads/2018/01/Stegt-fl%C3%A6sk-med-glaserede-roedbeder-og-kartoffelmos.jpg",
+            "RECIPE": "https://www.sbs.com.au/food/recipes/grilled-pork-belly-parsley-sauce-stegt-flaesk-med-persillesovs"
+        },
+        {
+            "NAME": "Dominican Rep.",
+            "CONTINENT": "North America",
+            "DISH": "La Bandera",
+            "DESCRIPTION": "La Bandera, named after the national flag, is a dish of chicken served with rice and beans.",
+            "PHOTO": "https://theturquoisetable.com/wp-content/uploads/2012/07/bandera.jpg",
+            "RECIPE": "https://www.dominicancooking.com/17570-la-bandera-dominicana-our-traditional-lunch-meal.html"
+        },
+        {
+            "NAME": "Algeria",
+            "CONTINENT": "Africa",
+            "DISH": "Couscous",
+            "DESCRIPTION": "Couscous is made from steamed semolina and regularly served with meat, vegetables and spices.",
+            "PHOTO": "https://live.staticflickr.com/2833/34326768826_44f0b66fdc_b.jpg",
+            "RECIPE": "https://www.allrecipes.com/recipe/256729/algerian-couscous/"
+        },
+        {
+            "NAME": "Ecuador",
+            "CONTINENT": "South America",
+            "DISH": "Encebollado",
+            "DESCRIPTION": "Encebollado is a fish stew served with boiled cassava and pickled red onion.",
+            "PHOTO": "https://i1.wp.com/www.maxionline.ec/wp-content/uploads/2019/06/encebollado.jpg?w=1500&amp;ssl=1",
+            "RECIPE": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/"
+        },
+        {
+            "NAME": "Egypt",
+            "CONTINENT": "Africa",
+            "DISH": "Ful Medames",
+            "DESCRIPTION": "Ful medames is a dish of fava beans cooked with oil, cumin, parsley, garlic, onion and lemon juice.",
+            "PHOTO": "https://i2.wp.com/carolinescooking.com/wp-content/uploads/2017/06/Ful-medemes-Egyptian-fava-beans-picture.jpg",
+            "RECIPE": "https://www.themediterraneandish.com/foul-mudammas-recipe/"
+        },
+        {
+            "NAME": "Eritrea",
+            "CONTINENT": "Africa",
+            "DISH": "Zigni with Injera",
+            "DESCRIPTION": "Zigini is a spicy beef stew that is served with injera, a spongy, sour, fermented flatbread.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/12/zigni-and-injera.jpg",
+            "RECIPE": "https://www.greatbritishchefs.com/recipes/zigni-berbere-recipe"
+        },
+        {
+            "NAME": "Spain",
+            "CONTINENT": "Europe",
+            "DISH": "Tortilla de Patatas",
+            "DESCRIPTION": "Tortilla de Patatas is a dense omlette that contains potato and optionally some onion.",
+            "PHOTO": "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg",
+            "RECIPE": "https://tastesbetterfromscratch.com/tortilla-de-patatas/"
+        },
+        {
+            "NAME": "Estonia",
+            "CONTINENT": "Europe",
+            "DISH": "Verivorst",
+            "DESCRIPTION": "Verivorst is a type of traditional blood sausage that is often served with a kind of sauerkraut called mulgikapsad.",
+            "PHOTO": "https://estonianworld.com/wp-content/uploads/2013/12/Blood-saugages-with-sauerkraut-and-lingonberry-jam1.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-estonia-verivorst-with-mulgikapsad/"
+        },
+        {
+            "NAME": "Ethiopia",
+            "CONTINENT": "Africa",
+            "DISH": "Doro Wat",
+            "DESCRIPTION": "Doro wat is a meat (chicken, beef or lamb) stew with vegetables and berbere spice served on injera, a sour spongy flatbread.",
+            "PHOTO": "https://www.easylifeforeveryone.com/wp-content/uploads/2018/07/Ethiopian-traditional-food-Doro-wat-.jpg",
+            "RECIPE": "https://www.africanbites.com/doro-wat-ethiopian-chicken-stew/"
+        },
+        {
+            "NAME": "Finland",
+            "CONTINENT": "Europe",
+            "DISH": "Rye Bread",
+            "DESCRIPTION": "Rye bread is a kind of bread made from rye flour. It can bne light or dark in colour depending on its preparation.",
+            "PHOTO": "https://www.thefooddictator.com/wp-content/uploads/2016/11/img_4831.jpg",
+            "RECIPE": "https://myvintagecooking.com/finnish-rye-sourdough/"
+        },
+        {
+            "NAME": "Fiji",
+            "CONTINENT": "Oceania",
+            "DISH": "Fijian Kokoda",
+            "DESCRIPTION": "Fijian kokoda is a dish of raw fish marinated in lime and coconut milk.",
+            "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/01/Arousing-Appetites-8-of-10.jpg",
+            "RECIPE": "https://www.bestrecipes.com.au/recipes/fijian-kokoda-recipe/07c7tl98"
+        },
+        {
+            "NAME": "France",
+            "CONTINENT": "Europe",
+            "DISH": "Pot-au-Feu",
+            "DESCRIPTION": "Pot-au-feu is a beef stew containing oxtail, root vegetables and spices, often served at Christmas.",
+            "PHOTO": "https://foodandwine.ie/uploads/article/2019/3/2132/article_Pot-au-Feu.jpg?t=1553381538",
+            "RECIPE": "https://foodandwine.ie/pot-au-feu"
+        },
+        {
+            "NAME": "Micronesia",
+            "CONTINENT": "Oceania",
+            "DISH": "Pihlohlo Mwehng",
+            "DESCRIPTION": "Pihlohlo mwehng consists of taro root coated with coconut sap syrup.",
+            "PHOTO": "https://2.bp.blogspot.com/-E9eBmMXzW48/TpQSfoFqXJI/AAAAAAAAJhM/l5vwo97ZlHg/s400/DSCF4568_modified.JPG",
+            "RECIPE": ""
+        },
+        {
+            "NAME": "Gabon",
+            "CONTINENT": "Africa",
+            "DISH": "Poulet Nyembwe",
+            "DESCRIPTION": "Poulet nyembwe is a spicy chicken dish cooked in palm oil, served with rice, plantain or mashed yams.",
+            "PHOTO": "https://i1.wp.com/nationalfoods.org/wp-content/uploads/2017/07/National-Dish-of-Gabon-%E2%80%93-Poulet-Nyembwe.jpg?w=1140&ssl=1",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-gabon-poulet-nyembwe/"
+        },
+        {
+            "NAME": "United Kingdom",
+            "CONTINENT": "Europe",
+            "DISH": "Fish and Chips",
+            "DESCRIPTION": "Fish and chips is a dish of fried fish (often cod or haddock) fried in batter and served with potato chips.",
+            "PHOTO": "https://i2-prod.bristolpost.co.uk/incoming/article8494.ece/ALTERNATES/s1200b/Fish-and-Chips-1.jpg",
+            "RECIPE": "https://www.196flavors.com/united-kingdom-fish-and-chips/"
+        },
+        {
+            "NAME": "Georgia",
+            "CONTINENT": "Asia",
+            "DISH": "Khinkali",
+            "DESCRIPTION": "Khinkali are dumplings with a twisted top that have been stuffed with meat and spices.",
+            "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/d9ae0ef06bc54f7cb4e6b5b928bc6f41.jpg?w=600&h=450",
+            "RECIPE": "https://www.foodandwine.com/recipes/khinkali-meat-filled-dumplings"
+        },
+        {
+            "NAME": "Ghana",
+            "CONTINENT": "Africa",
+            "DISH": "Fufu",
+            "DESCRIPTION": "Fufu is a rough dough often made from starchy food crops such as cassava and yam. It is white and sticky and usually eaten as a side with soups or stews.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/f189408c715349a891af42809e22b4a9.jpg?mw=1300",
+            "RECIPE": "https://www.tasteatlas.com/fufu/recipe"
+        },
+        {
+            "NAME": "Guinea",
+            "CONTINENT": "Africa",
+            "DISH": "Poulet Yassa",
+            "DESCRIPTION": "Poulet yassa is a simple dish of chicken that has been marinated in onion and lemon and served with rice.",
+            "PHOTO": "https://img.cuisineaz.com/610x610/2016-04-28/i96651-poulet-yassa.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-guinea-poulet-yassa/"
+        },
+        {
+            "NAME": "Gambia",
+            "CONTINENT": "Africa",
+            "DISH": "Domoda",
+            "DESCRIPTION": "Domoda is a peanut stew cooked with chicken, seasonal vegetables (usually pumpkin and sweet potato) and a saucy base.",
+            "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2013/03/Domoda-1.jpg",
+            "RECIPE": "https://www.daringgourmet.com/domoda-gambian-peanut-stew/"
+        },
+        {
+            "NAME": "Guinea-Bissau",
+            "CONTINENT": "Africa",
+            "DISH": "Egusi Soup",
+            "DESCRIPTION": "Egusi soup is a thick, rich soup made with ground egusi (melon) seeds, vegetables and meat or seafood.",
+            "PHOTO": "https://cheflolaskitchen.com/wp-content/uploads/2018/06/Egusi-soup-Recipe-2-1024x683.jpg.webp",
+            "RECIPE": "https://cheflolaskitchen.com/egusi-soup-recipe/"
+        },
+        {
+            "NAME": "Eq. Guinea",
+            "CONTINENT": "Africa",
+            "DISH": "Succotash",
+            "DESCRIPTION": "Succotash is a dish made up of sweet corn and lima beans, with extra optional ingredients including meat, tomatoes, peppers and okra.",
+            "PHOTO": "https://naptimeprepcook.files.wordpress.com/2018/09/temp-475.jpg",
+            "RECIPE": "https://naptimeprepcook.wordpress.com/2018/10/02/equatorial-guinea-%F0%9F%87%AC%F0%9F%87%B6-succotash/"
+        },
+        {
+            "NAME": "Greece",
+            "CONTINENT": "Europe",
+            "DISH": "Moussaka",
+            "DESCRIPTION": "Moussaka is a dish made of layers of either aubergine or potatoes, minced meat (usually lamb) and a creamy sauce.",
+            "PHOTO": "https://www.mygreekdish.com/wp-content/uploads/2013/05/Moussaka-recipe-Traditional-Greek-Moussaka-with-Eggplants.jpg",
+            "RECIPE": "https://www.mygreekdish.com/recipe/mousakas/"
+        },
+        {
+            "NAME": "Grenada",
+            "CONTINENT": "North America",
+            "DISH": "Oil Down",
+            "DESCRIPTION": "Oil down is a stew of local vegetables (such as breadfruit), green bananas and salted meat that have been cooked in a mixture of spices and coconut milk.",
+            "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/e35945ed97284cf0a9fe74d6299d0427.jpg?mw=1300",
+            "RECIPE": "https://www.tasteatlas.com/oil-down/recipe"
+        },
+        {
+            "NAME": "Greenland",
+            "CONTINENT": "North America",
+            "DISH": "Suaasat",
+            "DESCRIPTION": "Suaasat is a thick broth or soup that is traditionally made with seal meat, onions and potatoes..",
+            "PHOTO": "https://chili365.files.wordpress.com/2014/07/jul2.jpg",
+            "RECIPE": "https://2kalaallitnunaatigo.wordpress.com/2015/07/24/cooking-suaasat-a-traditional-greenlandic-seal-soup-recipe/"
+        },
+        {
+            "NAME": "Guatemala",
+            "CONTINENT": "North America",
+            "DISH": "Chicken Pepian",
+            "DESCRIPTION": "Chicken pepian is a stew containing chicken, vegetables and fuits (such as pear, squash, carrot, potato and corn) and mixture of spices.",
+            "PHOTO": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/2/20/1424432910140/214aa0e4-4220-4854-bf7a-293cdb54d1f5-1020x612.jpeg?width=1020&quality=85&auto=format&fit=max&s=b4dff04db134a5b29e3bcfc3a0e9b06c",
+            "RECIPE": "https://www.theguardian.com/cities/2015/feb/24/real-street-food-pepian-from-guatemala"
+        },
+        {
+            "NAME": "Guyana",
+            "CONTINENT": "South America",
+            "DISH": "Pepperpot",
+            "DESCRIPTION": "Pepperpot is a meat stew with a dark, rich gravy that contains spices and the local cassareep syrup.",
+            "PHOTO": "https://www.africanbites.com/wp-content/uploads/2018/07/IMG_2141.jpg",
+            "RECIPE": "https://www.africanbites.com/pepperpot/"
+        },
+        {
+            "NAME": "Honduras",
+            "CONTINENT": "North America",
+            "DISH": "Plato Típico",
+            "DESCRIPTION": "Plato típico is a meal of grilled meat, plantains, beans, chismol (a salsa of tomato, red pepper and onion) and rice.",
+            "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/09/Honduras-Plato-tipico.jpg",
+            "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-honduras-plato-tipico/"
+        },
+        {
+            "NAME": "Croatia",
+            "CONTINENT": "Europe",
+            "DISH": "Zagorski Štrukli",
+            "DESCRIPTION": "Zagorski štrukli are made from thin (filo) pastry that is filled with cottage cheese, butter and cream.",
+            "PHOTO": "https://honestcooking.com/wp-content/uploads/2012/01/IMG_1650.jpg",
+            "RECIPE": "https://honestcooking.com/learn-how-to-make-traditional-croatian-baked-strukli/"
+        },
+        {
+            "NAME": "Haiti",
+            "CONTINENT": "North America",
+            "DISH": "Griot",
+            "DESCRIPTION": "Griot is made from cubes of pork shoulder that is cooked in aromatics and citrus juices, often sevred with pikilz (pickled shredded vegetables).",
+            "PHOTO": "https://gbc-cdn-public-media.azureedge.net/img85918.768x512.jpg",
+            "RECIPE": "https://www.greatbritishchefs.com/recipes/haitian-griot-pikliz-recipe"
+        },
+        {
+            "NAME": "Hungary",
+            "CONTINENT": "Europe",
+            "DISH": "Goulash",
+            "DESCRIPTION": "Goulash is a thick soup seasoned with paprika and containing beef, onions and other vegetables such as potatoes, carrots, pepper and tomatoes.",
+            "PHOTO": "https://www.spendwithpennies.com/wp-content/uploads/2018/09/Hungarian-Goulash-21.jpg",
+            "RECIPE": "https://www.spendwithpennies.com/hungarian-goulash/"
+        },
+        {
+            "NAME": "Indonesia",
+            "CONTINENT": "Asia",
+            "DISH": "Nasi Goreng",
+            "DESCRIPTION": "Nasi goreng is a dish of fried rice with meat (traditionally chicken), vegetables, sweet soy sauce (kecap manis) and served with a fried egg",
+            "PHOTO": "https://www.recipetineats.com/wp-content/uploads/2016/03/Nasi-Goreng_3-1.jpg",
+            "RECIPE": "https://www.recipetineats.com/nasi-goreng-indonesian-fried-rice/"
+        },
+        {
+            "NAME": "India",
+            "CONTINENT": "Asia",
+            "DISH": "None/Khichdi",
+            "DESCRIPTION": "Due to its diversity, India has purposefully chosen not to have a national dish, however a very popular candidate would be khichdi, which is a dish of rice and lentils with cumin, turmeric and other spices.",
+            "PHOTO": "https://assets.bonappetit.com/photos/5f40055dd8a686d03a8e3372/3:2/w_2560,c_limit/Khichdi-new.jpg",
+            "RECIPE": "https://www.bonappetit.com/recipe/khichdi"
+        },
+        {
+            "NAME": "Ireland",
+            "CONTINENT": "Europe",
+            "DISH": "Irish Stew",
+            "DESCRIPTION": "Irish stew is a thick stew of mutton and root vegetables garnished with parsley.",
+            "PHOTO": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-513754_11-2424e30.jpg?quality=90&webp=true&resize=440,400",
+            "RECIPE": "https://www.bbcgoodfood.com/recipes/irish-stew"
+        },
+        {
+            "NAME": "Iran",
+            "CONTINENT": "Asia",
+            "DISH": "Abgoosht",
+            "DESCRIPTION": "Abgoosht is a lamb stew thickened with chickpeas, also containing beans, onion, potatoes, tomatoes, turmeric and sour grapes or dried lime.",
+            "PHOTO": "https://persianmama.com/wp-content/uploads/2015/07/Abgooshte-Dandeh-3.jpg",
+            "RECIPE": "https://persianmama.com/abgoosht-persian-short-ribs-vegetable-stew/"
+        },
+        {
+            "NAME": "Iraq",
+            "CONTINENT": "Asia",
+            "DISH": "Masgouf",
+            "DESCRIPTION": "Masgouf is a dish of grilled carp that is seasoned with salt, lemon juice and curry powder.",
+            "PHOTO": "https://hildaskitchenblog.com/wp-content/uploads/2019/10/masgouf-9.jpg",
+            "RECIPE": "https://hildaskitchenblog.com/recipe/masgouf-iraqi-fish/"
+        },
+        {
+            "NAME": "Iceland",
+            "CONTINENT": "Europe",
+            "DISH": "Hákarl",
+            "DESCRIPTION": "Hákarl is a dish of greenland shark that is cured, fermented and hung to dry for four to five months.",
+            "PHOTO": "https://assets.atlasobscura.com/media/W1siZiIsIjIwMTcvMTEvMTMvMTcvNDEvNTgvMTdkMTYwNjktMzc0Zi00ZDQ0LThlOGEtYTUxMmViMjYyN2I0L2ZpbGUuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjYwMHg-Il1d/file.jpg",
+            "RECIPE": "https://icecook.blogspot.com/2006/01/how-to-prepare-hakarl-rotten-or-cured_17.html"
+        },
+        {
+            "NAME": "Israel",
+            "CONTINENT": "Asia",
+            "DISH": "Falafel",
+            "DESCRIPTION": "Falafel are deep fried balls of ground chickpeas or favabeans, and fresh herbs. They are often served with tahini, hummus, pita bread and salad.",
+            "PHOTO": "https://toriavey.com/images/2011/01/Falafel-10-900x675.jpg",
+            "RECIPE": "https://toriavey.com/toris-kitchen/falafel/"
+        },
+        {
+            "NAME": "Italy",
+            "CONTINENT": "Europe",
+            "DISH": "Pizza",
+            "DESCRIPTION": "Pizza consists of a round dough base topped with tomatoes, cheese and a wide selection of other optional toppings, traditionally baked at a high temperature in a wood-fired oven.",
+            "PHOTO": "https://www.simplyrecipes.com/wp-content/uploads/2007/01/homemade-pizza-horiz-a-1200.jpg",
+            "RECIPE": "https://www.simplyrecipes.com/recipes/homemade_pizza/"
+        },
+        {
+            "NAME": "Jamaica",
+            "CONTINENT": "North America",
+            "DISH": "Ackee and Saltfish",
+            "DESCRIPTION": "Ackee and saltfish is a dish of ackee (a local fruit), salted fish, onions, tomatoes, peppers and spices like thyme and chilli.",
+            "PHOTO": "https://www.saveur.com/resizer/CY3Hv3JYu22AXKxSbcocETqYKDk=/800x662/cloudfront-us-east-1.images.arcpublishing.com/bonnier/6TRBMAZPBFAGT3PCB3VPQ3LXUM.jpg",
+            "RECIPE": "https://www.saveur.com/article/Recipes/Ackee-and-Saltfish/"
+        },
+        {
+            "NAME": "Jordan",
+            "CONTINENT": "Asia",
+            "DISH": "Mansaf",
+            "DESCRIPTION": "Mansaf is a lamb dish with a sauce called jameed that is made from fermented dried yoghurt, often served with rice or bulgur.",
+            "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2015/06/Jordanian-Mansaf-ft-image-W-GRAPHIC.jpg",
+            "RECIPE": "https://blog.arousingappetites.com/mansaf-jordanian-yogurt-meat-rice-pilaf/"
+        },
+        {
+            "NAME": "Japan",
+            "CONTINENT": "Asia",
+            "DISH": "Sushi",
+            "DESCRIPTION": "Sushi is typically made with sticky vinegared rice accompanied with other ingredients, most commonly raw seafood, seaweed and vegetables.",
+            "PHOTO": "https://images.japancentre.com/recipes/pics/18/main/makisushi.jpg?1557308201",
+            "RECIPE": "https://www.japancentre.com/en/recipes/18-maki-sushi-rolls"
+        },
+        {
+            "NAME": "Kazakhstan",
+            "CONTINENT": "Asia",
+            "DISH": "Beshbarmak",
+            "DESCRIPTION": "Beshbarmak is a dish of boiled meat (mutton, beef, horse or camel) served with noodles and onions, typically eaten with one's hands.",
+            "PHOTO": "https://cloud.foodista.com/content/images/45d8b6d9e319eb4f972bb0454914334360937909_607x400.jpg",
+            "RECIPE": "https://arbuz.com/recipes/beshbarmak/"
+        },
+        {
+            "NAME": "Kenya",
+            "CONTINENT": "Africa",
+            "DISH": "Sukuma Wiki",
+            "DESCRIPTION": "Sukuma wiki is a dish of braised greens (such as kale, spinach or collard greens) an tomatoes, often eaten alongside other dishes and roasted meat.",
+            "PHOTO": "https://www.africanbites.com/wp-content/uploads/2015/01/IMG_6413.jpg",
+            "RECIPE": "https://www.africanbites.com/sukuma-wiki/"
+        },
+        {
+            "NAME": "Kyrgyzstan",
+            "CONTINENT": "Asia",
+            "DISH": "Kuurdak",
+            "DESCRIPTION": "Kuurdak is a dish made from roasted meat (typically mutton), offal and onions cooked in fat and oil.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/e56c558e22ac45d58011dc7ee4867ee3.jpg?w=600&h=450",
+            "RECIPE": "http://easilygoodeats.blogspot.com/2011/04/kuurdak-recipe.html"
+        },
+        {
+            "NAME": "Cambodia",
+            "CONTINENT": "Asia",
+            "DISH": "Samlar Kakou",
+            "DESCRIPTION": "Samlar kakou is a traditional soup made from kroeung paste, vegetables and fish, pork or chicken.",
+            "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Somlorkoko.jpg",
+            "RECIPE": "https://www.196flavors.com/cambodia-samlor-kako/"
+        },
+        {
+            "NAME": "Kiribati",
+            "CONTINENT": "Oceania",
+            "DISH": "Palusami",
+            "DESCRIPTION": "Palusami is a dish that typically contains coconut cream and corned beef wrapped in taro leaves.",
+            "PHOTO": "https://raffimatcha.files.wordpress.com/2017/05/1a3bd-img_6427.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-kiribati-palusami/"
+        },
+        {
+            "NAME": "St. Kitts and Nevis",
+            "CONTINENT": "North America",
+            "DISH": "Stewed Saltfish",
+            "DESCRIPTION": "Stewed saltfish is a fish stew, often served with spicy fried plantains, coconut dumplings and breadfruit.",
+            "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/09/Saint-kitts-and-nevis-1.jpg",
+            "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-saint-kitts-and-nevis-stewed-saltfish-with-spicy-plantains-and-coconut-dumplings/"
+        },
+        {
+            "NAME": "South Korea",
+            "CONTINENT": "Asia",
+            "DISH": "Kimchi",
+            "DESCRIPTION": "Kimchi is a side dish made from vegetables (often napa cabbage and Korean radish) that have been fermented with red pepepr flakes, spring onions, garlic and ginger.",
+            "PHOTO": "https://www.koreanbapsang.com/wp-content/uploads/2019/11/DSC_0831.jpg",
+            "RECIPE": "https://www.koreanbapsang.com/baechu-kimchi-napa-cabbage-kimchi/"
+        },
+        {
+            "NAME": "Kosovo",
+            "CONTINENT": "Europe",
+            "DISH": "Flia",
+            "DESCRIPTION": "Flia consists of many layers of thin pancakes that have been brushed with cream and then served with sour cream.",
+            "PHOTO": "https://www.myalbanianfood.com/wp-content/uploads/2017/02/Albanian-Flija-Sliced-1-1300x731.jpg",
+            "RECIPE": "https://www.myalbanianfood.com/recipe/albanian-flija-pancake/"
+        },
+        {
+            "NAME": "Kuwait",
+            "CONTINENT": "Asia",
+            "DISH": "Machboos Laham",
+            "DESCRIPTION": "Machboos laham is a rice dish containing a mix of fried onions, raisins and split peas, often served with meat (either lamb or chicken).",
+            "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/02/Kuwait-Machboos-Laham.jpg",
+            "RECIPE": "https://ingmar.app/blog/recipe-national-dish-of-kuwait-machboos-laham/"
+        },
+        {
+            "NAME": "Laos",
+            "CONTINENT": "Asia",
+            "DISH": "Larb",
+            "DESCRIPTION": "Larb is a meat (often pork) salad made with corriander, mint, spring onions, shallots, chilli, lime and rice.",
+            "PHOTO": "https://cinnamonandcoriander.com/wp-content/uploads/2015/04/Chicken-Larb-Laos-Rezept.jpg",
+            "RECIPE": "https://norecipes.com/larb-mu-recipe/"
+        },
+        {
+            "NAME": "Lebanon",
+            "CONTINENT": "Asia",
+            "DISH": "Kibbeh",
+            "DESCRIPTION": "Kibbeh is a dish of croquettes of ground meat, bulgur wheat, pine nuts and spices that are then deep fried.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/m4G2DXU6wVvagEnyKGVc965EdbE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-beginner-kibbeh-recipe-2355367-Hero-5b7b259ec9e77c00505a8eaa.jpg",
+            "RECIPE": "https://www.thespruceeats.com/easy-beginner-kibbeh-recipe-2355367"
+        },
+        {
+            "NAME": "Liberia",
+            "CONTINENT": "Africa",
+            "DISH": "Dumboy",
+            "DESCRIPTION": "Dumboy is a dish made from cassava that is boiler and pounder into a dough and shaped into balls. It is often served with meat stock or pepper soup.",
+            "PHOTO": "https://liberiainfo.co/prd/wp-content/uploads/2018/11/grater-dumboy.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-liberia-dumboy/"
+        },
+        {
+            "NAME": "Libya",
+            "CONTINENT": "Africa",
+            "DISH": "Kusksu",
+            "DESCRIPTION": "Kusksu is a couscous dish served with beef, chickpeas and vegetables (such as pumpkin) cooked in a spicy sauce.",
+            "PHOTO": "https://www.daringgourmet.com/wp-content/uploads/2015/01/Libyan-Kusksu-final.jpg",
+            "RECIPE": "https://www.daringgourmet.com/kusksu-libyan-couscous-with-spicy-beef-and-vegetables/"
+        },
+        {
+            "NAME": "Saint Lucia",
+            "CONTINENT": "North America",
+            "DISH": "Green Fig and Saltfish",
+            "DESCRIPTION": "Green fig and saltdish is a dish of cured fish that is cooked with spices and vegetables, then served with green figs (the local name for unripe bananas).",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2015/10/Green-fig-and-saltfish-2-FP.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-st-lucia-green-fig-and-saltfish/"
+        },
+        {
+            "NAME": "Liechtenstein",
+            "CONTINENT": "Europe",
+            "DISH": "Käsknöpfle",
+            "DESCRIPTION": "Käsknöpfle is a dish made from spaetzle (a type of pasta) served in a cheese sauce with onions sprinkled on top.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/08/Kasknopfle-3b.jpg",
+            "RECIPE": "https://www.196flavors.com/liechtenstein-kasknopfle/"
+        },
+        {
+            "NAME": "Sri Lanka",
+            "CONTINENT": "Asia",
+            "DISH": "Rice and Curry",
+            "DESCRIPTION": "This dish consists of either steamed or boiled rice with some sort of curry (vegetable, fish or meat), typically heavily spiced with turmeric and coconut milk.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/a7c96da4df74439f92e41ee94c6885d2.jpg?mw=1300",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-sri-lanka-rice-and-curry/"
+        },
+        {
+            "NAME": "Lesotho",
+            "CONTINENT": "Africa",
+            "DISH": "Chakalaka and Pap-pap",
+            "DESCRIPTION": "Chakalaka is a stew of vegetables (carrots, onions, peppers and tomatoes) served with pap-pap, a dough made from cornmeal.",
+            "PHOTO": "https://www.wikihow.com/images/thumb/6/69/Make-Chakalaka-Step-19.jpg/aid8863712-v4-1200px-Make-Chakalaka-Step-19.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/lesotho-chakalaka-and-pap-pap/"
+        },
+        {
+            "NAME": "Lithuania",
+            "CONTINENT": "Europe",
+            "DISH": "Cepelinai",
+            "DESCRIPTION": "Cepelinai are potato dumplings stuffed with meat, cheese or mushrooms and often served with a bacon gravy and sour cream.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/cN_PSK6-FCc_n_E4aXNCrXUWZW0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cepelinai-258877532_a824eee0ba_o-5913e66d5f9b58647000e2bf.jpg",
+            "RECIPE": "https://www.thespruceeats.com/lithuanian-potato-meat-dumplings-recipe-cepelinai-1136766"
+        },
+        {
+            "NAME": "Luxembourg",
+            "CONTINENT": "Europe",
+            "DISH": "Judd mat Gaardebounen",
+            "DESCRIPTION": "Judd mat Gaardebounen is a dish of smoked pork served with stewed broad beans and potatoes.",
+            "PHOTO": "https://www.epicurus.com/food/recipes/wp-content/uploads/2018/12/JUDD-MAT-GAARDEBOUNEN.jpg",
+            "RECIPE": "https://www.epicurus.com/food/recipes/judd-mat-gaardebounen/48589/"
+        },
+        {
+            "NAME": "Latvia",
+            "CONTINENT": "Europe",
+            "DISH": "Pelēkie Zirņi ar Speķi",
+            "DESCRIPTION": "Pelēkie zirņi ar speķi is a stew made from grey peas, fried onions and dried speck.",
+            "PHOTO": "https://g4.delphi.lv/images/pix/676x385/--FyUkBimtY/pelekie-zirni-ar-speki-46652025.jpg",
+            "RECIPE": "https://martymadeit.com/2017/09/30/093-latvia-pelekie-zirn%CC%A7i-ar-spek%CC%A7iti/"
+        },
+        {
+            "NAME": "Morocco",
+            "CONTINENT": "Africa",
+            "DISH": "Tagine",
+            "DESCRIPTION": "Tagine is a stew of meat and vegetables, often containing spices, nuts and dried fruits such as raisins and served in an earthenware pot.",
+            "PHOTO": "https://es1-ladleandspricell.netdna-ssl.com/wp-content/uploads/2018/04/moroccan-lamb-tagine-2.jpg",
+            "RECIPE": "https://www.bbc.co.uk/food/recipes/moroccanlambtagine_6696"
+        },
+        {
+            "NAME": "Monaco",
+            "CONTINENT": "Europe",
+            "DISH": "Barbajuan",
+            "DESCRIPTION": "Barbajuan is a stuffed savoury pastry filled with Swiss chard and ricotta cheese.",
+            "PHOTO": "https://i1.wp.com/worldfoodtour.co.uk/wp-content/uploads/2017/02/IMG_20160523_210039.jpg?fit=1300%2C975&ssl=1",
+            "RECIPE": "https://worldfoodtour.co.uk/recipe/barbagiuan"
+        },
+        {
+            "NAME": "Moldova",
+            "CONTINENT": "Europe",
+            "DISH": "Mămăligă",
+            "DESCRIPTION": "Mămăligă is a traditional porridge made out of yellow maize flour, often served with hearty stews.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/zLlj6m9y6djbVNdwzyJONDnlhY4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/romanian-cornmeal-porridge-recipe-mamaliga-1137442-hero-01-5c620e9146e0fb0001587b1c.jpg",
+            "RECIPE": "https://www.thespruceeats.com/romanian-cornmeal-porridge-recipe-mamaliga-1137442"
+        },
+        {
+            "NAME": "Madagascar",
+            "CONTINENT": "Africa",
+            "DISH": "Romazava",
+            "DESCRIPTION": "Romazava is a stew of meat (traditionally zebu) and leafy greens (paracress, anamamy and mustard greens), cooked with tomatoes and onions.",
+            "PHOTO": "https://www.mastercook.com/app/Image/17212657/5439957.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/malagasy-romazava/"
+        },
+        {
+            "NAME": "Maldives",
+            "CONTINENT": "Seven seas (open ocean)",
+            "DISH": "Gulha",
+            "DESCRIPTION": "Gulha are small round dumplings stuffed with tuna, onion, coconut and chilli.",
+            "PHOTO": "https://maldivescook.com/wp-content/uploads/gulha.jpg",
+            "RECIPE": "https://maldivescook.com/recipe/gulha/"
+        },
+        {
+            "NAME": "Mexico",
+            "CONTINENT": "North America",
+            "DISH": "Mole",
+            "DESCRIPTION": "Mole is a sauce and marinade made from spicy chillis, bitter chocolate, peanuts, tomatoes, onion, garlic and spices.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/c-0kdELuYhjiirD9hciLYqiWBCA=/2832x2832/smart/filters:no_upscale()/easy-homemade-mole-sauce-2342969-Hero-5b75779f46e0fb004fdf91fc.jpg",
+            "RECIPE": "https://www.thespruceeats.com/easy-homemade-mole-sauce-2342969"
+        },
+        {
+            "NAME": "Marshall Is.",
+            "CONTINENT": "Oceania",
+            "DISH": "Barramundi Cod",
+            "DESCRIPTION": "Barramundi cod is cooked by seasoning the whole fresh fish, wrapping it in banana leaves and then baking.",
+            "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2016/10/Marshallese-grilled-fish_-684x1024.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/marshallese-grilled-fish/"
+        },
+        {
+            "NAME": "Macedonia",
+            "CONTINENT": "Europe",
+            "DISH": "Tavče Gravče",
+            "DESCRIPTION": "Tavče gravče is a bean and vegetable stew (sometimes containing meat) cooked in a terracota pot.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/02/TAVTCHE-GRAVTCHE-2-.jpg",
+            "RECIPE": "https://www.196flavors.com/macedonia-tavce-gravce/"
+        },
+        {
+            "NAME": "Mali",
+            "CONTINENT": "Africa",
+            "DISH": "Tiguadege Na",
+            "DESCRIPTION": "Tiguadege na is a rich peanut and vegetable stew (sometimes containing meat).",
+            "PHOTO": "https://diningforwomen.org/wp-content/uploads/2015/05/meat-in-peanut-sauce.jpg",
+            "RECIPE": "https://diningforwomen.org/recipes/tiguadege-na-meat-in-peanut-sauce/"
+        },
+        {
+            "NAME": "Malta",
+            "CONTINENT": "Europe",
+            "DISH": "Stuffat tal-Fenek",
+            "DESCRIPTION": "Stuffat tal-fenek is a slow-cooked rabbit stew with potatoes, carrots, bay leaves and red wine.",
+            "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/03/Malta-stuffat-tal-fenek.jpg",
+            "RECIPE": "https://www.airmalta.com/blog/malta/how-to-make-traditional-maltese-rabbit-stew/"
+        },
+        {
+            "NAME": "Myanmar",
+            "CONTINENT": "Asia",
+            "DISH": "Mohinga",
+            "DESCRIPTION": "Mohinga is a soup of rice noodles and fish that has been flavoured with lemongrass and served with a boiled egg.",
+            "PHOTO": "https://www.foodrepublic.com/wp-content/uploads/2017/05/mohinga.jpg",
+            "RECIPE": "https://www.foodrepublic.com/recipes/make-classic-mohinga/"
+        },
+        {
+            "NAME": "Montenegro",
+            "CONTINENT": "Europe",
+            "DISH": "Čorba",
+            "DESCRIPTION": "Čorba is a fish soup made from fish stock with vegetables, such as carrots, onion, celery, garlic and parsley.",
+            "PHOTO": "https://bennydoro.com/chef/wp-content/uploads/sites/3/2018/01/ecc6a391caab733fd3fbd8094844df4a.jpeg",
+            "RECIPE": "https://grantourismotravels.com/riblja-corba-fish-soup-recipe/"
+        },
+        {
+            "NAME": "Mongolia",
+            "CONTINENT": "Asia",
+            "DISH": "Buuz",
+            "DESCRIPTION": "Buuz are a style of steamed dumplings filled with spiced meat (usually mutton).",
+            "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/a2f67a2c61d64866a94efef327a949b7.jpg?w=600&h=450",
+            "RECIPE": "https://adamantkitchen.com/mongolian-buuz/"
+        },
+        {
+            "NAME": "Mozambique",
+            "CONTINENT": "Africa",
+            "DISH": "Xima",
+            "DESCRIPTION": "Xima is a type of stiff porridge made from ground corn flour and water.",
+            "PHOTO": "https://bornofafrica.files.wordpress.com/2017/02/best-xima.jpg?w=600&h=450",
+            "RECIPE": "https://www.recipecommunity.com.au/side-dishes-recipes/xima-or-mielie-pap/d8fq87wb-52d3c-724365-cfcd2-iimm6grg"
+        },
+        {
+            "NAME": "Mauritania",
+            "CONTINENT": "Africa",
+            "DISH": "Thieboudienne",
+            "DESCRIPTION": "Thieboudienne is a rice and fish dish served with a tomato sauce.",
+            "PHOTO": "https://upload.wikimedia.org/wikipedia/commons/2/20/Thieboudienne_Mauritanienne.jpg",
+            "RECIPE": "https://q-zine.blogspot.com/2016/01/mauritania-thieboudienne-fish-with-rice.html"
+        },
+        {
+            "NAME": "Mauritius",
+            "CONTINENT": "Seven seas (open ocean)",
+            "DISH": "Dholl Puri",
+            "DESCRIPTION": "Dholl Puri is a type of wrap or flatbread made from yellow split peas, often eaten with different curries or pickles.",
+            "PHOTO": "https://i.guim.co.uk/img/media/98574aa1b53a5bba758fbcc941cf994efe8807c9/0_750_3600_3599/master/3600.jpg?width=700&quality=85&auto=format&fit=max&s=72676a448f1edf2658d489fcb2e6c007",
+            "RECIPE": "https://www.internationalcuisine.com/mauritius-dholl-puri/"
+        },
+        {
+            "NAME": "Malawi",
+            "CONTINENT": "Africa",
+            "DISH": "Chambo with Nshima",
+            "DESCRIPTION": "Chambo is a freshwater fish from Lake Malawi that can be dried, roasted or fried and served with nshima, a maize flour porridge.",
+            "PHOTO": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2018/04/nsima-.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/malawian-chambo/"
+        },
+        {
+            "NAME": "Malaysia",
+            "CONTINENT": "Asia",
+            "DISH": "Nasi Lemak",
+            "DESCRIPTION": "Nasi lemak is a dish of coconut milk rice served with spicy sambal, fried anchovies cucumber, peanuts and egg.",
+            "PHOTO": "https://ucarecdn.com/b59dcb57-979c-4742-9d60-e71c74c0841e/-/scale_crop/1280x720/center/-/quality/normal/-/format/webp/nasi-lemak.webp",
+            "RECIPE": "https://www.nyonyacooking.com/recipes/nasi-lemak~BynkuvoPf9-X"
+        },
+        {
+            "NAME": "Namibia",
+            "CONTINENT": "Africa",
+            "DISH": "Pap",
+            "DESCRIPTION": "Pap is a cornmeal porridge that is regularly served alongside sauces, meats, fish and vegetables.",
+            "PHOTO": "https://blogs.fcdo.gov.uk/wp-content/uploads/papandcabbage.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/namibian-pap-and-fried-cabbage/"
+        },
+        {
+            "NAME": "Niger",
+            "CONTINENT": "Africa",
+            "DISH": "Djerma",
+            "DESCRIPTION": "Djerma is a stew that can be made with or without meat, consisting of peanuts, onions, tomatoes, thyme, spices and stock.",
+            "PHOTO": "https://www.comegathereat.com/wp-content/uploads/2019/10/DSC1220-e1571882469602.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-niger-djerma-stew/"
+        },
+        {
+            "NAME": "Nigeria",
+            "CONTINENT": "Africa",
+            "DISH": "Jollof Rice",
+            "DESCRIPTION": "Jollof rice is a rice dish that most commonly contains tomatoes, onions, salt and pepper, along with meat, chilli, other vegetables and spices such as nutmeg, thyme and parsley.",
+            "PHOTO": "https://i.pinimg.com/originals/85/84/1f/85841f70480411b53540aa229920f518.jpg",
+            "RECIPE": "https://food52.com/recipes/61557-classic-nigerian-jollof-rice"
+        },
+        {
+            "NAME": "Nicaragua",
+            "CONTINENT": "North America",
+            "DISH": "Nacatamal",
+            "DESCRIPTION": "Nacatamales are made from corn dough, pork or chicken, potato, tomato, raisins, chili, peanuts and other ingredients cooked inside a banana leaf.",
+            "PHOTO": "https://nicaraguanrecipes.com/wp-content/uploads/2019/06/nacatamal.png",
+            "RECIPE": "https://www.quericavida.com/recipes/nacatamales/f02a0ae8-e434-4108-80b6-cb3ac66b9703"
+        },
+        {
+            "NAME": "Netherlands",
+            "CONTINENT": "Europe",
+            "DISH": "Stamppot",
+            "DESCRIPTION": "Stamppot is a dish of mashed potatoes that can be mixed with various other ingredients, such as carrots, onions, kale or bacon.",
+            "PHOTO": "https://static.ah.nl/static/recepten/img_RAM_PRD121472_1024x748_JPG.jpg",
+            "RECIPE": "https://www.thespruceeats.com/stamppot-with-curly-kale-and-rookworst-1128837"
+        },
+        {
+            "NAME": "Norway",
+            "CONTINENT": "Europe",
+            "DISH": "Fårikål",
+            "DESCRIPTION": "Fårikål is a dish made from mutton and cabbage cooked with black peppercorns, salt, water and flour.",
+            "PHOTO": "https://wwwremaprodstorage.blob.core.windows.net/sys-master-hyb-prod/hd1/h88/8809794633758/rec_68867_faarikaal_crop_40334_tif_w1280hq75",
+            "RECIPE": "http://allrecipes.co.uk/recipe/1452/f-rik-l.aspx"
+        },
+        {
+            "NAME": "Nepal",
+            "CONTINENT": "Asia",
+            "DISH": "Dal Bhat",
+            "DESCRIPTION": "Dal bhat is a lentil curry spiced with cumin, coriander, turmeric and chile, often served with white rice, pickles and greens.",
+            "PHOTO": "https://www.whats4eats.com/files/vegetables-dal-bhat-tarkari-wikipedia-Matsuoka-Akirakaoru-4x3.jpg",
+            "RECIPE": "https://www.whats4eats.com/vegetables/dal-bhat-tarkari-recipe"
+        },
+        {
+            "NAME": "Nauru",
+            "CONTINENT": "Oceania",
+            "DISH": "Coconut Crusted Fish",
+            "DESCRIPTION": "Coconut crusted fish is made by dipping fillets of white fish in lime, salt and pepper, before being rolled in flour, eggs and grated coconut before being cooked.",
+            "PHOTO": "https://www.notesfromamessykitchen.com/wp-content/uploads/2017/02/00001IMG_00001_BURST20170222195547_COVER.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/nauru-coconut-crusted-fish/"
+        },
+        {
+            "NAME": "New Zealand",
+            "CONTINENT": "Oceania",
+            "DISH": "Kiwi Pie",
+            "DESCRIPTION": "Kiwi pies are savoury pies containing meat, usually beef and gravy, with different varieties including different ingredients.",
+            "PHOTO": "https://www.thehits.co.nz/media/7641197/pie.jpg?mode=crop&width=620&height=349&quality=60&scale=both",
+            "RECIPE": "https://www.recipes.co.nz/shop/EVERYDAY/UltimateKiwiPie.html"
+        },
+        {
+            "NAME": "Oman",
+            "CONTINENT": "Asia",
+            "DISH": "Shuwa",
+            "DESCRIPTION": "Shuwa is a dish of lamb or goat that is marinated in a rub of spices, garlic and oil before being slow cooked.",
+            "PHOTO": "https://i1.wp.com/www.omanobserver.om/wp-content/uploads/2019/02/Omani-Shuwa.jpg?resize=800%2C445&ssl=1",
+            "RECIPE": "https://www.omanobserver.om/omani-shuwa/"
+        },
+        {
+            "NAME": "Pakistan",
+            "CONTINENT": "Asia",
+            "DISH": "Nihari",
+            "DESCRIPTION": "Nihari is a slow cooked stew of meat, strong spices and thickened with flour, often served with lemon wedges, green chillies and julienned ginger.",
+            "PHOTO": "https://www.recipesaresimple.com/wp-content/uploads/2015/10/nihari-pakistan.jpg",
+            "RECIPE": "https://www.flourandspiceblog.com/nihari/"
+        },
+        {
+            "NAME": "Panama",
+            "CONTINENT": "North America",
+            "DISH": "Sancocho",
+            "DESCRIPTION": "Sancocho is a chicken soup made with corriander, yucca, corn, onion, garlic and oregano.",
+            "PHOTO": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5455600.jpg&w=1200&h=678&c=sc&poi=face&q=85",
+            "RECIPE": "https://www.allrecipes.com/recipe/259059/panamanian-sancocho/"
+        },
+        {
+            "NAME": "Peru",
+            "CONTINENT": "South America",
+            "DISH": "Ceviche",
+            "DESCRIPTION": "Ceviche is a dish of raw fish that has been marinated in cirtus juice (usually lemon or lime), often served with sliced red onions and sometimes other vegetables.",
+            "PHOTO": "https://www.recipeselected.com/wp-content/uploads/2019/09/Recipes-Selected-Ceviche.jpg",
+            "RECIPE": "https://www.laylita.com/recipes/peruvian-fish-cebiche-or-ceviche/"
+        },
+        {
+            "NAME": "Philippines",
+            "CONTINENT": "Asia",
+            "DISH": "Adobo",
+            "DESCRIPTION": "Adobo is a dish of chicken (usually thigh meat) that is marinated with soy sauce, ginger, vinegar, onion, garlic, pepper, sugar and bayleaves.",
+            "PHOTO": "https://vikalinka.com/wp-content/uploads/2017/01/IMG_8510-Edit.jpg",
+            "RECIPE": "https://www.recipetineats.com/filipino-chicken-adobo-flavour-kapow/"
+        },
+        {
+            "NAME": "Palau",
+            "CONTINENT": "Oceania",
+            "DISH": "Broiled Fish",
+            "DESCRIPTION": "Palauan style broiled fish is made from whole fish that is seasoned with garlic, ginger, soy sauce, sesame oil and lime leves, cooked in banana leaves.",
+            "PHOTO": "https://ethnicfoodsrus.com/wp-content/uploads/2016/12/Palauan-Style-Broiled-Fish.jpg",
+            "RECIPE": "https://ethnicfoodsrus.com/around-the-world-recipes/smallest-countries-worldwide-cuisines/palauan-cuisine/palauan-style-broiled-fish/"
+        },
+        {
+            "NAME": "Papua New Guinea",
+            "CONTINENT": "Oceania",
+            "DISH": "Mumu",
+            "DESCRIPTION": "Mumu is a traditional way to prepare food using a pit filled with hot stones to cook a mixture of fruits, vegetables, root crops and meat.",
+            "PHOTO": "https://1.bp.blogspot.com/-ZytV9sHOm8Q/XSuf4wDznBI/AAAAAAAAUYQ/0-tEJkAhGPwW3x-tYeEo4HZ1ZwYJZMfJwCLcBGAs/s400/mumu.jpg",
+            "RECIPE": "http://www.fairtradecookbook.org.uk/recipes/mumu.htm"
+        },
+        {
+            "NAME": "Poland",
+            "CONTINENT": "Europe",
+            "DISH": "Bigos",
+            "DESCRIPTION": "Bigos is a meat stew that can be made with different meats, spicy polish sausage, cabbage, sauerkraut, tomatoes, onion and garlic.",
+            "PHOTO": "https://www.hairybikers.com/uploads/images/_opengraphTwitterImage/Bigos.jpg",
+            "RECIPE": "https://www.hairybikers.com/recipes/view/bigos-stew"
+        },
+        {
+            "NAME": "North Korea",
+            "CONTINENT": "Asia",
+            "DISH": "Naengmyeon",
+            "DESCRIPTION": "Naengmyeon is a cold noodle dish made with a broth of kimchi brine and beef stock, served with cucumbers, Korean pear and boiled egg.",
+            "PHOTO": "https://www.maangchi.com/wp-content/uploads/2008/06/mul-naengmyeon.jpg",
+            "RECIPE": "https://www.maangchi.com/recipe/naengmyeon"
+        },
+        {
+            "NAME": "Portugal",
+            "CONTINENT": "Europe",
+            "DISH": "Bacalhau",
+            "DESCRIPTION": "Bacalhau is a dish of dried and salted cod that can be prepared in a large variety of ways, such as bacalhau à brás, where the fish is shredded and served with potatoes.",
+            "PHOTO": "https://img.cybercook.com.br/receitas/5/churrasco-de-lombo-de-bacalhau-623x350.jpeg",
+            "RECIPE": "https://www.foodandwine.com/recipes/bacalhau-bras-salt-cod-eggs-and-potatoes"
+        },
+        {
+            "NAME": "Paraguay",
+            "CONTINENT": "South America",
+            "DISH": "Sopa Paraguaya",
+            "DESCRIPTION": "Sopa paraguaya is a cheesy cornbread made from corn flour, cheese, milk and onions.",
+            "PHOTO": "https://comidasparaguayas.com/wp-content/uploads/2019/04/sopa-paraguaya_700x466.jpg",
+            "RECIPE": "https://www.kingarthurbaking.com/recipes/sopa-paraguaya-recipe"
+        },
+        {
+            "NAME": "Palestine",
+            "CONTINENT": "Asia",
+            "DISH": "Maqluba",
+            "DESCRIPTION": "Maqluba is a one pot dish made of layers of rice, vegetables and meat (or sometimes without) that is flipped upside down before being served.",
+            "PHOTO": "https://www.cheftariq.com/wp-content/uploads/2020/03/maqluba-7.jpg",
+            "RECIPE": "https://cooking.nytimes.com/recipes/1018535-maha-sarsours-maqluba-upside-down-chicken-and-rice"
+        },
+        {
+            "NAME": "Qatar",
+            "CONTINENT": "Asia",
+            "DISH": "Majboos",
+            "DESCRIPTION": "Majboos is a dish made with slow cooked lamb or chicken served with seasoned rice, salad and a tomato sauce.",
+            "PHOTO": "https://somethingiscooking.com/wp-content/uploads/2016/04/QatariChickenMajboos1-768x1024.jpg",
+            "RECIPE": "https://somethingiscooking.com/2016/04/20/qatari-chicken-majboos-atozchallenge/"
+        },
+        {
+            "NAME": "Romania",
+            "CONTINENT": "Europe",
+            "DISH": "Sarmale",
+            "DESCRIPTION": "Sarmale are a dish of cabbage leaves or sauerkraut wrapped around ground pork, onions, parsley and dill.",
+            "PHOTO": "https://www.jocooks.com/wp-content/uploads/2011/12/sarmale-1-2.jpg",
+            "RECIPE": "https://www.jocooks.com/recipes/sarmale/"
+        },
+        {
+            "NAME": "Russia",
+            "CONTINENT": "Europe",
+            "DISH": "Pelmeni",
+            "DESCRIPTION": "Pelmeni are small dumplings filled with beef, pork and spices, most commonly served with sour cream and dill.",
+            "PHOTO": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2020-08-how-to-pelmeni%2FKitchn_SBSGuide_SiberianPelmeniDumpling_0203",
+            "RECIPE": "https://momsdish.com/recipe/76/pelmeni"
+        },
+        {
+            "NAME": "Rwanda",
+            "CONTINENT": "Africa",
+            "DISH": "Brochettes",
+            "DESCRIPTION": "Brochettes are made by cooking meat (goat, beef, chicken or pork) on skewers, often served with potatoes or roasted bananas.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/efae24a95d314c118ae3c1153eaf1db0.jpg?mw=1300",
+            "RECIPE": "https://africanbite.com/2012/10/23/lamb-brochettes-rwanda/"
+        },
+        {
+            "NAME": "Saudi Arabia",
+            "CONTINENT": "Asia",
+            "DISH": "Kabsa",
+            "DESCRIPTION": "Kabsa is a mixed rice dish containing meat (often chicken), vegetables and a mixture of spices (such as cardamom, saffron, cinnamon, black lime, bay leaves and nutmeg).",
+            "PHOTO": "https://www.manusmenu.com/wp-content/uploads/2015/10/1-Chicken-Kabsa-9-1-of-1.jpg",
+            "RECIPE": "https://www.food.com/recipe/al-kabsa-traditional-saudi-rice-chicken-dish-289878"
+        },
+        {
+            "NAME": "Sudan",
+            "CONTINENT": "Africa",
+            "DISH": "Ful Medames",
+            "DESCRIPTION": "Ful medames is a breakfast dish of mashed fava beans with onions, spices and oil, with boiled egg served on top.",
+            "PHOTO": "https://i2.wp.com/nationalfoods.org/wp-content/uploads/2018/02/National-Dish-of-Sudan-Ful-Medames.jpg?w=1140&ssl=1",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-sudan-ful-medames/"
+        },
+        {
+            "NAME": "S. Sudan",
+            "CONTINENT": "Africa",
+            "DISH": "Ful Medames",
+            "DESCRIPTION": "Ful medames is a breakfast dish of mashed fava beans with onions, spices and oil, with boiled egg served on top.",
+            "PHOTO": "https://tasteofsouthsudan.com/wp-content/uploads/2017/10/Ful-medames-Sahan-ful.jpg",
+            "RECIPE": "https://tasteofsouthsudan.com/ful-medames-sudanese-fava-beans/"
+        },
+        {
+            "NAME": "Senegal",
+            "CONTINENT": "Africa",
+            "DISH": "Thiéboudienne",
+            "DESCRIPTION": "Thiéboudienne is a one pot dish of fish, rice and vegetables (such as potato, pumpkin and cassava) that are cooked in a tomato sauce",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2016/02/Thieboudienne-2-FP1.jpg",
+            "RECIPE": "https://www.saveur.com/article/Recipes/Senegal-Fish-Rice/"
+        },
+        {
+            "NAME": "Singapore",
+            "CONTINENT": "Asia",
+            "DISH": "Hainanese Chicken Rice",
+            "DESCRIPTION": "Hainanese chicken rice is a dish of steamed rice and chicken topped with soy sauce, coriander and sesame oil, often served with a garlic-chilli dip.",
+            "PHOTO": "https://steamykitchen.com/wp-content/uploads/2017/09/hainanese-chicken-rice-recipe-9681.jpg",
+            "RECIPE": "https://steamykitchen.com/5068-hainanese-chicken-rice.html"
+        },
+        {
+            "NAME": "Solomon Is.",
+            "CONTINENT": "Oceania",
+            "DISH": "Poi",
+            "DESCRIPTION": "Poi is a savoury paste, typically served as a side dish, made from rinsed taro roots.",
+            "PHOTO": "https://i2.wp.com/nationalfoods.org/wp-content/uploads/2018/02/National-Dish-of-Solomon-Islands-Poi.jpg?w=1140&ssl=1",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-solomon-islands-poi/"
+        },
+        {
+            "NAME": "Sierra Leone",
+            "CONTINENT": "Africa",
+            "DISH": "Cassava Leaf Stew",
+            "DESCRIPTION": "Cassava leaf stew (or soup) is prepared with meat or dish, cassava leaves, peanuts, onion and chilli.",
+            "PHOTO": "https://www.africanbites.com/wp-content/uploads/2014/01/IMG_0719.jpg",
+            "RECIPE": "https://www.africanbites.com/cassava-leaf-soup/"
+        },
+        {
+            "NAME": "El Salvador",
+            "CONTINENT": "North America",
+            "DISH": "Pupusa",
+            "DESCRIPTION": "Pupusas are a type of thick flatbread made from cornmeal or rice flour that can be stuffed with a variety of fillings, such as beans, cheese and meat.",
+            "PHOTO": "https://hispanickitchen-nglmedia.netdna-ssl.com/wp-content/uploads/2017/03/Pupusas-1500-700x500.jpg",
+            "RECIPE": "https://hispanickitchen.com/recipes/pupusas-de-chicharron/"
+        },
+        {
+            "NAME": "San Marino",
+            "CONTINENT": "Europe",
+            "DISH": "Torta Tre Monti",
+            "DESCRIPTION": "Torta Tre Monti is a cake made from layers of waffled wafers and chocolate or hazlenut cream.",
+            "PHOTO": "https://www.laserenissima.sm/56-thickbox_default/torta-tre-monti-metallo.jpg",
+            "RECIPE": "https://inmamamaggieskitchen.com/torta-tre-monti/"
+        },
+        {
+            "NAME": "Somalia",
+            "CONTINENT": "Africa",
+            "DISH": "Sambusa",
+            "DESCRIPTION": "Sambusa are triangular pastries, most often stuffed with spiced lamb or beef and onion.",
+            "PHOTO": "https://www.mysomalifood.com/wp-content/uploads/2009/08/sambusa.jpg",
+            "RECIPE": "https://www.mysomalifood.com/somali-sambusa/"
+        },
+        {
+            "NAME": "Serbia",
+            "CONTINENT": "Europe",
+            "DISH": "Gibanica",
+            "DESCRIPTION": "Gibanica is a layered pastry dish filled with cottage cheese and eggs, with specific recipes ranging between sweet and savoury.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/0-Ndob5M1hoSnsaXVJtn2JdW9tY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Gibanica-30272850805_5b6a124de2_k-592b65275f9b585950090e36.jpg",
+            "RECIPE": "https://www.thespruceeats.com/salty-serbian-gibanica-1135905"
+        },
+        {
+            "NAME": "São Tomé and Principe",
+            "CONTINENT": "Africa",
+            "DISH": "Calulu",
+            "DESCRIPTION": "Calulu is a fish stew containing vegetables, okra and sweet potato leaves, often served with a cassava paste called funje.",
+            "PHOTO": "https://easyportugueserecipes.com/wp-content/uploads/2013/08/800px-Calulu.jpg",
+            "RECIPE": "https://easyportugueserecipes.com/fish-calulu-calulu-de-peixe/"
+        },
+        {
+            "NAME": "Suriname",
+            "CONTINENT": "South America",
+            "DISH": "Pom",
+            "DESCRIPTION": "Pom is an oven dish made from meat, citrus, spices, American taro root and other root vegetables.",
+            "PHOTO": "https://blog.arousingappetites.com/wp-content/uploads/2017/02/Suriname-Pom-26.jpg",
+            "RECIPE": "https://blog.arousingappetites.com/pom-surinamese-chicken-pomtajer-potato-root-vegetable-casserole/"
+        },
+{
+            "NAME": "Slovakia",
+            "CONTINENT": "Europe",
+            "DISH": "Bryndzové Halušky",
+            "DESCRIPTION": "Bryndzové halušky is a dish of small potato dumplings with sheeps cheese and bacon.",
+            "PHOTO": "https://www.halusky.co.uk/wordpress/wp-content/uploads/2018/04/halusky-800x600-700x525.jpg",
+            "RECIPE": "https://www.halusky.co.uk/czech-slovak-foods/content/recipes/slovakian-national-dish-bryndzove-halusky/"
+        },
+        {
+            "NAME": "Slovenia",
+            "CONTINENT": "Europe",
+            "DISH": "Ajdovi Vzhajanci",
+            "DESCRIPTION": "Ajdovi vzhajanci are dumplings made from buckwheat, often served as a side with sauerkraut, vegetables, stews and roasted meats (such as veal).",
+            "PHOTO": "https://odprtakuhinja.delo.si/wp-content/uploads/2020/04/Odprtakuhinja-ajdovi-vzhajanci.jpg",
+            "RECIPE": "https://homemadeslovenianfood.blogspot.com/2018/03/buckwheat-leavened-dumplings.html"
+        },
+        {
+            "NAME": "Sweden",
+            "CONTINENT": "Europe",
+            "DISH": "Köttbullar",
+            "DESCRIPTION": "Köttbullar are Swedish meatballs made from pork and veal mince, usually served with a cream sauce.",
+            "PHOTO": "https://www.swedishfood.com/images/Mains/Meatballs/Meatballs-570-L1476.jpg",
+            "RECIPE": "https://www.swedishfood.com/swedish-food-recipes-main-courses/44-meatballs"
+        },
+        {
+            "NAME": "Eswatini",
+            "CONTINENT": "Africa",
+            "DISH": "Slaai",
+            "DESCRIPTION": "Slaai is an avocado salad, often containing peanuts, lemon juice and ginger.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/02/swaziland-slaai-3.jpg",
+            "RECIPE": "https://www.196flavors.com/eswatini-slaai/"
+        },
+        {
+            "NAME": "Seychelles",
+            "CONTINENT": "Seven seas (open ocean)",
+            "DISH": "Octopus Curry",
+            "DESCRIPTION": "Octopus curry is a one pot curry dish made using fresh octopus, often based around masala spices, curry leaves, chilli and coconut cream.",
+            "PHOTO": "https://nourishingafrica.com/wp-content/uploads/2019/11/Octopus-and-Eggplant-Curry-1-760x507.jpg",
+            "RECIPE": "https://www.internationalcuisine.com/octopus-curry/"
+        },
+        {
+            "NAME": "Syria",
+            "CONTINENT": "Asia",
+            "DISH": "Kibbeh",
+            "DESCRIPTION": "Kibbeh are meat-filled croquettes made with bulgur wheat and spiced ground lamb.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/iG-yv4J-8E-xITbpomaojJSWxmY=/4288x2848/filters:fill(auto,1)/easy-beginner-kibbeh-recipe-2355367-Hero-5b7b259ec9e77c00505a8eaa.jpg",
+            "RECIPE": "https://www.foodhopping.us/recipes/kibbeh-national-dish-syria/"
+        },
+        {
+            "NAME": "Chad",
+            "CONTINENT": "Africa",
+            "DISH": "Peanut and Squash Stew",
+            "DESCRIPTION": "Peanut and squash stew is a simple and hearty stew, primarily consisting of squash, chopped peanuts and spices.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/2121c51c24374a239ebf1257d60be69d.jpg?mw=1300",
+            "RECIPE": "https://food52.com/recipes/23979-african-squash-and-peanut-stew-with-coconut-milk-and-quinoa"
+        },
+        {
+            "NAME": "Togo",
+            "CONTINENT": "Africa",
+            "DISH": "Gboma Dessi",
+            "DESCRIPTION": "Gboma dessi is a stew primarily consisting of spinach, meat (often beef) and tomatoes, which are cooked with onions, garlic, ginger, chilli peppers and a local gbotemi spice blend.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2013/06/gboma-dessi-and-akoume-1024x768.jpg",
+            "RECIPE": "https://www.196flavors.com/togo-gboma-dessi-and-akoume/"
+        },
+        {
+            "NAME": "Thailand",
+            "CONTINENT": "Asia",
+            "DISH": "Pad Thai",
+            "DESCRIPTION": "Pad thai is a stir-fried noodle dish containing crushed peanuts, bean sprouts, garlic, egg and some form of protein (tofu, chicken or shrimp).",
+            "PHOTO": "https://www.feastingathome.com/wp-content/uploads/2016/04/easy-authentic-pad-thai-recipe-100-8.jpg",
+            "RECIPE": "https://www.feastingathome.com/15-minute-pad-thai/"
+        },
+        {
+            "NAME": "Tajikistan",
+            "CONTINENT": "Asia",
+            "DISH": "Qurutob",
+            "DESCRIPTION": "Qurutob is a dish of layers of fatir bread, dried yogurt and vegetables, such as tomatoes, spring onions and herbs.",
+            "PHOTO": "https://www.thefooddictator.com/wp-content/uploads/2018/01/%D2%9B%D1%83%D1%80%D1%83%D1%82%D0%BE%D0%B1-1200x799.jpg",
+            "RECIPE": "https://foodperestroika.com/2013/10/15/qurutob-tajikistans-national-dish/"
+        },
+        {
+            "NAME": "Turkmenistan",
+            "CONTINENT": "Asia",
+            "DISH": "Ichlekli",
+            "DESCRIPTION": "Ichlekli is a meat pie that is traditionally cooked underground, often containing beef, tomato, onions and peppers.",
+            "PHOTO": "https://ingmar.app/blog/wp-content/uploads/2015/10/Turkmenistan-Ichlekli.jpg",
+            "RECIPE": "https://ingmar.app/blog/recipe-the-national-dish-of-turkmenistan-ichlekli/"
+        },
+        {
+            "NAME": "Timor-Leste",
+            "CONTINENT": "Asia",
+            "DISH": "Batar Da'an",
+            "DESCRIPTION": "Batar da'an is a vegetable stew consisting of corn, mung beans and butternut squash.",
+            "PHOTO": "https://thehungarybuddha.files.wordpress.com/2013/08/batar-daan.jpg",
+            "RECIPE": "https://thehungarybuddha.com/2013/08/29/batar-daan-expected-squash-bean-and-corn-stew/"
+        },{
+            "NAME": "Tonga",
+            "CONTINENT": "Oceania",
+            "DISH": "'Ota 'Ika",
+            "DESCRIPTION": "'Ota 'ika is a dish of raw fish that is marinated in coconut milk and citrus juice, often served with tomatoes, green onions, cucumbers and hot peppers.",
+            "PHOTO": "https://kara-coconut.com/wp-content/uploads/2019/01/Ota-ika.jpg",
+            "RECIPE": "https://www.odt.co.nz/lifestyle/food-wine/how-make-ota-ika-tongan-raw-fish"
+        },
+        {
+            "NAME": "Trinidad and Tobago",
+            "CONTINENT": "North America",
+            "DISH": "Callaloo",
+            "DESCRIPTION": "Callaloo is a thick stew of dasheen leaves cooked with spices, coconut milk and other vegetables. It is traditionally served with crab, but other meats can be used.",
+            "PHOTO": "https://i0.wp.com/nationalfoods.org/wp-content/uploads/2018/12/National-Dish-of-Trinidad-and-Tobago-crab-and-callaloo-Callaloo.jpg?w=2280&ssl=1",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-trinidad-tobago-callaloo/"
+        },
+        {
+            "NAME": "Tunisia",
+            "CONTINENT": "Africa",
+            "DISH": "Brik",
+            "DESCRIPTION": "Brik is a dish of thin pastry, often wrapped around egg, onion, tuna, harisa and parsley, which is then deep fried.",
+            "PHOTO": "https://www.196flavors.com/wp-content/uploads/2014/07/Tunisia-Tuna-Briks-2.jpg",
+            "RECIPE": "https://www.196flavors.com/tunisia-tuna-briks/"
+        },
+        {
+            "NAME": "Turkey",
+            "CONTINENT": "Asia",
+            "DISH": "Kuru Fasulye",
+            "DESCRIPTION": "Kuru fasulye is a stew of white beans and vegetables in a tomato sauce.",
+            "PHOTO": "https://lezzet.blob.core.windows.net/images-xxlarge-recipe/kuru_fasulye-deae63dd-dda5-4390-b67b-3b2d68d4a1eb.jpg",
+            "RECIPE": "https://theturkishplate.com/recipe/turkish-white-beans-kuru-fasulye/"
+        },
+        {
+            "NAME": "Taiwan",
+            "CONTINENT": "Asia",
+            "DISH": "Beef Noodles",
+            "DESCRIPTION": "Taiwanese beef noodles is a noodle dish containing braised beef, served in a rich and spicy broth with bok choy, pickled mustard greens, spring onions and corriander.",
+            "PHOTO": "https://www.saveur.com/resizer/7RQ2ZNgPAmNkX55QbO9nI64wwVI=/2046x1534/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/HMH4STHMBCAYWE5GZ6NBXFC3E4.jpg",
+            "RECIPE": "https://tasty.co/recipe/taiwanese-beef-noodle-soup"
+        },
+        {
+            "NAME": "Tanzania",
+            "CONTINENT": "Africa",
+            "DISH": "Mchicha",
+            "DESCRIPTION": "Mchicha is a curry of amaranth greens (which can be substituted for spinach) and peanuts cooked with tomatoes, onion, cocnut milk and spices.",
+            "PHOTO": "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_562,h_316/v1/img/recipes/31/03/41/picpcbhO9.jpg",
+            "RECIPE": "https://www.food.com/recipe/mchicha-tanzanian-spinach-peanut-curry-310341"
+        },
+        {
+            "NAME": "Uganda",
+            "CONTINENT": "Africa",
+            "DISH": "Matoke",
+            "DESCRIPTION": "Matoke is a curry dish made from mashed green bananas that are cooked with cumin, coriander, cinnamon, pepper, chilli, onion and tomatoes.",
+            "PHOTO": "https://www.sanjanafeasts.co.uk/blog/wp-content/uploads/2019/04/matoke_1-1.jpg",
+            "RECIPE": "https://www.sanjanafeasts.co.uk/blog/2019/04/ugandan-matoke-spicy-green-banana-mash/"
+        },
+        {
+            "NAME": "Ukraine",
+            "CONTINENT": "Europe",
+            "DISH": "Borsch",
+            "DESCRIPTION": "Borsch is a sour beetroot soup usually containing potatoes, cabbage and sometimes other vegetables. It is served with sour cream and sometimes contains meat, often beef.",
+            "PHOTO": "https://natashaskitchen.com/wp-content/uploads/2018/10/Borscht-Recipe-3.jpg",
+            "RECIPE": "https://natashaskitchen.com/classic-russian-borscht-recipe/"
+        },
+        {
+            "NAME": "Uruguay",
+            "CONTINENT": "South America",
+            "DISH": "Chivito",
+            "DESCRIPTION": "Chivito is a sandwich containing beef steak, mozzarella, tomatoes, mayonaise and olives, often with bacon and eggs added.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/IF1cgp4tLQIAUGDF__J3mzj7TUs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chivito_al_pan_uruguayo-589305e15f9b5874ee7b9292.jpg",
+            "RECIPE": "https://www.thespruceeats.com/chivito-sandwich-from-uruguay-3029718"
+        },
+        {
+            "NAME": "United States of America",
+            "CONTINENT": "North America",
+            "DISH": "Hamburger",
+            "DESCRIPTION": "Hamburgers are sandwiches of cooked patties of ground beef served inside a bread roll, often with other ingreidents such as cheese, lettuce, tomato and pickles.",
+            "PHOTO": "https://girlscangrill.com/wp-content/uploads/2015/09/classic-american-hamburger.jpg",
+            "RECIPE": "https://girlscangrill.com/recipe/classic-hamburgers/"
+        },
+        {
+            "NAME": "Uzbekistan",
+            "CONTINENT": "Asia",
+            "DISH": "Plov",
+            "DESCRIPTION": "Plov is a rice dish containing lamb, carrot, onions, garlic and chilli served in a large dish.",
+            "PHOTO": "https://user-images.immediate.co.uk/bbcgoodfood/recipes/user-recipe/ready_4.jpg?quality=90&webp=true&resize=600,545",
+            "RECIPE": "https://www.bbcgoodfood.com/user/186153/recipe/uzbek-plov"
+        },
+        {
+            "NAME": "Vatican",
+            "CONTINENT": "Europe",
+            "DISH": "Fettucine alla Papalina",
+            "DESCRIPTION": "Fettucine alla Papalina (or the Pope's Fettuccine) is a creamy pasta dish with parmesan, prosciutto and sometimes peas.",
+            "PHOTO": "https://blog.giallozafferano.it/valeriaciccotti/wp-content/uploads/2019/09/fett-blog.jpg",
+            "RECIPE": "https://memoriediangelina.com/2009/07/06/fettuccine-alla-papalina/"
+        },
+        {
+            "NAME": "St. Vin. and Gren.",
+            "CONTINENT": "North America",
+            "DISH": "Roasted Breadfruit and Fried Jackish",
+            "DESCRIPTION": "For this recipe, the breadfruit is traditionally roasted over an open fire whilst the fish is marinated in lemon juice and dusted in flour before being fried.",
+            "PHOTO": "https://pbs.twimg.com/media/EWD0oJaXgAMRiWi.jpg",
+            "RECIPE": "https://foodtravelogue.com/2016/11/roasted-breadfruit-fried-jackfish/",
+            "COUNTRY": true
+        },
+        {
+            "NAME": "Venezuela",
+            "CONTINENT": "South America",
+            "DISH": "Pabellon Criollo",
+            "DESCRIPTION": "Pabellon criollo is a dish of shredded beef served with rice and stewed black beans.",
+            "PHOTO": "https://www.thespruceeats.com/thmb/U-DD2cc2sPADXPxU36Aek9iWUY0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pabellon-5822b3635f9b58d5b125206a.jpg",
+            "RECIPE": "https://www.thespruceeats.com/venezuelan-steak-with-black-beans-rice-3029474"
+        },
+        {
+            "NAME": "Vietnam",
+            "CONTINENT": "Asia",
+            "DISH": "Pho",
+            "DESCRIPTION": "Pho is a coup of bone broth, noodles, spices and thinly sliced beef, often topped with herbs and bean sprouts.",
+            "PHOTO": "https://s23991.pcdn.co/wp-content/uploads/2016/06/pho-recipe.jpg",
+            "RECIPE": "https://leitesculinaria.com/36506/recipes-pho-noodle-soup.html"
+        },
+        {
+            "NAME": "Vanuatu",
+            "CONTINENT": "Oceania",
+            "DISH": "Lap Lap",
+            "DESCRIPTION": "Lap lap is a bakes casserole dish, primarily consisting of grated root vegetables, bananas, coconut milk and sometimes mear that is wrapped in banana leaves and cooked under hot stones.",
+            "PHOTO": "https://i.ytimg.com/vi/JXAh8d0TKk0/maxresdefault.jpg",
+            "RECIPE": "https://nationalfoods.org/recipe/national-dish-of-vanuatu-lap-lap/"
+        },
+        {
+            "NAME": "Samoa",
+            "CONTINENT": "Oceania",
+            "DISH": "Oka I'a",
+            "DESCRIPTION": "Oka i'a is a dish of raw fish, usually tuna, that is marinated in lemon juice and coconut vream and served with onion.",
+            "PHOTO": "https://www.internationalcuisine.com/wp-content/uploads/2019/05/Samoan-Fish-Salad.jpeg",
+            "RECIPE": "https://www.internationalcuisine.com/samoan-fish-salad/"
+        },
+        {
+            "NAME": "Yemen",
+            "CONTINENT": "Asia",
+            "DISH": "Saltah",
+            "DESCRIPTION": "Saltah is a meat or vegetable soup that is topped with a fenugreek broth called hilbeh.",
+            "PHOTO": "https://cdn.tasteatlas.com/Images/Dishes/ee8801c266e8497bb4aa998f172cc369.jpg",
+            "RECIPE": "https://www.196flavors.com/yemen-saltah/"
+        },
+        {
+            "NAME": "South Africa",
+            "CONTINENT": "Africa",
+            "DISH": "Bobotie",
+            "DESCRIPTION": "Bobotie is a dish of curried minced meat that is topped with a mixture of milk and egg before being baked.",
+            "PHOTO": "https://www.africanbites.com/wp-content/uploads/2018/07/IMG_3340.jpg",
+            "RECIPE": "https://www.africanbites.com/bobotie/"
+        },
+        {
+            "NAME": "Zambia",
+            "CONTINENT": "Africa",
+            "DISH": "Kalembula",
+            "DESCRIPTION": "Kalembula is a dish of sweet potato leaves that are fried with onion and tomato and often eaten with nsima, a type of maize flour porridge.",
+            "PHOTO": "https://zambiankitchen.com/wp-content/uploads/2020/03/kalembula.jpg",
+            "RECIPE": "https://zambiankitchen.com/how-to-cook-kalembula/"
+        },
+        {
+            "NAME": "Zimbabwe",
+            "CONTINENT": "Africa",
+            "DISH": "Muboora",
+            "DESCRIPTION": "Muboora is a dish of pumpkin leaves, oil, otmatoes, onions and salt, often served with sadza, which is a cornmeal dough or porridge.",
+            "PHOTO": "https://cdn.tasteatlas.com/images/dishes/25adf3d4153148109d9c600cfdab016a.jpg?mw=1300",
+            "RECIPE": "https://www.zimbokitchen.com/delicious-traditional-muboora-pumpkin-leaves/"            
+        },
+        {
+            "NAME": "Tuvalu",
+            "CONTINENT": "Oceania",
+            "DISH": "Coconut Tuna",
+            "DESCRIPTION": "Coconut tuna is a seafood curry made from locally caught fish and coconut milk, along with onions, ginger, garlic, chillis, spring onions and cucumber.",
+            "PHOTO": "http://globaltableadventure.com/wp-content/uploads/2013/07/tuvalu.food_.recipe.img_0637.jpg",
+            "RECIPE": "http://globaltableadventure.com/recipe/tuvalu-tuna/"
+        }
+    ]
+}

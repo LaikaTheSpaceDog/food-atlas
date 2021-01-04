@@ -11,7 +11,7 @@ This app utilises [React Simple Maps](https://www.react-simple-maps.io/) for the
 https://laikathespacedog.github.io/food-atlas/#/
 
 ## Features to be added
-1. Back-end using Laravel so that the data is stored server-side.
+1. [Back-end](https://github.com/LaikaTheSpaceDog/food-atlas-back-end) using Laravel so that the data is stored server-side.
 2. Capacity to set up users who can login via a login component.
 3. 'Saved' countries/dishes component so users can create their own custom list of dishes.
 
