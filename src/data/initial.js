@@ -1,6 +1,7 @@
 const initial = {
     loggedIn: false,
-    token: ""
+    token: "",
+    favourites: []
 };
 
 export default initial;

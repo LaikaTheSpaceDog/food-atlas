@@ -16,3 +16,10 @@ export const liked = () => {
         type: "liked"
     }
 }
+
+export const favouriteCountries = (data) => {
+    return {
+        type: "favourites",
+        data: data
+    }
+}

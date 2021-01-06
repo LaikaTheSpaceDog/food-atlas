@@ -16,6 +16,7 @@ class Favourites extends Component {
     componentDidMount() {
         document.addEventListener('mousedown', this.handleClickOutside);
         document.addEventListener("keydown", this.escFunction, false);
+        this.props.handleFavourites();
     }
 
     componentWillUnmount() {
@@ -42,7 +43,7 @@ class Favourites extends Component {
     }
 
     render(){
-        const {handleFavouritesView, favourites} = this.props;
+        const {handleFavouritesView, favourites, favouriteCountries} = this.props;
 
         return (
             <CSSTransition
@@ -60,7 +61,9 @@ class Favourites extends Component {
                             <p className="asideHeading">Favourites</p>
                             <div className="listContainer">
                                 <ul className="countryList">
-
+                                    {favouriteCountries.map(country => 
+                                        <li className="listItem">{country.name}</li>
+                                    )}
                                 </ul>
                             </div>
                         </aside>

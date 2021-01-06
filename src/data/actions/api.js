@@ -1,5 +1,5 @@
 import axios from "../../axios";
-import { logReg, loggedOut, liked } from "./state";
+import { logReg, loggedOut, liked, favouriteCountries } from "./state";
 import store from "../../store";
 
 axios.interceptors.request.use(function (config) {
@@ -53,5 +53,13 @@ export const like = (country) => {
         }).then(({ data }) => {
             dispatch(liked(data));
         })
+    }
+}
+
+export const favourites = () => {
+    return (dispatch) => {
+        axios.get("/me/countries").then(({ data }) => {
+            dispatch(favouriteCountries(data));
+        });
     }
 }
