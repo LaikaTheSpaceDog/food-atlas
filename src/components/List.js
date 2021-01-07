@@ -65,11 +65,11 @@ class List extends Component {
                                 <ul className="countryList">
                                     { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                         geo.properties.COUNTRY ?
-                                        <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
+                                        <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><Link to="#country" onClick={() => {
                                             const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                             handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                             handleListView();
-                                        }}>{ geo.properties.NAME }</a></li>
+                                        }}>{ geo.properties.NAME }</Link></li>
                                         : null
                                     )}
                                 </ul>
