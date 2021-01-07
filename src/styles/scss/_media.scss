@@ -18,10 +18,8 @@
         }
     }
 
-    .header:hover {
-        .dropdown-content {
-            top: 6rem;
-        }
+    .headContainer:hover + .dropdown-content {
+        top: 6rem;
     }
     
     @keyframes barDown
@@ -64,10 +62,8 @@
             margin-bottom: 2rem;
         }
     }
-    .header:hover {
-        .dropdown-content {
-            top: 4.75rem;
-        }
+    .headContainer:hover + .dropdown-content {
+        top: 4.75rem;
     }
     
     @keyframes barDown
@@ -202,10 +198,8 @@
             padding-top: 1rem;
         }
     }
-    .header:hover {
-        .dropdown-content {
-            top: 3rem;
-        }
+    .headContainer:hover + .dropdown-content {
+        top: 3rem;
     }
     
     @keyframes barDown
@@ -268,10 +262,8 @@
         .subHeading, .asideHeading {
             font-size: 1rem;
         }
-        .header:hover {
-            .dropdown-content {
-                top: 2.5rem;
-            }
+        .headContainer:hover + .dropdown-content {
+            top: 2.5rem;
         }
         
         @keyframes barDown
