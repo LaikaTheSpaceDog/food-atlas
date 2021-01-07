@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/food-atlas/static/css/main.72514eb7.chunk.css",
+    "main.css": "/food-atlas/static/css/main.4eb5ef2a.chunk.css",
     "main.js": "/food-atlas/static/js/main.de42fdd7.chunk.js",
     "main.js.map": "/food-atlas/static/js/main.de42fdd7.chunk.js.map",
     "runtime-main.js": "/food-atlas/static/js/runtime-main.d4478573.js",
@@ -8,16 +8,16 @@
     "static/js/2.1976c261.chunk.js": "/food-atlas/static/js/2.1976c261.chunk.js",
     "static/js/2.1976c261.chunk.js.map": "/food-atlas/static/js/2.1976c261.chunk.js.map",
     "index.html": "/food-atlas/index.html",
-    "precache-manifest.0a310dc3e3af82f8e0a27de35b8d5b35.js": "/food-atlas/precache-manifest.0a310dc3e3af82f8e0a27de35b8d5b35.js",
+    "precache-manifest.187535abe63629f7f4c34280b817ffc0.js": "/food-atlas/precache-manifest.187535abe63629f7f4c34280b817ffc0.js",
     "service-worker.js": "/food-atlas/service-worker.js",
-    "static/css/main.72514eb7.chunk.css.map": "/food-atlas/static/css/main.72514eb7.chunk.css.map",
+    "static/css/main.4eb5ef2a.chunk.css.map": "/food-atlas/static/css/main.4eb5ef2a.chunk.css.map",
     "static/js/2.1976c261.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.1976c261.chunk.js.LICENSE.txt",
     "static/media/styles.min.css": "/food-atlas/static/media/heart-thin.79efc68d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4478573.js",
     "static/js/2.1976c261.chunk.js",
-    "static/css/main.72514eb7.chunk.css",
+    "static/css/main.4eb5ef2a.chunk.css",
     "static/js/main.de42fdd7.chunk.js"
   ]
 }
