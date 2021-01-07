@@ -17,8 +17,13 @@ export const login = (email, password) => {
             password_confirmation: password
         }).then(({ data }) => {
             dispatch(logReg(data));
-        }).catch(function(error) {
-            console.log(error.message);
+            axios.get("/me/countries",{
+                headers: {
+                    'Authorization': `Bearer ${data.token}`
+                }
+            }).then(({ data }) => {
+                dispatch(favouriteCountries(data));
+            })
         })
     }
 }
@@ -32,6 +37,13 @@ export const reg = (name, email, password) => {
             password_confirmation: password
         }).then(({ data }) => {
             dispatch(logReg(data));
+            axios.get("/me/countries",{
+                headers: {
+                    'Authorization': `Bearer ${data.token}`
+                }
+            }).then(({ data }) => {
+                dispatch(favouriteCountries(data));
+            })
         })
     }
 }
@@ -53,13 +65,5 @@ export const like = (country) => {
         }).then(({ data }) => {
             dispatch(liked(data));
         })
-    }
-}
-
-export const favourites = () => {
-    return (dispatch) => {
-        axios.get("/me/countries").then(({ data }) => {
-            dispatch(favouriteCountries(data));
-        });
     }
 }
