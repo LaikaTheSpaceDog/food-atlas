@@ -122,7 +122,8 @@ class Login extends Component {
         });
     }
 
-    handleRegisterApi(){
+    handleRegisterApi(e){
+        e.preventDefault();
         let {name, email, pass, conf} = this.state.register;
         if( pass === conf ){
             this.props.handleReg(name, email, pass)
@@ -132,7 +133,8 @@ class Login extends Component {
         }
     }
     
-    handleLoginApi(){
+    handleLoginApi(e){
+        e.preventDefault();
         let {email, pass} = this.state.login;
         this.props.handleLog(email, pass);
         this.props.handleLoginView();
@@ -159,7 +161,7 @@ class Login extends Component {
                                 <li className={`tab${log ? " active" : ""}`} onClick={this.handleClick}>Login</li>
                             </ul>
                             {reg ?
-                                <form className="form" id="register">
+                                <form className="form" id="register" onSubmit={ this.handleRegisterApi }>
                                     <label className="label">Full Name</label>
                                     <input className="input" type="text" onChange={ this.handleRegName } value={ this.state.register.name } required/>
 
@@ -172,17 +174,17 @@ class Login extends Component {
                                     <label className="label">Password Confirmation</label>
                                     <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
 
-                                    <button className="formButton" type="button" onClick={ this.handleRegisterApi }>Register</button>
+                                    <button className="formButton" type="submit">Register</button>
                                 </form>
                             :
-                                <form className="form" id="login">
+                                <form className="form" id="login" onSubmit={ this.handleLoginApi }>
                                     <label className="label">Email</label>
                                     <input className="input" type="email" onChange={ this.handleLogEmail } value={ this.state.login.email } required/>
 
                                     <label className="label">Password</label>
                                     <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
 
-                                    <button className="formButton" type="button" onClick={ this.handleLoginApi }>Login</button>
+                                    <button className="formButton" type="submit">Login</button>
                                 </form>
                             }
                         </aside>
