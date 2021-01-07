@@ -43,7 +43,7 @@ class Favourites extends Component {
     }
 
     render(){
-        const {handleFavouritesView, favourites, favouriteCountries} = this.props;
+        const {handleFavouritesView, favourites, favouriteCountries, handleEnter} = this.props;
 
         return (
             <CSSTransition
@@ -61,9 +61,13 @@ class Favourites extends Component {
                             <p className="asideHeading">Favourites</p>
                             <div className="listContainer">
                                 <ul className="countryList">
-                                    {favouriteCountries.map(country => 
-                                        <li className="listItem">{country.name}</li>
-                                    )}
+                                    {favouriteCountries.map(function(country, i) {
+                                        return <li className="listItem"><Link to="/food-atlas/#country" key={i} onClick={() => {
+                                            const { name, dish, description, photo, recipe } = country;
+                                            handleEnter(name, dish, description, photo, recipe);
+                                            handleFavouritesView();
+                                        }}>{`${country.name}: ${country.dish} `}</Link></li>
+                                    })}
                                 </ul>
                             </div>
                         </aside>

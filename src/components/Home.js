@@ -117,7 +117,7 @@ class Home extends PersistentComponent {
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                     <Footer />
                     <Login login={ login } handleLoginView={ this.handleLoginView } />
-                    <Favourites favourites={ favourites } handleFavouritesView={ this.handleFavouritesView } />
+                    <Favourites favourites={ favourites } handleFavouritesView={ this.handleFavouritesView } handleEnter={ this.handleEnter }/>
                 </section>
             </CSSTransition>
         );

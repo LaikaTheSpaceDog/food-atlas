@@ -68,6 +68,7 @@ class List extends Component {
                                         <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><a href="#country" onClick={() => {
                                             const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                             handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
+                                            handleListView();
                                         }}>{ geo.properties.NAME }</a></li>
                                         : null
                                     )}
