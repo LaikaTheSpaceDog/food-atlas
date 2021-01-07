@@ -4,16 +4,13 @@
 Mini web app built with React that combines three of my greatest loves: travel, geography and food! This app allows you to explore the national dish of each country through an interactive world map.
 
 ## Features
-This app utilises [React Simple Maps](https://www.react-simple-maps.io/) for the interactive map component as well as [react-tooltip](https://www.npmjs.com/package/react-tooltip) for the tooltips that display when the user hovers over a country. When the user clicks on a country or selects a country from the list, a pop-up will appear containing the name, description, photo and a link to a recipe for the national dish of that country. The user can then navigate back to the world map by clicking the back button.
+This app utilises [React Simple Maps](https://www.react-simple-maps.io/) for the interactive map component as well as [react-tooltip](https://www.npmjs.com/package/react-tooltip) for the tooltips that display when the user hovers over a country. When the user clicks on a country or selects a country from the list, a pop-up will appear containing the name, description, photo and a link to a recipe for the national dish of that country. The user can then navigate back to the world map by clicking the back button. Users can also register and login so that they can create their own personalised lists of 'favourite' countries and dishes.
 
 ## Live site
-
 https://laikathespacedog.github.io/food-atlas/#/
 
-## Features to be added
-1. [Back-end](https://github.com/LaikaTheSpaceDog/food-atlas-back-end) using Laravel so that the data is stored server-side.
-2. Capacity to set up users who can login via a login component.
-3. 'Saved' countries/dishes component so users can create their own custom list of dishes.
+## Backend
+The backend repo is available [here](https://github.com/LaikaTheSpaceDog/food-atlas-back-end).
 
 ## Known issues
 1. On some mobile devices (Android), you can only zoom in on the map once. If you try and zoom on the map a subsequent time, you will zoom in on the whole page and have to refresh the page to be able to zoom in on the map again. I'm currently looking into fixing this issue.
