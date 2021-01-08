@@ -15,13 +15,17 @@
         position: relative;
         align-content: flex-end;
 
-        .heart {
+        .heart, .heartOrange {
             width: 3rem;
             height: 2.7rem;
             position: absolute;
             top: 0;
             left: 0;
             background-image: url(../assets/svg/heart-thin.svg);
+        }
+
+        .heartOrange {
+            background-image: url(../assets/svg/heart-thin-orange.svg);
         }
 
         .heart:hover {

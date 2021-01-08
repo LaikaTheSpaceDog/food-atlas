@@ -41,14 +41,26 @@ class Country extends Component {
         }
     }
 
+    checkFavourites(faves){
+        let found = false;
+        for(let i = 0; i < faves.length; i +=1){
+            if (faves[i].name === this.props.country){
+                found = true;
+                break;
+            }
+        }
+        return found;
+    }
+
     handleLike(){
         if(this.props.loggedIn){
             this.props.dispatchLike(this.props.country);
+            setTimeout(() => {this.props.handleFavourites()}, 500);
         }
     }
 
     render(){
-        const { country, dish, description, photo, recipe, handleBack, handlePhotoSource, selected } = this.props;
+        const { country, dish, description, photo, recipe, handleBack, handlePhotoSource, selected, favourites } = this.props;
 
         return (
             <CSSTransition
@@ -88,7 +100,11 @@ class Country extends Component {
                     :
                         <article className="country">
                             <header className="countryHeader">
-                                <span className="heart" onClick={this.handleLike}></span>
+                                { this.checkFavourites(favourites) ?
+                                    <span className="heartOrange" onClick={this.handleLike}></span>
+                                :    
+                                    <span className="heart" onClick={this.handleLike}></span>
+                                }
                                 <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                                 <div className="countryTitles">
                                     <h1 className="heading">{ country }</h1>
