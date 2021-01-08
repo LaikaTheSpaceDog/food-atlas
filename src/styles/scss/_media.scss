@@ -18,7 +18,7 @@
         }
     }
 
-    .headContainer:hover + .dropdown-content {
+    .header:hover .dropdown-content {
         top: 6rem;
     }
     
@@ -62,7 +62,7 @@
             margin-bottom: 2rem;
         }
     }
-    .headContainer:hover + .dropdown-content {
+    .header:hover .dropdown-content {
         top: 4.75rem;
     }
     
@@ -198,7 +198,7 @@
             padding-top: 1rem;
         }
     }
-    .headContainer:hover + .dropdown-content {
+    .header:hover .dropdown-content {
         top: 3rem;
     }
     
@@ -262,7 +262,7 @@
         .subHeading, .asideHeading {
             font-size: 1rem;
         }
-        .headContainer:hover + .dropdown-content {
+        .header:hover .dropdown-content {
             top: 2.5rem;
         }
         
