@@ -67,3 +67,11 @@ export const like = (country) => {
         })
     }
 }
+
+export const favourites = () => {
+    return (dispatch) => {
+        axios.get("/me/countries").then(({ data }) => {
+            dispatch(favouriteCountries(data));
+        });
+    }
+} 

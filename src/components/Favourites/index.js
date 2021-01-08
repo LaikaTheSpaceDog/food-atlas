@@ -1,5 +1,6 @@
 import { connect } from "react-redux";
 import Favourites from "./Favourites";
+import { favourites } from "../../data/actions/api";
 
 const mapStateToProps = state => {
     return {
@@ -8,4 +9,8 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps)(Favourites);
+const mapDispatchToProps = dispatch => ({
+    handleFavourites: () => dispatch(favourites())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Favourites);
