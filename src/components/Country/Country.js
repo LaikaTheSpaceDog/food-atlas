@@ -55,7 +55,7 @@ class Country extends Component {
     handleLike(){
         if(this.props.loggedIn){
             this.props.dispatchLike(this.props.country);
-            setTimeout(() => {this.props.handleFavourites()}, 500);
+            setTimeout(() => {this.props.dispatchFavourites()}, 500);
         }
     }
 

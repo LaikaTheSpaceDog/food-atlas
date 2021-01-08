@@ -3,10 +3,10 @@ import Login from "./Login";
 import { login, reg } from "../../data/actions/api";
 
 const mapDispatchToProps = dispatch => ({
-    handleLog: (email, password) => {
+    dispatchLog: (email, password) => {
         dispatch(login(email, password))
     },
-    handleReg: (name, email, password) => {
+    dispatchReg: (name, email, password) => {
         dispatch(reg(name, email, password))
     }
 });

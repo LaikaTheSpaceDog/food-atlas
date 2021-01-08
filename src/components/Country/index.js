@@ -13,7 +13,7 @@ const mapDispatchToProps = dispatch => ({
     dispatchLike: (country) => {
         dispatch(like(country))
     },
-    handleFavourites: () => dispatch(favourites())
+    dispatchFavourites: () => dispatch(favourites())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Country);

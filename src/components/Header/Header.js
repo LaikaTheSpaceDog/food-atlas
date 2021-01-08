@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, token, dispatchLogout, handleFavouritesView, handleFavourites}) => {
+const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, token, dispatchLogout, handleFavouritesView, dispatchFavourites}) => {
 
     const [hovered, setHovered] = useState(false);
     const hover = () => setHovered(true);
@@ -10,7 +10,7 @@ const Header = ({handleAboutView, handleListView, handleLoginView, loggedIn, tok
     }
     
     let favouritesViewApi = () => {
-        handleFavourites();
+        dispatchFavourites();
         handleFavouritesView();
     }
 

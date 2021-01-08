@@ -10,7 +10,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => ({
-    handleFavourites: () => dispatch(favourites())
+    dispatchFavourites: () => dispatch(favourites())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Favourites);

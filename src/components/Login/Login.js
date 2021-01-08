@@ -126,7 +126,7 @@ class Login extends Component {
         e.preventDefault();
         let {name, email, pass, conf} = this.state.register;
         if( pass === conf ){
-            this.props.handleReg(name, email, pass)
+            this.props.dispatchReg(name, email, pass)
             this.props.handleLogin();
         } else { 
            return "Passwords must match" 
@@ -136,7 +136,7 @@ class Login extends Component {
     handleLoginApi(e){
         e.preventDefault();
         let {email, pass} = this.state.login;
-        this.props.handleLog(email, pass);
+        this.props.dispatchLog(email, pass);
         this.props.handleLoginView();
     }
 

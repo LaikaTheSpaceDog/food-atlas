@@ -13,7 +13,7 @@ const mapDispatchToProps = dispatch => ({
     dispatchLogout: (token) => {
         dispatch(logout(token))
     },
-    handleFavourites: () => dispatch(favourites())
+    dispatchFavourites: () => dispatch(favourites())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);
