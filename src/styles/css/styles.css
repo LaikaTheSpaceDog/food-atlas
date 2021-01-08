@@ -334,26 +334,26 @@ svg {
       display: block; }
 
 .listContainer {
-  border: 1px #393E41 solid;
-  border-radius: 8%;
-  height: 35vh;
+  max-height: 300px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center; }
-  .listContainer .countryList {
+  .listContainer .countryList, .listContainer .favouriteList {
     list-style: none;
     overflow-y: scroll;
     text-align: center;
-    height: 34vh;
+    max-height: 299px;
     scrollbar-color: #44BBA4 #F6F7EB;
     width: 90%; }
-    .listContainer .countryList .listItem a {
+    .listContainer .countryList .listItem a, .listContainer .favouriteList .listItem a {
       text-decoration: none;
       color: #393E41;
       line-height: 1.25rem; }
-    .listContainer .countryList .listItem a:hover {
+    .listContainer .countryList .listItem a:hover, .listContainer .favouriteList .listItem a:hover {
       color: #E94F37; }
+  .listContainer .favouriteList .listItem a {
+    line-height: 1.5rem; }
 
 @media only screen and (max-width: 1050px) {
   .heading {

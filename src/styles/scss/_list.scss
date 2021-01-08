@@ -1,17 +1,18 @@
 .listContainer{
-    border: 1px $grey solid;
-    border-radius: 8%;
-    height: 35vh;
+    // border: 1px $grey solid;
+    // border-radius: 8%;
+    // height: 35vh;
+    max-height: 300px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .countryList {
+    .countryList, .favouriteList {
         list-style: none;
         overflow-y: scroll;
         text-align: center;
-        height: 34vh;
+        max-height: 299px;
         scrollbar-color: $green $cream;
         width: 90%;
 
@@ -23,6 +24,14 @@
             }
             a:hover{
                 color: $orange;
+            }
+        }
+    }
+
+    .favouriteList {
+        .listItem {
+            a {
+                line-height: 1.5rem;
             }
         }
     }
