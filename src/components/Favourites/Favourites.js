@@ -61,7 +61,7 @@ class Favourites extends Component {
                             <p className="asideHeading">Favourites</p>
                             <div className="listContainer">
                                 <ul className="countryList">
-                                    {favouriteCountries.map(function(country, i) {
+                                    {favouriteCountries.sort((a, b) => (a.name > b.name) ? 1 : -1).map(function(country, i) {
                                         return <li className="listItem"><Link to="/food-atlas/#country" key={i} onClick={() => {
                                             const { name, dish, description, photo, recipe } = country;
                                             handleEnter(name, dish, description, photo, recipe);
