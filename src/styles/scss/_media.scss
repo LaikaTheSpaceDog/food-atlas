@@ -161,6 +161,7 @@
         }
 
         .list, .favourites{
+            width: 50vw;
             .asideHeading{
                 font-size: 1.25rem;
             }
@@ -195,9 +196,6 @@
         }        
         .header {
             justify-content: space-around;
-        }
-        .list {
-            width: 60vw;
         }
         .about {
             width: 80vw;
@@ -294,6 +292,7 @@
             top: 2.5rem;
         }
         .list, .favourites{
+            width: 75vw;
             .asideHeading{
                 font-size: 1rem;
             }

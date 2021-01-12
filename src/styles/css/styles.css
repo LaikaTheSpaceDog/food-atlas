@@ -442,8 +442,10 @@ svg {
         margin-right: 0.5rem;
         width: 1.5rem;
         height: 1.5rem; }
-    body .list .asideHeading, body .favourites .asideHeading {
-      font-size: 1.25rem; }
+    body .list, body .favourites {
+      width: 50vw; }
+      body .list .asideHeading, body .favourites .asideHeading {
+        font-size: 1.25rem; }
     body .country.noData .countryBody {
       margin-top: 1rem;
       margin-bottom: 1rem; }
@@ -459,8 +461,6 @@ svg {
       width: 80vw; }
     body .header {
       justify-content: space-around; }
-    body .list {
-      width: 60vw; }
     body .about {
       width: 80vw;
       height: 50vh;
@@ -503,8 +503,10 @@ svg {
     font-size: 1rem; }
   body .header:hover .dropdown-content {
     top: 2.5rem; }
-  body .list .asideHeading, body .favourites .asideHeading {
-    font-size: 1rem; }
+  body .list, body .favourites {
+    width: 75vw; }
+    body .list .asideHeading, body .favourites .asideHeading {
+      font-size: 1rem; }
   @keyframes barDown {
     0% {
       top: -2rem; }
