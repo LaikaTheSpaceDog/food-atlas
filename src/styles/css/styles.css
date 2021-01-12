@@ -335,7 +335,8 @@ svg {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  height: 100%; }
   .listContainer .countryList, .listContainer .favouriteList {
     list-style: none;
     overflow-y: scroll;
