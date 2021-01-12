@@ -18,6 +18,14 @@
         }
     }
 
+    .listContainer{
+        .countryList, .favouriteList{
+            .listItem{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
     .header:hover .dropdown-content {
         top: 6rem;
     }
@@ -64,6 +72,17 @@
     }
     .header:hover .dropdown-content {
         top: 4.75rem;
+    }
+
+    .listContainer{
+        .countryList, .favouriteList{
+            .listItem{
+                font-size: 0.75rem;
+                a {
+                    line-height: 1.25rem;
+                }
+            }
+        }
     }
     
     @keyframes barDown
@@ -119,6 +138,10 @@
                 .subHeading, .asideHeading {
                     padding-bottom: 0.5rem;
                 }
+                .heart, .heartOrange{
+                    width: 1.5rem;
+                    height: 1.35rem;
+                }
             }
         }
 
@@ -128,6 +151,7 @@
         }
 
         .about, .list, .favourites{
+            padding: 0.75rem;
             .closeButton{
                 margin-top: 0.5rem;
                 margin-right: 0.5rem;
@@ -156,11 +180,11 @@
         }
 
         .listContainer{
-            .countryList {
+            .countryList, .favouriteList {
                 .listItem {
+                    font-size: 0.7rem;
                     a {
-                        font-size: 0.75rem;
-                        line-height: 0.75rem;
+                        line-height: 1.15rem;
                     }
                 }
             }
@@ -231,18 +255,22 @@
                 width: 25vw;
             }
         }
-        .country{
-            .countryHeader {
-                .recipe{
-                    width: 2rem;
-                    height: 2.5rem;
-                }
-            }
-        }
-        .closeButton{
-            width: 2.5rem;
-            height:2.5rem;
-        }
+        // .country{
+        //     .countryHeader {
+        //         .recipe{
+        //             width: 2rem;
+        //             height: 2.5rem;
+        //         }
+        //     }
+            // .heart, .heartOrange{
+            //     width: 2.5rem;
+            //     height: 2.25rem;
+            // }
+        // }
+        // .closeButton{
+        //     width: 2.5rem;
+        //     height:2.5rem;
+        // }
         .about, .list, .favourites{
             .closeButton{
                 width: 2.5rem;
@@ -265,7 +293,11 @@
         .header:hover .dropdown-content {
             top: 2.5rem;
         }
-        
+        .list, .favourites{
+            .asideHeading{
+                font-size: 1rem;
+            }
+        }
         @keyframes barDown
         {
           0% {

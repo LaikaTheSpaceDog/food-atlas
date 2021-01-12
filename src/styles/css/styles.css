@@ -219,13 +219,10 @@ svg {
   text-align: center;
   justify-content: center; }
 
-.list {
-  width: 25vw;
+.list, .favourites {
+  width: 40vw;
   height: 50vh;
   justify-content: center; }
-
-.favourites {
-  width: 40vw; }
 
 .hidden {
   display: none; }
@@ -343,6 +340,7 @@ svg {
     list-style: none;
     overflow-y: scroll;
     text-align: center;
+    height: 95%;
     max-height: 299px;
     scrollbar-color: #44BBA4 #F6F7EB;
     width: 90%; }
@@ -367,6 +365,8 @@ svg {
   .country.noData .countryBody {
     margin-top: 1rem;
     margin-bottom: 2rem; }
+  .listContainer .countryList .listItem, .listContainer .favouriteList .listItem {
+    font-size: 0.9rem; }
   .header:hover .dropdown-content {
     top: 6rem; }
   @keyframes barDown {
@@ -394,6 +394,10 @@ svg {
     margin-bottom: 2rem; }
   .header:hover .dropdown-content {
     top: 4.75rem; }
+  .listContainer .countryList .listItem, .listContainer .favouriteList .listItem {
+    font-size: 0.75rem; }
+    .listContainer .countryList .listItem a, .listContainer .favouriteList .listItem a {
+      line-height: 1.25rem; }
   @keyframes barDown {
     0% {
       top: -2rem; }
@@ -425,14 +429,19 @@ svg {
         height: 1.5rem; }
       body .country .countryHeader .subHeading, body .country .countryHeader .asideHeading {
         padding-bottom: 0.5rem; }
+      body .country .countryHeader .heart, body .country .countryHeader .heartOrange {
+        width: 1.5rem;
+        height: 1.35rem; }
     body .closeButton {
       width: 1.5rem;
       height: 1.5rem; }
-    body .about .closeButton, body .list .closeButton, body .favourites .closeButton {
-      margin-top: 0.5rem;
-      margin-right: 0.5rem;
-      width: 1.5rem;
-      height: 1.5rem; }
+    body .about, body .list, body .favourites {
+      padding: 0.75rem; }
+      body .about .closeButton, body .list .closeButton, body .favourites .closeButton {
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem; }
     body .list .asideHeading, body .favourites .asideHeading {
       font-size: 1.25rem; }
     body .country.noData .countryBody {
@@ -442,9 +451,10 @@ svg {
       font-size: 0.75rem; }
       body .asideText .link {
         font-size: 0.75rem; }
-    body .listContainer .countryList .listItem a {
-      font-size: 0.75rem;
-      line-height: 0.75rem; }
+    body .listContainer .countryList .listItem, body .listContainer .favouriteList .listItem {
+      font-size: 0.7rem; }
+      body .listContainer .countryList .listItem a, body .listContainer .favouriteList .listItem a {
+        line-height: 1.15rem; }
     body .map {
       width: 80vw; }
     body .header {
@@ -482,12 +492,6 @@ svg {
   body .photoContainer .photo {
     height: 30vh;
     width: 25vw; }
-  body .country .countryHeader .recipe {
-    width: 2rem;
-    height: 2.5rem; }
-  body .closeButton {
-    width: 2.5rem;
-    height: 2.5rem; }
   body .about .closeButton, body .list .closeButton, body .favourites .closeButton {
     width: 2.5rem;
     height: 2.5rem; } }
@@ -499,6 +503,8 @@ svg {
     font-size: 1rem; }
   body .header:hover .dropdown-content {
     top: 2.5rem; }
+  body .list .asideHeading, body .favourites .asideHeading {
+    font-size: 1rem; }
   @keyframes barDown {
     0% {
       top: -2rem; }
