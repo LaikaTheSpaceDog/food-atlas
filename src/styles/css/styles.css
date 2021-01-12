@@ -428,12 +428,12 @@ svg {
     body .closeButton {
       width: 1.5rem;
       height: 1.5rem; }
-    body .about .closeButton, body .list .closeButton {
+    body .about .closeButton, body .list .closeButton, body .favourites .closeButton {
       margin-top: 0.5rem;
       margin-right: 0.5rem;
       width: 1.5rem;
       height: 1.5rem; }
-    body .list .asideHeading {
+    body .list .asideHeading, body .favourites .asideHeading {
       font-size: 1.25rem; }
     body .country.noData .countryBody {
       margin-top: 1rem;
@@ -488,7 +488,7 @@ svg {
   body .closeButton {
     width: 2.5rem;
     height: 2.5rem; }
-  body .about .closeButton, body .list .closeButton {
+  body .about .closeButton, body .list .closeButton, body .favourites .closeButton {
     width: 2.5rem;
     height: 2.5rem; } }
 
