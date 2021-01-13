@@ -137,6 +137,15 @@ svg {
   color: #393E41;
   text-align: center; }
 
+.loginLink {
+  font-size: 1rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #393E41;
+  text-decoration: none; }
+
+.loginLink:hover {
+  color: #E94F37; }
+
 .tooltip {
   background-color: yellow; }
 
@@ -223,6 +232,11 @@ svg {
   width: 40vw;
   height: 50vh;
   justify-content: center; }
+
+.loggedIn {
+  padding-top: 1rem;
+  position: absolute;
+  right: 0; }
 
 .hidden {
   display: none; }

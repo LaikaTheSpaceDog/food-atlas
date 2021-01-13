@@ -1,6 +1,13 @@
 import { connect } from "react-redux";
 import Login from "./Login";
-import { login, reg } from "../../data/actions/api";
+import { login, reg, logout } from "../../data/actions/api";
+
+const mapStateToProps = state => {
+    return {
+        loggedIn: state.loggedIn,
+        token: state.token
+    }
+}
 
 const mapDispatchToProps = dispatch => ({
     dispatchLog: (email, password) => {
@@ -8,7 +15,10 @@ const mapDispatchToProps = dispatch => ({
     },
     dispatchReg: (name, email, password) => {
         dispatch(reg(name, email, password))
+    },
+    dispatchLogout: (token) => {
+        dispatch(logout(token))
     }
 });
 
-export default connect(null, mapDispatchToProps )(Login);
+export default connect(mapStateToProps, mapDispatchToProps )(Login);

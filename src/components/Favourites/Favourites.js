@@ -16,7 +16,9 @@ class Favourites extends Component {
     componentDidMount() {
         document.addEventListener('mousedown', this.handleClickOutside);
         document.addEventListener("keydown", this.escFunction, false);
-        this.props.dispatchFavourites();
+        if (this.props.loggedIn){
+            this.props.dispatchFavourites()
+        }
     }
 
     componentWillUnmount() {

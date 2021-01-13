@@ -12,7 +12,8 @@ const loggedIn = (state, { token }) => ({
 const loggedOut = (state) => ({
     ...state,
     loggedIn: false,
-    token: ""
+    token: "",
+    favourites: []
 });
 
 const liked = (state) => ({

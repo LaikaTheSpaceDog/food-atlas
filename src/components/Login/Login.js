@@ -35,6 +35,7 @@ class Login extends Component {
         this.handleLogPass = this.handleLogPass.bind(this);
         this.handleLoginApi = this.handleLoginApi.bind(this);
         this.handleRegisterApi = this.handleRegisterApi.bind(this);
+        this.handleLogout = this.handleLogout.bind(this);
     }
 
     componentDidMount() {
@@ -140,57 +141,73 @@ class Login extends Component {
         this.props.handleLoginView();
     }
 
+    handleLogout(){
+        this.props.dispatchLogout(this.props.token);
+    }
+
     render(){
 
         const { reg, log } = this.state;
+        const { loggedIn, handleLoginView } = this.props;
 
         return (
-            <CSSTransition
-                classNames="transition"
-                transitionappeartimeout={500}
-                timeout={500}
-                in={ this.props.login }
-                unmountOnExit
-                appear
-            >   
-                <div className="overlay" id="login">
-                    <div className="wrapper" ref={this.setWrapperRef}>
-                        <aside className="logReg">
-                            <ul className="tabGroup">
-                                <li className={`tab${reg ? " active" : ""}`} onClick={this.handleClick}>Register</li>
-                                <li className={`tab${log ? " active" : ""}`} onClick={this.handleClick}>Login</li>
-                            </ul>
-                            {reg ?
-                                <form className="form" id="register" onSubmit={ this.handleRegisterApi }>
-                                    <label className="label">Full Name</label>
-                                    <input className="input" type="text" onChange={ this.handleRegName } value={ this.state.register.name } required/>
+            <>
+                { loggedIn ? 
+                    <aside className="loggedIn">
+                        <a className="loginLink" href="#logout" onClick={ this.handleLogout }>Log Out</a>
+                    </aside>
+                :
+                    <aside className="loggedIn">
+                        <a className="loginLink" href="#login" onClick={ handleLoginView }>Register/Log In</a>         
+                    </aside>
+                }
+                <CSSTransition
+                    classNames="transition"
+                    transitionappeartimeout={500}
+                    timeout={500}
+                    in={ this.props.login }
+                    unmountOnExit
+                    appear
+                >   
+                    <div className="overlay" id="login">
+                        <div className="wrapper" ref={this.setWrapperRef}>
+                            <aside className="logReg">
+                                <ul className="tabGroup">
+                                    <li className={`tab${reg ? " active" : ""}`} onClick={this.handleClick}>Register</li>
+                                    <li className={`tab${log ? " active" : ""}`} onClick={this.handleClick}>Login</li>
+                                </ul>
+                                {reg ?
+                                    <form className="form" id="register" onSubmit={ this.handleRegisterApi }>
+                                        <label className="label">Full Name</label>
+                                        <input className="input" type="text" onChange={ this.handleRegName } value={ this.state.register.name } required/>
 
-                                    <label className="label">Email</label>
-                                    <input className="input" type="email" onChange={ this.handleRegEmail } value={ this.state.register.email } required/>
+                                        <label className="label">Email</label>
+                                        <input className="input" type="email" onChange={ this.handleRegEmail } value={ this.state.register.email } required/>
 
-                                    <label className="label">Password</label>
-                                    <input className="input" type="password" onChange={ this.handleRegPass } value={ this.state.register.pass } required/>
+                                        <label className="label">Password</label>
+                                        <input className="input" type="password" onChange={ this.handleRegPass } value={ this.state.register.pass } required/>
 
-                                    <label className="label">Password Confirmation</label>
-                                    <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
+                                        <label className="label">Password Confirmation</label>
+                                        <input className="input" type="password" onChange={ this.handleRegConf } value={ this.state.register.conf } required/>
 
-                                    <button className="formButton" type="submit">Register</button>
-                                </form>
-                            :
-                                <form className="form" id="login" onSubmit={ this.handleLoginApi }>
-                                    <label className="label">Email</label>
-                                    <input className="input" type="email" onChange={ this.handleLogEmail } value={ this.state.login.email } required/>
+                                        <button className="formButton" type="submit">Register</button>
+                                    </form>
+                                :
+                                    <form className="form" id="login" onSubmit={ this.handleLoginApi }>
+                                        <label className="label">Email</label>
+                                        <input className="input" type="email" onChange={ this.handleLogEmail } value={ this.state.login.email } required/>
 
-                                    <label className="label">Password</label>
-                                    <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
+                                        <label className="label">Password</label>
+                                        <input className="input" type="password" onChange={ this.handleLogPass } value={ this.state.login.pass } required/>
 
-                                    <button className="formButton" type="submit">Login</button>
-                                </form>
-                            }
-                        </aside>
+                                        <button className="formButton" type="submit">Login</button>
+                                    </form>
+                                }
+                            </aside>
+                        </div>
                     </div>
-                </div>
-            </CSSTransition>
+                </CSSTransition>
+            </>
         );
     }
 }

@@ -110,7 +110,7 @@ class Home extends PersistentComponent {
                 appear
             >         
                 <section className="home" id="home">
-                    <Header handleAboutView={this.handleAboutView} handleListView={this.handleListView} handleLoginView={this.handleLoginView} handleFavouritesView={this.handleFavouritesView} />
+                    <Header handleAboutView={this.handleAboutView} handleListView={this.handleListView} handleFavouritesView={this.handleFavouritesView} />
                     <Map setTooltipContent={this.props.setTooltipContent} handleEnter={this.handleEnter} />
                     <About handleAboutView={ this.handleAboutView } about={about} />
                     <List handleEnter={ this.handleEnter } handleListView={ this.handleListView } list={list} />
