@@ -61,6 +61,9 @@
     .text, .link {
         font-size: 1.5rem;
     }
+    .loginLink {
+        font-size: 0.8rem;
+    }
     .list {
         width: 30vw;
     }
@@ -126,7 +129,9 @@
         .text, .link {
             font-size: 0.75rem;
         }
-
+        .loginLink {
+            font-size: 0.7rem;
+        }
         .country {
             padding: 1rem 0.5rem;
 
@@ -253,22 +258,6 @@
                 width: 25vw;
             }
         }
-        // .country{
-        //     .countryHeader {
-        //         .recipe{
-        //             width: 2rem;
-        //             height: 2.5rem;
-        //         }
-        //     }
-            // .heart, .heartOrange{
-            //     width: 2.5rem;
-            //     height: 2.25rem;
-            // }
-        // }
-        // .closeButton{
-        //     width: 2.5rem;
-        //     height:2.5rem;
-        // }
         .about, .list, .favourites{
             .closeButton{
                 width: 2.5rem;
@@ -287,6 +276,9 @@
         }
         .subHeading, .asideHeading {
             font-size: 1rem;
+        }
+        .loginLink {
+            font-size: 0.5rem;
         }
         .header:hover .dropdown-content {
             top: 2.5rem;

@@ -402,6 +402,8 @@ svg {
     font-size: 1.5rem; }
   .text, .link {
     font-size: 1.5rem; }
+  .loginLink {
+    font-size: 0.8rem; }
   .list {
     width: 30vw; }
   .country.noData .countryBody {
@@ -437,6 +439,8 @@ svg {
       font-size: 1.25rem; }
     body .text, body .link {
       font-size: 0.75rem; }
+    body .loginLink {
+      font-size: 0.7rem; }
     body .country {
       padding: 1rem 0.5rem; }
       body .country .countryHeader .recipe {
@@ -516,6 +520,8 @@ svg {
     font-size: 1.5rem; }
   body .subHeading, body .asideHeading {
     font-size: 1rem; }
+  body .loginLink {
+    font-size: 0.5rem; }
   body .header:hover .dropdown-content {
     top: 2.5rem; }
   body .list, body .favourites {
