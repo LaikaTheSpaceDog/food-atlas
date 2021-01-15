@@ -60,7 +60,7 @@ class Country extends Component {
     }
 
     render(){
-        const { country, dish, description, photo, recipe, handleBack, handlePhotoSource, selected, favourites } = this.props;
+        const { country, dish, description, photo, recipe, handleBack, handlePhotoSource, selected, favourites, loggedIn } = this.props;
 
         return (
             <CSSTransition
@@ -100,10 +100,13 @@ class Country extends Component {
                     :
                         <article className="country">
                             <header className="countryHeader">
-                                { this.checkFavourites(favourites) ?
-                                    <span className="heartOrange" onClick={this.handleLike}></span>
-                                :    
-                                    <span className="heart" onClick={this.handleLike}></span>
+                                { loggedIn ?
+                                    this.checkFavourites(favourites) ?
+                                        <span className="heartOrange" onClick={this.handleLike}></span>
+                                    :    
+                                        <span className="heart" onClick={this.handleLike}></span>
+                                    :
+                                        null
                                 }
                                 <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
                                 <div className="countryTitles">
