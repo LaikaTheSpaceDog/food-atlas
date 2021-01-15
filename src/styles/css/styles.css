@@ -109,6 +109,9 @@ svg {
   color: #393E41;
   text-decoration: none; }
 
+.link {
+  cursor: pointer; }
+
 .link:hover {
   color: #E94F37; }
 

@@ -11,6 +11,8 @@ class About extends Component {
         this.setWrapperRef = this.setWrapperRef.bind(this);
         this.handleClickOutside = this.handleClickOutside.bind(this);
         this.escFunction = this.escFunction.bind(this);
+        this.listLink = this.listLink.bind(this);
+        this.loginLink = this.loginLink.bind(this);
     }
 
     componentDidMount() {
@@ -41,8 +43,18 @@ class About extends Component {
         }
     }
 
+    listLink(){
+        this.props.handleAboutView();
+        this.props.handleListView();
+    }
+
+    loginLink(){
+        this.props.handleAboutView();
+        this.props.handleLoginView();
+    }
+
     render(){
-        const {handleAboutView, about} = this.props;
+        const {handleAboutView, about, handleLoginView, handleListView} = this.props;
 
         return (
             <CSSTransition
@@ -60,7 +72,8 @@ class About extends Component {
                             <div className="aboutText">
                                 <p className="asideHeading">Welcome!</p>
                                 <p className="asideText">Explore the world of food by simply clicking on a country to find out about one of its signature national dishes.</p>
-                                <p className="asideText">Some small nations may be hard to locate on the map, so please find them on the <a className="link" href="#list">list</a> instead if you are struggling!</p>
+                                <p className="asideText"><span className="link" onClick={this.loginLink}>Create an account</span> to make your own personalised list of dishes!</p>
+                                <p className="asideText">Some small nations may be hard to locate on the map, so please find them on the <span className="link" onClick={this.listLink}>list</span> instead if you are struggling.</p>
                             </div>
                         </aside>
                     </div>

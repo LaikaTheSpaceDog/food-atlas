@@ -112,7 +112,7 @@ class Home extends PersistentComponent {
                 <section className="home" id="home">
                     <Header handleAboutView={this.handleAboutView} handleListView={this.handleListView} handleFavouritesView={this.handleFavouritesView} />
                     <Map setTooltipContent={this.props.setTooltipContent} handleEnter={this.handleEnter} />
-                    <About handleAboutView={ this.handleAboutView } about={about} />
+                    <About handleAboutView={ this.handleAboutView } about={about} handleListView={this.handleListView} handleLoginView={ this.handleLoginView } />
                     <List handleEnter={ this.handleEnter } handleListView={ this.handleListView } list={list} />
                     <Country selected={ selected } country={ country } dish={ dish } description={ description } photo={ photo } recipe={ recipe } handleBack={ this.handleBack } handlePhotoSource={ this.handlePhotoSource } />
                     <Footer />
