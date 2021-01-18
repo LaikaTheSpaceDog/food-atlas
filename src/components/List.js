@@ -57,7 +57,7 @@ class List extends Component {
                 <div className="overlay" id="list">      
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="list">
-                            <span className="closeButton" onClick={handleListView}></span>
+                            <span className="close" onClick={handleListView}></span>
                             <p className="asideHeading">List</p>
                             <div className="listContainer">
                                 <ul className="countryList">

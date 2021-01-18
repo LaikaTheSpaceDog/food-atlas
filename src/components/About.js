@@ -66,7 +66,7 @@ class About extends Component {
                 <div className="overlay" id="about">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="about">
-                            <span className="closeButton" onClick={handleAboutView}></span>
+                            <span className="close" onClick={handleAboutView}></span>
                             <div className="aboutText">
                                 <p className="asideHeading">Welcome!</p>
                                 <p className="asideText">Explore the world of food by simply clicking on a country to find out about one of its signature national dishes.</p>

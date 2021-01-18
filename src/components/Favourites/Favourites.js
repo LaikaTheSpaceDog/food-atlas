@@ -59,7 +59,7 @@ class Favourites extends Component {
                 <div className="overlay" id="favourites">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="favourites">
-                            <span className="closeButton" onClick={handleFavouritesView}></span>
+                            <span className="close" onClick={handleFavouritesView}></span>
                             <p className="asideHeading">Favourites</p>
                             <div className="listContainer">
                                 <ul className="favouriteList">
