@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/food-atlas/static/css/main.b0f177ac.chunk.css",
-    "main.js": "/food-atlas/static/js/main.5a45f6ff.chunk.js",
-    "main.js.map": "/food-atlas/static/js/main.5a45f6ff.chunk.js.map",
+    "main.css": "/food-atlas/static/css/main.45420b90.chunk.css",
+    "main.js": "/food-atlas/static/js/main.29df638e.chunk.js",
+    "main.js.map": "/food-atlas/static/js/main.29df638e.chunk.js.map",
     "runtime-main.js": "/food-atlas/static/js/runtime-main.d4478573.js",
     "runtime-main.js.map": "/food-atlas/static/js/runtime-main.d4478573.js.map",
-    "static/js/2.1976c261.chunk.js": "/food-atlas/static/js/2.1976c261.chunk.js",
-    "static/js/2.1976c261.chunk.js.map": "/food-atlas/static/js/2.1976c261.chunk.js.map",
+    "static/js/2.5bd1500d.chunk.js": "/food-atlas/static/js/2.5bd1500d.chunk.js",
+    "static/js/2.5bd1500d.chunk.js.map": "/food-atlas/static/js/2.5bd1500d.chunk.js.map",
     "index.html": "/food-atlas/index.html",
-    "precache-manifest.756689eddbc5e082cad23dcfae3ebee9.js": "/food-atlas/precache-manifest.756689eddbc5e082cad23dcfae3ebee9.js",
+    "precache-manifest.72ff3e8670820541a590f11b5840127a.js": "/food-atlas/precache-manifest.72ff3e8670820541a590f11b5840127a.js",
     "service-worker.js": "/food-atlas/service-worker.js",
-    "static/css/main.b0f177ac.chunk.css.map": "/food-atlas/static/css/main.b0f177ac.chunk.css.map",
-    "static/js/2.1976c261.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.1976c261.chunk.js.LICENSE.txt",
+    "static/css/main.45420b90.chunk.css.map": "/food-atlas/static/css/main.45420b90.chunk.css.map",
+    "static/js/2.5bd1500d.chunk.js.LICENSE.txt": "/food-atlas/static/js/2.5bd1500d.chunk.js.LICENSE.txt",
     "static/media/styles.min.css": "/food-atlas/static/media/heart-thin.79efc68d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4478573.js",
-    "static/js/2.1976c261.chunk.js",
-    "static/css/main.b0f177ac.chunk.css",
-    "static/js/main.5a45f6ff.chunk.js"
+    "static/js/2.5bd1500d.chunk.js",
+    "static/css/main.45420b90.chunk.css",
+    "static/js/main.29df638e.chunk.js"
   ]
 }
