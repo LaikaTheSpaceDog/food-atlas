@@ -15,12 +15,17 @@
         position: relative;
         align-content: flex-end;
 
+        .heading {
+            cursor: default;
+        }
+
         .heart, .heartOrange {
             width: 3rem;
             height: 2.7rem;
             position: absolute;
             top: 0;
             left: 0;
+            cursor: pointer;
             background-image: url(../assets/svg/heart-thin.svg);
         }
 
