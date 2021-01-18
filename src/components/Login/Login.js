@@ -54,14 +54,12 @@ class Login extends Component {
     
     handleClickOutside(event) {
         if (this.props.login && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-            this.props.history.push('/food-atlas/#home');
             this.props.handleLoginView();
         }
     }
 
     escFunction(event){
         if(this.props.login && event.keyCode === 27) {
-            this.props.history.push("/food-atlas/#home");
             this.props.handleLoginView();
         }
     }
@@ -154,11 +152,11 @@ class Login extends Component {
             <>
                 { loggedIn ? 
                     <aside className="loggedIn">
-                        <a className="loginLink" href="#logout" onClick={ this.handleLogout }>Log Out</a>
+                        <button className="loginButton" onClick={ this.handleLogout }>Log Out</button>
                     </aside>
                 :
                     <aside className="loggedIn">
-                        <a className="loginLink" href="#login" onClick={ handleLoginView }>Register/Log In</a>         
+                        <button className="loginButton" onClick={ handleLoginView }>Register/Log In</button>         
                     </aside>
                 }
                 <CSSTransition

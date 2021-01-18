@@ -53,10 +53,10 @@ export default function Header({handleAboutView, handleListView, loggedIn, handl
                 </div>
                 <nav className={ !dropped ? "hidden" : "dropdown-content" }>
                     <ul>
-                        <li><a className="subHeading headButton" href="#about" onClick={ handleAboutView }>About</a></li>
-                        <li><a className="subHeading headButton" href="#list" onClick={ handleListView }>Countries</a></li>
+                        <li className="subHeading" onClick={ handleAboutView }>About</li>
+                        <li className="subHeading" onClick={ handleListView }>Countries</li>
                         {!loggedIn ? null :
-                            <li><a className="subHeading headButton" href="#favourites" onClick={ favouritesViewApi }>Favourites</a></li>          
+                            <li className="subHeading" onClick={ favouritesViewApi }>Favourites</li>          
                         }
                     </ul>
                 </nav>

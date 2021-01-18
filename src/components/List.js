@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import geoUrl from "../data/topo.json";
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import { CSSTransition } from "react-transition-group";
 
 class List extends Component {
@@ -30,14 +30,12 @@ class List extends Component {
     
     handleClickOutside(event) {
         if (this.props.list && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-            this.props.history.push("/food-atlas/#home");
             this.props.handleListView();
         }
     }
 
     escFunction(event){
         if(this.props.list && event.keyCode === 27) {
-            this.props.history.push("/food-atlas/#home");
             this.props.handleListView();
         }
     }
@@ -59,17 +57,17 @@ class List extends Component {
                 <div className="overlay" id="list">      
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="list">
-                            <Link className="close" href="#home" onClick={handleListView}><span className="closeButton"></span></Link>
+                            <span className="closeButton" onClick={handleListView}></span>
                             <p className="asideHeading">List</p>
                             <div className="listContainer">
                                 <ul className="countryList">
                                     { countries.sort((a, b) => (a.properties.NAME > b.properties.NAME) ? 1 : -1).map(geo =>
                                         geo.properties.COUNTRY ?
-                                        <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` }><Link to="#country" onClick={() => {
+                                        <li className="listItem" key={ `${geo.properties.ISO_A3}${geo.properties.name}` } onClick={() => {
                                             const { NAME, DISH, DESCRIPTION, PHOTO, RECIPE } = geo.properties;
                                             handleEnter(NAME, DISH, DESCRIPTION, PHOTO, RECIPE);
                                             handleListView();
-                                        }}>{ geo.properties.NAME }</Link></li>
+                                        }}>{ geo.properties.NAME }</li>
                                         : null
                                     )}
                                 </ul>

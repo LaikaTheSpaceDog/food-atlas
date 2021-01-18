@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import { CSSTransition } from "react-transition-group";
 
 class Favourites extends Component {
@@ -32,14 +32,14 @@ class Favourites extends Component {
     
     handleClickOutside(event) {
         if (this.props.favourites && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-            this.props.history.push('/food-atlas/#home');
+            this.props.history.push('/food-atlas');
             this.props.handleFavouritesView();
         }
     }
 
     escFunction(event){
         if(this.props.favourites && event.keyCode === 27) {
-            this.props.history.push("/food-atlas/#home");
+            this.props.history.push("/food-atlas");
             this.props.handleFavouritesView();
         }
     }
@@ -59,16 +59,16 @@ class Favourites extends Component {
                 <div className="overlay" id="favourites">
                     <div className="wrapper" ref={this.setWrapperRef}>
                         <aside className="favourites">
-                            <Link to="#favourites" onClick={handleFavouritesView}><span className="closeButton"></span></Link>
+                            <span className="closeButton" onClick={handleFavouritesView}></span>
                             <p className="asideHeading">Favourites</p>
                             <div className="listContainer">
                                 <ul className="favouriteList">
                                     {favouriteCountries.sort((a, b) => (a.name > b.name) ? 1 : -1).map(function(country, i) {
-                                        return <li className="listItem"><Link to="/food-atlas/#country" key={i} onClick={() => {
+                                        return <li className="listItem" key={i} onClick={() => {
                                             const { name, dish, description, photo, recipe } = country;
                                             handleEnter(name, dish, description, photo, recipe);
                                             handleFavouritesView();
-                                        }}>{`${country.name}: ${country.dish} `}</Link></li>
+                                        }}>{`${country.name}: ${country.dish} `}</li>
                                     })}
                                 </ul>
                             </div>

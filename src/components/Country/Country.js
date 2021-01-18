@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import { CSSTransition } from "react-transition-group";
 
 class Country extends Component {
@@ -30,14 +30,12 @@ class Country extends Component {
     handleClickOutside(event) {
         if (this.props.selected && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
             this.props.handleBack();
-            this.props.history.push('/food-atlas/#home');
         }
     }
 
     escFunction(event){
         if(this.props.selected && event.keyCode === 27) {
             this.props.handleBack();
-            this.props.history.push("/food-atlas/#home");
         }
     }
 
@@ -82,7 +80,7 @@ class Country extends Component {
                                     <h1 className="heading">{ country }</h1>
                                     <h2 className="subHeading">It's a mystery to me...</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
+                                <span className="closeButton" onClick={ handleBack }></span>
                             </header>
                             <section className="countryBody">
                                 <p className="text description">There's currently no data on this place! If you have any suggestions, <span><a className="link" href="mailto:oscarjwales@gmail.com" target="_blank" rel="noopener noreferrer">please get in touch</a></span>!</p>
@@ -94,7 +92,7 @@ class Country extends Component {
                                 <div className="countryTitles">
                                     <h2 className="subHeading">Something went wrong :(</h2>
                                 </div>
-                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
+                                <span className="closeButton" onClick={ handleBack }></span>
                             </header>
                         </article>
                     :
@@ -108,7 +106,7 @@ class Country extends Component {
                                     :
                                         null
                                 }
-                                <Link to="#home" onClick={ handleBack }><span className="closeButton"></span></Link>
+                                <span className="closeButton" onClick={ handleBack }></span>
                                 <div className="countryTitles">
                                     <h1 className="heading">{ country }</h1>
                                     <h2 className="subHeading">{ dish }</h2>

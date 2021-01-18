@@ -61,7 +61,7 @@
     .text, .link {
         font-size: 1.5rem;
     }
-    .loginLink {
+    .loginButton {
         font-size: 0.8rem;
     }
     .list {
@@ -81,9 +81,7 @@
         .countryList, .favouriteList{
             .listItem{
                 font-size: 0.75rem;
-                a {
-                    line-height: 1.25rem;
-                }
+                line-height: 1.25rem;
             }
         }
     }
@@ -129,7 +127,7 @@
         .text, .link {
             font-size: 0.75rem;
         }
-        .loginLink {
+        .loginButton {
             font-size: 0.7rem;
         }
         .country {
@@ -189,9 +187,7 @@
             .countryList, .favouriteList {
                 .listItem {
                     font-size: 0.7rem;
-                    a {
-                        line-height: 1.15rem;
-                    }
+                    line-height: 1.15rem;
                 }
             }
         }
@@ -277,7 +273,7 @@
         .subHeading, .asideHeading {
             font-size: 1rem;
         }
-        .loginLink {
+        .loginButton {
             font-size: 0.5rem;
         }
         .header:hover .dropdown-content {

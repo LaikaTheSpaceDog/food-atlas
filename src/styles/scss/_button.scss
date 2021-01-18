@@ -5,6 +5,7 @@
     top: 0;
     right: 0;
     background-image: url(../assets/svg/close-round-line.svg);
+    cursor: pointer;
 }
 .closeButton:hover {
     background-image: url(../assets/svg/close-round-line-orange.svg);
@@ -25,4 +26,17 @@
     &:hover, &:focus {
       background:$orange;
     }
-  }
+}
+
+.loginButton {
+  font-size: 1rem;
+  font-family: $fontStackOpen;
+  color: $grey;
+  background-color: $cream;
+  cursor: pointer;
+  border: none;
+}
+
+.loginButton:hover {
+  color: $orange;
+}
