@@ -151,11 +151,11 @@ class Login extends Component {
         return (
             <>
                 { loggedIn ? 
-                    <aside className="loggedIn">
+                    <aside className="login">
                         <button className="loginButton" onClick={ this.handleLogout }>Log Out</button>
                     </aside>
                 :
-                    <aside className="loggedIn">
+                    <aside className="login">
                         <button className="loginButton" onClick={ handleLoginView }>Register/Log In</button>         
                     </aside>
                 }
