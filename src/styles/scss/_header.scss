@@ -2,7 +2,7 @@
     display: none;
 }
 
-.header {
+.header, .headerDrop {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -20,35 +20,34 @@
     .heading:hover {
         color: $orange;
     }
-
     .dropdown-content {
-        position: absolute;
-        z-index: 1;
-        text-align: center;
-        width: 40vw;
-        background-color: $cream;
-        top: -4rem;
-        border-bottom: 5px solid $orange;
-        border-left: 5px solid $orange;
-        border-right: 5px solid $orange;
-        animation: barUp 1s ease;
-        -webkit-animation: barUp 1s ease;
-
-        .subHeading {
-            padding-bottom: 0rem;
-        }
-        .subHeading:hover {
-            color: $orange;
-        }
-    }
+      position: absolute;
+      z-index: 1;
+      text-align: center;
+      width: 40vw;
+      background-color: $cream;
+      top: -4rem;
+      border-bottom: 5px solid $orange;
+      border-left: 5px solid $orange;
+      border-right: 5px solid $orange;
+      animation: barUp 1s ease;
+      -webkit-animation: barUp 1s ease;
+  
+      .subHeading {
+          padding-bottom: 0rem;
+      }
+      .subHeading:hover {
+          color: $orange;
+      }
+  }
 }
 
-.header:hover .dropdown-content {
-        display: block;
-        opacity: 1;
-        top: 8rem;
-        animation: barDown 1s ease;
-        -webkit-animation: barDown 1s ease;
+.headerDrop .dropdown-content {
+    display: block;
+    opacity: 1;
+    top: 8rem;
+    animation: barDown 1s ease;
+    -webkit-animation: barDown 1s ease;
 }
 
 @keyframes barDown

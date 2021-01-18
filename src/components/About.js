@@ -54,7 +54,7 @@ class About extends Component {
     }
 
     render(){
-        const {handleAboutView, about, handleLoginView, handleListView} = this.props;
+        const {handleAboutView, about} = this.props;
 
         return (
             <CSSTransition
