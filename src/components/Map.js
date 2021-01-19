@@ -4,10 +4,13 @@ import geoUrl from "../data/topo.json";
 
 const Map = ({setTooltipContent, handleEnter}) => {
 
+    const mapWidth = 1200;
+    const mapHeight = 600;
+    
     return (
         <div className="container">
-            <ComposableMap className="map" width={1200} style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
-                <ZoomableGroup>
+            <ComposableMap className="map" width={mapWidth} style={{ width: "100%" }} data-tip="" projectionConfig={{ scale: 200 }} >
+                <ZoomableGroup translateExtent={[[0, -mapHeight],[mapWidth, mapHeight]]}>
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map(geo =>
