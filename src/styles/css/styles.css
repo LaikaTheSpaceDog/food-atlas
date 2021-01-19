@@ -394,7 +394,7 @@ svg {
     margin-bottom: 2rem; }
   .listContainer .countryList .listItem, .listContainer .favouriteList .listItem {
     font-size: 0.9rem; }
-  .header:hover .dropdown-content {
+  .headerDrop .dropdown-content {
     top: 6rem; }
   @keyframes barDown {
     0% {
@@ -421,7 +421,7 @@ svg {
   .country.noData .countryBody {
     margin-top: 1rem;
     margin-bottom: 2rem; }
-  .header:hover .dropdown-content {
+  .headerDrop .dropdown-content {
     top: 4.75rem; }
   .listContainer .countryList .listItem, .listContainer .favouriteList .listItem {
     font-size: 0.75rem;
@@ -502,9 +502,9 @@ svg {
       body .photoContainer .photo {
         height: 20vh;
         width: 30vw; }
-  .header .headContainer {
+  .header .headContainer, .headerDrop .headContainer {
     padding-top: 1rem; }
-  .header:hover .dropdown-content {
+  .headerDrop .dropdown-content {
     top: 3rem; }
   @keyframes barDown {
     0% {
@@ -532,7 +532,7 @@ svg {
     font-size: 1rem; }
   body .loginButton {
     font-size: 0.5rem; }
-  body .header:hover .dropdown-content {
+  body .headerDrop .dropdown-content {
     top: 2.5rem; }
   body .list, body .favourites {
     width: 75vw; }

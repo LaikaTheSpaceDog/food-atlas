@@ -26,8 +26,10 @@
         }
     }
 
-    .header:hover .dropdown-content {
-        top: 6rem;
+    .headerDrop{
+        .dropdown-content {
+            top: 6rem;
+        }
     }
     
     @keyframes barDown
@@ -73,7 +75,7 @@
             margin-bottom: 2rem;
         }
     }
-    .header:hover .dropdown-content {
+    .headerDrop .dropdown-content {
         top: 4.75rem;
     }
 
@@ -216,12 +218,12 @@
             }
         }
     }
-    .header {
+    .header, .headerDrop {
         .headContainer {
             padding-top: 1rem;
         }
     }
-    .header:hover .dropdown-content {
+    .headerDrop .dropdown-content {
         top: 3rem;
     }
     
@@ -276,7 +278,7 @@
         .loginButton {
             font-size: 0.5rem;
         }
-        .header:hover .dropdown-content {
+        .headerDrop .dropdown-content {
             top: 2.5rem;
         }
         .list, .favourites{

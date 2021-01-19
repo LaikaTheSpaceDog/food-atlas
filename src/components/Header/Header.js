@@ -46,7 +46,7 @@ export default function Header({handleAboutView, handleListView, loggedIn, handl
     }
     
     return (
-        <div ref={wrapperRef}>
+        <div className="wrapper" ref={wrapperRef}>
             <header onClick={ handleClick } className={ clicked ? "headerDrop" : "header" }>
                 <div className="headContainer">
                     <h1 className="heading">Food Atlas</h1>
